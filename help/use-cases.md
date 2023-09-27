@@ -2,9 +2,9 @@
 title: Casos de uso do Adobe Mix Modeler
 description: Casos de uso do Adobe Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -30,13 +30,13 @@ Os desafios que esse caso de uso aborda são:
 
 ### Abordagem
 
-A abordagem baseada em etapas para este caso de uso:
+A abordagem baseada em etapas para esse caso de uso é:
 
 | Etapa | Detalhes |
 |---|---|
-| Assimilar | Identificar e assimilar fontes de dados em esquemas comuns. <br/>Aproveite os investimentos existentes no Adobe Analytics ou no Customer Journey Analytics para uma implantação de rastreamento rápido. |
-| Configurar | Configure modelos flexíveis usando a estrutura IA como um serviço para seus objetivos de negócios específicos<br/>Garanta automaticamente a consistência entre o ponto de contato e o nível de resumo com o aprendizado de transferência bidirecional. |
-| Analisar | Entenda claramente o ROI de marketing geral e de canais/subcanais individuais.<br/>Entenda claramente quais pontos de contato são os que melhor geram conversões incrementais. |
+| Assimilar | Identificar e assimilar fontes de dados em esquemas comuns. <br/>Aplique os investimentos existentes no Adobe Analytics ou no Customer Journey Analytics para uma implantação de rastreamento rápido. |
+| Configurar | Configure modelos flexíveis usando uma estrutura IA como serviço para seus objetivos de negócios específicos<br/>Garanta automaticamente a consistência entre o ponto de contato e o nível de resumo com o aprendizado de transferência bidirecional. |
+| Analisar | Entenda claramente o ROI de canais/subcanais individuais e de marketing em geral.<br/>Entenda claramente quais pontos de contato são os que melhor geram conversões incrementais. |
 
 {style="table-layout:auto"}
 
@@ -46,7 +46,7 @@ A abordagem baseada em etapas para este caso de uso:
 A implementação bem-sucedida desse uso pode ter o seguinte impacto:
 
 * Incorpore dados agregados, dados de ponto de contato e variáveis exógenas para obter a visualização mais avançada da medição.
-* Use a solução IA como um serviço para criar modelos rapidamente e impulsionar o sucesso com acesso à transparência do modelo para oferecer nível de confiança.
+* Use uma solução IA como serviço para criar modelos rapidamente e impulsionar o sucesso com acesso à transparência do modelo para oferecer nível de confiança.
 * Aumente a confiança na tomada de decisões estratégicas e táticas por meio do alinhamento nos resultados a nível de resumo e de ponto de contato.
 
 +++
@@ -54,7 +54,7 @@ A implementação bem-sucedida desse uso pode ter o seguinte impacto:
 
 ## Crie planos de marketing que otimizem o ROI
 
-Esse caso de uso aproveita ferramentas de otimização e planejamento de cenário amigáveis e habilitadas por IA para maximizar o ROI.
+Este caso de uso usa ferramentas de otimização e planejamento de cenário amigáveis e habilitadas por IA para maximizar o ROI.
 
 +++ Detalhes
 
@@ -69,7 +69,7 @@ Os desafios que esse caso de uso aborda são:
 
 ### Abordagem
 
-A abordagem baseada em etapas para este caso de uso:
+A abordagem baseada em etapas para esse caso de uso é:
 
 | Etapa | Detalhes |
 |---|---|
@@ -90,44 +90,47 @@ A implementação bem-sucedida desse uso pode ter o seguinte impacto:
 
 +++
 
+<!-- This use case is not supported with initial release
 
-## Otimização do fluxo de trabalho orientado por dados
+## Make data-driven inflight optimizations
 
-Esse caso de uso ajuda a melhorar o ROI semanalmente, avaliando o desempenho real e previsto para fazer melhorias em curso.
+This use case helps you to improve ROI weekly by assessing actual and forecasted performance to make inflight improvements.
 
-+++ Detalhes
++++ Details
 
-### Desafios
+### Challenges
 
-Os desafios que esse caso de uso aborda são:
+The challenges this use case addresses are:
 
-* O desempenho da campanha geralmente está lento ou não há necessidade de granularidade para otimizar com confiança.
-* Dados confusos e não padronizados em dezenas de canais e fontes reduzem o tempo de insight.
-* Sem acesso democratizado a ferramentas e dependência excessiva de especialistas selecionados ou fornecedores externos, aumentando os tempos de resposta.
+* Campaign performance is often slow, or lacks granularity need to confidently optimize.
+* Messy, non-standardized data across dozens of channels and sources drives slow time to insight.
+* No democratized access to tools and overreliance on select experts or external vendors, increasing turnaround times.
 
 
 
-### Abordagem
+### Approach
 
-A abordagem baseada em etapas para este caso de uso:
+The step based approach for this use case:
 
-| Etapa | Detalhes |
+| Step | Details |
 |---|---|
-| Assimilar | Assimile dados em esquemas comuns para atualizações de modelo fáceis e reutilização em aplicativos Experience Platform.<br/>Simplifique a tubulação de dados, a limpeza e o controle de qualidade com ferramentas de harmonização automatizadas. |
-| Atualizar | Criar e atualizar modelos de IA/ML usando uma plataforma de autoatendimento amigável.<br/>Obtenha novos resultados, incluindo ROIs históricos e previstos por canal, semanal ou mensalmente. |
-| Otimizar | Faça otimizações rápidas de fluxo de trabalho mudando os gastos entre canais com base no desempenho medido. |
+| Ingest | Ingest data in common schemas for easy model refreshes and reusability across Experience Platform applications.<br/>Streamline data piping, cleaning & QA with automated harmonization tools. |
+| Refresh | Build and refresh AI/ML  models using a user-friendly, self-service platform.<br/>Get new results, including historic and forecasted ROIs by channel, on a weekly or monthly basis. |
+| Optimize | Make rapid inflight optimizations by shifting spend across channels based on measured performance. |
 
 {style="table-layout:auto"}
 
 
-### Impacto
+### Impact 
 
-A implementação bem-sucedida desse uso pode ter o seguinte impacto:
+Successful implementation of this use can have the following impact:
 
-* Maximize a velocidade, a escalabilidade e a usabilidade em casos de uso de medição e análise com esquemas de dados padronizados e uma base de dados comum.
-* Faça rapidamente otimizações em operações semanais ou mensais e maximize o ROI com mudanças de gastos orientadas por dados que reflitam os melhores ROIs previstos.
+* Maximize speed, scalability, and usability across measurement & analytic use cases with standardized data schemas and common data foundation.
+* Rapidly make weekly or monthly inflight optimizations and maximize ROI with data-driven spend shifts that reflect best forecasted ROIs.
 
 +++
+
+-->
 
 ## Ativar insights táticos entre aplicativos Adobe
 
@@ -146,11 +149,11 @@ Os desafios que esse caso de uso aborda são:
 
 ### Abordagem
 
-A abordagem baseada em etapas para este caso de uso:
+A abordagem baseada em etapas para esse caso de uso é:
 
 | Etapa | Detalhes |
 |---|---|
-| Modelo | Configure e treine o modelo de IA/ML para obter pontuações de ponto de contato de MTA consistentes e resultados agregados de MMM. |
+| Modelo | Configure e treine um modelo de IA/ML para obter pontuações de ponto de contato de MTA consistentes e resultados agregados do MMM. |
 | Analisar | Exporte pontuações incrementais de pontos de contato para ferramentas Customer Journey Analytics ou BI externas.<br/>Realize análise granular e crie painéis avançados usando pontuações de ponto de contato. |
 | Ação | Crie e ative semelhantes aos principais segmentos de consumidores usando o Real-time Customer Data Platform.<br/>Desenvolva estratégias de marketing orientadas por dados por segmentos de clientes para campanhas futuras. |
 
