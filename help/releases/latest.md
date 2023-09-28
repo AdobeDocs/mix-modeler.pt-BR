@@ -1,16 +1,36 @@
 ---
 title: Visualizar as notas de versão atuais do Adobe Mix Modeler
 description: Notas de versão mais recentes do Mix Modeler
-source-git-commit: 0e946d69b8edbd08bd8ea898a388b0499d146bdd
+source-git-commit: 592d85cf9b1dfde8a9ca087d14445339fb64ecc7
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 4%
+source-wordcount: '185'
+ht-degree: 6%
 
 ---
 
-# Notas de versão mais recentes do Adobe Mix Modeler (setembro de 2023)
+# Notas de versão atuais do Adobe Mix Modeler
 
-**Última atualização**: 29 de setembro de 2023.
+**Última atualização**: 4 de outubro de 2023.
 
-Essas notas de versão abrangem o período de lançamento de 1° a 29 de setembro de 2023.  As versões do operam em um modelo de entrega contínua que permite uma abordagem mais escalável e em fases para a implantação de recursos. Devido a isso, essas notas de versão são atualizadas várias vezes por mês. Verifique-as regularmente.
+Essas notas de versão abordam a versão inicial do Adobe Mix Modeler. As versões de Adobe Mix Modeler operam em um modelo de entrega contínua que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
+
+
+## Recursos novos ou atualizados
+
+| Recurso | Descrição | Disponibilidade geral |
+|---|---|---|
+| **Assimilação de dados resumida** | [Assimilação de dados resumidos](../ingest-data/overview.md) (por exemplo, dados de gastos em jardins murados, cronogramas de voo de TV) usando a nova Classe de resumo no Adobe Experience Platform. | 4 de outubro de 2023 |
+| **Medir o impacto incremental de investimentos em marketing** | [Compreender](../dashboard/overview.md) o ROI incremental e o impacto do marketing em metas comerciais ou de campanhas táticas. | 4 de outubro de 2023 |
+| **Aprendizado de transferência de MTA (atribuição multitoque) e MMM (modelagem de mix de marketing)** | Tomar decisões mais confiantes por meio da unificação do MMM e do MTA [modelos](../models/overview.md) via transferência de aprendizado. | 4 de outubro de 2023 |
+| **Planejamento de cenário de investimento de marketing** | Desenvolver vários orçamentos [planos](../plans/overview.md) e comparar o impacto para tomar decisões ideais para sua empresa. | 4 de outubro de 2023 |
+
+{style="table-layout:auto"}
+
+
+>[!MORELIKETHIS]
+>
+>* [Adobe Mix Modeler introdução](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Documentação do Experience League do Adobe Mix Modeler](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+
+
 

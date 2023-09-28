@@ -2,10 +2,10 @@
 user-guide-title: Modelador misto
 breadcrumb-title: Modelador misto
 user-guide-description: Saiba como usar o Modelador misto.
-source-git-commit: cf4890eb9efc2cfc82f9d2761983a13ad5d730ee
+source-git-commit: 6b4744b1bd487b9e1c1b76f692bd86fbc236b6b1
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 25%
+source-wordcount: '65'
+ht-degree: 26%
 
 ---
 
@@ -49,16 +49,7 @@ ht-degree: 25%
 + Versões {#releases}
    + [Versão mais recente](releases/latest.md)
    + [Versões de 2023](releases/2023.md)
-   + [Processo de liberação](releases/releases.md)
 
 + [Glossário](glossary.md)
 
 
-<!-- Admin integration with AEP not part of first release
-
-+ Administration {#administration}
-  + [Overview](administration/overview.md)
-  + [Policies](administration/policies.md)
-  + [Audits](administration/audits.md)
-  
--->
