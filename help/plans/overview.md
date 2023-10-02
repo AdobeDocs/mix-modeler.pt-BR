@@ -1,10 +1,10 @@
 ---
 title: Planos
-description: Saiba como visualizar, selecionar e executar ações em planos no Adobe Mix Modeler.
+description: Saiba como exibir, selecionar e executar ações nos planos no Mix Modeler.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 2%
 
 # Planos
 
-Os planos no Adobe Mix Modeler permitem alocar orçamentos por unidade de negócios e canal. A funcionalidade de planejamento está integrada aos resultados dos modelos treinados com base em seus dados harmonizados.
+Os planos no Mix Modeler permitem alocar orçamentos por unidade de negócios e canal. A funcionalidade de planejamento está integrada aos resultados dos modelos treinados com base em seus dados harmonizados.
 
 
 ## Exibir planos
 
-Para exibir uma tabela de seus planos atuais, na interface do Adobe Mix Modeler:
+Para exibir uma tabela de seus planos atuais, na interface do Mix Modeler:
 
 1. Selecionar ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** do painel esquerdo.
 

@@ -1,28 +1,28 @@
 ---
-title: Visão geral do Adobe Mix Modeler
-description: Obtenha uma visão geral da funcionalidade e dos recursos do Adobe Mix Modeler.
+title: visão geral do Mix Modeler
+description: Obtenha uma visão geral da funcionalidade e dos recursos do Mix Modeler.
 feature: Plans, Harmonized Data, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 
-# Visão geral do Adobe Mix Modeler
+# visão geral do Mix Modeler
 
-O Adobe Mix Modeler, desenvolvido pela Adobe Sensei, permite que os profissionais de marketing avaliem campanhas e otimizem o planejamento de forma holística em todos os canais: pagos, conquistados e de propriedade. Sua metodologia unificada mede de forma incremental tanto em pontos de contato de marketing quanto em níveis agregados, garantindo resultados totalmente consistentes.
+O Mix Modeler, desenvolvido pela Adobe Sensei, permite que os profissionais de marketing avaliem campanhas e otimizem o planejamento de forma holística em todos os canais: pagos, conquistados e próprios. Sua metodologia unificada mede de forma incremental tanto em pontos de contato de marketing quanto em níveis agregados, garantindo resultados totalmente consistentes.
 
-O Adobe Mix Modeler oferece o impacto incremental de todas as atividades de marketing nos resultados de negócios e campanhas por meio de um aplicativo de medição holístico (completo) para marketing digital e offline.
+o Mix Modeler oferece o impacto incremental de todas as atividades de marketing nos resultados de negócios e campanhas por meio de um aplicativo de medição holístico (completo) para marketing digital e offline.
 
-O Adobe Mix Modeler fornece os seguintes tipos de insights otimizados e acionáveis em nível estratégico e tático, para que você possa entender melhor:
+O Mix Modeler fornece os seguintes tipos de insights otimizados e acionáveis em nível estratégico e tático, para que você possa entender melhor:
 
 * gastos com marketing e o desempenho resultante em vários canais, e
 * níveis de investimento recomendados para atingir os objetivos de negócios futuros.
 
 
-Para conseguir essa funcionalidade, o Adobe Mix Modeler combina:
+Para conseguir essa funcionalidade, o Mix Modeler combina:
 
 * dados de baixo para cima (nível de evento) e dados de cima para baixo (nível agregado),
 * fatores do mercado externo e fatores internos, e
@@ -35,7 +35,7 @@ O aprendizado de transferência bidirecional de IA/ML unifica os resultados de m
 
 ## Capacidades
 
-O Adobe Mix Modeler oferece os seguintes recursos:
+O Mix Modeler oferece os seguintes recursos:
 
 | Recurso | Descrição |
 |---|---|

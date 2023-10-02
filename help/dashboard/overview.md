@@ -1,10 +1,10 @@
 ---
 title: Visão geral
-description: Saiba como obter uma visão geral de seus dados e planos harmonizados no Adobe Mix Modeler.
+description: Saiba como obter uma visão geral de seus dados e planos harmonizados no Mix Modeler.
 feature: Dashboard, Plans, Harmonized Data, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 1%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 1%
 # Painel de visão geral
 
 
-O painel de visão geral no Adobe Mix Modeler permite que você tenha uma visão geral de seus dados harmonizados e seus planos por meio de vários widgets configuráveis.
+O painel de visão geral no Mix Modeler permite que você tenha uma visão geral dos seus dados harmonizados e dos seus planos por meio de vários widgets configuráveis.
 
-Para acessar a visão geral, selecione ![Início](../assets/icons/Home.svg) **[!UICONTROL Overview]** no painel esquerdo da interface do Adobe Mix Modeler.
+Para acessar a visão geral, selecione ![Início](../assets/icons/Home.svg) **[!UICONTROL Overview]** no painel esquerdo na interface do Mix Modeler.
 
 Aqui você poderá obter mais detalhes sobre:
 

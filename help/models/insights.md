@@ -1,8 +1,8 @@
 ---
 title: Informações do modelo
-description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights de modelo e qualidade de modelo no Adobe Mix Modeler.
+description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Informações do modelo
 
-Para exibir insights do modelo, na variável ![Modelos](../assets/icons/FileData.svg) **[!UICONTROL Models]** no Adobe Mix Modeler:
+Para exibir insights do modelo, na variável ![Modelos](../assets/icons/FileData.svg) **[!UICONTROL Models]** interface no Mix Modeler:
 
 1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela.
 
@@ -68,5 +68,7 @@ A guia Qualidade do modelo mostra widgets para medir:
 * MAPE (Mean Absolute Percentage Error), que é um dos KPIs mais usados para medir a precisão da previsão e expressa o erro de previsão como uma porcentagem do valor real.
 
 * RMSE (Erro de Raiz Quadrada Média): que mostra a média de &quot;erro&quot;, ponderada de acordo com o quadrado do erro.
+
+![Qualidade do modelo](../assets/model-quality.png)
 
 

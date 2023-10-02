@@ -1,10 +1,10 @@
 ---
 title: Campos harmonizados
-description: Saiba como definir campos para usar como parte da harmonização de dados no Adobe Mix Modeler.
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: Saiba como definir campos para usar como parte da harmonização dos dados no Mix Modeler.
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '655'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ Campos harmonizados permitem definir os campos que deseja usar como parte do flu
 
 ## Domínios de harmonização global
 
-Os campos de harmonização global disponíveis por padrão no Adobe Mix Modeler são:
+Os campos de harmonização global disponíveis por padrão no Mix Modeler são:
 
 
 | Nome do campo | Nome de exibição | Categoria | Tipo de dados | Comentário |
@@ -53,7 +53,7 @@ Os campos de harmonização global disponíveis por padrão no Adobe Mix Modeler
 
 ## Gerenciar campos harmonizados
 
-Para ver uma tabela dos campos harmonizados disponíveis, na interface do Adobe Mix Modeler:
+Para ver uma tabela dos campos harmonizados disponíveis, na interface Mix Modeler:
 
 1. Selecionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** do painel esquerdo.
 
@@ -81,7 +81,7 @@ Para ver uma tabela dos campos harmonizados disponíveis, na interface do Adobe 
 
 ### Adicionar um campo harmonizado
 
-Para adicionar um campo harmonizado, na variável ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Adobe Mix Modeler:
+Para adicionar um campo harmonizado, na variável ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
 
 1. Selecionar ![Adicionar](../assets/icons/AddCircle.svg)Adicionar campo.
 
@@ -107,7 +107,7 @@ Para adicionar um campo harmonizado, na variável ![DataSearch](../assets/icons/
 
 Só é possível editar campos harmonizados criados anteriormente. Não é possível editar um campo harmonizado global.
 
-Para editar um campo harmonizado, na variável ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Adobe Mix Modeler:
+Para editar um campo harmonizado, na variável ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
 
 1. Selecione o campo harmonizado que deseja editar. Por exemplo, **[!UICONTROL Region]**.
 
@@ -121,7 +121,7 @@ Para editar um campo harmonizado, na variável ![DataSearch](../assets/icons/Dat
 
 Só é possível excluir campos harmonizados criados anteriormente. Não é possível excluir um campo harmonizado global.
 
-Para excluir um campo harmonizado, na variável ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Adobe Mix Modeler:
+Para excluir um campo harmonizado, na variável ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
 
 1. Selecione o campo harmonizado que deseja excluir, por exemplo **[!UICONTROL Region]**.
 

@@ -1,10 +1,10 @@
 ---
 title: Visão geral dos planos
-description: Saiba como usar a visão geral de planos no Adobe Mix Modeler.
+description: Saiba como usar a visão geral de planos no Mix Modeler.
 feature: Dashboard, Plans, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-A guia Planos na Visão geral do Adobe Mix Modeler mostra widgets para [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL KPI].
+A guia Planos na Visão geral do Mix Modeler mostra widgets para [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL KPI].
 
 Os dados exibidos para os widgets são determinados por:
 

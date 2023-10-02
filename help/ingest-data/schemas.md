@@ -1,10 +1,10 @@
 ---
 title: Esquemas
-description: Saiba como gerenciar os esquemas necessários para assimilar dados no Adobe Mix Modeler.
+description: Saiba como gerenciar os esquemas necessários para assimilar dados no Mix Modeler.
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 # Esquemas
 
-Para gerenciar esquemas, com suporte aos dados que você deseja assimilar no Adobe Experience Platform e usar no Adobe Mix Modeler:
+Para gerenciar esquemas, com suporte aos dados que você deseja assimilar na Adobe Experience Platform e usar no Mix Modeler:
 
-1. Vá para a interface do Adobe Mix Modeler.
+1. Vá para a interface do Mix Modeler.
 
 1. Selecionar ![Esquemas](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, abaixo **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ Consulte a [Visão geral da interface de esquemas](https://experienceleague.adob
 
 ## Dados agregados ou resumidos
 
-É altamente recomendável usar a classe Métricas de resumo XDM como a base do esquema subjacente a qualquer dado agregado ou de resumo que você deseja assimilar no Experience Platform e usar no Modelador de combinação de Adobe.
+É altamente recomendável usar a classe Métricas resumidas do XDM como a base do esquema subjacente a qualquer dado agregado ou resumido que você deseja assimilar no Experience Platform e usar no Mix Modeler.
 
 Use a classe Métricas de resumo XDM para:
 

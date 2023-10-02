@@ -1,10 +1,10 @@
 ---
 title: Painel de visão geral de dados harmonizado
-description: Saiba como usar o painel de visão geral de dados harmonizados no Adobe Mix Modeler.
+description: Saiba como usar o painel de visão geral de dados harmonizados no Mix Modeler.
 feature: Dashboard, Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Visão geral dos dados harmonizados
 
-A guia Dados harmonizados na Visão geral do Adobe Mix Modeler fornece informações sobre os dados harmonizados configurados para serem usados como parte dos dados assimilados e da configuração de dados harmonizados.
+A guia Dados harmonizados na Visão geral do Mix Modeler fornece insights sobre os dados harmonizados configurados para serem usados como parte dos dados assimilados e da configuração de dados harmonizados.
 
 A visão geral mostra quatro widgets de cartão de status de KPI (linha superior) e seis outros widgets configuráveis.
 

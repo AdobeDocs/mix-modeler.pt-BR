@@ -2,20 +2,20 @@
 user-guide-title: Modelador misto
 breadcrumb-title: Modelador misto
 user-guide-description: Saiba como usar o Modelador misto.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 27%
+source-wordcount: '63'
+ht-degree: 38%
 
 ---
 
 
-# Guia do Adobe Mix Modeler {#using}
+# Manual do Mix Modeler {#using}
 
-+ [Guia do Adobe Mix Modeler](overview.md)
++ [Manual do Mix Modeler](overview.md)
 
 + Introdução {#get-started}
-   + [O que é o Adobe Mix Modeler?](get-started/about.md)
+   + [O que é o Mix Modeler?](get-started/about.md)
    + [Fluxo de trabalho do aplicativo](get-started/workflow.md)
 
 + Painel {#dashboard}

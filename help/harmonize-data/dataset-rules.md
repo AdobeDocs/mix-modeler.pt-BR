@@ -1,10 +1,10 @@
 ---
 title: Regras do conjunto de dados
-description: Saiba como definir regras de conjunto de dados para usar como parte da harmonização de seus dados no Adobe Mix Modeler.
+description: Saiba como definir regras de conjunto de dados para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Regras do conjunto de dados
 
-As regras do conjunto de dados ajudam a mapear os campos harmonizados com campos dos dados assimilados no Adobe Mix Modeler.
+As regras do conjunto de dados ajudam a mapear os campos harmonizados com campos dos dados assimilados no Mix Modeler.
 
 * Para dados agregados assimilados no Adobe Experience Platform, mapeie um ou mais campos do conjunto de dados disponíveis para os campos harmonizados apropriados.
 * Para dados do evento, você pode mapear individualmente um ou mais campos harmonizados para campos do conjunto de dados, diretamente ou usando condições.
@@ -20,7 +20,7 @@ As regras do conjunto de dados ajudam a mapear os campos harmonizados com campos
 
 ## Gerenciar regras e mapeamentos do conjunto de dados
 
-Para ver uma tabela dos mapeamentos de conjunto de dados disponíveis, na interface do Adobe Mix Modeler:
+Para ver uma tabela dos mapeamentos do conjunto de dados disponíveis, na interface do Mix Modeler:
 
 1. Selecionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** do painel esquerdo.
 
@@ -32,7 +32,7 @@ As colunas da tabela especificam detalhes sobre os mapeamentos do conjunto de da
 | ---------------------- | ----------|
 | Conjunto de dados | O nome do conjunto de dados. |
 | Fonte | A origem do conjunto de dados, que pode ser Adobe Analytics, Eventos de experiência, Resumo (agregado) ou Eventos de experiência do consumidor. |
-| Esquema | O esquema com o qual o conjunto de dados está em conformidade. Você pode selecionar rapidamente o nome do esquema para abri-lo em uma nova guia no editor de esquemas em Adobe Mix Modeler - Esquemas. |
+| Esquema | O esquema com o qual o conjunto de dados está em conformidade. Você pode selecionar rapidamente o nome do schema para abrir o schema em uma nova guia no editor de schema em Mix Modeler - Esquemas. |
 | Granularidade | A granularidade dos dados no conjunto de dados. Os valores possíveis são Diário, Semanal, Mensal ou Anual. |
 | Início da semana | Especifica qual dia da semana é considerado o início de uma nova semana para o conjunto de dados específico. |
 | Última modificação | Data e hora da última modificação do mapeamento do conjunto de dados. |
@@ -41,7 +41,7 @@ As colunas da tabela especificam detalhes sobre os mapeamentos do conjunto de da
 
 ### Criar um mapeamento de conjunto de dados
 
-Para criar um mapeamento de conjunto de dados, na ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** no Adobe Mix Modeler, selecione **[!UICONTROL Create Dataset Mapping]**.
+Para criar um mapeamento de conjunto de dados, na ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** no Mix Modeler, selecione **[!UICONTROL Create Dataset Mapping]**.
 
 No **[!UICONTROL Create]** tela,
 
@@ -107,7 +107,7 @@ Quando terminar, selecione **[!UICONTROL Save]** para salvar o mapeamento ou sel
 
 ### Editar um mapeamento de conjunto de dados
 
-Para editar um mapeamento de conjunto de dados, na ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** no Adobe Mix Modeler:
+Para editar um mapeamento de conjunto de dados, na ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface no Mix Modeler:
 
 1. Selecionar ![Mais](../assets/icons/More.svg) no **[!UICONTROL Dataset]** coluna para o mapeamento do conjunto de dados que você deseja editar.
 1. No menu de contexto, selecione ![Editar](../assets/icons/Edit.svg) **[!UICONTROL Edit]** para começar a editar o mapeamento do conjunto de dados. Consulte [Criar um mapeamento de conjunto de dados](#create-a-dataset-mapping) para obter mais detalhes.
@@ -115,7 +115,7 @@ Para editar um mapeamento de conjunto de dados, na ![DataSearch](../assets/icons
 
 ### Excluir um mapeamento de conjunto de dados
 
-Para excluir um mapeamento de conjunto de dados, na variável ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** no Adobe Mix Modeler:
+Para excluir um mapeamento de conjunto de dados, na variável ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface no Mix Modeler:
 
 1. Selecionar ![Mais](../assets/icons/More.svg) no **[!UICONTROL Dataset]** coluna para o mapeamento de conjunto de dados que você deseja excluir.
 1. No menu de contexto, selecione ![Excluir](../assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir o mapeamento do conjunto de dados.

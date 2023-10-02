@@ -1,10 +1,10 @@
 ---
 title: Assimilar dados
-description: Saiba como assimilar dados no Adobe Mix Modeler.
+description: Saiba como assimilar dados no Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '460'
 ht-degree: 14%
 
 ---
@@ -28,7 +28,7 @@ Você pode usar qualquer tipo de mecanismo, compatível com o Adobe Experience P
 
 ## Diretrizes
 
-Para assimilar dados no Adobe Experience Platform para uso com o Adobe Mix Modeler, siga estas diretrizes:
+Para assimilar dados no Adobe Experience Platform para uso com o Mix Modeler, siga estas diretrizes:
 
 * Não deve haver qualquer sobreposição nos dados incrementais adicionados aos conjuntos de dados.
 * Todos os dados de uma única fonte devem ter a mesma granularidade.
@@ -38,7 +38,7 @@ Para assimilar dados no Adobe Experience Platform para uso com o Adobe Mix Model
 
 ## Exemplos
 
-Encontre abaixo alguns exemplos de dados normalmente usados no Adobe Mix Modeler, além de dados de evento de experiência mais padrão.
+Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, além de mais dados de evento de experiência padrão.
 
 +++ Dados agregados do esforço de marketing
 
@@ -80,7 +80,8 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Adobe Mix Modeler
 
 +++
 
-Para trabalhar com dados no Adobe Mix Modeler, é necessário que os dados sejam coletados em conjuntos de dados e modelados de acordo com os esquemas no Adobe Experience Platform. A interface do Adobe Mix Modeler fornece acesso fácil à interface dos Esquemas de Experience Platform e Conjuntos de dados.
+Para trabalhar com dados no Mix Modeler, é necessário que os dados sejam coletados em conjuntos de dados e modelados de acordo com os esquemas no Adobe Experience Platform. A interface do Mix Modeler fornece acesso fácil à interface do usuário de Esquemas e Conjuntos de dados.
+
 
 >[!MORELIKETHIS]
 >

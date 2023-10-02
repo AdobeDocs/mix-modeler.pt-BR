@@ -1,10 +1,10 @@
 ---
 title: Harmonizar dados
-description: Saiba como harmonizar dados no Adobe Mix Modeler.
+description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '798'
 ht-degree: 16%
 
 ---
@@ -12,16 +12,16 @@ ht-degree: 16%
 
 # Harmonizar dados
 
-Os dados no Adobe Mix Modeler são de natureza diferente, dependendo da fonte de dados. Os dados podem ser:
+Os dados em Mix Modeler são de natureza diferente dependendo da fonte de dados. Os dados podem ser:
 
 * dados agregados, por exemplo, recolhidos a partir de fontes de dados muradas de jardim ou dados publicitários offline recolhidos (como gastos) da execução de uma campanha em outdoors, de um evento ou de uma campanha publicitária física,
 * dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, ou por meio do SDK da Web ou móvel da Adobe Experience Platform ou da API de rede de borda, ou por dados assimilados usando conectores de origem.
 
-O serviço de harmonização do Adobe Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados é a fonte para os planos e modelos no Adobe Mix Modeler.
+O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados é a fonte para os planos e modelos no Mix Modeler.
 
 ## Um exemplo de dados harmonizados
 
-Imagine que você tenha os seguintes conjuntos de dados disponíveis para o Adobe Mix Modeler.
+Imagine que você tenha os seguintes conjuntos de dados disponíveis para o Mix Modeler.
 
 **Conjunto de dados 1**
 
@@ -114,7 +114,7 @@ Para criar um conjunto de dados harmonizado, como no [exemplo](#an-example-of-ha
 
 ## Exibir dados harmonizados
 
-Para ver seus dados harmonizados, na interface do Adobe Mix Modeler:
+Para ver seus dados harmonizados, na interface do Mix Modeler:
 
 1. Selecionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** do painel esquerdo.
 
