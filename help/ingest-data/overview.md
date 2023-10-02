@@ -2,9 +2,9 @@
 title: Assimilar dados
 description: Saiba como assimilar dados no Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # Assimilar dados
 
-O Adobe Mix Modeler funciona com dados no nível do evento, agrega dados de esforço de marketing de vários jardins murados e dados agregados ou resumidos de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
+O Mix Modeler funciona com dados no nível do evento, agrega dados de esforço de marketing de vários jardins murados e dados agregados ou resumidos de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
 
 Os clientes podem usar qualquer tipo de dados assimilados na Adobe Experience Platform como conjuntos de dados e que se baseie em esquemas que usam o XDM ExperienceEvent ou as Métricas de resumo XDM como a classe base.
 
