@@ -2,9 +2,9 @@
 title: Harmonizar dados
 description: Saiba como harmonizar dados no Adobe Mix Modeler.
 feature: Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '804'
 ht-degree: 16%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 Os dados no Adobe Mix Modeler são de natureza diferente, dependendo da fonte de dados. Os dados podem ser:
 
-* dados agregados, por exemplo, recolhidos a partir de fontes de dados muradas,
+* dados agregados, por exemplo, recolhidos a partir de fontes de dados muradas de jardim ou dados publicitários offline recolhidos (como gastos) da execução de uma campanha em outdoors, de um evento ou de uma campanha publicitária física,
 * dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, ou por meio do SDK da Web ou móvel da Adobe Experience Platform ou da API de rede de borda, ou por dados assimilados usando conectores de origem.
 
 O serviço de harmonização do Adobe Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados é a fonte para os planos e modelos no Adobe Mix Modeler.

@@ -2,9 +2,9 @@
 title: Assimilar dados
 description: Saiba como assimilar dados no Adobe Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: ae1c74ed2edf1e69e7ab77d16aba797921c14ad9
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '466'
 ht-degree: 14%
 
 ---
@@ -12,16 +12,18 @@ ht-degree: 14%
 
 # Assimilar dados
 
-O Adobe Mix Modeler funciona com dados de nível de evento e dados agregados do esforço de marketing de vários jardins murados. Os clientes podem usar todos os tipos de dados assimilados na Adobe Experience Platform como conjuntos de dados e baseados em esquemas XDM baseados em eventos de experiência.
+O Adobe Mix Modeler funciona com dados no nível do evento, agrega dados de esforço de marketing de vários jardins murados e dados agregados ou resumidos de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
+
+Os clientes podem usar qualquer tipo de dados assimilados na Adobe Experience Platform como conjuntos de dados e que se baseie em esquemas que usam o XDM ExperienceEvent ou as Métricas de resumo XDM como a classe base.
 
 Por exemplo:
 
 * dados coletados usando o conector de origem do Adobe Analytics e transformados em conjuntos de dados em conformidade com a versão padrão ou personalizada do esquema do Adobe Analytics ou, como alternativa,
 * dados coletados usando o SDK da Web da Adobe Experience Platform, o SDK móvel ou a API do servidor da rede de borda para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo,
-* dados de resumo de diferentes fontes de tráfego/jardim murado, com base em um esquema que inclui a classe Métricas de resumo XDM com o grupo de campos Resumo de tráfego e conversão,
-* dados não relacionados com a comercialização (indicadores macroeconômicos, por exemplo) que sejam úteis para a construção de modelos,
+* agregar dados de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline,
+* dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a criação de modelos.
 
-Você pode usar qualquer tipo de mecanismo compatível com o Adobe Experience Platform para assimilar seu nível de evento de experiência e agregar dados de esforço de marketing. Como os SDKs do Adobe Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão.
+Você pode usar qualquer tipo de mecanismo, compatível com o Adobe Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Como os SDKs do Adobe Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão.
 
 
 ## Diretrizes
@@ -78,7 +80,7 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Adobe Mix Modeler
 
 +++
 
-Para trabalhar com dados no Adobe Mix Modeler, é necessário que os dados sejam coletados em conjuntos de dados e modelados de acordo com os esquemas no Adobe Experience Platform. A interface do Modelador de mix de Adobe fornece acesso fácil à interface do usuário de Esquemas e Conjuntos de dados.
+Para trabalhar com dados no Adobe Mix Modeler, é necessário que os dados sejam coletados em conjuntos de dados e modelados de acordo com os esquemas no Adobe Experience Platform. A interface do Adobe Mix Modeler fornece acesso fácil à interface dos Esquemas de Experience Platform e Conjuntos de dados.
 
 >[!MORELIKETHIS]
 >
