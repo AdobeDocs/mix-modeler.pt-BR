@@ -1,11 +1,11 @@
 ---
-user-guide-title: Modelador misto
-breadcrumb-title: Modelador misto
-user-guide-description: Saiba como usar o Modelador misto.
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+user-guide-title: Guia do Adobe Mix Modeler
+breadcrumb-title: Manual do Mix Modeler
+user-guide-description: Saiba como usar o Adobe Mix Modeler.
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 38%
+source-wordcount: '67'
+ht-degree: 40%
 
 ---
 
