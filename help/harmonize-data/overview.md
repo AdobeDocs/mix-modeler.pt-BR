@@ -2,20 +2,20 @@
 title: Harmonizar dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Harmonizar dados
 
 Os dados em Mix Modeler são de natureza diferente dependendo da fonte de dados. Os dados podem ser:
 
-* dados agregados, por exemplo, recolhidos a partir de fontes de dados muradas de jardim ou dados publicitários offline recolhidos (como gastos) da execução de uma campanha em outdoors, de um evento ou de uma campanha publicitária física,
-* dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, ou por meio do SDK da Web ou móvel da Adobe Experience Platform ou da API de rede de borda, ou por dados assimilados usando conectores de origem.
+* dados agregados ou resumidos, por exemplo, coletados de fontes de dados muradas ou dados de publicidade offline coletados (como gastos) da execução de uma campanha em outdoor, um evento ou uma campanha de publicidade física,
+* dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, ou por meio do SDK da Web ou móvel do Experience Platform ou da API de rede de borda, ou por dados assimilados usando conectores de origem.
 
 O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados é a fonte para os planos e modelos no Mix Modeler.
 
@@ -122,7 +122,7 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
 
    1. Para redefinir o período em que se baseia o resumo dos dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use ![Calendário](../assets/icons/Calendar.svg) para selecionar um intervalo de dados.
 
-   1. Para modificar as colunas exibidas para a tabela Dados Harmonizados, use ![Configurações](../assets/icons/Setting.svg) para abrir o **[!UICONTROL Column settings]** diálogo.
+   1. Para modificar as colunas de campo harmonizado exibidas para a tabela de Dados harmonizados, use ![Configurações](../assets/icons/Setting.svg) para abrir o **[!UICONTROL Column settings]** diálogo.
 
       1. Selecionar ![SelectBox](../assets/icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL AVAILABLE COLUMNS]** e usar ![Divisa direita](../assets/icons/ChevronRight.svg) para adicionar essas colunas a **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,5 +133,3 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
       1. Para alterar a ordem das colunas exibidas, é possível mover uma coluna em **[!UICONTROL SELECTED COLUMNS]** para cima e para baixo por meio de arrastar e soltar .
 
    1. Selecionar **[!UICONTROL Submit]** para enviar suas alterações de configuração de coluna. Selecionar **[!UICONTROL Close]** para cancelar quaisquer alterações feitas.
-
-

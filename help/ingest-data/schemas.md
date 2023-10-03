@@ -2,17 +2,17 @@
 title: Esquemas
 description: Saiba como gerenciar os esquemas necessários para assimilar dados no Mix Modeler.
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-
 # Esquemas
 
-Para gerenciar esquemas, com suporte aos dados que você deseja assimilar na Adobe Experience Platform e usar no Mix Modeler:
+Para gerenciar esquemas, suportando os dados que você deseja assimilar no Experience Platform e usar no Mix Modeler:
 
 1. Vá para a interface do Mix Modeler.
 
@@ -40,7 +40,7 @@ Um esquema usando o **[!DNL XDM Summary Metrics]** a classe base pode ser simple
 
 ![Esquema de fatores externos](../assets/external-factors-schema.png)
 
-Esse esquema simples pode ser usado para assimilar conjuntos de dados que contenham dados para:
+Esse esquema simples pode ser usado para assimilar conjuntos de dados que contenham dados para, por exemplo:
 
 - Dados do índice do concorrente
 

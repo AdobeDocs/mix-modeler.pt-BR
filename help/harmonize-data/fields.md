@@ -2,19 +2,19 @@
 title: Campos harmonizados
 description: Saiba como definir campos para usar como parte da harmonização dos dados no Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Campos harmonizados
 
 Campos harmonizados permitem definir campos para os mesmos dados conceitualmente, originários de diferentes fontes, cada uma com sua própria definição desses dados. Por exemplo, uma métrica de cliques pode ser definida e nomeada de forma diferente dependendo da fonte de dados. Um campo harmonizado de cliques permite definir uma nomenclatura comum para uma métrica de cliques com base nessas diferentes fontes de dados de cliques.
 
-Campos harmonizados permitem definir os campos que deseja usar como parte do fluxo de trabalho de dados harmonizados. Os campos definidos podem ser usados na definição de regras do conjunto de dados, pontos de contato de marketing e conversão.
+Campos harmonizados permitem definir os campos que deseja usar como parte do fluxo de trabalho de dados harmonizados. Os campos definidos podem ser usados na definição de regras de conjunto de dados, pontos de contato de marketing e conversões.
 
 ## Domínios de harmonização global
 
@@ -126,5 +126,3 @@ Para excluir um campo harmonizado, na variável ![DataSearch](../assets/icons/Da
 1. Selecione o campo harmonizado que deseja excluir, por exemplo **[!UICONTROL Region]**.
 
 1. Selecionar ![Excluir](../assets/icons/Delete.svg) **[!UICONTROL Delete]** do **[!UICONTROL Edit harmonization values]** painel esquerdo.
-
-
