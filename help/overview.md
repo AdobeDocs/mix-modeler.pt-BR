@@ -1,13 +1,13 @@
 ---
 title: guia Mix Modeler
-description: Saiba como medir campanhas e otimizar o planejamento de forma holística em todos os canais com o Mix Modeler.
-short-description: Saiba como medir campanhas e otimizar o planejamento de forma holística em todos os canais com o Mix Modeler.
+description: Saiba como medir campanhas e otimizar o planejamento de forma integral em todos os canais com o Mix Modeler.
+short-description: Saiba como medir campanhas e otimizar o planejamento de forma integral em todos os canais com o Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
 source-git-commit: 5ade7901230b62a48a9e2320a992f566fa762ede
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 3%
+ht-degree: 33%
 
 ---
 
