@@ -4,14 +4,18 @@ description: Obtenha uma visão geral da funcionalidade e dos recursos do Mix Mo
 short-description: Obtenha uma visão geral da funcionalidade e dos recursos do Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 8%
 
 ---
 
 # visão geral do Mix Modeler
+
+Assista a este vídeo para obter uma visão geral rápida dos recursos do Mix Modeler.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
 O Mix Modeler, desenvolvido pela Adobe Sensei, permite que os profissionais de marketing avaliem campanhas e otimizem o planejamento de forma holística em todos os canais: pagos, conquistados e próprios. Sua metodologia unificada mede de forma incremental tanto em pontos de contato de marketing quanto em níveis agregados, garantindo resultados totalmente consistentes.
 
