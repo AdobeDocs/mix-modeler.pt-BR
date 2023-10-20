@@ -2,10 +2,10 @@
 user-guide-title: Manual do Mix Modeler
 breadcrumb-title: Manual do Mix Modeler
 user-guide-description: Saiba como usar o Mix Modeler.
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+source-git-commit: 101029c8b6095b3ec9842228913fac3720132cdf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 46%
+source-wordcount: '70'
+ht-degree: 51%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 46%
 + Planos {#plans}
    + [Visão geral](plans/overview.md)
    + [Criar um plano](plans/create.md)
+   + [Editar um plano](plans/edit.md)
+   + [Comparar planos](plans/compare.md)
 
 + Harmonizar dados {#harmonize-data}
    + [Visão geral](harmonize-data/overview.md)

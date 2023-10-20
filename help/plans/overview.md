@@ -3,10 +3,10 @@ title: Planos
 description: Saiba como exibir, selecionar e executar ações nos planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 1%
 
 ---
 
@@ -14,8 +14,22 @@ ht-degree: 2%
 
 Os planos no Mix Modeler permitem alocar orçamentos por unidade de negócios e canal. A funcionalidade de planejamento está integrada aos resultados dos modelos treinados com base em seus dados harmonizados.
 
+Um plano descreve os investimentos discricionários (por exemplo, orçamentos) que uma empresa pretende gastar em projetos relacionados a marketing durante um determinado período em serviço de KPI comum (por exemplo, pedidos, receita). Os planos podem incluir despesas de canais como publicidade paga, conteúdo da Web patrocinado, eventos.
 
-## Exibir planos
+Um plano exige:
+
+- um modelo,
+- um intervalo de dados,
+- um orçamento.
+
+Um plano pode incluir, opcionalmente:
+
+- uma janela de reconhecimento configurada,
+- várias datas de voo com cada uma tendo um orçamento de target,
+- restrições de orçamento mínimo e máximo por canal e data de voo.
+
+
+## Gerenciar planos
 
 Para exibir uma tabela de seus planos atuais, na interface do Mix Modeler:
 
@@ -40,6 +54,14 @@ Para exibir uma tabela de seus planos atuais, na interface do Mix Modeler:
 
 1. Uso ![Pesquisar](../assets/icons/Search.svg) para pesquisar e filtrar a tabela para um ou mais planos específicos.
 
+## Criar um plano
+
+Para criar um plano, use o assistente de criação de plano Mix Modeler. Consulte [Criar um plano](create.md) para obter mais detalhes.
+
+
+## Editar um plano
+
+Para editar um plano, selecione o nome do plano na tabela. Consulte [Editar um plano](edit.md) para obter mais informações.
 
 ## Selecionar e executar ações nos planos
 
