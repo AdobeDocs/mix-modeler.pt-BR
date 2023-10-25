@@ -3,16 +3,16 @@ title: Assimilar dados
 description: Saiba como assimilar dados no Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '457'
+ht-degree: 14%
 
 ---
 
 # Assimilar dados
 
-O Mix Modeler funciona com dados no nível do evento, agrega dados de esforço de marketing de vários jardins murados e dados agregados ou resumidos de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
+O Mix Modeler funciona com dados de nível de evento, agrega um resumo dos dados de esforço de marketing de vários jardins murados e agrega ou resume dados de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
 
 Os clientes podem usar qualquer tipo de dados assimilados no Experience Platform como conjuntos de dados e que se baseiam em esquemas que usam o XDM ExperienceEvent ou as Métricas de resumo XDM como a classe base.
 
@@ -20,8 +20,8 @@ Por exemplo:
 
 * dados coletados usando o conector de origem do Adobe Analytics e transformados em conjuntos de dados em conformidade com a versão padrão ou personalizada do esquema do Adobe Analytics ou, como alternativa,
 * dados coletados usando o SDK da Web do Experience Platform, o SDK móvel ou a API do servidor da rede de borda para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo,
-* agregar dados de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline,
-* dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a criação de modelos.
+* dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline,
+* dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a construção de modelos.
 
 Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Como os SDKs do Experience Platform, APIs, conectores de origem e assimilação em lote e por transmissão.
 
