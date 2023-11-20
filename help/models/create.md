@@ -3,7 +3,7 @@ title: Criar um modelo
 description: Saiba como criar um modelo no Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Criar um modelo
 
-Para criar um modelo, na variável ![Modelos](../assets/icons/FileData.svg) **[!UICONTROL Models]** no Mix Modeler, selecione **[!UICONTROL Guide me]**.
+Para criar um modelo, na variável ![Modelos](../assets/icons/FileData.svg) **[!UICONTROL Models]** no Mix Modeler, selecione **[!UICONTROL Open model canvas]**.
 
 Para criar modelos alimentados por IA personalizada, a interface fornece um fluxo de configuração de modelo guiado passo a passo.
 
@@ -24,7 +24,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
    1. Selecionar **[!UICONTROL Next]** para prosseguir para a próxima etapa. Selecionar **[!UICONTROL Cancel]** para cancelar a configuração do modelo.
 
-1. No **[!UICONTROL Configure]** etapa:
+1. No **[!UICONTROL Configured]** etapa:
 
    1. No **[!UICONTROL Conversion goal]** seção, no contêiner:
 
@@ -48,7 +48,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       * Para adicionar um contêiner de ponto de contato de marketing, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * Para remover um container de ponto de contato de marketing, no container, selecione ![Mais](../assets/icons/More.svg) e selecione **[!UICONTROL Remove container]** no menu de contexto.
+      * Para remover um container de ponto de contato de marketing, no container, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove container]** no menu de contexto.
 
         ![Modelo - etapa de pontos de contato de marketing](../assets/model-marketing-touchpoint-step.png)
 
@@ -72,7 +72,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       * Para adicionar um container de preenchimento de dados elegível, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Para remover um container de preenchimento de dados elegível, no container, selecione ![Mais](../assets/icons/More.svg) e selecione **[!UICONTROL Remove container]** no menu de contexto.
+      * Para remover um container de preenchimento de dados elegível, no container, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove container]** no menu de contexto.
 
         ![Modelo - População de dados elegível](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       * Para adicionar outro container do conjunto de dados de fatores externos, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Para remover um contêiner de conjunto de dados de fatores externos, no contêiner, selecione ![Mais](../assets/icons/More.svg) e selecione **[!UICONTROL Remove container]** no menu de contexto.
+      * Para remover um contêiner de conjunto de dados de fatores externos, no contêiner, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove container]** no menu de contexto.
 
         ![Modelo - Conjunto de dados de fatores externos](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       * Para adicionar outro contêiner do conjunto de dados de fatores internos, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Para remover um container adicional do conjunto de dados de fatores internos, no container, selecione ![Mais](../assets/icons/More.svg) e **[!UICONTROL Remove container]** no menu de contexto.
+      * Para remover um container adicional do conjunto de dados de fatores internos, no container, selecione ![Mais](../assets/icons/More.svg), e **[!UICONTROL Remove container]** no menu de contexto.
 
         ![Modelo - Conjunto de dados de fatores internos](../assets/model-internal-factors-dataset-step.png)
 

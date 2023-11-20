@@ -2,13 +2,13 @@
 title: Informações do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # Informações do modelo
 
@@ -27,36 +27,37 @@ Você pode alterar o período de data no qual os widgets em cada uma das guias s
 
 A guia Visão geral histórica mostra widgets para:
 
-* Conversão e gasto por trimestre fiscal e produto
+* Conversão e gasto por trimestre fiscal e produto.
 
-* Gastos por canal
+* Gastos por canal.
 
-* Gastos com Touchpoint
+* Gastos com Touchpoint.
 
   Você pode selecionar um canal alternativo com base em gastos para exibir para este widget. Selecionar um canal em **[!UICONTROL Channels]**.
 
-* Volume do ponto de contato
+* Volume do ponto de contato.
 
   Você pode selecionar um canal alternativo baseado em volume para exibir para este widget. Selecionar um canal em **[!UICONTROL Channels]**.
 
-
-
 ![Modelo - Visão geral histórica](../assets/model-historical-overview.png)
-
 
 ## Insights do modelo
 
 A guia Informações do modelo mostra widgets para:
 
-* Contribuição por data e mídia básica
+* Contribuição por data e mídia base. O gráfico empilhado é ordenado: Base na parte inferior, Canais não gastos no meio e Canais gastos na parte superior.
 
-* Contribuição por canal
+* Contribuição por canal.
 
-* Resumo de desempenho de marketing
-
-Você pode passar o mouse sobre elementos de gráficos individuais em cada widget para ver um popover com mais detalhes.
+* Resumo de desempenho de marketing.
 
 ![Modelo - Informações do modelo](../assets/model-model-insights.png)
+
+Você pode passar o mouse sobre elementos de gráficos individuais em cada widget para exibir um popover com mais detalhes.
+
+Para baixar um arquivo CSV contendo os dados do widget, selecione ![Baixar](../assets/icons/Download.svg).
+
+
 
 
 ## Qualidade do modelo
@@ -71,4 +72,4 @@ A guia Qualidade do modelo mostra widgets para medir:
 
 ![Qualidade do modelo](../assets/model-quality.png)
 
-
+Para baixar um arquivo CSV contendo os dados do widget, selecione ![Mais](../assets/icons/More.svg) no widget e, no menu de contexto, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.

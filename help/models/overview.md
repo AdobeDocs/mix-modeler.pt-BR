@@ -3,9 +3,9 @@ title: Modelos
 description: Saiba como configurar e usar modelos no Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,10 @@ Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
    |---|---|
    | Nome | Nome do modelo |
    | Descrição | Descrição do modelo |
-   | Eventos de conversão | A conversão selecionada para o modelo. |
-   | Conjunto de dados | O conjunto de dados que o modelo usa para treinar e pontuar. Esse é, por padrão, o conjunto de dados harmonizado. |
+   | Evento de conversão | A conversão selecionada para o modelo. |
    | Frequência de execução | A frequência de execução do treinamento do modelo. |
    | Última execução | A data e hora do último treinamento do modelo. |
-   | Status da última execução | O status da última execução do treinamento do modelo. <br/><span style="color:green">●</span> Sucesso<br/><span style="color:orange">●</span> Problema de treinamento<br/> <span style="color:orange">●</span> Aguardando treinamento <br/><span style="color:red">●</span> Failed |
+   | Status | O status da última execução do treinamento do modelo. <br/><span style="color:green">●</span> Sucesso<br/><span style="color:orange">●</span> Problema de treinamento<br/> <span style="color:orange">●</span> Aguardando treinamento <br/><span style="color:red">●</span> Failed |
 
    {style="table-layout:auto"}
 
@@ -73,9 +72,7 @@ Para excluir um modelo:
 
 Para exibir mais detalhes de um modelo:
 
-1. Selecione o nome do modelo do qual deseja exibir mais detalhes.
-
-1. No menu de contexto, selecione **[!UICONTROL More]**. Você verá detalhes do modelo selecionado no painel direito.
+1. Selecionar ![Informações](../assets/icons/Info.svg) para um modelo mostrar um pop-up com detalhes.
 
 
 
@@ -93,3 +90,20 @@ Para exibir insights de um modelo, na interface do Mix Modeler:
 1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela.
 
 1. No menu de contexto, selecione **[!UICONTROL Model Insights]**. Você será redirecionado para [Informações do modelo](insights.md).
+
+
+### Re-pontuação
+
+>[!NOTE]
+>
+>Essa seleção só está disponível em modelos treinados com êxito.
+>
+
+Para pontuar novamente um modelo, na interface do Mix Modeler:
+
+1. Selecionar ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
+
+1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela.
+
+1. No menu de contexto, selecione **[!UICONTROL Re-score]**. Pode levar alguns minutos para mostrar um status atualizado do modelo.
+

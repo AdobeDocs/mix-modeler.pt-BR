@@ -2,13 +2,13 @@
 title: Editar um plano
 description: Saiba como editar um plano no Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # Editar um plano
 
@@ -16,13 +16,24 @@ Para editar um plano, na ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Pl
 
 Entrada [!UICONTROL Plan insights], os insights do plano são criados, mostrando a [!UICONTROL Model], o [!UICONTROL Data range], e [!UICONTROL Total budget] em que o plano se baseia.
 
-Quando terminar de recuperar, você verá uma visão geral do seu plano com visualizações para [!UICONTROL Forecasted ROI] e [!UICONTROL Forecasted revenue].
+Quando terminar de recuperar, você verá uma visão geral do seu plano, que consiste em:
+
+- [!UICONTROL Forecasted paid channel ROI] visualização
+- [!UICONTROL Forecasted revenue] visualização
+- [!UICONTROL Data range breakdown] tabela do plano, mostrando colunas para
+
+   - Canal
+   - ROI
+   - CPA
+   - Receita
+   - Meta de conversão
+   - Gastos
+
+![Visão geral de um plano](../assets/overview-plan.png)
 
 1. Selecionar **[!UICONTROL Close]** para retornar à interface Planos.
 
-1. (opcional) Selecione **[!UICONTROL Plan breakdown]** para ver uma tabela de detalhamento do seu plano.
-
-   ![Visão geral de um plano](../assets/overview-plan.png)
+1. Para baixar um arquivo CSV com os dados do detalhamento de Intervalo de datas, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. Para editar o plano, selecione **[!UICONTROL Edit plan]**:
 
@@ -65,4 +76,3 @@ Quando terminar de recuperar, você verá uma visão geral do seu plano com visu
 1. Para cancelar as atualizações do plano, selecione **[!UICONTROL Cancel]**.
 
    No **[!UICONTROL No work will be saved]** , selecione **[!UICONTROL Cancel]** para continuar trabalhando no seu plano ou selecione **[!UICONTROL OK]** para retornar à interface Planos.
-

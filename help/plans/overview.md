@@ -3,9 +3,9 @@ title: Planos
 description: Saiba como exibir, selecionar e executar ações nos planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ Para exibir uma tabela de seus planos atuais, na interface do Mix Modeler:
    | Nome da coluna | Detalhes |
    |---|---|
    | Nome | Nome do plano |
-   | Descrição | Descrição do modelo |
    | Modelo | O modelo usado como base para o plano. |
    | Intervalo de data | O intervalo de datas completo de um plano. |
    | Orçamento | O orçamento total de um plano. |
@@ -62,6 +61,7 @@ Para criar um plano, use o assistente de criação de plano Mix Modeler. Consult
 ## Editar um plano
 
 Para editar um plano, selecione o nome do plano na tabela. Consulte [Editar um plano](edit.md) para obter mais informações.
+
 
 ## Selecionar e executar ações nos planos
 
