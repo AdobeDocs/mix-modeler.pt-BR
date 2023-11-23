@@ -1,0 +1,42 @@
+---
+title: Dados de pontuação
+description: Saiba como os dados de pontuação de um modelo no Mix Modeler são mantidos.
+feature: Models
+source-git-commit: 3596b83937b3f61ac453940f3a666d8aaf713679
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 7%
+
+---
+
+
+# Dados de pontuação
+
+Como parte da pontuação de um modelo, os dados de pontuação são mantidos em um conjunto de dados no Experience Platform. Esse conjunto de dados está em conformidade com um esquema criado para cada modelo na instância do Mix Modeler.
+
+O esquema para pontuação de dados é nomeado como `AMM AI Schema - <name of model> <id>`. Por exemplo: `AMM AI Schema - Model for Online Conversion 10120`.
+
+O conjunto de dados, que persiste nos dados de pontuação de um modelo, é nomeado como `AMM AI Aggregrate Scores - <id>`, por exemplo `AMM AI Aggregrate Scores - 10120`.
+
+
+## Esquema
+
+O esquema inclui um grupo de campos com um objeto que contém detalhes sobre as pontuações. O objeto consiste nos seguintes campos.
+
+| Nome do campo | Tipo | Definição |
+|---|---|---|
+| **campaignGroup** | String | Nome do grupo de campanhas. |
+| **campaignName** | String | Nome da campanha. |
+| **contribuição** | Duplo | Contribuição atribuída a essa conversão para o ponto de contato especificado. |
+| **conversionEndDate** | Data | Data final da janela de conversão. |
+| **conversionName** | String | Nome da conversão criada durante a etapa de configuração da definição de conversão. |
+| **conversionStartDate** | Data | Data inicial da janela de conversão. |
+| **geo** | String | A localização geográfica onde ocorreu a conversão. |
+| **mediaChannel** | String | Nome do canal usado durante a etapa de configuração do ponto de contato. |
+| **mediaSubChannel** | String | Nome do subcanal. |
+| **Receita** | Duplo | Receita atribuída a esta conversão para o ponto de contato especificado. |
+| **scoreCreatedTime** | DateTime | Hora em que este registro de pontuação é criado. |
+| **touchpointEndDate** | Data | Data final da janela do ponto de contato. |
+| **touchpointName** | String | Nome do ponto de contato criado durante a etapa de configuração de definição do ponto de contato. Atualmente, o ponto de contato é definido no canal de mídia. |
+| **touchpointStartDate** | Data | Data de início da janela do ponto de contato. |
+
