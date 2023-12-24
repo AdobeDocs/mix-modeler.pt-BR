@@ -3,10 +3,10 @@ title: Esquemas
 description: Saiba como gerenciar os esquemas necessários para assimilar dados no Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 3%
 
 ---
 
@@ -44,22 +44,22 @@ Esse esquema simples pode ser usado para assimilar conjuntos de dados que conten
 
 - Dados do índice do concorrente
 
-  | carimbo de data e hora | date_type | fator | Valor de  |
+  | carimbo de data e hora | date_type | fator | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | semana | competitor_index | 289.8 |
-  | 2020-12-05T00:00:00.000Z | semana | competitor_index | 291.2 |
-  | 2020-12-12T00:00:00.000Z | semana | competitor_index | 280.07 |
+  | 2020-11-28T00:00:00.000Z | semana | competitor_index | 289,8 |
+  | 2020-12-05T00:00:00.000Z | semana | competitor_index | 291,2 |
+  | 2020-12-12T00:00:00.000Z | semana | competitor_index | 280,07 |
   | .. | ... | ... | ... |
 
 - Dados de feriados
 
-  | carimbo de data e hora | date_type | fator | Valor de  |
+  | carimbo de data e hora | date_type | fator | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | semana | all_Holiday_flag | 0.0 |
-  | 2020-12-05T00:00:00.000Z | semana | all_Holiday_flag | 0.0 |
-  | 2020-12-12T00:00:00.000Z | semana | all_Holiday_flag | 0.0 |
-  | 2020-12-19T00:00:00.000Z | semana | all_Holiday_flag | 0.0 |
-  | 2020-12-26T00:00:00.000Z | semana | all_Holiday_flag | 1.0 |
+  | 2020-11-28T00:00:00.000Z | semana | all_Holiday_flag | 0,0 |
+  | 2020-12-05T00:00:00.000Z | semana | all_Holiday_flag | 0,0 |
+  | 2020-12-12T00:00:00.000Z | semana | all_Holiday_flag | 0,0 |
+  | 2020-12-19T00:00:00.000Z | semana | all_Holiday_flag | 0,0 |
+  | 2020-12-26T00:00:00.000Z | semana | all_Holiday_flag | 1,0 |
   | ... | ... | ... | ... |
 
 
@@ -68,3 +68,18 @@ Veja abaixo um exemplo mais abrangente de **[!DNL LumaPaidMarketingSchema]** usa
 ![Esquema de resumo](../assets/summary-schema.png)
 
 Dada a natureza assíncrona da assimilação de perfis, ao coletar dados agregados ou resumidos de fontes externas, é recomendável usar o grupo de campos Detalhes de auditoria do sistema de origem externa como parte de um esquema. Esse grupo de campos define um conjunto de propriedades de auditoria para fontes externas.
+
+
+## Tipos de dados compatíveis
+
+Atualmente, o Mix Modeler não suporta um subconjunto de tipos de dados Experience Platform. Os seguintes tipos de dados básicos (campos), mencionados em [Noções básicas da composição do esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), são compatíveis:
+
+- String
+- Integer
+- Duplo
+- Booleano
+- Longo
+- Short
+- Byte
+- Data
+- Data e hora
