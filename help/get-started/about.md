@@ -4,9 +4,9 @@ description: Obtenha uma visão geral da funcionalidade e dos recursos do Mix Mo
 short-description: Obtenha uma visão geral da funcionalidade e dos recursos do Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '287'
 ht-degree: 8%
 
 ---
@@ -50,3 +50,7 @@ O Mix Modeler oferece os seguintes recursos:
 | **Criar e comparar cenários de orçamento** | Desenvolva vários planos de orçamento e compare seu impacto para tomar decisões ideais para sua empresa. |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[Entender o fluxo de trabalho do Mix Modeler](workflow.md)
