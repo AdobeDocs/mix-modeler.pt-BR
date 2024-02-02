@@ -3,9 +3,9 @@ title: Editar um plano
 description: Saiba como editar um plano no Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ Quando terminar de recuperar, você verá uma visão geral do seu plano, que con
 
 1. Selecionar **[!UICONTROL Close]** para retornar à interface Planos.
 
+1. Selecionar **[!UICONTROL X]** ou **[!UICONTROL  %]** sobre como **[!UICONTROL View ROI]**.
+
 1. Para baixar um arquivo CSV com os dados do detalhamento de Intervalo de datas, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. Para exibir o detalhamento de Intervalo de datas por categoria de canais, selecione **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** ou **[!UICONTROL Non-paid channels]** do **[!UICONTROL View]** seleção.
 
 1. Para editar o plano, selecione **[!UICONTROL Edit plan]**:
 
@@ -53,7 +57,7 @@ Quando terminar de recuperar, você verá uma visão geral do seu plano, que con
 
          1. Modifique o **[!UICONTROL Date range]** para um ou mais intervalos de datas do seu plano, digitando datas ou selecionando um intervalo de datas usando ![Calendário](../assets/icons/Calendar.svg).
 
-         1. Modifique o **[!UICONTROL Budget]** um ou mais intervalos de datas do seu plano.
+         1. Modifique o **[!UICONTROL Budget]** para um ou mais intervalos de datas do seu plano.
 
          Para adicionar intervalos de datas adicionais, cada um com seu orçamento, selecione ![CalendárioAdicionar](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 

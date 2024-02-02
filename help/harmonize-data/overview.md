@@ -3,10 +3,10 @@ title: Harmonizar dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ Os dados em Mix Modeler são de natureza diferente dependendo da fonte de dados.
 * dados agregados ou resumidos, por exemplo, coletados de fontes de dados muradas ou dados de publicidade offline coletados (como gastos) da execução de uma campanha em outdoor, um evento ou uma campanha de publicidade física,
 * dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, ou por meio do SDK da Web ou móvel do Experience Platform ou da API de rede de borda, ou por dados assimilados usando conectores de origem.
 
-O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados é a fonte para os planos e modelos no Mix Modeler.
+O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados, combinada com dados de fatores internos e externos, é a fonte dos modelos no Mix Modeler.
 
 ## Um exemplo de dados harmonizados
 
@@ -31,8 +31,8 @@ Contém o conjunto de dados de esforço de marketing da YouTube, com uma granula
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | dia | YouTube | Y_Fall_02 | BrandX | EUA | 10000 | 100 |
 | 01-01-2022 | dia | YouTube | Y_Fall_02 | BrandX | EUA | 1000 | 10 |
-| 01-03-2022 | dia | YouTube | Y_Fall_01 | MarcaY | CA | 10000 | 100 |
-| 01-04-2022 | dia | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
+| 03-01-2022 | dia | YouTube | Y_Fall_01 | MarcaY | CA | 10000 | 100 |
+| 04-01-2022 | dia | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -44,9 +44,9 @@ Contém o conjunto de dados de esforço de marketing da Facebook, com uma granul
 | Data | Tipo de data | Canal | Campaign | Geo | Cliques | Gastos |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | semana | Facebook | FB_Fall_01 | EUA | 8000 | 100 |
-| 01-08-2022 | semana | Facebook | FB_Fall_02 | EUA | 1000 | 10 |
-| 01-08-2022 | semana | Facebook | FB_Fall_01 | EUA | 7000 | 100 |
-| 01-16-2022 | semana | Facebook | FB_Summer_01 | CA | 10000 | 80 |
+| 08-01-2022 | semana | Facebook | FB_Fall_02 | EUA | 1000 | 10 |
+| 08-01-2022 | semana | Facebook | FB_Fall_01 | EUA | 7000 | 100 |
+| 16-01-2022 | semana | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -58,9 +58,9 @@ Um conjunto de dados de conversão, com uma granularidade do conjunto de dados a
 | Data | Tipo de data | Geo | Meta | Receita |
 |--- |:---: |---|---|---:|
 | 01-01-2022 | dia | EUA | Moda | 200 |
-| 01-08-2022 | dia | EUA | Moda | 10 |
-| 01-08-2022 | dia | EUA | Joias | 1100 |
-| 01-16-2022 | dia | CA | Joias | 80 |
+| 08-01-2022 | dia | EUA | Moda | 10 |
+| 08-01-2022 | dia | EUA | Joias | 1100 |
+| 16-01-2022 | dia | CA | Joias | 80 |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ Um exemplo de conjunto de dados de evento de experiência (eventos do SDK da Web
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
-| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
+| 08-01-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
+| 08-01-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
 
 {style="table-layout:auto"}
 
@@ -86,18 +86,18 @@ Você deseja criar um conjunto de dados harmonizado, com uma granularidade defin
 | Data | Tipo de data | Canal | Campaign | Marca | Geo | Meta | Cliques | Gastos | Receita |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 12-27-2021 | semana | YouTube | Y_Fall_02 | BrandX | EUA | Null | 11000 | 110 | Null |
-| 01-03-2022 | semana | YouTube | Y_Fall_01 | MarcaY | CA | Null | 10000 | 100 | Null |
-| 01-03-2022 | semana | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 03-01-2022 | semana | YouTube | Y_Fall_01 | MarcaY | CA | Null | 10000 | 100 | Null |
+| 03-01-2022 | semana | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
 | 01-01-2022 | semana | Facebook | FB_Fall_01 | Null | EUA | Null | 8000 | 100 | Null |
-| 01-08-2022 | semana | Facebook | FB_Fall_02 | Null | EUA | Null | 1000 | 10 | Null |
-| 01-08-2022 | semana | Facebook | FB_Fall_01 | Null | EUA | Null | 7000 | 100 | Null |
-| 01-16-2022 | semana | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
+| 08-01-2022 | semana | Facebook | FB_Fall_02 | Null | EUA | Null | 1000 | 10 | Null |
+| 08-01-2022 | semana | Facebook | FB_Fall_01 | Null | EUA | Null | 7000 | 100 | Null |
+| 16-01-2022 | semana | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
 | 12-27-2021 | semana | Null | Null | Null | EUA | Moda | Null | Null | 200 |
-| 01-03-2022 | semana | Null | Null | Null | EUA | Moda | Null | Null | 10 |
-| 01-03-2022 | semana | Null | Null | Null | EUA | Joias | Null | Null | 1100 |
-| 01-10-2022 | semana | Null | Null | Null | CA | Joias | Null | Null | 80 |
+| 03-01-2022 | semana | Null | Null | Null | EUA | Moda | Null | Null | 10 |
+| 03-01-2022 | semana | Null | Null | Null | EUA | Joias | Null | Null | 1100 |
+| 10-01-2022 | semana | Null | Null | Null | CA | Joias | Null | Null | 80 |
 | 01-01-2022 | semana | CSE | Null | Null | Null | Null | 2 | Null | Null |
-| 01-08-2022 | semana | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 08-01-2022 | semana | CSE | Null | Null | Null | Null | 2 | Null | Null |
 
 {style="table-layout:auto"}
 
@@ -122,7 +122,7 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
 
    1. Para redefinir o período em que se baseia o resumo dos dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use ![Calendário](../assets/icons/Calendar.svg) para selecionar um intervalo de dados.
 
-   1. Para modificar as colunas de campo harmonizado exibidas para a tabela de Dados harmonizados, use ![Configurações](../assets/icons/Setting.svg) para abrir o **[!UICONTROL Column settings]** diálogo.
+   1. Para modificar as colunas de campo harmonizado exibidas para a tabela de dados Harmonizada, use ![Configurações](../assets/icons/Setting.svg) para abrir o **[!UICONTROL Column settings]** diálogo.
 
       1. Selecionar ![SelectBox](../assets/icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL AVAILABLE COLUMNS]** e usar ![Divisa direita](../assets/icons/ChevronRight.svg) para adicionar essas colunas a **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,3 +133,5 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
       1. Para alterar a ordem das colunas exibidas, é possível mover uma coluna em **[!UICONTROL SELECTED COLUMNS]** para cima e para baixo por meio de arrastar e soltar .
 
    1. Selecionar **[!UICONTROL Submit]** para enviar suas alterações de configuração de coluna. Selecionar **[!UICONTROL Close]** para cancelar quaisquer alterações feitas.
+
+1. Se mais páginas estiverem disponíveis, use ![Seta à esquerda](../assets/icons/ChevronLeft.svg) ou ![Seta para a direita](../assets/icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para mover entre páginas.

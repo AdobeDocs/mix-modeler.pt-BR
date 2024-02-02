@@ -3,10 +3,10 @@ title: Assimilar dados
 description: Saiba como assimilar dados no Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 14%
+source-wordcount: '459'
+ht-degree: 8%
 
 ---
 
@@ -42,13 +42,13 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, alé
 
 +++ Dados agregados do esforço de marketing
 
-| Geo | Data | Tipo de data | Canal | Campaign | Clique em | Ganho | Envolvimento | impressão | Abrir | Próprio | Enviado |
+| Geo | Data | Tipo de data | Canal | Campaign | Clique em | Ganho | Envolvimento | impressão | Abrir | Próprio | Enviada |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
 | AMER | 2021-10-31 | dia | EMAIL | | 12752 | | | | | | 1132945 |
 | AMER | 2021-10-31 | dia | FB | | 148844 | | | | | | |
 | AMER | 2021-10-31 | dia | YT | | | | 2314452 | | | | |
-| JPN | 2021-10-21 | dia | EMAIL | | 21089 | | | | | | 3283626 |
-| JPN | 2021-10-21 | dia | SOCIAL | | | | 621 | | | | |
+| JPN | 21-10-2021 | dia | EMAIL | | 21089 | | | | | | 3283626 |
+| JPN | 21-10-2021 | dia | SOCIAL | | | | 621 | | | | |
 
 {style="table-layout:auto"}
 
@@ -58,10 +58,10 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, alé
 
 | Geo | Data | Tipo de data | Produto | Unidades Vendidas | Receita |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 2021-09-13 | dia | Economia do criador | 603 | 36537.68 |
-| EMEA | 2021-09-13 | dia | Metaverso | 55 | 21704.37 |
-| JPN | 2022-05-30 | dia | Pro Imaging | 487 | 64469.60 |
-| JPN | 2022-05-30 | dia | Document Cloud | 642 | 100509.07 |
+| EMEA | 09-2021-13 | dia | Economia do criador | 603 | 36537,68 |
+| EMEA | 09-2021-13 | dia | Metaverso | 55 | 21704,37 |
+| JPN | 30/05/2022 | dia | Pro Imaging | 487 | 64469,60 |
+| JPN | 30/05/2022 | dia | Document Cloud | 642 | 100509,07 |
 
 {style="table-layout:auto"}
 
@@ -71,16 +71,16 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, alé
 
 | Dados | Tipo de data | Fator | Valor |
 |---|:---:|:---:|:---|
-| 2020-08-02 | semana | SPX | 3325.866 |
-| 2020-08-09 | semana | SPX | 3364.158 |
-| 2020-08-16 | semana | SPX | 3385.858 |
-| 2020-08-23 | semana | SPX | 3497.965 |
+| 2020-08-02 | semana | SPX | 3325,866 |
+| 08-2020-09 | semana | SPX | 3364,158 |
+| 2020-08-16 | semana | SPX | 3385,858 |
+| 23/08/2020 | semana | SPX | 3497,965 |
 
 {style="table-layout:auto"}
 
 +++
 
-Para trabalhar com dados no Mix Modeler, você precisa de dados coletados em conjuntos de dados e modelados após esquemas no Experience Platform. A interface do Mix Modeler fornece acesso fácil à interface do usuário de Esquemas e Conjuntos de dados.
+Para trabalhar com dados no Mix Modeler, você precisa de dados coletados em conjuntos de dados e modelados após esquemas no Experience Platform. A interface do Mix Modeler fornece acesso fácil aos esquemas do Experience Platform e à interface dos conjuntos de dados.
 
 
 >[!MORELIKETHIS]

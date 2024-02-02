@@ -3,10 +3,10 @@ title: Planos
 description: Saiba como exibir, selecionar e executar ações nos planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 1%
+source-wordcount: '496'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Para exibir uma tabela de seus planos atuais, na interface do Mix Modeler:
    | Orçamento | O orçamento total de um plano. |
    | Retorno previsto | O retorno previsto de um plano |
    | ROI previsto | O ROI previsto para um plano. |
-   | Status | O status de um plano. |
+   | Status | O status de um plano: <p><span style="color:red">●</span> Falha, <p><span style="color:blue">●</span> Processando, ou <p><span style="color:green">●</span> Concluído. |
 
    {style="table-layout:auto"}
 
@@ -78,6 +78,11 @@ Para duplicar um plano:
 1. Selecione um único plano na tabela.
 1. Selecionar ![Copiar](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** na barra de ações. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
 
+Alternativamente:
+
+1. Selecionar ![Mais](../assets/icons/More.svg) para um plano na tabela.
+1. Selecionar **[!UICONTROL Duplicate]** no menu de contexto. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
+
 ### Comparar planos
 
 Para comparar planos:
@@ -92,6 +97,11 @@ Para deletar planos:
 
 1. Selecione um ou mais planos na tabela.
 1. Selecionar ![Excluir](../assets/icons/Delete.svg) **[!UICONTROL Delete]** na barra de ações.
+
+Alternativamente:
+
+1. Selecionar ![Mais](../assets/icons/More.svg) para um plano na tabela.
+1. Selecionar **[!UICONTROL Delete]** no menu de contexto. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
 
    >[!WARNING]
    >

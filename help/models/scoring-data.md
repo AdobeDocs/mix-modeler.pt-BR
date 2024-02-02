@@ -2,13 +2,13 @@
 title: Dados de pontuação
 description: Saiba como os dados de pontuação de um modelo no Mix Modeler são mantidos.
 feature: Models
-source-git-commit: 3596b83937b3f61ac453940f3a666d8aaf713679
+exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '247'
+ht-degree: 5%
 
 ---
-
 
 # Dados de pontuação
 
@@ -34,9 +34,10 @@ O esquema inclui um grupo de campos com um objeto que contém detalhes sobre as 
 | **geo** | String | A localização geográfica onde ocorreu a conversão. |
 | **mediaChannel** | String | Nome do canal usado durante a etapa de configuração do ponto de contato. |
 | **mediaSubChannel** | String | Nome do subcanal. |
-| **Receita** | Duplo | Receita atribuída a esta conversão para o ponto de contato especificado. |
+| **receita** | Duplo | Receita atribuída a esta conversão para o ponto de contato especificado. |
 | **scoreCreatedTime** | DateTime | Hora em que este registro de pontuação é criado. |
 | **touchpointEndDate** | Data | Data final da janela do ponto de contato. |
 | **touchpointName** | String | Nome do ponto de contato criado durante a etapa de configuração de definição do ponto de contato. Atualmente, o ponto de contato é definido no canal de mídia. |
 | **touchpointStartDate** | Data | Data de início da janela do ponto de contato. |
 
+Consulte [Esquemas](../ingest-data/schemas.md) para obter mais informações.

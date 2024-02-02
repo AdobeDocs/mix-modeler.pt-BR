@@ -2,13 +2,13 @@
 title: Comparar planos
 description: Saiba como comparar planos no Mix Modeler.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
-
 
 # Comparar planos
 
@@ -23,9 +23,9 @@ A interface Comparar planos mostra informações e widgets sobre:
 * Plano
 * Intervalo de data
 * Modelo
-* Orçamento
-* Tipo de mixagem
-* Detalhamento de gastos
+* Orçamento total
+* Bugetting de canal: **[!UICONTROL AI automated]** ou **[!UICONTROL Custom + AI]**
+* Gasto planejado
 * ROI previsto
 * Detalhamento do ROI
 * Retorno previsto

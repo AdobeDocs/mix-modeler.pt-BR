@@ -3,9 +3,9 @@ title: Modelos
 description: Saiba como configurar e usar modelos no Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Um modelo pode incluir opcionalmente:
 
 ## Criar um modelo
 
-Para criar um modelo, use o fluxo de configuração do modelo guiado passo a passo do Mix Modeler disponível ao selecionar **[!UICONTROL Guide me]**. Consulte [Criar um modelo](create.md) para obter mais detalhes.
+Para criar um modelo, use o fluxo de configuração do modelo guiado passo a passo do Mix Modeler disponível ao selecionar **[!UICONTROL Open model canvas]**. Consulte [Criar um modelo](create.md) para obter mais detalhes.
 
 ## Gerenciar modelos
 
@@ -54,19 +54,12 @@ Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
    | Evento de conversão | A conversão selecionada para o modelo. |
    | Frequência de execução | A frequência de execução do treinamento do modelo. |
    | Última execução | A data e hora do último treinamento do modelo. |
-   | Status | O status da última execução do treinamento do modelo. <br/><span style="color:green">●</span> Sucesso<br/><span style="color:orange">●</span> Problema de treinamento<br/> <span style="color:orange">●</span> Aguardando treinamento <br/><span style="color:red">●</span> Failed |
+   | Status | O status da última execução do treinamento do modelo. <br/><span style="color:green">●</span> Sucesso<br/><span style="color:orange">●</span> Problema de treinamento<br/> <span style="color:orange">●</span> Aguardando treinamento <br/><span style="color:red">●</span> Failed <br/><span style="color:gray">●</span> _ (quando uma última execução está em andamento) |
 
    {style="table-layout:auto"}
 
 1. Para alterar as colunas exibidas para a lista, selecione ![Configurações de coluna](../assets/icons/ColumnSetting.svg) e ativar colunas ![Marcar](../assets/icons/Checkmark.svg) ou desativado.
 
-### Excluir um modelo
-
-Para excluir um modelo:
-
-1. Selecione o nome do modelo que deseja excluir.
-
-1. No menu de contexto, selecione **[!UICONTROL Delete]** para excluir o modelo.
 
 ### Exibir detalhes de um modelo
 
@@ -78,32 +71,37 @@ Para exibir mais detalhes de um modelo:
 
 ### Insights do modelo
 
->[!NOTE]
->
->Essa seleção só está disponível em modelos treinados com êxito.
->
-
 Para exibir insights de um modelo, na interface do Mix Modeler:
 
 1. Selecionar ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
 
-1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela.
+1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela. Os insights do modelo só estão disponíveis em modelos treinados com êxito.
 
 1. No menu de contexto, selecione **[!UICONTROL Model Insights]**. Você será redirecionado para [Informações do modelo](insights.md).
 
 
 ### Re-pontuação
 
->[!NOTE]
->
->Essa seleção só está disponível em modelos treinados com êxito.
->
 
 Para pontuar novamente um modelo, na interface do Mix Modeler:
 
 1. Selecionar ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
 
-1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela.
+1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela. A re-pontuação só está disponível em modelos treinados com sucesso.
 
 1. No menu de contexto, selecione **[!UICONTROL Re-score]**. Pode levar alguns minutos para mostrar um status atualizado do modelo.
+
+
+### Excluir um modelo
+
+Para excluir um modelo:
+
+1. Selecione o nome do modelo que deseja excluir.
+
+1. No menu de contexto, selecione **[!UICONTROL Delete]** para excluir o modelo.
+
+   >[!WARNING]
+   >
+   >O modelo é excluído imediatamente.
+
 

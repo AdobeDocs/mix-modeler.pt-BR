@@ -3,9 +3,9 @@ title: Criar um modelo
 description: Saiba como criar um modelo no Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
    1. Selecionar **[!UICONTROL Next]** para prosseguir para a próxima etapa. Selecionar **[!UICONTROL Cancel]** para cancelar a configuração do modelo.
 
-1. No **[!UICONTROL Configured]** etapa:
+1. No **[!UICONTROL Configure]** etapa:
 
    1. No **[!UICONTROL Conversion goal]** seção, no contêiner:
 
@@ -72,7 +72,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       * Para adicionar um container de preenchimento de dados elegível, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Para remover um container de preenchimento de dados elegível, no container, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove container]** no menu de contexto.
+      * Para remover um container de preenchimento de dados elegível, no container, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove marketing touchpoint]** no menu de contexto.
 
         ![Modelo - População de dados elegível](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       * Para adicionar outro container do conjunto de dados de fatores externos, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Para remover um contêiner de conjunto de dados de fatores externos, no contêiner, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove container]** no menu de contexto.
+      * Para remover um contêiner de conjunto de dados de fatores externos, no contêiner, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove external factor]** no menu de contexto.
 
         ![Modelo - Conjunto de dados de fatores externos](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       * Para adicionar outro contêiner do conjunto de dados de fatores internos, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Para remover um container adicional do conjunto de dados de fatores internos, no container, selecione ![Mais](../assets/icons/More.svg), e **[!UICONTROL Remove container]** no menu de contexto.
+      * Para remover um container adicional do conjunto de dados de fatores internos, no container, selecione ![Mais](../assets/icons/More.svg), e **[!UICONTROL Remove internal factor]** no menu de contexto.
 
         ![Modelo - Conjunto de dados de fatores internos](../assets/model-internal-factors-dataset-step.png)
 
