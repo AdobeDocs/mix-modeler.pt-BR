@@ -3,9 +3,9 @@ title: Informações do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ A guia Informações do modelo mostra widgets para:
 
 * Resumo de desempenho de marketing.
 
+* Curvas de resposta marginal.
+
 ![Modelo - Informações do modelo](../assets/model-model-insights.png)
 
 Você pode passar o mouse sobre elementos de gráficos individuais em cada widget para exibir um popover com mais detalhes.
 
 Para baixar um arquivo CSV contendo os dados do widget, selecione ![Baixar](../assets/icons/Download.svg).
+
+Para baixar dados de insights do modelo completo no formato do Microsoft® Excel, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 
