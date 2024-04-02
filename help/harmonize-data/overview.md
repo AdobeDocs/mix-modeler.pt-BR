@@ -3,9 +3,9 @@ title: Harmonizar dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '893'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ Os dados em Mix Modeler são de natureza diferente dependendo da fonte de dados.
 * dados agregados ou resumidos, por exemplo, coletados de fontes de dados muradas ou dados de publicidade offline coletados (como gastos) da execução de uma campanha em outdoor, um evento ou uma campanha de publicidade física,
 * dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, ou por meio do SDK da Web ou móvel do Experience Platform ou da API de rede de borda, ou por dados assimilados usando conectores de origem.
 
-O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados, combinada com dados de fatores internos e externos, é a fonte dos modelos no Mix Modeler.
+O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados, combinada com dados de fatores internos e externos, é a fonte dos modelos no Mix Modeler. O serviço usa a maior granularidade entre os diferentes conjuntos de dados. Por exemplo, se um conjunto de dados tiver uma granularidade de dados mensais e os conjuntos de dados restantes tiverem granularidade semanal e diária, o serviço de harmonização criará uma visualização de dados usando granularidade mensal.
 
 ## Um exemplo de dados harmonizados
 
@@ -118,7 +118,7 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
 
 1. Selecionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** do painel esquerdo.
 
-1. Selecionar **[!UICONTROL Harmonized Data]** na barra superior. Você verá um resumo de seus dados harmonizados com base nos campos, regras do conjunto de dados, pontos de contato de marketing e conversões definidos.
+1. Selecionar **[!UICONTROL Harmonized Data]** na barra superior. Um resumo de seus dados harmonizados é mostrado com base nos campos, nas regras do conjunto de dados, nos pontos de contato de marketing e nas conversões definidos.
 
    1. Para redefinir o período em que se baseia o resumo dos dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use ![Calendário](../assets/icons/Calendar.svg) para selecionar um intervalo de dados.
 

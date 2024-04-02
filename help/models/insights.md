@@ -3,9 +3,9 @@ title: Informações do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ A guia Visão geral histórica mostra widgets para:
 
 A guia Informações do modelo mostra widgets para:
 
-* Contribuição por data e mídia base. O gráfico empilhado é ordenado: Base na parte inferior, Canais não gastos no meio e Canais gastos na parte superior.
+* Contribuição por data e mídia base. O gráfico empilhado é ordenado: Base na parte inferior, Canais de não gasto no meio e Canais de gasto na parte superior.
 
 * Contribuição por canal.
 
@@ -62,18 +62,29 @@ Para baixar um arquivo CSV contendo os dados do widget, selecione ![Baixar](../a
 Para baixar dados de insights do modelo completo no formato do Microsoft® Excel, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-
-
 ## Qualidade do modelo
 
-A guia Qualidade do modelo mostra widgets para medir:
+![Avaliação da qualidade do modelo](/help/assets/model-quality-assessment.png)
+A guia de qualidade do modelo mostra uma
 
-* R2 (R-quadrado), que informa como os dados se encaixam no modelo de regressão (a adequação do ajuste).
+* [!UICONTROL Model Assessment] visualização, que pode ser analisada em conversões reais versus previstas ou residuais.
 
-* MAPE (Mean Absolute Percentage Error), que é um dos KPIs mais usados para medir a precisão da previsão e expressa o erro de previsão como uma porcentagem do valor real.
+  Para detalhar a visualização, selecione **[!UICONTROL Actual vs. Predicted]** ou **[!UICONTROL Residuals]** do **[!UICONTROL Breakdown]** lista.
 
-* RMSE (Erro de Raiz Quadrada Média): que mostra a média de &quot;erro&quot;, ponderada de acordo com o quadrado do erro.
+* [!UICONTROL Model fitting metrics] , mostrando as seguintes colunas para cada métrica de conversão:
 
-![Qualidade do modelo](../assets/model-quality.png)
+   * Conversão Efetiva
 
-Para baixar um arquivo CSV contendo os dados do widget, selecione ![Mais](../assets/icons/More.svg) no widget e, no menu de contexto, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+   * Conversão modelada
+
+   * Conversão Residual (diferença entre a conversão real e a conversão modelada)
+
+   * Valores de pontuação de qualidade do modelo:
+
+      * R2 (R-quadrado), que informa como os dados se encaixam no modelo de regressão (a adequação do ajuste).
+
+      * MAPE (Mean Absolute Percentage Error), que é um dos KPIs mais usados para medir a precisão da previsão e expressa o erro de previsão como uma porcentagem do valor real.
+
+      * RMSE (Erro de Raiz Quadrada Média): que mostra a média de &quot;erro&quot;, ponderada de acordo com o quadrado do erro.
+
+  Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](../assets/icons/Download.svg).
