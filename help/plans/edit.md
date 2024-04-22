@@ -3,9 +3,9 @@ title: Editar um plano
 description: Saiba como editar um plano no Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
+source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ Quando terminar de recuperar, você verá uma visão geral do seu plano, que con
 
 1. Selecionar **[!UICONTROL X]** ou **[!UICONTROL  %]** sobre como **[!UICONTROL View ROI]**.
 
-1. Para baixar um arquivo CSV com os dados do detalhamento de Intervalo de datas, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. No menu de contexto, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para dados detalhados em formato CSV, ou ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** para obter dados de resumo em formato CSV.
+1. Para baixar um arquivo CSV com os dados do detalhamento de Intervalo de datas, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. No menu de contexto:
+
+   - Selecionar ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para dados detalhados em formato CSV, ou
+   - Selecionar ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** para obter dados de resumo em formato CSV.
+
+   Dados detalhados são dados granulares registrados por semana. Os dados de resumo são dados digitados pelo intervalo de datas fornecido pelo modelo.
 
 1. Para exibir o detalhamento de Intervalo de datas por categoria de canais, selecione **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** ou **[!UICONTROL Non-paid channels]** do **[!UICONTROL View]** seleção.
 
