@@ -3,9 +3,9 @@ title: Editar um plano
 description: Saiba como editar um plano no Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
+source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Quando terminar de recuperar, você verá uma visão geral do seu plano, que con
 
 1. Para baixar um arquivo CSV com os dados do detalhamento de Intervalo de datas, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. No menu de contexto:
 
-   - Selecionar ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para dados detalhados em formato CSV, ou
+   - Selecionar ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** para obter dados detalhados em formato CSV.
    - Selecionar ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** para obter dados de resumo em formato CSV.
 
    Dados detalhados são dados granulares registrados por semana. Os dados de resumo são dados digitados pelo intervalo de datas fornecido pelo modelo.
