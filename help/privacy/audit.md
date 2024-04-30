@@ -2,7 +2,7 @@
 title: Auditoria
 description: Saiba como auditar o Mix Modeler.
 feature: Administration
-source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
+source-git-commit: e1ef6f2b54ae7c80cb115b417909b154b6153ce2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 6%
@@ -50,3 +50,4 @@ Para inspecionar o log de auditoria, na interface do Mix Modeler:
 1. Para modificar as colunas exibidas no Log de atividades, selecione ![Colunas](../assets/icons/ColumnSetting.svg) e no **[!UICONTROL Customize table]** caixa de diálogo selecione as colunas a serem exibidas. Selecionar **[!UICONTROL Apply]** para aplicar a seleção, **[!UICONTROL Cancel]** para cancelar a seleção.
 
 1. Para baixar o log de auditoria, selecione ![Baixar](../assets/icons/Download.svg) **[!UICONTROL Download log]**. No **[!UICONTROL Download log]** caixa de diálogo selecionar **[!UICONTROL CSV]** ou **[!UICONTROL JSON]** como o formato e selecione **[!UICONTROL Download]**.
+
