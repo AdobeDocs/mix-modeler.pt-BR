@@ -3,9 +3,9 @@ title: Regras do conjunto de dados
 description: Saiba como definir regras de conjunto de dados para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ As colunas da tabela especificam detalhes sobre as regras do conjunto de dados:
 | Nome da coluna | Detalhes |
 | ---------------------- | ----------|
 | Conjunto de dados | O nome do conjunto de dados. |
-| Fonte | A origem do conjunto de dados, que pode ser Adobe Analytics, Eventos de experiência, Resumo (agregado) ou Eventos de experiência do consumidor. |
-| Esquema | O esquema com o qual o conjunto de dados está em conformidade. Você pode selecionar rapidamente o nome do schema para abrir o schema em uma nova guia no editor de schema em Mix Modeler - Esquemas. |
+| Fonte | A origem do conjunto de dados: Adobe Analytics, Eventos de experiência, Resumo (agregado) ou Eventos de experiência do consumidor. |
+| Esquema | O esquema com o qual o conjunto de dados está em conformidade. Você pode selecionar rapidamente o nome do esquema para abri-lo em uma nova guia no editor de esquema no ![Esquema](../assets/icons/Schemas.svg) [Esquemas](../ingest-data/schemas.md). |
 | Granularidade | A granularidade dos dados no conjunto de dados. Os valores possíveis são Diário, Semanal, Mensal ou Anual. |
 | Início da semana | Especifica qual dia da semana é considerado o início de uma nova semana para o conjunto de dados específico. |
 | Status | O status do campo: <p><span style="color:gray">●</span> Rascunho ou <p><span style="color:green">●</span> Ativo |
@@ -42,7 +42,7 @@ As colunas da tabela especificam detalhes sobre as regras do conjunto de dados:
 
 ### Criar uma regra de conjunto de dados
 
-Para criar uma regra de conjunto de dados, no ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** no Mix Modeler, selecione **[!UICONTROL Create Dataset rule]** no **[!UICONTROL Dataset rules configuration]** assistente.
+Para criar uma regra de conjunto de dados, no ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** no Mix Modeler, selecione **[!UICONTROL Create a dataset rule]** no **[!UICONTROL Dataset rules configuration]** assistente.
 
 No **[!UICONTROL Create]** tela,
 
@@ -52,13 +52,13 @@ No **[!UICONTROL Create]** tela,
 
 1. Selecionar **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]** para **[!UICONTROL Granularity]**.
 
-1. Ao selecionar um conjunto de dados de **[!UICONTROL Summary]** categoria:
+1. Ao selecionar um conjunto de dados da variável **[!UICONTROL Summary]** categoria:
 
-   1. Para definir se os dados do conjunto de dados devem ser agregados ou estão substituindo os dados existentes, selecione **[!UICONTROL Aggregation]** ou **[!UICONTROL Replacement]** para **[!UICONTROL Data restatement is by]**.
+   1. Para definir se os dados do conjunto de dados agregam ou substituem os dados existentes, selecione **[!UICONTROL Aggregation]** ou **[!UICONTROL Replacement]** para **[!UICONTROL Data restatement is by]**.
 
    1. Mapear cada um dos **[!UICONTROL Available dataset fields]** para o correspondente **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. Se não quiser mapear um campo de conjunto de dados para um campo harmonizado, selecione explicitamente **[!UICONTROL -- None --]**.
 
-   1. Se precisar de um novo campo harmonizado, não disponível na lista, selecione **[!UICONTROL Create New]** para criar um novo campo harmonizado. Você verá a caixa de diálogo conforme descrito em [Adicionar um novo campo harmonizado](fields.md#add-a-harmonized-field) para permitir adicionar um novo campo harmonizado rapidamente.
+   1. Se precisar de um novo campo harmonizado, não disponível na lista, selecione **[!UICONTROL Create New]** para criar um novo campo harmonizado. Você verá a caixa de diálogo conforme descrito em [Adicionar um novo campo harmonizado](fields.md#add-a-harmonized-field).
 
    1. Quando o mapeamento for concluído para todos os campos da regra, selecione **[!UICONTROL Save as draft]** para salvar uma versão preliminar da regra ou **[!UICONTROL Save]** para salvar e ativar a regra. Selecionar **[!UICONTROL Cancel]** para cancelar a configuração da regra.
 
@@ -80,9 +80,9 @@ No **[!UICONTROL Create]** tela,
 
       1. Quando tiver selecionado **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *Campo do conjunto de dados da AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-      1. Quando tiver selecionado **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *Campo do conjunto de dados da AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *Campo do conjunto de dados da AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-         1. Além disso, você define um ou mais casos, que consistem em uma ou mais condições para definir explicitamente valores. Cada condição pode verificar se há **[!UICONTROL *Campo do conjunto de dados da AEP *]**se **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**ou se **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**um valor inserido em**[!UICONTROL * Inserir valor de entrada *]**.
+         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar se há **[!UICONTROL *Campo do conjunto de dados da AEP *]**se **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**ou se **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**um valor inserido em**[!UICONTROL * Inserir valor de entrada *]**.
 
          1. Para adicionar outro caso, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add case]**, para adicionar outra condição, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -121,7 +121,7 @@ Para editar uma regra de conjunto de dados, na ![DataSearch](../assets/icons/Dat
 Para excluir uma regra de conjunto de dados, na variável ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface no Mix Modeler:
 
 1. Selecionar ![Mais](../assets/icons/More.svg) no **[!UICONTROL Dataset]** para a regra de conjunto de dados que você deseja excluir.
-1. No menu de contexto, selecione ![Excluir](../assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir a regra do conjunto de dados. Será solicitada uma confirmação. Selecionar **[!UICONTROL Delete]** para excluir permanentemente a regra de conjunto de dados selecionada.
+1. No menu de contexto, selecione ![Excluir](../assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir a regra do conjunto de dados. Será solicitada uma confirmação. Selecionar **[!UICONTROL Delete]** para excluir a regra de conjunto de dados selecionada permanentemente.
 
 
 ## Sincronizar dados
@@ -130,7 +130,10 @@ Para sincronizar dados entre seus dados harmonizados e os conjuntos de dados de 
 
 1. Selecione **[!UICONTROL Sync data]**.
 
-1. No **[!UICONTROL Sync data for dataset rules]** , selecione **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]** ou **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
+1. No **[!UICONTROL Sync data for dataset rules]** , selecione
+   * **[!UICONTROL Refresh harmonized data for summary datasets]**,
+   * **[!UICONTROL Refresh harmonized data for event datasets]** ou
+   * **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
 1. Para iniciar a sincronização com base nas regras definidas do conjunto de dados entre dados harmonizados e dados em conjuntos de dados, selecione **[!UICONTROL Sync]**. Para cancelar a sincronização, selecione **[!UICONTROL Cancel]**.
 
@@ -139,23 +142,49 @@ Para sincronizar dados entre seus dados harmonizados e os conjuntos de dados de 
 
 ## Preferências de mesclagem de dados
 
-É possível definir preferências para resolver conflitos à medida que os dados de origens resumidas e de eventos são mesclados. Para fazer isso:
+>[!NOTE]
+>
+>[!BADGE Beta]{type=Informative}
 
-1. Selecionar ![Preferências de mesclagem de dados](../assets/icons/Merge.svg) **Preferências de mesclagem de dados**.
+As preferências de mesclagem de dados ajudam a resolver conflitos quando os dados de fontes de dados resumidas e de eventos são mesclados. Os casos de uso são:
+
+* a mesma métrica de publicidade é medida e relatada em vários conjuntos de dados, ou
+* a medição de métricas pode estar incompleta em alguns conjuntos de dados, enquanto outro conjunto de dados pode ser um superconjunto de uma métrica específica, resultando em dupla contagem.
+
+Para garantir previsões de modelo precisas, é possível definir preferências de mesclagem de dados:
+
+1. Selecionar ![Preferências de mesclagem de dados](../assets/icons/Merge.svg) [!BADGE beta] **Preferências de mesclagem de dados**.
 
 1. No **[!UICONTROL Data merge preferences]** diálogo:
 
    ![Preferências de mesclagem de dados](../assets/data-merge-preferences.png)
 
-   1. Selecione uma preferência de métrica padrão na **[!UICONTROL Default metric preference]** lista. <p>Uma preferência padrão é aplicada quando, durante a harmonização, várias fontes de dados tentam atualizar um campo de métrica para um determinado canal. Essa preferência é aplicada no nível da sandbox, a menos que seja substituída por determinadas preferências de métrica definidas em **[!UICONTROL Metric based preference]**.
+   * Selecione um **[!UICONTROL Default metric preference]**. A preferência de métrica padrão selecionada é aplicada quando, durante a harmonização, várias fontes de dados atualizam um campo de métrica para um determinado canal. A preferência é aplicada no nível da sandbox, a menos que seja substituída por preferências específicas baseadas em métricas.
 
-   1. Uso ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**, para adicionar uma ou mais métricas abaixo **[!UICONTROL Metric based preference]**.
+   * Para adicionar preferências específicas baseadas em métricas:
 
+      1. Selecionar ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+         1. Selecione uma métrica na **[!UICONTROL *Seleção de métrica *]**lista.
+         1. Selecionar **[!UICONTROL CHANNELS]** ou **[!UICONTROL CONVERSION TYPES]**. Na lista, selecione **[!UICONTROL All]** ou um canal ou tipo de conversão específico.
+         1. Selecionar **[!UICONTROL Summary]** ou **[!UICONTROL Event]** para especificar se os dados de resumo ou de evento são preferidos para a métrica (e todos ou canal selecionado) ao mesclar dados.
 
+Para adicionar um ou mais canais ou tipos de conversão adicionais:
 
-      * Selecione uma métrica na **[!UICONTROL _Seleção de métrica_]** e
-      * Selecione **[!UICONTROL Summary]** ou **[!UICONTROL Event]**.
+         1. Selecionar ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** ou ![Plus](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+         1. Selecione **[!UICONTROL Summary]** ou **[!UICONTROL Event]**.
 
-      Uso ![Excluir](../assets/icons/Close.svg) para deletar uma entrada da lista.
+Para excluir um canal ou tipo de conversão, select ![Cruz](../assets/icons/Close.svg).
 
-   1. Selecionar **[!UICONTROL Save]** para salvar as preferências de mesclagem de dados. Selecionar **[!UICONTROL Cancel]** para cancelar.
+      1. Para adicionar preferências mais específicas baseadas em métricas, repita a etapa anterior.
+
+   * Para excluir uma preferência baseada em métrica específica existente, selecione ![Excluir](../assets/icons/Delete.svg).
+
+1. Selecionar **[!UICONTROL Save]** para salvar as preferências de mesclagem de dados. Uma ressincronização dos dados é iniciada. <br/>Selecionar **[!UICONTROL Cancel]** para cancelar.
+
+## Controle de acesso em nível de campo
+
+Ao configurar regras de conjunto de dados para conjuntos de dados harmonizados, Experience Platform [controle de acesso baseado em atributo](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) é aplicada em nível de campo. Um campo é restrito quando um rótulo é anexado a um campo de esquema e uma política ativa é ativada, negando acesso a esse campo. Como resultado:
+
+* você não vê os campos de esquema restritos ao criar uma regra de conjunto de dados,
+* não é possível exibir ou editar o mapeamento de um ou mais campos de esquema restritos para você. Ao editar ou exibir uma regra de conjunto de dados contendo esses campos restritos, você verá a tela a seguir.
+  ![Ação não permitida](../assets/action-not-permitted.png)

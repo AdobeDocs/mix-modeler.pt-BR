@@ -4,18 +4,25 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 8%
+source-wordcount: '260'
+ht-degree: 9%
 
 ---
 
 # Notas de versão atuais do Mix Modeler
 
-**Última atualização**: 1 de abril de 2024.
+**Última atualização**: 29 de maio de 2024.
 
 Estas notas de versão abordam a versão mais recente do Mix Modeler. As versões de Mix Modeler operam em um modelo de entrega contínua que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
+
+## Maio de 2024
+
+| Recurso | Descrição | Disponibilidade geral |
+|---|---|---|
+| **Preferências de mesclagem de dados** [!BADGE beta] | [Preferências de mesclagem de dados](../harmonize-data/dataset-rules.md#data-merge-preferences) O auxilia na resolução de conflitos quando dados de fontes de dados resumidas e de eventos são mesclados. | 29 de maio de 2024 |
+| **Controle de acesso em nível de campo** | Ao definir as regras do conjunto de dados, Experience Platform [controle de acesso baseado em atributo](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) é aplicado em um [nível de campo](../harmonize-data/dataset-rules.md#field-level-access-control). | 29 de maio de 2024 |
 
 
 ## Abril de 2024
@@ -42,4 +49,4 @@ Estas notas de versão abordam a versão mais recente do Mix Modeler. As versõe
 >[!MORELIKETHIS]
 >
 >* [Mix Modeler introdução](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Documentação do Experience League do Mix Modeler](https://experienceleague.adobe.com/en/docs/mix-modeler)
+>* [Documentação do Experience League do Mix Modeler](https://experienceleague.adobe.com/en/docs/mix-modeler?lang=pt-BR)
