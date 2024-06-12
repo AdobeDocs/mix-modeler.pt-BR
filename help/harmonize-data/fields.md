@@ -3,9 +3,9 @@ title: Campos harmonizados
 description: Saiba como definir campos para usar como parte da harmonização dos dados no Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '687'
 ht-degree: 8%
 
 ---
@@ -35,10 +35,10 @@ Os campos de harmonização global disponíveis por padrão no Mix Modeler são:
 | conjunto de dados | Conjunto de dados | Dimensão | String |           |
 | date_type | Tipo de data | Dimensão | String | dia, semana |
 | emails enviados | Emails enviados | Métrica | Número |           |
-| event_date | Data | Dimensão | DateTime |           |
+| event_date | Data | Dimensão | Data e hora |           |
 | demanda_bruta | Demanda Bruta | Métrica | Moeda |           |
 | impressões | Impressões | Métrica | Número |           |
-| data_da_última_atualização | Data da última atualização | Dimensão | DateTime |           |
+| data_da_última_atualização | Data da última atualização | Dimensão | Data e hora |           |
 | linkvisitors | Vincular visitas | Métrica | Número |           |
 | mediatype | Tipo de mídia | Dimensão | String |           |
 | net_sales | Vendas Líquidas | Métrica | Moeda |           |
@@ -66,7 +66,7 @@ Para ver uma tabela dos campos harmonizados disponíveis, na interface Mix Model
    | Nome do campo | O nome do campo harmonizado. |
    | Nome de exibição | O nome de exibição do campo harmonizado. Esse nome de exibição é usado ao definir regras de conjunto de dados, ponto de contato de marketing e definições de conversão. |
    | Categoria | Especifica se um campo de dados harmonizado é um [!UICONTROL Dimension], um [!UICONTROL Metric] ou [!UICONTROL Derived]. Uma categoria derivada é um campo harmonizado que usa uma definição de fórmula baseada em métricas. |
-   | Tipo de dados | Especifica o tipo de dados ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]). |
+   | Tipo de dados | Especifica o tipo de dados ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
    | Data de criação | Data e hora de criação do campo harmonizado. |
    | Proprietário | Indica se um campo harmonizado é padrão ([!UICONTROL Global]), ou seja definido por você ([!UICONTROL Client]). |
    | Última data de modificação | Data e hora da última modificação do campo harmonizado. |
@@ -93,7 +93,7 @@ Para adicionar um campo harmonizado, na variável ![DataSearch](../assets/icons/
 
    1. Selecione um **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** ou **[!UICONTROL DateTime]**, quando Categoria selecionada for Dimension.
+      - **[!UICONTROL String]** ou **[!UICONTROL Date time]**, quando Categoria selecionada for Dimension.
       - **[!UICONTROL Number]** ou **[!UICONTROL Currency]** quando a Categoria selecionada é Métrica ou Derivada.
 
    1. Selecionar **[!UICONTROL Submit]** para adicionar o campo harmonizado. Selecionar **[!UICONTROL Close]** para fechar a caixa de diálogo sem adicionar o campo harmonizado.
