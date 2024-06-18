@@ -3,9 +3,9 @@ title: Comparar planos
 description: Saiba como comparar planos no Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
+source-git-commit: eb7e964b96c87e74809d1e6182e45351a71ed13c
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '134'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,15 @@ A interface Comparar planos mostra informações e widgets sobre:
 * Orçamento total
 * Orçamento de canal: **[!UICONTROL AI automated]** ou **[!UICONTROL Custom + AI]**
 * Gasto planejado
-* ROI previsto
-* Detalhamento do ROI
+* ROI (retorno do investimento) ou CPA (custo por ação) previstos
+* Detalhamento do ROI (retorno do investimento) ou da CPA (custo por ação)
 * Retorno previsto
+
+Em que:
+
+* O ROI é definido como (Receita incremental - Gasto) / Gasto.
+* CPA é definido como Gasto / Conversão incremental.
+
 
 ![Comparar planos](../assets/compare-plans.png)
 
