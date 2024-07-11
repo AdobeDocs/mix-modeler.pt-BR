@@ -3,7 +3,7 @@ title: Harmonizar dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 Os dados em Mix Modeler são de natureza diferente dependendo da fonte de dados. Os dados podem ser:
 
 * dados agregados ou resumidos, por exemplo, coletados de fontes de dados muradas ou dados de publicidade offline coletados (como gastos) da execução de uma campanha em outdoor, um evento ou uma campanha de publicidade física,
-* dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, ou por meio do SDK da Web ou móvel do Experience Platform ou da API de rede de borda, ou por dados assimilados usando conectores de origem.
+* dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, ou por meio do SDK da Web ou móvel do Experience Platform ou da API Edge Network, ou por dados assimilados usando conectores de origem.
 
 O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados, combinada com dados de fatores internos e externos, é a fonte dos modelos no Mix Modeler. O serviço usa a maior granularidade entre os diferentes conjuntos de dados. Por exemplo, se um conjunto de dados tiver uma granularidade de dados mensais e os conjuntos de dados restantes tiverem granularidade semanal e diária, o serviço de harmonização criará uma visualização de dados usando granularidade mensal.
 
@@ -116,17 +116,17 @@ Para criar um conjunto de dados harmonizado, como no [exemplo](#an-example-of-ha
 
 Para ver seus dados harmonizados, na interface do Mix Modeler:
 
-1. Selecionar ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** do painel esquerdo.
+1. Selecionar ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** do painel esquerdo.
 
 1. Selecionar **[!UICONTROL Harmonized Data]** na barra superior. Um resumo de seus dados harmonizados é mostrado com base nos campos, nas regras do conjunto de dados, nos pontos de contato de marketing e nas conversões definidos.
 
-   1. Para redefinir o período em que se baseia o resumo dos dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use ![Calendário](../assets/icons/Calendar.svg) para selecionar um intervalo de dados.
+   1. Para redefinir o período em que se baseia o resumo dos dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use ![Calendário](/help/assets//icons/Calendar.svg) para selecionar um intervalo de dados.
 
-   1. Para modificar as colunas de campo harmonizado exibidas para a tabela de dados Harmonizada, use ![Configurações](../assets/icons/Setting.svg) para abrir o **[!UICONTROL Column settings]** diálogo.
+   1. Para modificar as colunas de campo harmonizado exibidas para a tabela de dados Harmonizada, use ![Configurações](/help/assets//icons/Setting.svg) para abrir o **[!UICONTROL Column settings]** diálogo.
 
-      1. Selecionar ![SelectBox](../assets/icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL AVAILABLE COLUMNS]** e usar ![Divisa direita](../assets/icons/ChevronRight.svg) para adicionar essas colunas a **[!UICONTROL SELECTED COLUMNS]**.
+      1. Selecionar ![SelectBox](/help/assets//icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL AVAILABLE COLUMNS]** e usar ![Divisa direita](/help/assets//icons/ChevronRight.svg) para adicionar essas colunas a **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Selecionar ![SelectBox](../assets/icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL SELECTED COLUMNS]** e usar ![Divisa esquerda](../assets/icons/ChevronLeft.svg) para remover as colunas selecionadas e retornar essas colunas de volta para **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Selecionar ![SelectBox](/help/assets//icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL SELECTED COLUMNS]** e usar ![Divisa esquerda](/help/assets//icons/ChevronLeft.svg) para remover as colunas selecionadas e retornar essas colunas de volta para **[!UICONTROL AVAILABLE COLUMNS]**.
 
       1. Selecione uma coluna de **[!UICONTROL DEFAULT SORT]** e alternar entre **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
 
@@ -134,4 +134,4 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
 
    1. Selecionar **[!UICONTROL Submit]** para enviar suas alterações de configuração de coluna. Selecionar **[!UICONTROL Close]** para cancelar quaisquer alterações feitas.
 
-1. Se mais páginas estiverem disponíveis, use ![Seta à esquerda](../assets/icons/ChevronLeft.svg) ou ![Seta para a direita](../assets/icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para mover entre páginas.
+1. Se mais páginas estiverem disponíveis, use ![Seta à esquerda](/help/assets//icons/ChevronLeft.svg) ou ![Seta para a direita](/help/assets//icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para mover entre páginas.

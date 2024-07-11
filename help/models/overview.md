@@ -3,7 +3,7 @@ title: Modelos
 description: Saiba como configurar e usar modelos no Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Para criar um modelo, use o fluxo de configuração do modelo guiado passo a pas
 
 Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
 
-1. Selecionar ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
+1. Selecionar ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
 
 1. Você verá uma tabela dos modelos atuais.
 
@@ -58,14 +58,14 @@ Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
 
    {style="table-layout:auto"}
 
-1. Para alterar as colunas exibidas para a lista, selecione ![Configurações de coluna](../assets/icons/ColumnSetting.svg) e ativar colunas ![Marcar](../assets/icons/Checkmark.svg) ou desativado.
+1. Para alterar as colunas exibidas para a lista, selecione ![Configurações de coluna](/help/assets//icons/ColumnSetting.svg) e ativar colunas ![Marcar](/help/assets//icons/Checkmark.svg) ou desativado.
 
 
 ### Exibir detalhes de um modelo
 
 Para exibir mais detalhes de um modelo:
 
-1. Selecionar ![Informações](../assets/icons/Info.svg) para um modelo mostrar um pop-up com detalhes.
+1. Selecionar ![Informações](/help/assets//icons/Info.svg) para um modelo mostrar um pop-up com detalhes.
 
 
 
@@ -73,7 +73,7 @@ Para exibir mais detalhes de um modelo:
 
 Para exibir insights de um modelo, na interface do Mix Modeler:
 
-1. Selecionar ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
+1. Selecionar ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
 
 1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela. Os insights do modelo só estão disponíveis em modelos treinados com êxito.
 
@@ -85,7 +85,7 @@ Para exibir insights de um modelo, na interface do Mix Modeler:
 
 Para pontuar novamente um modelo, na interface do Mix Modeler:
 
-1. Selecionar ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
+1. Selecionar ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
 
 1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela. A re-pontuação só está disponível em modelos treinados com sucesso.
 

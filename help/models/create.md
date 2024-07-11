@@ -3,7 +3,7 @@ title: Criar um modelo
 description: Saiba como criar um modelo no Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Criar um modelo
 
-Para criar um modelo, na variável ![Modelos](../assets/icons/FileData.svg) **[!UICONTROL Models]** no Mix Modeler, selecione **[!UICONTROL Open model canvas]**.
+Para criar um modelo, na variável ![Modelos](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** no Mix Modeler, selecione **[!UICONTROL Open model canvas]**.
 
 Para criar modelos alimentados por IA personalizada, a interface fornece um fluxo de configuração de modelo guiado passo a passo.
 
@@ -20,7 +20,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
    1. Insira seu modelo **[!UICONTROL Name]**, por exemplo `Demo model`. Insira um **[!UICONTROL Description]**, por exemplo `Demo model to explore AI featues of Mix Modeler`.
 
-      ![Nome e descrição do modelo](../assets/model-name-description.png)
+      ![Nome e descrição do modelo](/help/assets//model-name-description.png)
 
    1. Selecionar **[!UICONTROL Next]** para prosseguir para a próxima etapa. Selecionar **[!UICONTROL Cancel]** para cancelar a configuração do modelo.
 
@@ -32,9 +32,9 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       1. Selecione uma conversão de **[!UICONTROL *Selecionar campo harmonizado *]**, contendo as conversões disponíveis que você definiu como parte de [Conversões](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. Por exemplo,**[!UICONTROL Online Conversion]**.
 
-      1. É possível selecionar ![Responder](../assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** para criar uma conversão diretamente da configuração do modelo.
+      1. É possível selecionar ![Responder](/help/assets//icons/Reply.svg) **[!UICONTROL Create new conversion]** para criar uma conversão diretamente da configuração do modelo.
 
-         ![Modelo - etapa de conversão](../assets/model-conversion-step.png)
+         ![Modelo - etapa de conversão](/help/assets//model-conversion-step.png)
 
    1. No **[!UICONTROL Marketing touchpoints]** , você verá vários contêineres de ponto de contato de marketing, correspondentes aos pontos de contato de marketing definidos como parte de [Pontos de contato de marketing](../harmonize-data/marketing-touchpoints.md) in [!UICONTROL Harmonized datasets].
 
@@ -44,13 +44,13 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
          1. Selecionar um ponto de contato de marketing em **[!UICONTROL _Selecionar ponto de contato de marketing_]**.
 
-         1. É possível selecionar ![Responder](../assets/icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** para criar um ponto de contato de marketing diretamente da configuração do modelo.
+         1. É possível selecionar ![Responder](/help/assets//icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** para criar um ponto de contato de marketing diretamente da configuração do modelo.
 
-      * Para adicionar um contêiner de ponto de contato de marketing, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
+      * Para adicionar um contêiner de ponto de contato de marketing, selecione ![Adicionar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * Para remover um container de ponto de contato de marketing, no container, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove container]** no menu de contexto.
+      * Para remover um container de ponto de contato de marketing, no container, selecione ![Mais](/help/assets//icons/More.svg)e selecione **[!UICONTROL Remove container]** no menu de contexto.
 
-        ![Modelo - etapa de pontos de contato de marketing](../assets/model-marketing-touchpoint-step.png)
+        ![Modelo - etapa de pontos de contato de marketing](/help/assets//model-marketing-touchpoint-step.png)
 
    1. Por padrão, uma pontuação é gerada para todos os dados na visualização harmonizada. Para pontuar apenas um subconjunto do público, defina um ou mais filtros usando contêineres no **[!UICONTROL Eligible data population]** seção.
 
@@ -64,17 +64,17 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
             1. Insira ou selecione um valor em **[!UICONTROL _Inserir ou selecionar valor_]**.
 
-         1. Para adicionar outro evento ao container, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+         1. Para adicionar outro evento ao container, selecione ![Adicionar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-         1. Para remover um evento do container, selecione ![Fechar](../assets/icons/Close.svg).
+         1. Para remover um evento do container, selecione ![Fechar](/help/assets//icons/Close.svg).
 
          1. Para filtrar usando todos ou alguns dos vários eventos definidos no container, selecione **[!UICONTROL Any of]** ou **[!UICONTROL All of]**. O rótulo muda de **[!UICONTROL Include ... Or ...]** para **[!UICONTROL Include ... And ...]**.
 
-      * Para adicionar um container de preenchimento de dados elegível, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+      * Para adicionar um container de preenchimento de dados elegível, selecione ![Adicionar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * Para remover um container de preenchimento de dados elegível, no container, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove marketing touchpoint]** no menu de contexto.
+      * Para remover um container de preenchimento de dados elegível, no container, selecione ![Mais](/help/assets//icons/More.svg)e selecione **[!UICONTROL Remove marketing touchpoint]** no menu de contexto.
 
-        ![Modelo - População de dados elegível](../assets/model-eligible-data-population-step.png)
+        ![Modelo - População de dados elegível](/help/assets//model-eligible-data-population-step.png)
 
    1. Para adicionar conjuntos de dados contendo fatores externos ao modelo, use um ou mais contêineres no **[!UICONTROL External factors dataset]** seção.
 
@@ -82,13 +82,13 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
          1. Insira um **[!UICONTROL Factor name]** em **[!UICONTROL _Inserir fator_]**.
 
-         1. Selecionar um conjunto de dados de **[!UICONTROL _Selecionar um conjunto de dados_]**. É possível selecionar ![Dados](../assets/icons/Data.svg) para gerenciar conjuntos de dados. Consulte [Conjuntos de dados](../ingest-data/datasets.md) para obter mais informações.
+         1. Selecionar um conjunto de dados de **[!UICONTROL _Selecionar um conjunto de dados_]**. É possível selecionar ![Dados](/help/assets//icons/Data.svg) para gerenciar conjuntos de dados. Consulte [Conjuntos de dados](../ingest-data/datasets.md) para obter mais informações.
 
-      * Para adicionar outro container do conjunto de dados de fatores externos, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
+      * Para adicionar outro container do conjunto de dados de fatores externos, selecione ![Adicionar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * Para remover um contêiner de conjunto de dados de fatores externos, no contêiner, selecione ![Mais](../assets/icons/More.svg)e selecione **[!UICONTROL Remove external factor]** no menu de contexto.
+      * Para remover um contêiner de conjunto de dados de fatores externos, no contêiner, selecione ![Mais](/help/assets//icons/More.svg)e selecione **[!UICONTROL Remove external factor]** no menu de contexto.
 
-        ![Modelo - Conjunto de dados de fatores externos](../assets/model-external-factors-dataset-step.png)
+        ![Modelo - Conjunto de dados de fatores externos](/help/assets//model-external-factors-dataset-step.png)
 
 
    1. Para adicionar conjuntos de dados contendo fatores internos ao modelo, use um ou mais contêineres no **[!UICONTROL Internal factors dataset]** seção.
@@ -97,13 +97,13 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
          1. Insira um **[!UICONTROL Factor name]** em **[!UICONTROL _Inserir fator_]**.
 
-         1. Selecionar um conjunto de dados de **[!UICONTROL _Selecionar um conjunto de dados_]**. É possível selecionar ![Dados](../assets/icons/Data.svg) para gerenciar conjuntos de dados. Consulte [Conjuntos de dados](../ingest-data/datasets.md) para obter mais informações.
+         1. Selecionar um conjunto de dados de **[!UICONTROL _Selecionar um conjunto de dados_]**. É possível selecionar ![Dados](/help/assets//icons/Data.svg) para gerenciar conjuntos de dados. Consulte [Conjuntos de dados](../ingest-data/datasets.md) para obter mais informações.
 
-      * Para adicionar outro contêiner do conjunto de dados de fatores internos, selecione ![Adicionar](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
+      * Para adicionar outro contêiner do conjunto de dados de fatores internos, selecione ![Adicionar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * Para remover um container adicional do conjunto de dados de fatores internos, no container, selecione ![Mais](../assets/icons/More.svg), e **[!UICONTROL Remove internal factor]** no menu de contexto.
+      * Para remover um container adicional do conjunto de dados de fatores internos, no container, selecione ![Mais](/help/assets//icons/More.svg), e **[!UICONTROL Remove internal factor]** no menu de contexto.
 
-        ![Modelo - Conjunto de dados de fatores internos](../assets/model-internal-factors-dataset-step.png)
+        ![Modelo - Conjunto de dados de fatores internos](/help/assets//model-internal-factors-dataset-step.png)
 
    1. Para definir a janela de retrospectiva do modelo, insira um valor entre `1` e `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** .. **[!UICONTROL weeks prior to the conversion]**.
 
@@ -117,7 +117,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       * **[!UICONTROL Manually input a training window]**. Quando selecionado, define o número de anos em **[!UICONTROL Include events the following years prior to a conversion]**.
 
-        ![Modelo - Definir janela de treinamento](../assets/model-define-training-window.png)
+        ![Modelo - Definir janela de treinamento](/help/assets//model-define-training-window.png)
 
    1. No **[!UICONTROL Spend share]** seção:
 
@@ -133,7 +133,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
       1. Quando necessário, use **[!UICONTROL Clear all]** para apagar todos os valores de entrada para o **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]** colunas.
 
-         ![Modelo - Conhecimento prévio](../assets/model-prior-knowledge-step.png)
+         ![Modelo - Conhecimento prévio](/help/assets//model-prior-knowledge-step.png)
 
 1. Selecionar **[!UICONTROL Finish]** para concluir a configuração do modelo.
 
