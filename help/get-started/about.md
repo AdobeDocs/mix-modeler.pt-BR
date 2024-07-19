@@ -44,7 +44,7 @@ O Mix Modeler oferece os seguintes recursos:
 
 | Recurso | Descrição |
 |---|---|
-| **Meça o desempenho incremental** | Entenda o ROI incremental e o impacto do marketing em todas as metas comerciais ou metas táticas de campanha. |
+| **Medir desempenho incremental** | Entenda o ROI incremental e o impacto do marketing em todas as metas comerciais ou metas táticas de campanha. |
 | **Unificar resultados no MMM e MTA** | Tome decisões mais confiantes por meio da unificação dos modelos de modelagem de mix de marketing (MMM) e atribuição de multitoque (MTA) por meio do aprendizado de transferência. |
 | **Alocar orçamentos de maneira ideal** | Identifique a alocação de orçamento ideal com base nos gastos com marketing e no impacto nas metas. |
 | **Criar e comparar cenários de orçamento** | Desenvolva vários planos de orçamento e compare seu impacto para tomar decisões ideais para sua empresa. |
@@ -93,6 +93,6 @@ Você pode usar o recurso de atribuição multitoque do Mix Modeler nos seguinte
 * Atribuição de nível de evento de funil completo: entenda o impacto do marketing na jornada do cliente inteiro. Por exemplo, assinatura de conta gratuita para conversão paga e muito além.
 * Avaliações de parceiros: avalie a eficácia de agências e parceiros com base nos resultados da atribuição.
 
-Consulte [Informações do modelo - Atribuição](../models/insights.md#attribution) sobre como acessar os insights de atribuição multitoque no Mix Modeler.
+Consulte [Informações do modelo - Atribuição](../models/insights.md#attribution) sobre como acessar os insights de atribuição de multitoque no Mix Modeler.
 
 

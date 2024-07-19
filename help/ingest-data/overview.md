@@ -19,7 +19,7 @@ Os clientes podem usar qualquer tipo de dados assimilados no Experience Platform
 Por exemplo:
 
 * dados coletados usando o conector de origem do Adobe Analytics e transformados em conjuntos de dados em conformidade com a versão padrão ou personalizada do esquema do Adobe Analytics ou, como alternativa,
-* dados coletados usando o SDK da Web do Experience Platform, o SDK móvel ou a API do servidor da rede de borda para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo,
+* dados coletados usando o SDK da Web do Experience Platform, o SDK móvel ou a API do servidor do Edge Network para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo,
 * dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline,
 * dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a construção de modelos.
 

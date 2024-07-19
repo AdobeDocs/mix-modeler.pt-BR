@@ -16,9 +16,9 @@ Para gerenciar conjuntos de dados que contenham os dados que você deseja assimi
 
 1. Vá para a interface do Mix Modeler.
 
-1. Selecionar ![Dados](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**, abaixo **[!UICONTROL SETUP]**.
+1. Selecione ![Dados](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**, abaixo de **[!UICONTROL SETUP]**.
 
-Consulte a [Guia da interface do usuário de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) para obter mais informações.
+Consulte o [guia da interface do usuário de conjuntos de dados](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) para obter mais informações.
 
 >[!MORELIKETHIS]
 >

@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Para comparar planos na interface Planos de Mix Modeler:
 
-* Selecionar ![Comparar](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. Em Comparar planos, selecione um plano para cada **[!UICONTROL _Selecionar plano_]**.
+* Selecione ![Comparar](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. Em Comparar planos, selecione um plano para cada **[!UICONTROL _Selecionar plano_]**.
 
 * Como alternativa, você pode selecionar dois planos na tabela Planos e, na barra de ações, selecionar ![Comparar](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
 
@@ -24,7 +24,7 @@ A interface Comparar planos mostra informações e widgets sobre:
 * Intervalo de data
 * Modelo
 * Orçamento total
-* Orçamento de canal: **[!UICONTROL AI automated]** ou **[!UICONTROL Custom + AI]**
+* Orçamento do canal: **[!UICONTROL AI automated]** ou **[!UICONTROL Custom + AI]**
 * Gasto planejado
 * ROI (retorno do investimento) ou CPA (custo por ação) previstos
 * Detalhamento do ROI (retorno do investimento) ou da CPA (custo por ação)
@@ -40,4 +40,4 @@ Em que:
 
 Você pode passar o mouse sobre elementos de gráficos individuais em cada widget para ver um popover com mais detalhes.
 
-Selecionar **[!UICONTROL Close]** para retornar à visão geral Planos.
+Selecione **[!UICONTROL Close]** para retornar à visão geral dos Planos.

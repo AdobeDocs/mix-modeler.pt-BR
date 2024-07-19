@@ -35,13 +35,13 @@ Um modelo pode incluir opcionalmente:
 
 ## Criar um modelo
 
-Para criar um modelo, use o fluxo de configuração do modelo guiado passo a passo do Mix Modeler disponível ao selecionar **[!UICONTROL Open model canvas]**. Consulte [Criar um modelo](create.md) para obter mais detalhes.
+Para criar um modelo, use o fluxo de configuração de modelo guiado passo a passo do Mix Modeler disponível ao selecionar **[!UICONTROL Open model canvas]**. Consulte [Criar um modelo](create.md) para obter mais detalhes.
 
 ## Gerenciar modelos
 
 Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
 
-1. Selecionar ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
+1. Selecione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
 
 1. Você verá uma tabela dos modelos atuais.
 
@@ -54,18 +54,18 @@ Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
    | Evento de conversão | A conversão selecionada para o modelo. |
    | Frequência de execução | A frequência de execução do treinamento do modelo. |
    | Última execução | A data e hora do último treinamento do modelo. |
-   | Status | O status da última execução do treinamento do modelo. <br/><span style="color:green">●</span> Sucesso<br/><span style="color:orange">●</span> Problema de treinamento<br/> <span style="color:orange">●</span> Aguardando treinamento <br/><span style="color:red">●</span> Failed <br/><span style="color:gray">●</span> _ (quando uma última execução está em andamento) |
+   | Status | O status da última execução do treinamento do modelo. <br/><span style="color:green"> ●</span> Sucesso<br/><span style="color:orange"> ●</span> Problema de treinamento<br/> <span style="color:orange"> ●</span> Aguardando treinamento <br/><span style="color:red"> ●</span> Falha <br/><span style="color:gray"> ●</span> _ (quando uma última execução está em andamento) |
 
    {style="table-layout:auto"}
 
-1. Para alterar as colunas exibidas para a lista, selecione ![Configurações de coluna](/help/assets//icons/ColumnSetting.svg) e ativar colunas ![Marcar](/help/assets//icons/Checkmark.svg) ou desativado.
+1. Para alterar as colunas exibidas para a lista, selecione ![Configurações de coluna](/help/assets//icons/ColumnSetting.svg) e alterne as colunas em ![Verificar](/help/assets//icons/Checkmark.svg) ou desativar.
 
 
 ### Exibir detalhes de um modelo
 
 Para exibir mais detalhes de um modelo:
 
-1. Selecionar ![Informações](/help/assets//icons/Info.svg) para um modelo mostrar um pop-up com detalhes.
+1. Selecione ![Informações](/help/assets//icons/Info.svg) para que um modelo mostre um pop-up com detalhes.
 
 
 
@@ -73,11 +73,11 @@ Para exibir mais detalhes de um modelo:
 
 Para exibir insights de um modelo, na interface do Mix Modeler:
 
-1. Selecionar ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
+1. Selecione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
 
-1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela. Os insights do modelo só estão disponíveis em modelos treinados com êxito.
+1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green"> ●</span> **[!UICONTROL Success]** da tabela **[!UICONTROL Models]**. Os insights do modelo só estão disponíveis em modelos treinados com êxito.
 
-1. No menu de contexto, selecione **[!UICONTROL Model Insights]**. Você será redirecionado para [Informações do modelo](insights.md).
+1. No menu de contexto, selecione **[!UICONTROL Model Insights]**. Você foi redirecionado para [Informações sobre Modelos](insights.md).
 
 
 ### Re-pontuação
@@ -85,9 +85,9 @@ Para exibir insights de um modelo, na interface do Mix Modeler:
 
 Para pontuar novamente um modelo, na interface do Mix Modeler:
 
-1. Selecionar ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** do painel esquerdo.
+1. Selecione ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
 
-1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]** do **[!UICONTROL Models]** tabela. A re-pontuação só está disponível em modelos treinados com sucesso.
+1. Selecione o nome de um modelo com um **[!UICONTROL Last run status]** de <span style="color:green"> ●</span> **[!UICONTROL Success]** da tabela **[!UICONTROL Models]**. A re-pontuação só está disponível em modelos treinados com sucesso.
 
 1. No menu de contexto, selecione **[!UICONTROL Re-score]**. Pode levar alguns minutos para mostrar um status atualizado do modelo.
 

@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Para ver um relatório de uso dos dados harmonizados:
 
-1. Selecionar ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** do painel esquerdo.
+1. Selecione ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** no painel esquerdo.
 
-1. Selecionar **[!UICONTROL Usage report]** na barra superior.
+1. Selecione **[!UICONTROL Usage report]** na barra superior.
 
 O relatório de uso mostra:
 
-* uma tabela listando os **[!UICONTROL # of Models]** que utilizaram dados harmonizados.
+* uma tabela listando os **[!UICONTROL # of Models]** que usaram dados harmonizados.
 
-* uma tabela listando os **[!UICONTROL # of Conversions (last 5 years)]** que utilizaram os dados harmonizados. Para selecionar a granularidade da tabela, selecione **[!UICONTROL Year]** ou **[!UICONTROL Month]** do **[!UICONTROL View by selection]**.
+* uma tabela listando o **[!UICONTROL # of Conversions (last 5 years)]** que usou os dados harmonizados. Para selecionar a granularidade da tabela, selecione **[!UICONTROL Year]** ou **[!UICONTROL Month]** em **[!UICONTROL View by selection]**.

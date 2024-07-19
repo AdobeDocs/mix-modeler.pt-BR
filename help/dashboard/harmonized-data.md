@@ -20,15 +20,15 @@ Para alterar o período de datas dos dados a serem exibidos nos widgets, insira 
 
 ## Filtros de dados
 
-Você pode filtrar os dados exibidos para todos os widgets usando o ![Filtro](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]** painel.
+Você pode filtrar os dados exibidos para todos os widgets usando o painel ![Filtro](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]**.
 
-Selecione um ou mais filtros para cada categoria (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**, e **[!UICONTROL Traffic Source]**).
+Selecione um ou mais filtros para cada categoria (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** e **[!UICONTROL Traffic Source]**).
 
 Os filtros selecionados são exibidos na parte superior dos widgets em **[!UICONTROL FILTERING BY:]**.
 
 1. Para remover um filtro individual, selecione ![Fechar](/help/assets//icons/Close.svg) no filtro, listado em **[!UICONTROL FILTERING BY:]**.
 
-1. É possível limpar rapidamente todos os filtros usando **[!UICONTROL Clear All]**.
+1. Você pode limpar rapidamente todos os filtros usando o **[!UICONTROL Clear All]**.
 
 ![Visão geral dos dados harmonizados](/help/assets//harmonized-data-overview.png)
 
@@ -39,31 +39,31 @@ Você pode configurar cada widget.
 
 * No widget de cartão de status KPI:
 
-   1. Selecionar ![Editar](/help/assets//icons/Edit.svg) e ![Editar](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** no menu de contexto.
+   1. Selecione ![Editar](/help/assets//icons/Edit.svg) e ![Editar](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** no menu de contexto.
 
-   1. No **[!UICONTROL KPI status card]** diálogo:
+   1. No diálogo **[!UICONTROL KPI status card]**:
 
-      1. Selecione um **[!UICONTROL KPI]** da lista.
+      1. Selecione um **[!UICONTROL KPI]** na lista.
 
-      1. Selecionar **[!UICONTROL Apply]** para aplicar a alteração ao cartão. Selecionar **[!UICONTROL Cancel]** para cancelar a alteração.
+      1. Selecione **[!UICONTROL Apply]** para aplicar a alteração ao cartão. Selecione **[!UICONTROL Cancel]** para cancelar a alteração.
 
 * Nos outros widgets configuráveis:
 
-   1. Selecionar ![Editar](/help/assets//icons/Edit.svg) e ![Editar](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** no menu de contexto.
+   1. Selecione ![Editar](/help/assets//icons/Edit.svg) e ![Editar](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** no menu de contexto.
 
-   1. No **[!UICONTROL Edit Data]** diálogo:
+   1. No diálogo **[!UICONTROL Edit Data]**:
 
-      1. Selecione uma métrica em **[!UICONTROL Select a metric]**, por exemplo **[!UICONTROL Impressions]**.
-      1. Selecionar uma categoria de **[!UICONTROL Select category]**, por exemplo **[!UICONTROL Media types]**.
-      1. (opcional) selecione uma segunda categoria em **[!UICONTROL Select second category (optional)]**, por exemplo **[!UICONTROL Traffic sources]**.
-      1. Selecionar ![Relógio](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** ou ![Calculadora](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]** como o tipo de análise em **[!UICONTROL Select analysis type]**.
+      1. Selecione uma métrica de **[!UICONTROL Select a metric]**, por exemplo **[!UICONTROL Impressions]**.
+      1. Selecione uma categoria de **[!UICONTROL Select category]**, por exemplo **[!UICONTROL Media types]**.
+      1. (opcional) selecione uma segunda categoria de **[!UICONTROL Select second category (optional)]**, por exemplo **[!UICONTROL Traffic sources]**.
+      1. Selecione ![Relógio](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** ou ![Calculadora](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]** como o tipo de análise em **[!UICONTROL Select analysis type]**.
 
-         Se você selecionar ![Relógio](/help/assets//icons/Clock.svg) **[!UICONTROL Time]**, você pode especificar a frequência de tempo. Selecionar **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Quarterly]** de **[!UICONTROL Select time frequency]**.
+         Se você selecionar ![Relógio](/help/assets//icons/Clock.svg) **[!UICONTROL Time]**, será possível especificar a frequência de tempo. Selecione **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Quarterly]** de **[!UICONTROL Select time frequency]**.
 
-         Você verá uma visualização atualizada da seleção atual na [!UICONTROL Preview Area] e o widget abaixo dele [!UICONTROL Current].
+         Você pode ver uma visualização atualizada da seleção atual no [!UICONTROL Preview Area] e do widget abaixo de [!UICONTROL Current].
 
-         ![Editar widget de dados harmonizado](/help/assets//edit-harmonized-data-widget.png)
+         ![Editar widget de dados harmonizados](/help/assets//edit-harmonized-data-widget.png)
 
          Se não for possível renderizar a visualização porque os dados não estão disponíveis, você verá ![Erro de dados](/help/assets//icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
 
-      1. Selecionar **[!UICONTROL Apply]** para aplicar as alterações ao widget. Selecionar **[!UICONTROL Cancel]** para cancelar quaisquer alterações feitas no widget atual.
+      1. Selecione **[!UICONTROL Apply]** para aplicar as alterações ao widget. Selecione **[!UICONTROL Cancel]** para cancelar quaisquer alterações feitas no widget atual.

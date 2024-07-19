@@ -15,7 +15,7 @@ ht-degree: 1%
 
 O painel de visão geral no Mix Modeler permite que você tenha uma visão geral dos seus dados harmonizados e dos seus planos por meio de vários widgets configuráveis.
 
-Para acessar a visão geral, selecione ![Início](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** no painel esquerdo na interface do Mix Modeler.
+Para acessar a visão geral, selecione ![Página inicial](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** no painel esquerdo da interface do Mix Modeler.
 
 Aqui você poderá obter mais detalhes sobre:
 

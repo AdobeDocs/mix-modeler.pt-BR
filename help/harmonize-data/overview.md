@@ -104,34 +104,34 @@ Você deseja criar um conjunto de dados harmonizado, com uma granularidade defin
 
 ## Configurar dados harmonizados
 
-Para criar um conjunto de dados harmonizado, como no [exemplo](#an-example-of-harmonized-data), você deve seguir estas etapas:
+Para criar um conjunto de dados harmonizado, como no [exemplo](#an-example-of-harmonized-data) simplificado, siga estas etapas:
 
-1. Definir adicional [campos harmonizados](fields.md) que você deseja usar além dos campos harmonizados globais já disponíveis.
-1. Configurar [regras do conjunto de dados](dataset-rules.md) para mapear campos de seus conjuntos de dados de evento de agregação ou experiência para campos harmonizados.
-1. Definir [pontos de contato de marketing](marketing-touchpoints.md) usando os campos harmonizados padrão e adicionais definidos.
-1. Definir [conversões](conversions.md) usando os campos harmonizados padrão e adicionais definidos.
+1. Defina [campos harmonizados](fields.md) adicionais que você deseja usar além dos campos harmonizados globais já disponíveis.
+1. Configure [regras do conjunto de dados](dataset-rules.md) para mapear campos de seus conjuntos de dados de evento de agregação ou experiência para campos harmonizados.
+1. Defina [pontos de contato de marketing](marketing-touchpoints.md) usando os campos harmonizados padrão e adicionais que você definiu.
+1. Defina [conversões](conversions.md) usando os campos harmonizados padrão e adicionais que você definiu.
 
 
 ## Exibir dados harmonizados
 
 Para ver seus dados harmonizados, na interface do Mix Modeler:
 
-1. Selecionar ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** do painel esquerdo.
+1. Selecione ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** no painel esquerdo.
 
-1. Selecionar **[!UICONTROL Harmonized Data]** na barra superior. Um resumo de seus dados harmonizados é mostrado com base nos campos, nas regras do conjunto de dados, nos pontos de contato de marketing e nas conversões definidos.
+1. Selecione **[!UICONTROL Harmonized Data]** na barra superior. Um resumo de seus dados harmonizados é mostrado com base nos campos, nas regras do conjunto de dados, nos pontos de contato de marketing e nas conversões definidos.
 
-   1. Para redefinir o período em que se baseia o resumo dos dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use ![Calendário](/help/assets//icons/Calendar.svg) para selecionar um intervalo de dados.
+   1. Para redefinir o período no qual se baseia a recapitulação de dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use o ![Calendário](/help/assets//icons/Calendar.svg) para selecionar um intervalo de dados.
 
-   1. Para modificar as colunas de campo harmonizado exibidas para a tabela de dados Harmonizada, use ![Configurações](/help/assets//icons/Setting.svg) para abrir o **[!UICONTROL Column settings]** diálogo.
+   1. Para modificar as colunas de campo harmonizado exibidas para a tabela de dados Harmonizada, use ![Configurações](/help/assets//icons/Setting.svg) para abrir a caixa de diálogo **[!UICONTROL Column settings]**.
 
-      1. Selecionar ![SelectBox](/help/assets//icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL AVAILABLE COLUMNS]** e usar ![Divisa direita](/help/assets//icons/ChevronRight.svg) para adicionar essas colunas a **[!UICONTROL SELECTED COLUMNS]**.
+      1. Selecione ![SelectBox](/help/assets//icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL AVAILABLE COLUMNS]** e use ![Divisa direita](/help/assets//icons/ChevronRight.svg) para adicionar essas colunas a **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Selecionar ![SelectBox](/help/assets//icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL SELECTED COLUMNS]** e usar ![Divisa esquerda](/help/assets//icons/ChevronLeft.svg) para remover as colunas selecionadas e retornar essas colunas de volta para **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Selecione ![SelectBox](/help/assets//icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL SELECTED COLUMNS]** e use ![Divisa à esquerda](/help/assets//icons/ChevronLeft.svg) para remover as colunas selecionadas e retornar essas colunas de volta para **[!UICONTROL AVAILABLE COLUMNS]**.
 
-      1. Selecione uma coluna de **[!UICONTROL DEFAULT SORT]** e alternar entre **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
+      1. Selecione uma coluna de **[!UICONTROL DEFAULT SORT]** e alterne entre **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
 
-      1. Para alterar a ordem das colunas exibidas, é possível mover uma coluna em **[!UICONTROL SELECTED COLUMNS]** para cima e para baixo por meio de arrastar e soltar .
+      1. Para alterar a ordem das colunas exibidas, você pode mover uma coluna em **[!UICONTROL SELECTED COLUMNS]** para cima e para baixo por meio da ação de arrastar e soltar.
 
-   1. Selecionar **[!UICONTROL Submit]** para enviar suas alterações de configuração de coluna. Selecionar **[!UICONTROL Close]** para cancelar quaisquer alterações feitas.
+   1. Selecione **[!UICONTROL Submit]** para enviar suas alterações de configuração de coluna. Selecione **[!UICONTROL Close]** para cancelar as alterações feitas.
 
-1. Se mais páginas estiverem disponíveis, use ![Seta à esquerda](/help/assets//icons/ChevronLeft.svg) ou ![Seta para a direita](/help/assets//icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para mover entre páginas.
+1. Se mais páginas estiverem disponíveis, use a ![Seta para a esquerda](/help/assets//icons/ChevronLeft.svg) ou a ![Seta para a direita](/help/assets//icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para se mover entre as páginas.

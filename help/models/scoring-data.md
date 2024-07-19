@@ -26,7 +26,7 @@ O esquema inclui um grupo de campos com um objeto que contém detalhes sobre as 
 | Nome do campo | Tipo | Definição |
 |---|---|---|
 | **campaignGroup** | String | Nome do grupo de campanhas. |
-| **campaignName** | String | Nome da campanha. |
+| **nomedacampanha** | String | Nome da campanha. |
 | **contribuição** | Duplo | Contribuição atribuída a essa conversão para o ponto de contato especificado. |
 | **conversionEndDate** | Data | Data final da janela de conversão. |
 | **conversionName** | String | Nome da conversão criada durante a etapa de configuração da definição de conversão. |
@@ -36,8 +36,8 @@ O esquema inclui um grupo de campos com um objeto que contém detalhes sobre as 
 | **mediaSubChannel** | String | Nome do subcanal. |
 | **receita** | Duplo | Receita atribuída a esta conversão para o ponto de contato especificado. |
 | **scoreCreatedTime** | DateTime | Hora em que este registro de pontuação é criado. |
-| **touchpointEndDate** | Data | Data final da janela do ponto de contato. |
-| **touchpointName** | String | Nome do ponto de contato criado durante a etapa de configuração de definição do ponto de contato. Atualmente, o ponto de contato é definido no canal de mídia. |
-| **touchpointStartDate** | Data | Data de início da janela do ponto de contato. |
+| **DataFinalDoPontoDeContato** | Data | Data final da janela do ponto de contato. |
+| **nomeDoPontoDeContato** | String | Nome do ponto de contato criado durante a etapa de configuração de definição do ponto de contato. Atualmente, o ponto de contato é definido no canal de mídia. |
+| **DatadeIníciodoPontoDeContato** | Data | Data de início da janela do ponto de contato. |
 
 Consulte [Esquemas](../ingest-data/schemas.md) para obter mais informações.

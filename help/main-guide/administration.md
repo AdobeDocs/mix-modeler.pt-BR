@@ -18,17 +18,17 @@ Para que o Mix Modeler funcione corretamente, é necessário definir as permiss�
 
 Na interface do Adobe Experience Cloud:
 
-1. Selecionar **[!UICONTROL Permissions]** do painel esquerdo, abaixo **[!UICONTROL ADMINISTRATION]**.
+1. Selecione **[!UICONTROL Permissions]** no painel esquerdo, abaixo de **[!UICONTROL ADMINISTRATION]**.
 
-1. Selecionar ![Usuário](/help/assets/icons/User.svg) **[!UICONTROL Roles]** no painel esquerdo.
+1. Selecione ![Usuário](/help/assets/icons/User.svg) **[!UICONTROL Roles]** no painel esquerdo.
 
-1. Selecione uma função existente ou crie uma função usando **[!UICONTROL Create role]** (por exemplo, **Mix Modeler**). Se você selecionar uma função existente, selecione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** para editar as permissões da função. Consulte [Gerenciar Funções](https://helpx.adobe.com/br/enterprise/using/admin-console.html) para obter mais informações.
+1. Selecione uma função existente ou crie uma função usando **[!UICONTROL Create role]** (por exemplo, **Mix Modeler**). Se você selecionar uma função existente, selecione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** para editar as permissões da função. Consulte [Gerenciar funções](https://helpx.adobe.com/br/enterprise/using/admin-console.html) para obter mais informações.
 
 1. Verifique se você selecionou uma ou mais sandboxes para a função.
 
-1. Adicione o **Adobe Mix Modeler** para a lista de recursos da função.
+1. Adicione o recurso **Adobe Mix Modeler** à lista de recursos para a função.
 
-1. Certifique-se de selecionar o **[!UICONTROL Adobe Mix Modeler]** permissões para a função que você está configurando. Você pode selecionar uma ou mais das seguintes funções:
+1. Verifique se você selecionou as permissões **[!UICONTROL Adobe Mix Modeler]** corretas para a função que você está configurando. Você pode selecionar uma ou mais das seguintes funções:
 
    - **[!UICONTROL View Adobe Mix Modeler Harmonized Data]**
    - **[!UICONTROL Manage Adobe Mix Modeler Harmonized Data]**
@@ -37,7 +37,7 @@ Na interface do Adobe Experience Cloud:
    - **[!UICONTROL View Adobe Mix Modeler Plans Configuration]**
    - **[!UICONTROL Manage Adobe Mix Modeler Plans Configuration]**
 
-     ![MIX MODELER RBAC](/help/assets/mix-modeler-rbac.png)
+     ![Mix Modeler RBAC](/help/assets/mix-modeler-rbac.png)
 
 
 1. Certifique-se de selecionar permissões adicionais para a função. Por exemplo, para exibir ou gerenciar conjuntos de dados e esquemas, você selecionaria:
@@ -52,6 +52,6 @@ Na interface do Adobe Experience Cloud:
 
    <!--![Permissions](assets/permissions-including-privacy.png)-->
 
-   Selecionar **[!UICONTROL Save]** para salvar as permissões.
+   Selecione **[!UICONTROL Save]** para salvar as permissões.
 
-1. Entrada **[!UICONTROL Details]** no prazo de **[!UICONTROL Role]**, adicione o apropriado **[!UICONTROL Users]** ou **[!UICONTROL User groups]** para fornecer aos usuários acesso ao Mix Modeler.
+1. Em **[!UICONTROL Details]** dentro de **[!UICONTROL Role]**, adicione o **[!UICONTROL Users]** ou **[!UICONTROL User groups]** apropriado para fornecer aos usuários acesso ao Mix Modeler.

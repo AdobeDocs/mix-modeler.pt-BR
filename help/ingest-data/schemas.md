@@ -16,9 +16,9 @@ Para gerenciar esquemas, suportando os dados que você deseja assimilar no Exper
 
 1. Vá para a interface do Mix Modeler.
 
-1. Selecionar ![Esquemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, abaixo **[!UICONTROL SETUP]**.
+1. Selecione ![Esquemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, abaixo de **[!UICONTROL SETUP]**.
 
-Consulte a [Visão geral da interface de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obter mais informações.
+Consulte a [Visão geral da interface do usuário de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obter mais informações.
 
 ## Dados agregados ou resumidos
 
@@ -36,9 +36,9 @@ Use a classe Métricas de resumo XDM para:
 >
 >A definição do esquema deve conter pelo menos um campo numérico (usando Integer, Double, Boolean ou outro tipo numérico) para oferecer suporte às métricas necessárias para os dados assimilados.
 
-Um esquema usando o **[!DNL XDM Summary Metrics]** a classe base pode ser simples, como mostrado na **[!DNL ExternalFactorSummarySchema]** abaixo.
+Um esquema usando a classe base **[!DNL XDM Summary Metrics]** pode ser simples, como mostrado no **[!DNL ExternalFactorSummarySchema]** abaixo.
 
-![Esquema de fatores externos](/help/assets//external-factors-schema.png)
+![Esquema de Fatores Externos](/help/assets//external-factors-schema.png)
 
 Esse esquema simples pode ser usado para assimilar conjuntos de dados que contenham dados para, por exemplo:
 
@@ -63,7 +63,7 @@ Esse esquema simples pode ser usado para assimilar conjuntos de dados que conten
   | ... | ... | ... | ... |
 
 
-Veja abaixo um exemplo mais abrangente de **[!DNL LumaPaidMarketingSchema]** usando o **[!DNL XDM Summary Metrics]** como a classe base. O esquema usa grupos de campos dedicados (anotados com cores) para métricas (**[!DNL AMMMetrics]**), dimensões (**[!DNL AMMDimensions]**) e outras informações específicas do cliente (**[!DNL CustomerSpecific]**).
+Veja abaixo um exemplo mais abrangente de **[!DNL LumaPaidMarketingSchema]** usando **[!DNL XDM Summary Metrics]** como classe base. O esquema usa grupos de campos dedicados (anotados com cores) para métricas (**[!DNL AMMMetrics]**), dimensões (**[!DNL AMMDimensions]**) e outras informações específicas do cliente (**[!DNL CustomerSpecific]**).
 
 ![Esquema de resumo](/help/assets//summary-schema.png)
 
@@ -72,7 +72,7 @@ Dada a natureza assíncrona da assimilação de perfis, ao coletar dados agregad
 
 ## Tipos de dados compatíveis
 
-Atualmente, o Mix Modeler não suporta um subconjunto de tipos de dados Experience Platform. Os seguintes tipos de dados básicos (campos), mencionados em [Noções básicas da composição do esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), são compatíveis:
+Atualmente, o Mix Modeler não suporta um subconjunto de tipos de dados Experience Platform. Os seguintes tipos de dados básicos (campos), mencionados em [Noções básicas da composição de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), são suportados:
 
 - String
 - Integer

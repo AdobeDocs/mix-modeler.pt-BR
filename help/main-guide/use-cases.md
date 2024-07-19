@@ -34,7 +34,7 @@ A abordagem baseada em etapas para esse caso de uso é:
 
 | Etapa | Detalhes |
 |---|---|
-| Assimilar | Identificar e assimilar fontes de dados em esquemas comuns. <br/>Aplique os investimentos existentes no Adobe Analytics ou no Customer Journey Analytics para uma implantação de rastreamento rápido. |
+| Assimilar | Identificar e assimilar fontes de dados em esquemas comuns. <br/>Aplique investimentos existentes no Adobe Analytics ou no Customer Journey Analytics para uma implantação de rastreamento rápido. |
 | Configurar  | Configure modelos flexíveis usando uma estrutura IA como serviço para seus objetivos de negócios específicos<br/>Garanta automaticamente a consistência entre o ponto de contato e o nível de resumo com o aprendizado de transferência bidirecional. |
 | Analisar | Entenda claramente o ROI de canais/subcanais individuais e de marketing em geral.<br/>Entenda claramente quais pontos de contato são os que melhor geram conversões incrementais. |
 
@@ -73,7 +73,7 @@ A abordagem baseada em etapas para esse caso de uso é:
 
 | Etapa | Detalhes |
 |---|---|
-| Configurar  | Personalize facilmente os modelos de medição de acordo com seus objetivos comerciais.<br/>Defina parâmetros com apenas alguns cliques, sem a necessidade de codificação: por exemplo, canais, regiões geográficas, ciclos de vendas, defasagens, fatores de negócios internos e externos e muito mais. |
+| Configurar  | Personalize facilmente os modelos de medição de acordo com seus objetivos comerciais.<br/>Defina parâmetros com apenas alguns cliques, sem necessidade de codificação: por exemplo, canais, regiões geográficas, ciclos de vendas, defasagens, fatores comerciais internos e externos e muito mais. |
 | Treinamento | Treine os modelos de IA/ML configurados no para aprender o melhor ajuste nos dados de entrada, fornecendo os resultados mais precisos. |
 | Otimizar | Obtenha alocações de orçamento otimizadas automatizadas com base nas previsões do modelo.<br/>Desenvolva e compare vários cenários de orçamento com apenas alguns cliques, usando uma interface intuitiva. |
 
@@ -154,7 +154,7 @@ A abordagem baseada em etapas para esse caso de uso é:
 | Etapa | Detalhes |
 |---|---|
 | Modelo | Configure e treine um modelo de IA/ML para obter pontuações de ponto de contato de MTA consistentes e resultados agregados do MMM. |
-| Analisar | Exporte pontuações incrementais de pontos de contato para ferramentas Customer Journey Analytics ou BI externas.<br/>Realize análise granular e crie painéis avançados usando pontuações de ponto de contato. |
+| Analisar | Exporte pontuações incrementais de pontos de contato para ferramentas Customer Journey Analytics ou BI externas.<br/>Faça análise granular e crie painéis avançados usando pontuações de pontos de contato. |
 | Ação | Crie e ative semelhantes aos principais segmentos de consumidores usando o Real-time Customer Data Platform.<br/>Desenvolva estratégias de marketing orientadas por dados por segmentos de clientes para campanhas futuras. |
 
 {style="table-layout:auto"}

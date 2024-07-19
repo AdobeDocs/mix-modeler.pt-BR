@@ -17,12 +17,12 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-A guia Planos na Visão geral do Mix Modeler mostra widgets para [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL KPI].
+A guia Planos na Visão Geral do Mix Modeler mostra widgets para [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL KPI].
 
 Os dados exibidos para os widgets são determinados por:
 
-* O plano. Selecione um plano em **[!UICONTROL Plan name]** usando o **[!UICONTROL _Selecione uma opção..._]**.
+* O plano. Selecione um plano de **[!UICONTROL Plan name]** usando **[!UICONTROL _Selecione uma opção..._]**.
 
-* O período de data especificado. Para alterar o período de data, insira uma data inicial e uma data final manualmente ou selecione um período de data, usando ![Calendário](/help/assets//icons/Calendar.svg).
+* O período de data especificado. Para alterar o período de data, insira uma data de início e uma data de término manualmente ou selecione um período de data usando ![Calendário](/help/assets//icons/Calendar.svg).
 
 

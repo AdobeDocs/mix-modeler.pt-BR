@@ -33,7 +33,7 @@ Um plano pode incluir, opcionalmente:
 
 Para exibir uma tabela de seus planos atuais, na interface do Mix Modeler:
 
-1. Selecionar ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** do painel esquerdo.
+1. Selecione ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** no painel esquerdo.
 
 1. Você verá uma tabela dos planos atuais e seus status.
 
@@ -47,11 +47,11 @@ Para exibir uma tabela de seus planos atuais, na interface do Mix Modeler:
    | Orçamento | O orçamento total de um plano. |
    | Retorno previsto | O retorno previsto de um plano |
    | ROI previsto | O ROI previsto para um plano. |
-   | Status | O status de um plano: <p><span style="color:red">●</span> Falha, <p><span style="color:blue">●</span> Processando, ou <p><span style="color:green">●</span> Concluído. |
+   | Status | O status de um plano: <p><span style="color:red"> ●</span> Falhou, <p><span style="color:blue"> ●</span> Processando, ou <p><span style="color:green"> ●</span> Concluído. |
 
    {style="table-layout:auto"}
 
-1. Uso ![Pesquisar](/help/assets//icons/Search.svg) para pesquisar e filtrar a tabela para um ou mais planos específicos.
+1. Use a ![Pesquisa](/help/assets//icons/Search.svg) para pesquisar e filtrar a tabela para um ou mais planos específicos.
 
 ## Criar um plano
 
@@ -69,26 +69,26 @@ Você pode selecionar um ou mais planos, o que revela a barra de ação Planos. 
 
 Para remover todas as seleções na tabela Planos, selecione ![Fechar](/help/assets//icons/Close.svg) na barra de ações
 
-![Barra de ação Planos](/help/assets//plans-action-bar.png)
+![Barra de ação de planos](/help/assets//plans-action-bar.png)
 
 ### Duplicação de um plano
 
 Para duplicar um plano:
 
 1. Selecione um único plano na tabela.
-1. Selecionar ![Copiar](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** na barra de ações. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
+1. Selecione ![Copiar](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** na barra de ações. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
 
 Alternativamente:
 
-1. Selecionar ![Mais](/help/assets//icons/More.svg) para um plano na tabela.
-1. Selecionar **[!UICONTROL Duplicate]** no menu de contexto. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
+1. Selecione ![Mais](/help/assets//icons/More.svg) para um plano na tabela.
+1. Selecione **[!UICONTROL Duplicate]** no menu de contexto. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
 
 ### Comparar planos
 
 Para comparar planos:
 
 1. Selecione dois planos na tabela.
-1. Selecionar ![Comparar](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** na barra de ações. Você vê a **[!UICONTROL Compare plans]** IU.
+1. Selecione ![Comparar](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** na barra de ações. Você vê a interface do usuário **[!UICONTROL Compare plans]**.
 
 
 ### Excluir planos
@@ -96,12 +96,12 @@ Para comparar planos:
 Para deletar planos:
 
 1. Selecione um ou mais planos na tabela.
-1. Selecionar ![Excluir](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** na barra de ações.
+1. Selecione ![Excluir](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** da barra de ações.
 
 Alternativamente:
 
-1. Selecionar ![Mais](/help/assets//icons/More.svg) para um plano na tabela.
-1. Selecionar **[!UICONTROL Delete]** no menu de contexto. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
+1. Selecione ![Mais](/help/assets//icons/More.svg) para um plano na tabela.
+1. Selecione **[!UICONTROL Delete]** no menu de contexto. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
 
    >[!WARNING]
    >

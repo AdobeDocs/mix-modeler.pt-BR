@@ -55,9 +55,9 @@ Os campos de harmonização global disponíveis por padrão no Mix Modeler são:
 
 Para ver uma tabela dos campos harmonizados disponíveis, na interface Mix Modeler:
 
-1. Selecionar ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** do painel esquerdo.
+1. Selecione ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** no painel esquerdo.
 
-1. Selecionar **[!UICONTROL Fields]** na barra superior. Você vê uma tabela dos campos harmonizados. Se mais páginas estiverem disponíveis, use ![Seta à esquerda](/help/assets//icons/ChevronLeft.svg) ou ![Seta para a direita](/help/assets//icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para mover entre páginas da tabela.
+1. Selecione **[!UICONTROL Fields]** na barra superior. Você vê uma tabela dos campos harmonizados. Se mais páginas estiverem disponíveis, use a ![Seta para a esquerda](/help/assets//icons/ChevronLeft.svg) ou a ![Seta para a direita](/help/assets//icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para se mover entre as páginas da tabela.
 
    As colunas da tabela especificam os detalhes sobre os campos harmonizados
 
@@ -65,10 +65,10 @@ Para ver uma tabela dos campos harmonizados disponíveis, na interface Mix Model
    | ---------------------- | ----------|
    | Nome do campo | O nome do campo harmonizado. |
    | Nome de exibição | O nome de exibição do campo harmonizado. Esse nome de exibição é usado ao definir regras de conjunto de dados, ponto de contato de marketing e definições de conversão. |
-   | Categoria | Especifica se um campo de dados harmonizado é um [!UICONTROL Dimension], um [!UICONTROL Metric] ou [!UICONTROL Derived]. Uma categoria derivada é um campo harmonizado que usa uma definição de fórmula baseada em métricas. |
+   | Categoria | Especifica se um campo de dados harmonizado é [!UICONTROL Dimension], [!UICONTROL Metric] ou [!UICONTROL Derived]. Uma categoria derivada é um campo harmonizado que usa uma definição de fórmula baseada em métricas. |
    | Tipo de dados | Especifica o tipo de dados ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
    | Data de criação | Data e hora de criação do campo harmonizado. |
-   | Proprietário | Indica se um campo harmonizado é padrão ([!UICONTROL Global]), ou seja definido por você ([!UICONTROL Client]). |
+   | Proprietário | Indica se um campo harmonizado é padrão ([!UICONTROL Global]) ou se está definido por você ([!UICONTROL Client]). |
    | Última data de modificação | Data e hora da última modificação do campo harmonizado. |
    | Fórmula | Especifica a fórmula para um campo harmonizado com base em uma categoria derivada. |
 
@@ -79,24 +79,24 @@ Para ver uma tabela dos campos harmonizados disponíveis, na interface Mix Model
 
 ### Adicionar um campo harmonizado
 
-Para adicionar um campo harmonizado, na variável ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
+Para adicionar um campo harmonizado, na interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
 
-1. Selecionar ![Adicionar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. Selecione ![Adicionar](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
-1. No **[!UICONTROL Create]** diálogo:
+1. No diálogo **[!UICONTROL Create]**:
 
-   1. Insira um **[!UICONTROL Field name]**, por exemplo `region`.
-   1. Insira um **[!UICONTROL Display name]**, por exemplo `Region`.
+   1. Digite um **[!UICONTROL Field name]**, por exemplo `region`.
+   1. Digite um **[!UICONTROL Display name]**, por exemplo `Region`.
    1. Selecione um **[!UICONTROL Category]**: **[!UICONTROL Dimension]**, **[!UICONTROL Metric]** ou **[!UICONTROL Derived]**.
 
       Ao selecionar **[!UICONTROL Derived]**, especifique um **[!UICONTROL Formula]**. Para criar uma expressão aritmética válida, combine uma ou mais métricas de **[!UICONTROL Insert Metric]** com um ou mais operadores **[!UICONTROL + - * / ( )]** . Por exemplo, `[orders]/[impressions]`
 
    1. Selecione um **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** ou **[!UICONTROL Date time]**, quando Categoria selecionada for Dimension.
+      - **[!UICONTROL String]** ou **[!UICONTROL Date time]**, quando a Categoria selecionada for Dimension.
       - **[!UICONTROL Number]** ou **[!UICONTROL Currency]** quando a Categoria selecionada é Métrica ou Derivada.
 
-   1. Selecionar **[!UICONTROL Submit]** para adicionar o campo harmonizado. Selecionar **[!UICONTROL Close]** para fechar a caixa de diálogo sem adicionar o campo harmonizado.
+   1. Selecione **[!UICONTROL Submit]** para adicionar o campo harmonizado. Selecione **[!UICONTROL Close]** para fechar a caixa de diálogo sem adicionar o campo harmonizado.
 
       ![Criar um campo](/help/assets//create-field.png)
 
@@ -105,13 +105,13 @@ Para adicionar um campo harmonizado, na variável ![DataSearch](/help/assets//ic
 
 Você só pode editar campos harmonizados criados anteriormente (o proprietário é o cliente). Não é possível editar um campo harmonizado global.
 
-Para editar um campo harmonizado, na variável ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
+Para editar um campo harmonizado, na interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
 
 1. Selecione o campo harmonizado que deseja editar. Por exemplo, **[!UICONTROL Region]**.
 
-1. No **[!UICONTROL Edit harmonization values]** , modifique valores para **[!UICONTROL Display name]**, **[!UICONTROL Category]**, e **[!UICONTROL Data type]**. Consulte [Adicionar um campo harmonizado](#add-a-harmonized-field) para obter mais informações.
+1. No painel **[!UICONTROL Edit harmonization values]**, modifique os valores para **[!UICONTROL Display name]**, **[!UICONTROL Category]** e **[!UICONTROL Data type]**. Consulte [Adicionar um campo harmonizado](#add-a-harmonized-field) para obter mais informações.
 
-1. Selecionar **[!UICONTROL Submit]** para aplicar as alterações ao campo harmonizado.
+1. Selecione **[!UICONTROL Submit]** para aplicar as alterações ao campo harmonizado.
 
    ![Editar um campo](/help/assets//edit-field.png)
 
@@ -119,11 +119,11 @@ Para editar um campo harmonizado, na variável ![DataSearch](/help/assets//icons
 
 Você só pode excluir campos harmonizados criados anteriormente (o proprietário é o cliente). Não é possível excluir um campo harmonizado global.
 
-Para excluir um campo harmonizado, na variável ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
+Para excluir um campo harmonizado, na interface ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
 
 1. Selecione o campo harmonizado que deseja excluir, por exemplo **[!UICONTROL Region]**.
 
-1. Selecionar ![Excluir](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** do **[!UICONTROL Edit harmonization values]** painel esquerdo.
+1. Selecione ![Excluir](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** do painel esquerdo **[!UICONTROL Edit harmonization values]**.
 
    >[!WARNING]
    >
