@@ -4,10 +4,10 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 23c83cd3576951eb5f8d64bd98f8a5b9e57286a5
+source-git-commit: 7793d32d2b2cb8ede80df9d8e3ea4df5c92d26aa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 9%
+source-wordcount: '431'
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,18 @@ ht-degree: 9%
 
 **Última atualização**: 29 de maio de 2024.
 
-Estas notas de versão abordam a versão mais recente do Mix Modeler. As versões de Mix Modeler operam em um modelo de entrega contínua que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
+Estas notas de versão abordam a versão mais recente do Mix Modeler. As versões de Mix Modeler operam em um modelo de entrega contínua, o que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
+
+## Agosto de 2024
+
+| Recurso | Descrição | Disponibilidade geral |
+|---|---|---|
+| **[!UICONTROL Ad-hoc training and scoring]** | Você pode iniciar um modelo [treinar novamente](/help/models/overview.md#re-train), [pontuação (para novos dados de marketing) ou pontuar novamente](/help/models/overview.md#score-or-re-score) na interface de Modelos. | 13 de agosto de 2024 |
+| **[!UICONTROL Policy enforcement]** | As políticas de Experience Platform são aplicadas ao configurar regras de conjunto de dados e ao modificar rótulos para os dados subjacentes usados no Mix Modeler. Consulte [Políticas](../data-governance/policies.md) para obter mais detalhes. | 13 de agosto de 2024 |
+| **Higiene de dados** | As regras de higiene de dados são respeitadas ao excluir os dados de origem. Consulte [Excluindo um conjunto de dados de origem](../harmonize-data/dataset-rules.md#delete-a-source-dataset) | 13 de agosto de 2024 |
+| **Insights de contribuição do fator** | Em [!UICONTROL Model insights], a guia [[!UICONTROL Factors]](/help/models/insights.md#factors) oferece insights relacionados a fatores externos. | 13 de agosto de 2024 |
+| **Curvas de resposta marginal** | O widget [curvas de resposta marginal](/help/models/insights.md#model-insights-1) em Informações do modelo agora atualiza a curva e os valores correspondentes com base nas alterações no intervalo de dados selecionado. Além disso, o widget mostra o ponto de equilíbrio marginal e o ponto de retornos decrescentes. | 20 de agosto de 2024 |
+
 
 ## Junho de 2024
 
