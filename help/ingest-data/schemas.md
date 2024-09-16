@@ -3,7 +3,7 @@ title: Esquemas
 description: Saiba como gerenciar os esquemas necessários para assimilar dados no Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 3%
@@ -16,7 +16,7 @@ Para gerenciar esquemas, suportando os dados que você deseja assimilar no Exper
 
 1. Vá para a interface do Mix Modeler.
 
-1. Selecione ![Esquemas](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, abaixo de **[!UICONTROL SETUP]**.
+1. Selecione ![Esquemas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, abaixo de **[!UICONTROL SETUP]**.
 
 Consulte a [Visão geral da interface do usuário de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obter mais informações.
 
@@ -38,7 +38,7 @@ Use a classe Métricas de resumo XDM para:
 
 Um esquema usando a classe base **[!DNL XDM Summary Metrics]** pode ser simples, como mostrado no **[!DNL ExternalFactorSummarySchema]** abaixo.
 
-![Esquema de Fatores Externos](/help/assets//external-factors-schema.png)
+![Esquema de Fatores Externos](/help/assets/external-factors-schema.png)
 
 Esse esquema simples pode ser usado para assimilar conjuntos de dados que contenham dados para, por exemplo:
 
@@ -65,7 +65,7 @@ Esse esquema simples pode ser usado para assimilar conjuntos de dados que conten
 
 Veja abaixo um exemplo mais abrangente de **[!DNL LumaPaidMarketingSchema]** usando **[!DNL XDM Summary Metrics]** como classe base. O esquema usa grupos de campos dedicados (anotados com cores) para métricas (**[!DNL AMMMetrics]**), dimensões (**[!DNL AMMDimensions]**) e outras informações específicas do cliente (**[!DNL CustomerSpecific]**).
 
-![Esquema de resumo](/help/assets//summary-schema.png)
+![Esquema de resumo](/help/assets/summary-schema.png)
 
 Dada a natureza assíncrona da assimilação de perfis, ao coletar dados agregados ou resumidos de fontes externas, é recomendável usar o grupo de campos Detalhes de auditoria do sistema Source externo como parte de um esquema. Esse grupo de campos define um conjunto de propriedades de auditoria para fontes externas.
 

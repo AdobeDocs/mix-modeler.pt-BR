@@ -2,7 +2,8 @@
 title: Controles de acesso
 description: Saiba como configurar controles de acesso no Mix Modeler.
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -31,5 +32,4 @@ Ao configurar regras de conjunto de dados para conjuntos de dados harmonizados, 
 
 * você não vê os campos de esquema restritos ao criar uma regra de conjunto de dados,
 * não é possível exibir ou editar o mapeamento de um ou mais campos de esquema restritos para você. Ao editar ou exibir uma regra de conjunto de dados contendo esses campos restritos, você verá a tela a seguir.
-  ![Ação não permitida](/help/assets//action-not-permitted.png)
-
+  ![Ação não permitida](/help/assets/action-not-permitted.png)

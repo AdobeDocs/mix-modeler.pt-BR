@@ -3,7 +3,7 @@ title: Harmonizar dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 7%
@@ -116,17 +116,17 @@ Para criar um conjunto de dados harmonizado, como no [exemplo](#an-example-of-ha
 
 Para ver seus dados harmonizados, na interface do Mix Modeler:
 
-1. Selecione ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** no painel esquerdo.
+1. Selecione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** no painel esquerdo.
 
 1. Selecione **[!UICONTROL Harmonized Data]** na barra superior. Um resumo de seus dados harmonizados é mostrado com base nos campos, nas regras do conjunto de dados, nos pontos de contato de marketing e nas conversões definidos.
 
-   1. Para redefinir o período no qual se baseia a recapitulação de dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use o ![Calendário](/help/assets//icons/Calendar.svg) para selecionar um intervalo de dados.
+   1. Para redefinir o período no qual se baseia a recapitulação de dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use o ![Calendário](/help/assets/icons/Calendar.svg) para selecionar um intervalo de dados.
 
-   1. Para modificar as colunas de campo harmonizado exibidas para a tabela de dados Harmonizada, use ![Configurações](/help/assets//icons/Setting.svg) para abrir a caixa de diálogo **[!UICONTROL Column settings]**.
+   1. Para modificar as colunas de campo harmonizado exibidas para a tabela de dados Harmonizada, use ![Configurações](/help/assets/icons/Setting.svg) para abrir a caixa de diálogo **[!UICONTROL Column settings]**.
 
-      1. Selecione ![SelectBox](/help/assets//icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL AVAILABLE COLUMNS]** e use ![Divisa direita](/help/assets//icons/ChevronRight.svg) para adicionar essas colunas a **[!UICONTROL SELECTED COLUMNS]**.
+      1. Selecione ![SelectBox](/help/assets/icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL AVAILABLE COLUMNS]** e use ![Divisa direita](/help/assets/icons/ChevronRight.svg) para adicionar essas colunas a **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. Selecione ![SelectBox](/help/assets//icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL SELECTED COLUMNS]** e use ![Divisa à esquerda](/help/assets//icons/ChevronLeft.svg) para remover as colunas selecionadas e retornar essas colunas de volta para **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. Selecione ![SelectBox](/help/assets/icons/SelectBox.svg) uma ou mais colunas de **[!UICONTROL SELECTED COLUMNS]** e use ![Divisa à esquerda](/help/assets/icons/ChevronLeft.svg) para remover as colunas selecionadas e retornar essas colunas de volta para **[!UICONTROL AVAILABLE COLUMNS]**.
 
       1. Selecione uma coluna de **[!UICONTROL DEFAULT SORT]** e alterne entre **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]**.
 
@@ -134,4 +134,4 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
 
    1. Selecione **[!UICONTROL Submit]** para enviar suas alterações de configuração de coluna. Selecione **[!UICONTROL Close]** para cancelar as alterações feitas.
 
-1. Se mais páginas estiverem disponíveis, use a ![Seta para a esquerda](/help/assets//icons/ChevronLeft.svg) ou a ![Seta para a direita](/help/assets//icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para se mover entre as páginas.
+1. Se mais páginas estiverem disponíveis, use a ![Seta para a esquerda](/help/assets/icons/ChevronLeft.svg) ou a ![Seta para a direita](/help/assets/icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para se mover entre as páginas.
