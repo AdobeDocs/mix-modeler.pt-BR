@@ -3,7 +3,7 @@ title: Assimilar dados
 description: Saiba como assimilar dados no Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 8%
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Assimilar dados
 
-O Mix Modeler funciona com dados de nível de evento, agrega um resumo dos dados de esforço de marketing de vários jardins murados e agrega ou resume dados de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
+O Mix Modeler funciona com dados no nível do evento, dados de esforço de marketing agregados ou resumidos de vários jardins murados e dados agregados ou resumidos de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
 
 Os clientes podem usar qualquer tipo de dados assimilados no Experience Platform como conjuntos de dados e que se baseiam em esquemas que usam o XDM ExperienceEvent ou as Métricas de resumo XDM como a classe base.
 
