@@ -3,9 +3,9 @@ title: Criar um modelo
 description: Saiba como criar um modelo no Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 2fbf24f6ac72e24070d6c294bc25c112aeb8bdac
+source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
    1. Na seção **[!UICONTROL MTA enabled]**:
 
-      * Para habilitar recursos do MTA para o modo criado, ative **[!UICONTROL MTA enabled]**. Depois de habilitado, os insights de atribuição multitoque estão disponíveis depois que você treinou e pontuou seu modelo por meio da guia [Atribuição](insights.md#attribution) em [Insights de modelo](insights.md).
+      * Para habilitar recursos de MTA para o modelo, ative **[!UICONTROL MTA enabled]**. Se você tiver ativado o MTA, os insights de atribuição multitoque estarão disponíveis após treinar e pontuar seu modelo. Consulte a guia [Atribuição](insights.md#attribution) em [Insights de modelo](insights.md).
 
    1. Na seção **[!UICONTROL Prior knowledge]**:
 
