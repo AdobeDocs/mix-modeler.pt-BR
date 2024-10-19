@@ -4,7 +4,7 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 12%
@@ -13,7 +13,7 @@ ht-degree: 12%
 
 # Notas de versão atuais do Mix Modeler
 
-**Última atualização**: 13 de agosto de 2024.
+**Última atualização**: 1 de outubro de 2024.
 
 Estas notas de versão abordam a versão mais recente do Mix Modeler. As versões de Mix Modeler operam em um modelo de entrega contínua, o que permite uma cadência de lançamento mensal aproximada. Portanto, essas notas de versão são atualizadas, portanto, verifique-as regularmente.&quot;
 

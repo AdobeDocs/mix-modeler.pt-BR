@@ -3,9 +3,9 @@ title: Informações do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,28 @@ Para alterar o canal:
 
 * Selecione um canal no menu suspenso **[!UICONTROL Channel]** para atualizar a visualização de um canal específico.
 
+
+### Detalhamento do ponto de contato
+
+A tabela de detalhamento de ponto de contato mostra os detalhamentos de ponto de contato para todos os canais ou canais selecionados em uma base semanal.
+
+![Detalhamento do ponto de contato](../assets/touchpoint-breakdown.png)
+
+As seguintes colunas estão disponíveis:
+
+| Coluna | Descrição |
+|---|---|
+| **[!UICONTROL Date range]** | A semana para relatar. |
+| **[!UICONTROL Touchpoint]** | O canal de ponto de contato específico. |
+| **[!UICONTROL ROI]** | A porcentagem de (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**. |
+| **[!UICONTROL Revenue]** | A receita do intervalo de datas. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | As conversões do intervalo de datas. |
+| **[!UICONTROL Spend]** | O gasto para o intervalo de dados. |
+
+Para selecionar um canal específico ou todos os canais, selecione no menu suspenso **[!UICONTROL View]**.
+
+Para baixar o conteúdo da tabela de detalhamento Touchpoint, selecione ![Baixar](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 
 ## [!UICONTROL Attribution]
