@@ -3,9 +3,9 @@ title: Informações do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -253,3 +253,27 @@ A guia Visão geral histórica mostra visualizações para:
   É possível selecionar um canal alternativo baseado em volume para exibir nessa visualização. Selecione um canal de **[!UICONTROL Channels]**.
 
 ![Modelo - Visão geral histórica](/help/assets/model-insights-historical-overview.png)
+
+## **[!UICONTROL Edit]**
+
+É possível editar o nome, a descrição e a programação do treinamento e a pontuação do modelo.
+
+1. Selecionar ![Editar](/help/assets/icons/Edit.svg) Editar
+
+1. No diálogo **[!UICONTROL Edit model]**:
+
+   * Insira um(a) novo(a) **[!UICONTROL Name]** e **[!UICONTROL Description]**.
+
+   * Para habilitar o agendamento, habilite **[!UICONTROL Status]**. Você só pode habilitar a programação para modelos treinados e pontuados.
+
+      1. Selecione um **[!UICONTROL Scoring frequency]**:
+
+         * **[!UICONTROL Daily]**: Insira uma hora válida (por exemplo `05:22 pm`) ou use ![Clock](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+
+      1. Selecione um **[!UICONTROL Training frequency]** no menu suspenso: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
+
+     ![Editar um modelo](../assets/model-edit.png)
+
+1. Selecione **[!UICONTROL Save]**.

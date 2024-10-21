@@ -3,9 +3,9 @@ title: Modelos
 description: Saiba como configurar e usar modelos no Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -62,25 +62,6 @@ Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
 
 Você pode executar as seguintes ações em um modelo específico.
 
-### Exibir detalhes
-
-Para exibir mais detalhes de um modelo:
-
-1. Selecione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
-
-1. Selecione ![Informações](/help/assets/icons/Info.svg) para que um modelo mostre um pop-up com detalhes.
-
-
-
-### Duplicar
-
-É possível duplicar um modelo rapidamente.
-
-1. Selecione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
-
-1. Selecione ![Mais](/help/assets/icons/More.svg) para um modelo e, no menu de contexto, selecione **[!UICONTROL Duplicate]**.
-
-
 ### Insights do modelo
 
 A funcionalidade de insights do modelo só está disponível em modelos treinados e pontuados com êxito.
@@ -92,6 +73,52 @@ Para exibir os insights de um modelo:
 1. Selecione o nome do modelo.
 
 Você foi redirecionado para [Informações sobre Modelos](insights.md).
+
+
+### Exibir detalhes
+
+Para exibir mais detalhes de um modelo:
+
+1. Selecione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
+
+1. Selecione ![Informações](/help/assets/icons/Info.svg) para que um modelo mostre um pop-up com detalhes.
+
+
+### Duplicar
+
+É possível duplicar um modelo rapidamente.
+
+1. Selecione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
+
+1. Selecione ![Mais](/help/assets/icons/More.svg) para um modelo e, no menu de contexto, selecione **[!UICONTROL Duplicate]**.
+
+
+### Editar
+
+É possível editar o nome, a descrição e a programação de treinamento e pontuação de um modelo.
+
+1. Selecione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
+
+1. Selecione ![Mais](/help/assets/icons/More.svg) para um modelo e, no menu de contexto, selecione **[!UICONTROL Edit]**.
+
+   No diálogo **[!UICONTROL Edit model]**:
+
+   * Insira um(a) novo(a) **[!UICONTROL Name]** e **[!UICONTROL Description]**.
+
+   * Para habilitar o agendamento, habilite **[!UICONTROL Status]**. Você só pode habilitar a programação para modelos treinados e pontuados.
+
+      1. Selecione um **[!UICONTROL Scoring frequency]**:
+
+         * **[!UICONTROL Daily]**: Insira uma hora válida (por exemplo `05:22 pm`) ou use ![Clock](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+         * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+
+      1. Selecione um **[!UICONTROL Training frequency]** no menu suspenso: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
+
+     ![Editar um modelo](../assets/model-edit.png)
+
+1. Selecione **[!UICONTROL Save]**.
+
 
 
 ### Treinar novamente
