@@ -4,7 +4,7 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4901d4ad2ee0943ed651a0cc556f00be436a14a1
+source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 11%
@@ -21,7 +21,7 @@ Estas notas de versão abordam a versão mais recente do Mix Modeler. As versõe
 
 | Recurso | Descrição | Disponibilidade geral |
 |---|---|---|
-| **Agendar treinamento e pontuação** | Você pode agendar o treinamento e a pontuação de um modelo ao [criar um modelo](/help/models/create.md) e editar um modelo no [Model insight](/help/models/insights.md#edit) ou no [menu de contexto de um modelo](/help/models/overview.md#edit) na tabela Modelos. | terça-feira, 21 de outubro de 2024 |
+| **Agendar treinamento e pontuação** | Você pode agendar o treinamento e a pontuação de um modelo ao [criar um modelo](/help/models/create.md#schedule) e ao editar um modelo do [Informações do modelo](/help/models/insights.md#edit) ou do [menu de contexto de um modelo](/help/models/overview.md#edit) na tabela Modelos. | terça-feira, 21 de outubro de 2024 |
 | **Tabela de detalhamento do ponto de contato** | Em [!UICONTROL Models], a guia [[!UICONTROL Model insights]](/help/models/insights.md#factors) agora oferece uma tabela adicional de [Detalhamento do ponto de contato](../models/insights.md#touchpoint-breakdown). | quarta-feira, 1 de outubro de 2024 |
 
 ## Agosto de 2024
