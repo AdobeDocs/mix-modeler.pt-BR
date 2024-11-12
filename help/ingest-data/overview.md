@@ -3,9 +3,9 @@ title: Assimilar dados
 description: Saiba como assimilar dados no Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
+source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '463'
 ht-degree: 8%
 
 ---
@@ -42,13 +42,13 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, alé
 
 +++ Dados agregados do esforço de marketing
 
-| Geo | Data | Tipo de data | Canal | Campaign | Clique em | Ganho | Envolvimento | impressão | Abrir | Próprio | Enviada |
-|---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|
-| AMER | 2021-10-31 | dia | EMAIL | | 12752 | | | | | | 1132945 |
-| AMER | 2021-10-31 | dia | FB | | 148844 | | | | | | |
-| AMER | 2021-10-31 | dia | YT | | | | 2314452 | | | | |
-| JPN | 21-10-2021 | dia | EMAIL | | 21089 | | | | | | 3283626 |
-| JPN | 21-10-2021 | dia | SOCIAL | | | | 621 | | | | |
+| Geo | Data | Tipo de data | Canal | Campaign | Clique em | Ganho | Envolvimento | impressão | Abrir | Próprio | Enviada | Gastos |
+|---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
+| AMER | 2021-10-31 | dia | EMAIL | | 12752 | | | | | | 1132945 | |
+| AMER | 2021-10-31 | dia | FB | | 148844 | | | | | | | 42111 |
+| AMER | 2021-10-31 | dia | YT | | | | 2314452 | | | | | 10540 |
+| JPN | 21-10-2021 | dia | EMAIL | | 21089 | | | | | | 3283626 | |
+| JPN | 21-10-2021 | dia | SOCIAL | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
 
