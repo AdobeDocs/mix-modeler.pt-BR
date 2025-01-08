@@ -3,9 +3,9 @@ title: Regras do conjunto de dados
 description: Saiba como definir regras de conjunto de dados para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -146,12 +146,27 @@ Para sincronizar dados entre seus dados harmonizados e os conjuntos de dados de 
 >
 >[!BADGE beta]{type=Informative}
 
-As preferências de mesclagem de dados ajudam a resolver conflitos quando os dados de fontes de dados resumidas e de eventos são mesclados. Os casos de uso são:
+Para garantir previsões de modelo precisas, é possível definir preferências de mesclagem de dados. Essa funcionalidade permite que os usuários resolvam quaisquer conflitos após a mesclagem do nível de resumo e dos dados do nível de evento.
+
+Você pode configurar uma preferência de métrica padrão a ser aplicada em casos de atualizações conflitantes. Essa métrica padrão pode ser uma das três opções:
+
+* **[!UICONTROL Summary data]**
+* **[!UICONTROL Sum of summary and event data]**
+* **[!UICONTROL Event data]**
+
+Quando, durante a harmonização, várias fontes de dados tentam atualizar um campo de métrica para um determinado canal, a preferência padrão configurada pelo usuário é aplicada. Essa preferência é aplicada no nível da sandbox, a menos que seja substituída por determinadas preferências baseadas em métricas configuradas adicionalmente.
+
+Em **[!UICONTROL Metric based preferences]**, o usuário pode configurar a origem específica (**[!UICONTROL Summary]** ou **[!UICONTROL Event]**) de uma determinada métrica e o tipo de conversão correspondente para essa métrica.
+
+Os casos de uso típicos são:
 
 * a mesma métrica de publicidade é medida e relatada em vários conjuntos de dados, ou
 * a medição de métricas pode estar incompleta em alguns conjuntos de dados, enquanto outro conjunto de dados pode ser um superconjunto de uma métrica específica, resultando em dupla contagem.
 
-Para garantir previsões de modelo precisas, é possível definir preferências de mesclagem de dados:
+### Configurar 
+
+Para configurar as preferências de mesclagem de dados:
+
 
 1. Selecione ![Preferências de mesclagem de dados](/help/assets/icons/Merge.svg) [!BADGE beta].
 

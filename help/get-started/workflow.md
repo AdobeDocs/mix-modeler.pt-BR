@@ -3,10 +3,10 @@ title: fluxo de trabalho do Mix Modeler
 description: Entenda o fluxo de trabalho típico do Mix Modeler.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: da92298bbd5b2fc14b54121f0c43dc3763f9a0a3
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Um fluxo de trabalho típico no Mix Modeler consiste nas seguintes atividades:
 
 |  | Atividade | Descrição |
 |---|---|---|
-| ![Dados](/help/assets/icons/Data.svg){width="100"} | [**Assimilar dados**](../ingest-data/overview.md) | Assimilar dados do evento do Experience Platform (por exemplo, Adobe Analytics, SDK da Web, outras fontes), dados agregados de canais de marketing (por exemplo, TV, jardins murados, email, atividades próprias e operadas), dados de fatores externos de clientes (por exemplo, alterações de preço no serviço de assinatura) e dados de fatores internos (por exemplo, planos de feriados). |
+| ![Dados](/help/assets/icons/Data.svg){width="100"} | [**Assimilar dados**](../ingest-data/overview.md) | Assimilar dados do evento do Experience Platform (por exemplo, Adobe Analytics, Web SDK, outras fontes), dados agregados de canais de marketing (por exemplo, TV, jardins murados, email, atividades próprias e operadas), dados de fatores externos de clientes (por exemplo, alterações de preço no serviço de assinatura) e dados de fatores internos (por exemplo, planos de feriados). |
 | ![VerificaçãoDeDados](/help/assets/icons/DataCheck.svg){width="100"} | [**Harmonizar dados**](../harmonize-data/overview.md) | Configure regras de mapeamento e regras de resolução de conflitos para mesclar os vários conjuntos de dados de marketing necessários para medir e planejar o desempenho da campanha no Mix Modeler. |
 | ![ConfigArquivo](/help/assets/icons/FileGear.svg){width="100"} | [**Configurar modelos**](../models/create.md) | Configure instâncias de modelo com pontos de contato de marketing (por exemplo, canais), definições de conversão e fatores internos e externos. |
 | ![DadosDoArquivo](/help/assets/icons/FileData.svg){width="100"} | [**Treinar e pontuar modelos**](../models/overview.md) | Crie pontuações agregadas e em nível de evento usando treinamento e pontuação de aprendizado de máquina do. |
@@ -32,19 +32,22 @@ Um fluxo de trabalho típico no Mix Modeler consiste nas seguintes atividades:
 
 {style="table-layout:auto"}
 
-O fluxograma detalhado orientado por dados abaixo ilustra como:
+<!---
+The detailed data-oriented flowchart below illustrates how:
 
-* dados harmonizados baseia-se:
+* harmonized data is based on:
 
-   * dados do evento de experiência (originários do conector de origem do Analytics, coletados por meio de SDKs e APIs do Experience Platform, assimilados por meio de conectores de origem ou usando a assimilação de streaming),
-   * agregar dados de resumo de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline e
-   * definições de campos harmonizados e regras de conjuntos de dados.
+  * experience event data (originating from Analytics source connector, collected through Experience Platform SDKs and APIs, ingested through source connectors, or using streaming ingestion),
+  * aggregate or summary data from walled gardens (like Facebook, YouTube), traffic sources, or offline advertising data, and 
+  * definitions of harmonized fields and dataset rules.
 
-* um modelo se baseia em:
+* a model is based on:
 
-   * as definições dos pontos de contato de conversão e de comercialização resultantes dos dados e
-   * dados agregados ou resumidos de não comercialização que contenham fatores internos ou externos.
+  * the conversion and marketing touchpoint definitions resulting from the harmonized data and 
+  * non-marketing aggregate or summary data containing internal or external factors.
 
-* as pontuações de evento de atribuição multitoque podem potencialmente ser realimentadas no data lake do Experience Platform para uso em configurações, treinamentos e pontuações de modelo subsequentes.
+* mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
-![Fluxo de trabalho abrangente](/help/assets/comprehensive-workflow.svg)
+![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
+
+-->
