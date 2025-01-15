@@ -3,9 +3,9 @@ title: Conversões
 description: Saiba como criar conversões para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '398'
 ht-degree: 1%
 
 ---
@@ -66,14 +66,28 @@ Para adicionar uma conversão, na interface ![DataSearch](/help/assets/icons/Dat
 1. Quando criada, a conversão é adicionada à tabela de conversões.
 
 
-## Exibir uma conversão
+## Exibir detalhes
 
-Para exibir uma conversão:
+Para exibir detalhes de uma conversão:
 
 1. Selecione ![Mais](/help/assets/icons/More.svg) ao passar o mouse sobre um nome de conversão na tabela.
 
-1. Selecione ![Exibir](/help/assets/icons/ViewDetail.svg) **Exibir**. Uma caixa de diálogo mostra detalhes da conversão. Consulte [Adicionar uma conversão](#add-a-conversion) para obter mais informações. Selecione **[!UICONTROL Cancel]** para fechar a caixa de diálogo.
+1. Selecione ![Exibir](/help/assets/icons/ViewDetail.svg) **Exibir detalhes**. Uma caixa de diálogo mostra detalhes da conversão. Consulte [Adicionar uma conversão](#add-a-conversion) para obter mais informações. Selecione **[!UICONTROL Cancel]** para fechar a caixa de diálogo.
 
+## Exibir relatório
+
+Para exibir um relatório de uma conversão:
+
+1. Selecione ![Mais](/help/assets/icons/More.svg) ao passar o mouse sobre um nome de conversão na tabela.
+
+1. Selecione ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Exibir relatório**. Uma caixa de diálogo mostra um relatório da conversão.
+
+   ![Relatório de exibição de conversão](../assets/conversion-view-report.png)
+
+   * Para alterar a granularidade sobre a qual relatar, selecione um valor no menu suspenso **[!UICONTROL Weekly]**.
+   * Para alterar o período para o relatório, insira uma data de início e término ou use o ![Calendário](/help/assets/icons/Calendar.svg) para definir um período no pop-up do calendário.
+
+1. Selecione **[!UICONTROL Close]** para fechar a caixa de diálogo.
 
 ## Excluir uma conversão
 

@@ -3,9 +3,9 @@ title: Pontos de contato de marketing
 description: Saiba como criar pontos de contato de marketing para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,29 @@ Para adicionar um ponto de contato de marketing, na interface ![DataSearch](/hel
 1. Quando criado, o ponto de contato é adicionado à tabela de pontos de contato de marketing.
 
 
-## Exibir um ponto de contato de marketing
+## Exibir detalhes
 
-Para exibir um ponto de contato de marketing:
+Para exibir detalhes de um ponto de contato de marketing:
 
 1. Selecione ![Mais](/help/assets/icons/More.svg) ao passar o mouse sobre um nome de ponto de contato de marketing na tabela.
 
 1. Selecione ![Exibir](/help/assets/icons/ViewDetail.svg) **Exibir**. Uma caixa de diálogo mostra detalhes do ponto de contato de marketing. Consulte [Adicionar um ponto de contato de marketing](#add-a-marketing-touchpoint) para obter mais informações. Selecione **[!UICONTROL Cancel]** para fechar a caixa de diálogo.
 
+
+## Exibir relatório
+
+Para exibir um relatório de um ponto de contato de marketing:
+
+1. Selecione ![Mais](/help/assets/icons/More.svg) ao passar o mouse sobre um nome de ponto de contato de marketing na tabela.
+
+1. Selecione ![GraphTrend](/help/assets/icons/GraphTrend.svg) **Exibir relatório**. Uma caixa de diálogo mostra um relatório do ponto de contato de marketing.
+
+   ![Relatório de exibição do ponto de contato de marketing](../assets/marketingtouchpoint-view-report.png)
+
+   * Para alterar a granularidade sobre a qual relatar, selecione um valor no menu suspenso **[!UICONTROL Weekly]**.
+   * Para alterar o período para o relatório, insira uma data de início e término ou use o ![Calendário](/help/assets/icons/Calendar.svg) para definir um período no pop-up do calendário.
+
+1. Selecione **[!UICONTROL Close]** para fechar a caixa de diálogo.
 
 ## Excluir um ponto de contato de marketing
 
