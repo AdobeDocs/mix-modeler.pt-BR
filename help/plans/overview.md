@@ -3,7 +3,7 @@ title: Planos
 description: Saiba como exibir, selecionar e executar ações nos planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -108,3 +108,5 @@ Para excluir vários planos:
 1. Selecione vários planos.
 1. Na barra de ações azul, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir os planos.
 1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *planos]**para excluir os planos. Selecione **[!UICONTROL Cancel]**para cancelar.
+
+
