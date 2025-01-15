@@ -3,9 +3,9 @@ title: Informações do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
+source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -186,14 +186,17 @@ Para cada caminho de conversão, você verá:
 * para cada canal, a porcentagem de contribuição do modelo de atribuição e
 * a soma dessas porcentagens de contribuição do modelo de atribuição de canal.
 
-## **[!UICONTROL Factors]**
+## **[!UICONTROL Factors]** [!BADGE beta]
 
-A guia Fatores mostra insights relacionados ao fator externo.
+A guia Fatores [!BADGE beta] mostra insights relacionados ao fator externo.
 
 ![Fatores](/help/assets/factors.png)
 
 Essa visualização ajuda você a entender o efeito incremental que vários fatores internos e externos têm na linha de base das conversões. Por exemplo, condições econômicas ou atividades promocionais.
 
+Use o menu suspenso **[!UICONTROL Factors]** para selecionar quais fatores você deseja exibir.
+
+<!-- need to update the image when we do have a proper example -->
 
 Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
 
@@ -205,7 +208,7 @@ A guia Diagnóstico mostra visualizações para:
 
 * Visualização [!UICONTROL Model Assessment], que pode ser analisada em conversões reais vs. previstas ou residuais.
 
-  Para detalhar a visualização, selecione **[!UICONTROL Actual vs. Predicted]** ou **[!UICONTROL Residuals]** na lista **[!UICONTROL Breakdown]**.
+Para detalhar a visualização, selecione **[!UICONTROL Actual vs. Predicted]** ou **[!UICONTROL Residuals]** na lista **[!UICONTROL Breakdown]**.
 
 * Tabela [!UICONTROL Model fitting metrics], mostrando as seguintes colunas para cada métrica de conversão:
 
@@ -223,11 +226,11 @@ A guia Diagnóstico mostra visualizações para:
 
       * RMSE (Root Mean Square Error): que mostra o erro médio, ponderado de acordo com o quadrado do erro.
 
-  Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
+Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
 
 * Tabela [!UICONTROL Touchpoint effectiveness], representando o resultado do modelo Attribution AI. Os dados desta tabela são gerados apenas para períodos específicos. Selecione **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) para obter mais detalhes.
 
-  A visualização mostra, em ordem decrescente de [!UICONTROL Efficiency measure] ![Ordem decrescente](/help/assets/icons/SortOrderDown.svg), para cada ponto de contato:
+A visualização mostra, em ordem decrescente de [!UICONTROL Efficiency measure] ![Ordem decrescente](/help/assets/icons/SortOrderDown.svg), para cada ponto de contato:
 
    * [!UICONTROL Paths touched]: visualiza a porcentagem de caminhos que atingem a conversão e a porcentagem de caminhos que não atingem a conversão. Para um ponto de contato, você verá mais conversões atribuídas quando a taxa de conversão de atribuição estiver alta. Essa proporção compara a porcentagem de caminhos que levam à conversão com a porcentagem de caminhos que *não* levam à conversão.
    * [!UICONTROL Efficiency measure]: gerada pelo modelo de atribuição algorítmica, a medida de eficiência indica a importância relativa de um ponto de contato em direção à conversão, independentemente do volume do ponto de contato. A eficiência é medida em uma escala de 1 a 5. Observe que um maior volume de pontos de contato não garante uma medida de eficiência mais alta.
@@ -246,11 +249,11 @@ A guia Visão geral histórica mostra visualizações para:
 
 * Gastos com Touchpoint.
 
-  Você pode selecionar um canal alternativo com base em gastos para exibir para essa visualização. Selecione um canal de **[!UICONTROL Channels]**.
+Você pode selecionar um canal alternativo com base em gastos para exibir para essa visualização. Selecione um canal de **[!UICONTROL Channels]**.
 
 * Volume do ponto de contato.
 
-  É possível selecionar um canal alternativo baseado em volume para exibir nessa visualização. Selecione um canal de **[!UICONTROL Channels]**.
+É possível selecionar um canal alternativo baseado em volume para exibir nessa visualização. Selecione um canal de **[!UICONTROL Channels]**.
 
 ![Modelo - Visão geral histórica](/help/assets/model-insights-historical-overview.png)
 
