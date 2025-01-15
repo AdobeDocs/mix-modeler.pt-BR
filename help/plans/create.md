@@ -3,7 +3,7 @@ title: Criar um plano
 description: Saiba como criar um plano no Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 No Mix Modeler, você cria um plano usando a tela de plano. Na tela do plano, é possível configurar os detalhes e os orçamentos do plano e o modelo subjacente a ser usado para o plano. Depois de especificar os detalhes, o orçamento e o modelo, você pode seguir com um plano recomendado por IA ou editar o gasto por canal.
 
-Para criar um plano, na interface ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** no Mix Modeler, selecione **[!UICONTROL Open plan canvas]**.
+Para criar um plano, na interface ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** no Mix Modeler, selecione **[!UICONTROL Create plan]**.
 
 1. Na tela Plan creation:
 
