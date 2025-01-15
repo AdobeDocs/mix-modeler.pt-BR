@@ -3,9 +3,9 @@ title: Planos
 description: Saiba como exibir, selecionar e executar ações nos planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
+source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -97,16 +97,14 @@ Para comparar planos:
 
 ### Excluir planos
 
-Para deletar planos:
+Para deletar um plano:
 
-1. Selecione um ou mais planos na tabela.
-1. Selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** da barra de ações.
+1. Selecione ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** no painel esquerdo.
+1. Selecione ![Mais](/help/assets/icons/More.svg) para um plano e, no menu de contexto, selecione **[!UICONTROL Delete]**. Como alternativa, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** da barra de ação azul.
+1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete moplandel]** para excluir o plano. Selecione **[!UICONTROL Cancel]** para cancelar.
 
-Alternativamente:
+Para excluir vários planos:
 
-1. Selecione ![Mais](/help/assets/icons/More.svg) para um plano na tabela.
-1. Selecione **[!UICONTROL Delete]** no menu de contexto. Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)]**, é adicionado à parte superior da tabela.
-
-   >[!WARNING]
-   >
-   >   Os planos selecionados são excluídos imediatamente!
+1. Selecione vários planos.
+1. Na barra de ações azul, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir os planos.
+1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *planos]**para excluir os planos. Selecione **[!UICONTROL Cancel]**para cancelar.
