@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 159a89896f7b463fdc0de663062b7e0088d9ecfc
+source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -24,6 +24,16 @@ Testar uma tabela com caracteres unicode
 {style="table-layout:fixed"}
 
 
+## Uso de SVG na caixa sombreada
+
+Parece que não oferecemos suporte adequado para SVG em uma caixa sombreada. Consulte Diferentes visualizações (corp.adobe.com) e sites publicados (adobe.com).
+
+>[!BEGINSHADEBOX]
+
+*Este artigo documenta o painel Atribuição no ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Consulte o [Painel de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) para a versão ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**deste artigo.*
+
+>[!ENDSHADEBOX]
+
 
 ## Fórmulas
 
@@ -34,13 +44,3 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 
 
-
-## Uso de SVG na caixa sombreada
-
-Parece que não oferecemos suporte adequado para SVG em uma caixa sombreada. Consulte Diferentes visualizações (corp.adobe.com) e sites publicados (adobe.com).
-
->[!BEGINSHADEBOX]
-
-*Este artigo documenta o painel Atribuição no ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Consulte o [Painel de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) para a versão ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**deste artigo.*
-
->[!ENDSHADEBOX]
