@@ -1,16 +1,16 @@
 ---
-title: Dados de pontuação
+title: Dados de pontuação dos EUA
 description: Saiba como os dados de pontuação de um modelo no Mix Modeler são mantidos.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: b6045176e82b97f848113f4e0ffbbb995c48b3d4
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 6%
 
 ---
 
-# Dados de pontuação
+# Usar dados de pontuação
 
 Como parte da pontuação de um modelo, os dados de pontuação são mantidos em um conjunto de dados no Experience Platform. Quando você tiver ativado a atribuição multitoque durante a criação do modelo, dados adicionais de pontuação do evento serão mantidos em um conjunto de dados no Experience Platform.
 

@@ -1,16 +1,16 @@
 ---
-title: Informações do modelo
+title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
 
-# Informações do modelo
+# Insights do modelo
 
 Para exibir insights do modelo, na interface ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** em Mix Modeler:
 
@@ -90,7 +90,7 @@ Para baixar o conteúdo da tabela de detalhamento Touchpoint, selecione ![Baixar
 >A guia Atribuição só está disponível para modelos habilitados para MTA.
 
 
-Usando a guia [!UICONTROL Attribution], você pode entender a eficácia dos pontos de contato e campanhas de marketing que têm dados de nível de evento.  Consulte [Criar um modelo](create.md).
+Usando a guia [!UICONTROL Attribution], você pode entender a eficácia dos pontos de contato e campanhas de marketing que têm dados de nível de evento.  Consulte [Modelo de compilação](build.md).
 
 Os seguintes modelos de atribuição são compatíveis:
 

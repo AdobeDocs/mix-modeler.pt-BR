@@ -2,10 +2,10 @@
 user-guide-title: Manual do Mix Modeler
 breadcrumb-title: Manual do Mix Modeler
 user-guide-description: Saiba como usar o Mix Modeler.
-source-git-commit: 0d6afcf18d7dcf909ae2c22ffa588c425a7148d3
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 46%
+source-wordcount: '85'
+ht-degree: 45%
 
 ---
 
@@ -18,24 +18,24 @@ ht-degree: 46%
    + [O que é o Mix Modeler?](/help/get-started/about.md)
    + [Fluxo de trabalho do aplicativo](/help/get-started/workflow.md)
 
-+ Painel {#dashboard}
-   + [Visão geral](/help/dashboard/overview.md)
++ Residencial {#dashboard}
+   + [Visão geral da página inicial](/help/dashboard/overview.md)
    + [Dados harmonizados](/help/dashboard/harmonized-data.md)
    + [Planos](/help/dashboard/plans.md)
 
 + Modelos {#models}
    + [Visão geral](/help/models/overview.md)
-   + [Criar um modelo](/help/models/create.md)
+   + [Criar modelos](/help/models/build.md)
    + [Insights do modelo](/help/models/insights.md)
-   + [Dados de pontuação](/help/models/scoring-data.md)
+   + [Usar dados de pontuação](/help/models/scoring-data.md)
 
 + Planos {#plans}
    + [Visão geral](/help/plans/overview.md)
-   + [Criar um plano](/help/plans/create.md)
-   + [Editar um plano](/help/plans/edit.md)
+   + [Criar planos](/help/plans/build.md)
+   + [Planejar insights](/help/plans/insights.md)
    + [Comparar planos](/help/plans/compare.md)
 
-+ Harmonizar dados {#harmonize-data}
++ Harmonizar conjuntos de dados {#harmonize-data}
    + [Visão geral](/help/harmonize-data/overview.md)
    + [Campos](/help/harmonize-data/fields.md)
    + [Regras do conjunto de dados](/help/harmonize-data/dataset-rules.md)

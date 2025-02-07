@@ -1,21 +1,21 @@
 ---
-title: Harmonizar dados
+title: Harmonizar visão geral dos conjuntos de dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '895'
 ht-degree: 7%
 
 ---
 
-# Harmonizar dados
+# Harmonizar visão geral dos conjuntos de dados
 
 Os dados em Mix Modeler são de natureza diferente dependendo da fonte de dados. Os dados podem ser:
 
 * dados agregados ou resumidos, por exemplo, coletados de fontes de dados muradas ou dados de publicidade offline coletados (como gastos) da execução de uma campanha em outdoor, um evento ou uma campanha de publicidade física,
-* dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, ou por meio do SDK da Web ou móvel do Experience Platform ou da API Edge Network, ou por dados assimilados usando conectores de origem.
+* dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, pela Web do Experience Platform, pela SDK móvel ou pela API Edge Network, ou por dados assimilados usando conectores de origem.
 
 O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados, combinada com dados de fatores internos e externos, é a fonte dos modelos no Mix Modeler. O serviço usa a maior granularidade entre os diferentes conjuntos de dados. Por exemplo, se um conjunto de dados tiver uma granularidade de dados mensais e os conjuntos de dados restantes tiverem granularidade semanal e diária, o serviço de harmonização criará uma visualização de dados usando granularidade mensal.
 
@@ -67,7 +67,7 @@ Um conjunto de dados de conversão, com uma granularidade do conjunto de dados a
 
 **Conjunto de dados 4**
 
-Um exemplo de conjunto de dados de evento de experiência (eventos do SDK da Web) do cliente.
+Um exemplo de conjunto de dados de evento de experiência (eventos do Web SDK) do cliente.
 
 | Carimbo de data e hora | Namespace de identidade | Identificação de identidade | Canal | Cliques |
 |--- |--- |--- |--- |---:|

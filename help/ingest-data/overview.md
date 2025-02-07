@@ -1,16 +1,16 @@
 ---
-title: Assimilar dados
+title: Visão geral dos dados de assimilação
 description: Saiba como assimilar dados no Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '465'
 ht-degree: 8%
 
 ---
 
-# Assimilar dados
+# Visão geral dos dados de assimilação
 
 O Mix Modeler funciona com dados no nível do evento, dados de esforço de marketing agregados ou resumidos de vários jardins murados e dados agregados ou resumidos de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
 
@@ -19,7 +19,7 @@ Os clientes podem usar qualquer tipo de dados assimilados no Experience Platform
 Por exemplo:
 
 * dados coletados usando o conector de origem do Adobe Analytics e transformados em conjuntos de dados em conformidade com a versão padrão ou personalizada do esquema do Adobe Analytics ou, como alternativa,
-* dados coletados usando o SDK da Web do Experience Platform, o SDK móvel ou a API do servidor do Edge Network para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo,
+* dados coletados usando o Experience Platform Web SDK, Mobile SDK ou Edge Network Server API para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo,
 * dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline,
 * dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a construção de modelos.
 
@@ -42,7 +42,7 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, alé
 
 +++ Dados agregados do esforço de marketing
 
-| Geo | Data | Tipo de data | Canal | Campaign | Clique em | Ganho | Envolvimento | impressão | Abrir | Próprio | Enviada | Gastos |
+| Geo | Data | Tipo de data | Canal | Campaign | Clique em | Ganho | Engajamento | impressão | Abrir | Próprio | Enviada | Gastos |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
 | AMER | 2021-10-31 | dia | EMAIL | | 12752 | | | | | | 1132945 | |
 | AMER | 2021-10-31 | dia | FB | | 148844 | | | | | | | 42111 |

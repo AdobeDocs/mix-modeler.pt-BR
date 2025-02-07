@@ -1,18 +1,18 @@
 ---
-title: Painel de visão geral de dados harmonizado
+title: Painel de dados harmonizado
 description: Saiba como usar o painel de visão geral de dados harmonizados no Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Visão geral dos dados harmonizados
+# Dados harmonizados
 
-A guia Dados harmonizados na Visão geral do Mix Modeler fornece insights sobre os dados harmonizados configurados para serem usados como parte dos dados assimilados e da configuração de dados harmonizados.
+A guia **[!UICONTROL Harmonized data]** na Mix Modeler ![Página inicial](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fornece informações sobre os dados harmonizados que você configurou para serem usados como parte dos dados assimilados e da configuração de dados harmonizados.
 
 A visão geral mostra quatro visualizações de cartão de status de KPI (linha superior) e seis outras visualizações configuráveis.
 

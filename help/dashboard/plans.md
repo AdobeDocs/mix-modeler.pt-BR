@@ -1,23 +1,23 @@
 ---
-title: Visão geral dos planos
+title: Planos
 description: Saiba como usar a visão geral de planos no Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 0bdb80fb19118ab4e15c36c1a43e2d4f0c528041
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
-# Visão geral dos planos
+# Planos
 
 >[!NOTE]
 >
->[!BADGE Alpha]{type=Informative}
+>[!BADGE Alpha]{type=Informative}A guia **[!UICONTROL Plans]** na Mix Modeler ![Página Inicial](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** é um recurso alfa e sua funcionalidade está sujeita a alterações. O recurso está disponível para um número limitado de clientes.
 
 
-A guia Planos na Visão Geral do Mix Modeler mostra visualizações para [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL KPI].
+A guia **[!UICONTROL Plans]** no Mix Modeler ![Residência](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** mostra visualizações para [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL KPI].
 
 Os dados exibidos para as visualizações são determinados por:
 
