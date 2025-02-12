@@ -1,11 +1,11 @@
 ---
 title: Visão geral dos planos
-description: Saiba como exibir, selecionar e executar ações nos planos no Mix Modeler.
+description: Saiba como exibir, selecionar e executar ações em planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,12 @@ Um plano pode incluir, opcionalmente:
 - várias datas de voo com cada uma tendo um orçamento de target,
 - restrições de orçamento mínimo e máximo por canal e data de voo.
 
+Se um modelo que você usou para seu plano for pontuado em novos dados, será necessário criar um novo plano para considerar os dados repontuados.
+
 
 ## Criar planos
 
-Para criar um plano, use o assistente de criação de plano Mix Modeler. Consulte [Planos de compilação](build.md) para obter mais detalhes.
+Para criar um plano, use o assistente de criação de plano do Mix Modeler. Consulte [Planos de compilação](build.md) para obter mais detalhes.
 
 ## Gerenciar planos
 

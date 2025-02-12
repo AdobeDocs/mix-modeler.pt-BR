@@ -3,21 +3,31 @@ title: Harmonizar visão geral dos conjuntos de dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 7%
+source-wordcount: '966'
+ht-degree: 6%
 
 ---
 
 # Harmonizar visão geral dos conjuntos de dados
 
-Os dados em Mix Modeler são de natureza diferente dependendo da fonte de dados. Os dados podem ser:
+Os dados no Mix Modeler são de natureza diferente, dependendo da fonte de dados. Os dados podem ser:
 
 * dados agregados ou resumidos, por exemplo, coletados de fontes de dados muradas ou dados de publicidade offline coletados (como gastos) da execução de uma campanha em outdoor, um evento ou uma campanha de publicidade física,
-* dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics da Adobe Analytics, pela Web do Experience Platform, pela SDK móvel ou pela API Edge Network, ou por dados assimilados usando conectores de origem.
+* dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics na Adobe Analytics, ou por meio da API do Experience Platform Web, Mobile SDK ou Edge Network, ou por meio de dados assimilados usando conectores de origem.
 
-O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados, combinada com dados de fatores internos e externos, é a fonte dos modelos no Mix Modeler. O serviço usa a maior granularidade entre os diferentes conjuntos de dados. Por exemplo, se um conjunto de dados tiver uma granularidade de dados mensais e os conjuntos de dados restantes tiverem granularidade semanal e diária, o serviço de harmonização criará uma visualização de dados usando granularidade mensal.
+O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Esta exibição de dados, combinada com [dados de fatores internos e externos](#factors), é a origem dos modelos no Mix Modeler. O serviço usa a maior granularidade entre os diferentes conjuntos de dados. Por exemplo, se um conjunto de dados tiver uma granularidade de dados mensais e os conjuntos de dados restantes tiverem granularidade semanal e diária, o serviço de harmonização criará uma visualização de dados usando granularidade mensal.
+
+## Fatores
+
+Os fatores são fundamentais para a criação de modelos e você deseja entender o que afeta os negócios de forma holística. Os fatores podem não estar relacionados aos dados de marketing.
+
+* Fatores internos são específicos para sua organização e podem afetar suas conversões. Por exemplo, sua temporada de vendas, promoções e muito mais.
+
+* Fatores externos são fatores fora do controle de sua organização, mas que ainda podem afetar as conversões realizadas. Exemplos são CPI, S&amp;P 500 e outros.
+
+
 
 ## Um exemplo de dados harmonizados
 
@@ -39,7 +49,7 @@ Contém o conjunto de dados de esforço de marketing da YouTube, com uma granula
 
 **Conjunto de dados 2**
 
-Contém o conjunto de dados de esforço de marketing da Facebook, com uma granularidade do conjunto de dados agregado para semanal.
+Contém o conjunto de dados de esforço de marketing do Facebook, com uma granularidade do conjunto de dados agregado para semanal.
 
 | Data | Tipo de data | Canal | Campaign | Geo | Cliques | Gastos |
 |--- |:---:|--- |---|---|---:|---:|
