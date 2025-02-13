@@ -3,16 +3,16 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # Insights do modelo
 
-Para exibir insights do modelo, na interface ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** em Mix Modeler:
+Para exibir insights do modelo, na interface ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** do Mix Modeler:
 
 1. Na tabela **[!UICONTROL Models]**, selecione o nome de um modelo que tenha um **[!UICONTROL Last run status]** de <span style="color:green"> ●</span> **[!UICONTROL Success]**.
 
@@ -82,12 +82,27 @@ Para selecionar um canal específico ou todos os canais, selecione no menu suspe
 
 Para baixar o conteúdo da tabela de detalhamento Touchpoint, selecione ![Baixar](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
+## **[!UICONTROL Factors]** [!BADGE beta]
+
+A guia Fatores [!BADGE beta] mostra insights relacionados ao fator externo.
+
+![Fatores](/help/assets/factors.png)
+
+Essa visualização ajuda você a entender o efeito incremental que vários fatores internos e externos têm na linha de base das conversões. Por exemplo, condições econômicas ou atividades promocionais.
+
+Use o menu suspenso **[!UICONTROL Factors]** para selecionar quais fatores você deseja exibir.
+
+<!-- need to update the image when we do have a proper example -->
+
+Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
+
+Se nenhum dado estiver disponível, você verá a mensagem ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Attribution]
 
 >[!NOTE]
 >
->A guia Atribuição só está disponível para modelos habilitados para MTA.
+A guia Atribuição só está disponível para modelos habilitados para MTA.
 
 
 Usando a guia [!UICONTROL Attribution], você pode entender a eficácia dos pontos de contato e campanhas de marketing que têm dados de nível de evento.  Consulte [Modelo de compilação](build.md).
@@ -110,7 +125,7 @@ Selecione um ou mais modelos de atribuição no menu suspenso **[!UICONTROL Attr
 
 ![Atribuição](/help/assets/model-insights-attribution.png)
 
-As pontuações do evento granular de atribuição multitoque do Mix Modeler são alinhadas às pontuações gerais do Mix Modeler e aos ROIs. Essas pontuações também são disponibilizadas como conjuntos de dados no Experience Platform.
+As pontuações granulares do evento de atribuição multitoque do Mix Modeler são alinhadas às pontuações gerais e aos ROIs do Mix Modeler. Essas pontuações também são disponibilizadas como conjuntos de dados no Experience Platform.
 
 A guia Atribuição consiste nas seguintes visualizações:
 
@@ -132,15 +147,15 @@ Para ver os detalhes, passe o mouse sobre a linha de dados de um modelo de atrib
 
 A visualização [!UICONTROL Breakdown] é um detalhamento por canal ou ponto de contato das conversões para cada um dos modelos de atribuição selecionados. Essa visualização pode ser útil para tomar decisões sobre a eficácia de cada canal ou ponto de contato.
 
-Para escolher o tipo de detalhamento, selecione **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** de ![Mais](/help/assets/icons/More.svg).
+Para escolher o tipo de detalhamento, select **[!UICONTROL Breakdown by channel]** ou **[!UICONTROL Breakdown by touchpoint]** de ![Mais](/help/assets/icons/More.svg).
 
 Para ver detalhes, passe o mouse sobre qualquer um dos elementos do gráfico.
 
 ### [!UICONTROL Top campaigns]
 
-A visualização Campanhas principais mostra uma tabela das campanhas principais com colunas para Nome da campanha, Canal, Tipo de mídia e Conversões incrementais. Essa visualização pode ajudar a informar sua equipe sobre a eficácia de uma campanha específica para um determinado canal e fornecer insights sobre em quais campanhas você deve investir ainda mais.
+A visualização Campanhas principais mostra uma tabela das campanhas principais com colunas para Nome da campanha, Canal, Tipo de mídia and Conversões incrementais. Essa visualização pode ajudar a informar sua equipe sobre a eficácia de uma campanha específica para um determinado canal e fornecer insights sobre em quais campanhas você deve investir ainda mais.
 
-Para classificar a tabela em ordem crescente ↑ ou decrescente ↓ para Canal, Tipo de mídia ou Conversões incrementais, selecione o cabeçalho da coluna e alterne a classificação.
+Para classificar a tabela em ordem crescente ↑ ou decrescente ↓ para Canal, Tipo de mídia or Conversões incrementais, selecione o cabeçalho da coluna e alterne a classificação.
 
 Para expandir a tabela em uma caixa de diálogo separada, selecione **[!UICONTROL Expand]** de ![Mais](/help/assets/icons/More.svg).
 
@@ -151,7 +166,7 @@ A caixa de diálogo Campanhas principais expandida mostra a mesma tabela com col
 * Conversões de primeiro contato
 * Conversões de último contato
 
-  Você pode selecionar cada um dos cabeçalhos de coluna adicionais para classificar a tabela em ordem crescente ou decrescente.
+Você pode selecionar cada um dos cabeçalhos de coluna adicionais para classificar a tabela em ordem crescente ou decrescente.
 
 Para fechar a caixa de diálogo Campanhas principais expandida, selecione **[!UICONTROL Close]**.
 
@@ -162,7 +177,7 @@ A visualização [!UICONTROL Breakdown by touchpoint position] é um detalhament
 
 >[!NOTE]
 >
->A soma da contribuição percentual para um modelo de atribuição em todos os pontos de contato e posições deve ser igual a 100.
+A soma da contribuição percentual para um modelo de atribuição em todos os pontos de contato e posições deve ser igual a 100.
 
 
 As posições [!UICONTROL Starter], [!UICONTROL Player] e [!UICONTROL Closer] são definidas da seguinte maneira:
@@ -186,21 +201,6 @@ Para cada caminho de conversão, você verá:
 * para cada canal, a porcentagem de contribuição do modelo de atribuição e
 * a soma dessas porcentagens de contribuição do modelo de atribuição de canal.
 
-## **[!UICONTROL Factors]** [!BADGE beta]
-
-A guia Fatores [!BADGE beta] mostra insights relacionados ao fator externo.
-
-![Fatores](/help/assets/factors.png)
-
-Essa visualização ajuda você a entender o efeito incremental que vários fatores internos e externos têm na linha de base das conversões. Por exemplo, condições econômicas ou atividades promocionais.
-
-Use o menu suspenso **[!UICONTROL Factors]** para selecionar quais fatores você deseja exibir.
-
-<!-- need to update the image when we do have a proper example -->
-
-Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
-
-Se nenhum dado estiver disponível, você verá a mensagem ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
 ## [!UICONTROL Diagnostics]
 
@@ -228,7 +228,7 @@ Para detalhar a visualização, selecione **[!UICONTROL Actual vs. Predicted]** 
 
 Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
 
-* Tabela [!UICONTROL Touchpoint effectiveness], representando o resultado do modelo Attribution AI. Os dados desta tabela são gerados apenas para períodos específicos. Selecione **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) para obter mais detalhes.
+* Tabela [!UICONTROL Touchpoint effectiveness], que representa o resultado do modelo algorítmico da IA de atribuição. Os dados desta tabela são gerados apenas para períodos específicos. Selecione **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) para obter mais detalhes.
 
 A visualização mostra, em ordem decrescente de [!UICONTROL Efficiency measure] ![Ordem decrescente](/help/assets/icons/SortOrderDown.svg), para cada ponto de contato:
 
