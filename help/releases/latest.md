@@ -4,10 +4,10 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 13b748337ca9bfc3b4ffdb0b345bfc291c36525a
+source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 5%
+source-wordcount: '303'
+ht-degree: 4%
 
 ---
 
@@ -21,12 +21,12 @@ Essas notas de versão abordam a versão mais recente do Mix Modeler. As versõe
 
 | Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
 |---|---|---|---|
-| **Condições aninhadas** | Você pode criar condições aninhadas usando AND e OR ao definir uma população de dados qualificada como parte da [configuração de um modelo](/help/models/build.md#configure). | 15 de janeiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
+| **Condições aninhadas** | Você pode criar condições aninhadas usando AND e OR ao definir uma população de dados qualificada como parte da [configuração de um modelo](/help/models/build.md#configure). | 15 de janeiro de 2025 | t.b.d |
 | **Exibir relatórios** | Você pode exibir um relatório em uma [conversão](/help/harmonize-data/conversions.md#view-report) ou em um [ponto de contato de marketing](/help/harmonize-data/marketing-touchpoints.md#view-report) definido como parte da harmonização de dados. | 15 de janeiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
-| **Excluir confirmação** | Você será solicitado a confirmar a exclusão de um [plano](/help/plans/overview.md#delete-plans) ou um [modelo](/help/models/overview.md#delete-models). | 15 de janeiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
+| **Excluir confirmações** | Você será solicitado a confirmar a exclusão de um [plano](/help/plans/overview.md#delete-plans) ou um [modelo](/help/models/overview.md#delete-models). | 15 de janeiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
 | **Aperfeiçoamento da interface do usuário de fatores** | Você pode selecionar quais [fatores](/help/models/insights.md#factors-beta) deseja exibir nos insights do modelo. | 15 de janeiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
-| **[!UICONTROL Error handling]** | Mensagens de erro de fácil utilização e experiência do utilizador melhorada para cenários de erro na harmonização e nos planos de dados. | quarta-feira, 18 de fevereiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
-| **[!UICONTROL Model status]** | Redefinição de [status de modelo](/help/models/overview.md#manage-models) no ciclo de vida do modelo. | quarta-feira, 18 de fevereiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
+| **Tratamento de erros** | Mensagens de erro de fácil utilização e experiência do utilizador melhorada para cenários de erro na harmonização e nos planos de dados. | quarta-feira, 18 de fevereiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
+| **Status do modelo** | Redefinição de [status de modelo](/help/models/overview.md#manage-models) no ciclo de vida do modelo. | quarta-feira, 18 de fevereiro de 2025 | t.b.d. |
 
 
 ## Estratégia de lançamento
