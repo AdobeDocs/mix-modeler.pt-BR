@@ -4,10 +4,10 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
+source-git-commit: 96d56adc0a24a45797fd8a837b405a3f5329c886
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ Essas notas de versão abordam a versão mais recente do Mix Modeler. As versõe
 | **Excluir confirmações** | Você será solicitado a confirmar a exclusão de um [plano](/help/plans/overview.md#delete-plans) ou um [modelo](/help/models/overview.md#delete-models). | 15 de janeiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
 | **Aperfeiçoamento da interface do usuário de fatores** | Você pode selecionar quais [fatores](/help/models/insights.md#factors-beta) deseja exibir nos insights do modelo. | 15 de janeiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
 | **Tratamento de erros** | Mensagens de erro de fácil utilização e experiência do utilizador melhorada para cenários de erro na harmonização e nos planos de dados. | quarta-feira, 18 de fevereiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
-| **Status do modelo** | Redefinição de [status de modelo](/help/models/overview.md#manage-models) no ciclo de vida do modelo. | quarta-feira, 18 de fevereiro de 2025 | t.b.d. |
+| **Status do modelo** | Redefinição de [status de modelo](/help/models/overview.md#manage-models) no ciclo de vida do modelo. | quarta-feira, 18 de fevereiro de 2025 | quarta-feira, 18 de fevereiro de 2025 |
 
 
 ## Estratégia de lançamento
