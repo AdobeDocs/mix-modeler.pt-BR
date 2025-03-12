@@ -3,9 +3,9 @@ title: Visão geral dos modelos
 description: Saiba como criar e usar modelos no Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
+source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Um modelo pode incluir opcionalmente:
 * Conhecimento prévio das contribuições de marketing de outras fontes, como experiência anterior das partes interessadas, testes incrementais e outros modelos.
 * Gastar compartilhamento, que usa compartilhamento de gasto relativo como proxy quando os dados de marketing são escassos.
 
-Quando um modelo é criado pela primeira vez, a criação inicia imediatamente o processo de treinamento e pontuação. Após a conclusão da execução inicial de treinamento e pontuação, os insights do modelo estarão disponíveis para revisão. Um modelo pode ser treinado novamente posteriormente. Além disso, dados podem ser adicionados ao modelo, o que requer que você reclassifique o modelo manualmente. O novo treinamento e a nova pontuação são um processo iterativo à medida que surgem novas descobertas e informações, e são necessários ajustes para obter um modelo mais adequado aos seus objetivos de negócios.
+Quando um modelo é criado pela primeira vez, a criação inicia imediatamente o processo de treinamento e pontuação. Após a conclusão da execução inicial de treinamento e pontuação, os insights do modelo ficam disponíveis para revisão. Um modelo pode ser treinado novamente posteriormente. Além disso, dados podem ser adicionados ao modelo, o que requer que você reclassifique o modelo manualmente. O novo treinamento e a nova pontuação são um processo iterativo à medida que surgem novas descobertas e informações, e são necessários ajustes para obter um modelo mais adequado aos seus objetivos de negócios.
 
 
 ## Criar modelos
@@ -83,6 +83,8 @@ Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
    | Falha na pontuação | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Fechar](/help/assets/icons/Close.svg) |
    | Pontuação bem-sucedida | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | | |
    | Pontuação bem-sucedida | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Marca de seleção](/help/assets/icons/Checkmark.svg) |
+
+   {style="table-layout:fixed"}
 
 1. Para alterar as colunas exibidas para a lista, selecione ![Configurações de coluna](/help/assets/icons/ColumnSetting.svg) e alterne as colunas em ![Verificar](/help/assets/icons/Checkmark.svg) ou desativar.
 
