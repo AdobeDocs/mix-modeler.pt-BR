@@ -3,10 +3,10 @@ title: Visão geral dos planos
 description: Saiba como exibir, selecionar e executar ações em planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: df0faeb2682381ec8d13d594d52c0b7cf22a679d
+source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,7 @@ Se um modelo que você usou para seu plano for pontuado em novos dados, será ne
 ## Criar planos
 
 Para criar um plano, use o assistente de criação de plano do Mix Modeler. Consulte [Planos de compilação](build.md) para obter mais detalhes.
+
 
 ## Gerenciar planos
 
@@ -81,7 +82,15 @@ Para duplicar um plano:
 - Selecione ![Mais](/help/assets/icons/More.svg) para um plano. No menu de contexto, selecione **[!UICONTROL Duplicate]**.
 - Como alternativa, selecione um plano na tabela ![SelectBox](/help/assets/icons/SelectBox.svg) e selecione ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** na barra de ação azul.
 
-Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)](_n_)**, é adicionado à parte superior da tabela.
+Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)](_n_)**, foi criado. Você é redirecionado automaticamente para [Criação do plano](build.md) para fornecer detalhes atualizados para o plano copiado.
+
+- Os detalhes (como Descrição, Orçamento e mais) do plano original são copiados.
+- As restrições de orçamento do plano original são copiadas para o plano recém-criado.
+- Você tem a opção de selecionar outro modelo como base para o plano copiado.
+   - Para pontos de contato ou canais que existem no plano copiado, mas não existem no modelo recém-selecionado, todas as restrições para esses pontos de contato ou canais são removidas do plano.
+   - Para pontos de contato ou canais que não existem no plano copiado, mas existem no modelo recém-selecionado, as restrições são definidas para um valor mínimo de `0` e um valor máximo em conformidade com o orçamento do intervalo de execução do plano.
+
+
 
 ### Comparar planos
 

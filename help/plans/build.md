@@ -3,9 +3,9 @@ title: Criar planos
 description: Saiba como criar planos no Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -13,16 +13,16 @@ ht-degree: 0%
 
 # Criar planos
 
-No Mix Modeler, você cria um plano usando a tela de plano. Na tela do plano, é possível configurar os detalhes e os orçamentos do plano e o modelo subjacente a ser usado para o plano. Depois de especificar os detalhes, o orçamento e o modelo, você pode seguir com um plano recomendado por IA ou editar o gasto por canal.
+No Mix Modeler, você cria um plano usando a tela do plano. Na tela do plano, é possível configurar os detalhes e os orçamentos do plano e o modelo subjacente a ser usado para o plano. Depois de especificar os detalhes, o orçamento e o modelo, você pode seguir com um plano recomendado por IA ou editar o gasto por canal.
 
-Para criar um plano, na interface ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** no Mix Modeler, selecione **[!UICONTROL Create plan]**.
+Para criar um plano, na interface ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** do Mix Modeler, selecione **[!UICONTROL Create plan]**.
 
-1. Na tela Plan creation:
+1. Na tela **[!UICONTROL Plan creation]**:
 
-   1. Na seção **[!UICONTROL Setup]**
+   1. Na seção **[!UICONTROL Setup]**:
 
       1. Digite um **[!UICONTROL Plan name]**, por exemplo `Demo plan`. Digite um **[!UICONTROL Description]**, por exemplo `Demo plan for Luma company`.
-      1. Selecione um **[!UICONTROL Model]** de **[!UICONTROL _Selecione uma opção._.]**.
+      1. Selecione um **[!UICONTROL Model]** de **[!UICONTROL _Selecione uma opção._.]**
       1. Você pode selecionar ![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]** para criar um modelo diretamente de dentro da criação do plano. Uma nova guia será aberta no navegador e mostrará a interface [Modelos](../models/overview.md).
 
          ![Configuração do Plano](/help/assets/plan-setup.png)
