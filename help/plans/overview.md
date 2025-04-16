@@ -3,9 +3,9 @@ title: Visão geral dos planos
 description: Saiba como exibir, selecionar e executar ações em planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: c62cba4dc7c703cf33859a925369383d45ad0606
+source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Os planos no Mix Modeler permitem alocar orçamentos por unidade de negócios e canal. A funcionalidade de planejamento está integrada aos resultados dos modelos treinados com base em seus dados harmonizados.
 
-Um plano descreve os investimentos discricionários (por exemplo, orçamentos) que uma empresa pretende gastar em projetos relacionados a marketing durante um determinado período em serviço de KPI comum (por exemplo, pedidos, receita). Os planos podem incluir despesas de canais como publicidade paga, conteúdo da Web patrocinado, eventos.
+Um plano descreve os investimentos discricionários (por exemplo, orçamentos) que uma empresa pretende gastar em projetos relacionados a marketing durante um determinado período. Esses investimentos estão ao serviço de KPIs comuns (por exemplo, pedidos, receita). Os planos podem incluir despesas de canais como publicidade paga, conteúdo da Web patrocinado, eventos.
 
 Um plano exige:
 
@@ -28,7 +28,7 @@ Um plano pode incluir, opcionalmente:
 - várias datas de voo com cada uma tendo um orçamento de target,
 - restrições de orçamento mínimo e máximo por canal e data de voo.
 
-Se um modelo que você usou para seu plano for pontuado em novos dados, será necessário criar um novo plano para considerar os dados repontuados.
+Se um modelo usado para seu plano for pontuado em novos dados, será necessário criar um novo plano para considerar os dados repontuados.
 
 
 ## Criar planos
@@ -52,10 +52,10 @@ Para exibir uma tabela de seus planos atuais, na interface do Mix Modeler:
    | Modelo | O modelo usado como base para o plano. |
    | Intervalo de data | O intervalo de datas completo de um plano. |
    | Orçamento | O orçamento total de um plano. |
-   | Retorno previsto | O retorno previsto de um plano |
-   | ROI previsto | O ROI previsto para um plano. |
-   | Conversão prevista | A conversão prevista de um plano |
-   | CPA previsto | O CPA previsto para um plano |
+   | Retorno previsto | O [retorno previsto](/help/main-guide/glossary.md) para um plano |
+   | ROI previsto | O [ROI previsto](/help/main-guide/glossary.md) para um plano. |
+   | Conversão prevista | A [conversão prevista](/help/main-guide/glossary.md) para um plano |
+   | CPA previsto | O [CPA previsto](/help/main-guide/glossary.md)para um plano |
    | Status | O status de um plano: <p><span style="color:red"> ●</span> Falhou, <p><span style="color:blue"> ●</span> Processando, ou <p><span style="color:green"> ●</span> Concluído. |
 
    {style="table-layout:auto"}
@@ -88,7 +88,9 @@ Um novo plano, com um nome composto pelo nome do plano original anexado com **[!
 - As restrições de orçamento do plano original são copiadas para o plano recém-criado.
 - Você tem a opção de selecionar outro modelo como base para o plano copiado.
    - Para pontos de contato ou canais que existem no plano copiado, mas não existem no modelo recém-selecionado, todas as restrições para esses pontos de contato ou canais são removidas do plano.
-   - Para pontos de contato ou canais que não existem no plano copiado, mas existem no modelo recém-selecionado, as restrições são definidas para um valor mínimo de `0` e um valor máximo em conformidade com o orçamento do intervalo de execução do plano.
+   - Para pontos de contato ou canais que não existem no plano copiado, mas existem no modelo recém-selecionado, as restrições são definidas como:
+      - um valor mínimo de `0`,
+      - um valor máximo alinhado com o orçamento da faixa de voo do plano.
 
 
 
