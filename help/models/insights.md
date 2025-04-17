@@ -3,9 +3,9 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
+source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,14 @@ Para exibir insights do modelo, na interface ![Modelos](/help/assets/icons/FileD
 Você vê quando o modelo especificado foi atualizado pela última vez e as visualizações são exibidas usando quatro guias: [Insights do modelo](#model-insights), [Atribuição](#attribution), [Fatores](#factors), [Diagnósticos](#diagnostics) e [Visão geral histórica](#historical-overview).
 
 É possível alterar o período de data no qual as visualizações em cada uma das guias se baseiam. Insira um período de data ou selecione ![Calendário](/help/assets/icons/Calendar.svg) para selecionar um período de data.
+
+## Desvio do modelo
+
+{{release-limited-testing-section}}
+
+Se for detectado um descompasso no modelo, você verá uma caixa de diálogo **[!UICONTROL Model drift detected]** com opções para serem lembradas mais tarde ou para [**[!UICONTROL Retrain]**](overview.md#retrain) imediatamente o modelo. Se você selecionar **[!UICONTROL Remind me later]**, será lembrado no dia seguinte ou no próximo logon.
+
+![Desvio de modelo detectado na caixa de diálogo](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -251,6 +259,19 @@ A guia Diagnóstico mostra visualizações para:
    * [!UICONTROL Total volume]: O número agregado de vezes que um usuário toca um ponto de contato. O número inclui os pontos de contato que aparecem em um caminho que alcança a conversão, assim como os caminhos *não* que resultam na conversão.
 
 ![Diagnósticos](/help/assets/model-insights-diagnostics.png)
+
+### Detecção de desvio de modelo
+
+>[!AVAILABILITY]
+>
+>A funcionalidade descrita nesta seção está na fase de Teste limitado da versão e pode ainda não estar disponível em seu ambiente. Essa nota será removida quando a funcionalidade estiver disponível no geral. Para obter informações sobre o processo de lançamento do Mix Modeler, consulte [versões de recursos do Mix Modeler](/help/releases/latest.md).
+>
+
+Se for detectado descompasso de modelo, você verá uma notificação **[!UICONTROL Model drift detected]** na parte superior.
+
+![Notificação de descompasso do modelo](/help/assets/model-drift-notification.png)
+
+Selecione **[!UICONTROL Hide]** para ocultar a notificação. A notificação reaparecerá no dia seguinte ou no próximo logon.
 
 
 ## [!UICONTROL Historical overview]

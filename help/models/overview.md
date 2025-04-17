@@ -3,7 +3,7 @@ title: Visão geral dos modelos
 description: Saiba como criar e usar modelos no Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Um modelo pode incluir opcionalmente:
 * Conhecimento prévio das contribuições de marketing de outras fontes, como experiência anterior das partes interessadas, testes incrementais e outros modelos.
 * Gastar compartilhamento, que usa compartilhamento de gasto relativo como proxy quando os dados de marketing são escassos.
 
-Quando um modelo é criado pela primeira vez, a criação inicia imediatamente o processo de treinamento e pontuação. Após a conclusão da execução inicial de treinamento e pontuação, os insights do modelo ficam disponíveis para revisão. Um modelo pode ser treinado novamente posteriormente. Além disso, dados podem ser adicionados ao modelo, o que requer que você reclassifique o modelo manualmente. O novo treinamento e a nova pontuação são um processo iterativo à medida que surgem novas descobertas e informações, e são necessários ajustes para obter um modelo mais adequado aos seus objetivos de negócios.
+Quando um modelo é criado pela primeira vez, a criação inicia imediatamente o processo de treinamento e pontuação. Após a conclusão da execução inicial de treinamento e pontuação, os insights do modelo ficam disponíveis para revisão. Um modelo pode ser treinado novamente posteriormente. Além disso, dados podem ser adicionados ao modelo, o que requer a repontuação manual do modelo. O novo treinamento e a nova pontuação são um processo iterativo à medida que surgem novas descobertas e informações, e são necessários ajustes para obter um modelo mais adequado aos seus objetivos de negócios.
 
 
 ## Criar modelos
@@ -68,7 +68,7 @@ Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
    * ![Relógio](/help/assets/icons/Clock.svg) - indica uma execução em andamento atual de uma etapa no ciclo de vida do modelo.
    * ![Fechar](/help/assets/icons/Close.svg) - indica uma falha na execução de uma etapa no ciclo de vida do modelo.
 
-   | Status | Criar | Treinamento | Pontuação | Treinar novamente | Re-pontuação |
+   | Status | Criar | Treinamento | Pontuação | Treinar novamente | Pontuação |
    |---|:---:|:---:|:---:|:---:|:---:|
    | Em andamento | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | | | | |
    | Em andamento | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Relógio](/help/assets/icons/Clock.svg) | | | |
@@ -152,7 +152,6 @@ Você é redirecionado para as etapas de criação de um novo modelo, com um nom
 
 ### Treinar novamente
 
-
 Treinar novamente um modelo só está disponível em modelos treinados com êxito.
 
 Considere treinar novamente um modelo quando quiser:
@@ -171,17 +170,17 @@ Para treinar novamente um modelo:
    * **[!UICONTROL Train model using specific date range of data]**.
 Especifique o intervalo de datas. Você pode usar o ![Calendário](/help/assets/icons/Calendar.svg) para selecionar um intervalo de datas. Você deve selecionar um intervalo de dados com no mínimo um ano.
 
-   ![Treinar novamente um modelo](../assets/re-train-model.png)
+   ![Retreinar um modelo](../assets/retrain-model.png)
 
 1. Selecione **[!UICONTROL Train]** para treinar novamente o modelo.
 
 
-### Pontuação ou repontuação
+### Pontuação ou pontuação
 
 
 Você pode pontuar incrementalmente um modelo com base em novos dados de marketing ou repontuar um modelo para um intervalo de datas específico.
 
-Considere pontuar novamente um modelo quando quiser:
+Considere pontuar um modelo quando quiser:
 
 * Corrija dados de marketing incorretos. Por exemplo, os dados de pesquisa paga recentes incluídos no treinamento e na pontuação do modelo perderam uma semana de dados.
 * Use os novos dados de marketing incrementais que se tornaram disponíveis por meio de atualizações nos conjuntos de dados configurados como parte de seus dados harmonizados.
@@ -195,10 +194,10 @@ Para pontuar ou repontuar um modelo:
    Na caixa de diálogo **[!UICONTROL Score marketing data]**, selecione a opção para:
 
    * **[!UICONTROL Score new marketing data from *mm/dd/aaaa *]**, para pontuar seu modelo de forma incremental usando novos dados de marketing, ou
-   * **[!UICONTROL Score specific date range of marketing data]** para pontuar novamente para um intervalo de datas específico.
+   * **[!UICONTROL Score specific date range of marketing data]** para pontuar para um intervalo de datas específico.
 Especifique o intervalo de datas. Você pode usar o ![Calendário](/help/assets/icons/Calendar.svg) para selecionar um intervalo de datas.
 
-   ![Treinar novamente um modelo](../assets/re-score-model.png)
+   ![Pontuar novamente um modelo](../assets/rescore-model.png)
 
 1. Selecione **[!UICONTROL Score]**. Ao pontuar novamente um modelo usando um intervalo de dados específico, você verá uma caixa de diálogo **[!UICONTROL Existing model is replaced]**, solicitando a confirmação para substituir o modelo por novas pontuações para o intervalo de datas selecionado. Selecione **[!UICONTROL Replace model]** para confirmar.
 
