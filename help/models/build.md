@@ -3,9 +3,9 @@ title: Criar modelos
 description: Saiba como criar modelos no Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,15 @@ Você pode especificar configurações avançadas na etapa **[!UICONTROL Advance
 
 1. Na seção **[!UICONTROL Spend share]**:
 
-   * Para usar taxas históricas de investimento em marketing para informar o modelo quando os dados de marketing são escassos, ative **[!UICONTROL Allow spend share]**.
+   * Para usar taxas históricas de investimento em marketing para informar o modelo quando os dados de marketing são escassos, ative **[!UICONTROL Allow spend share]**. Essa configuração é recomendada, especialmente nos seguintes cenários:
+      * Um canal não tem observações suficientes (por exemplo, baixa frequência de gastos, impressões ou cliques).
+      * Você está modelando mídia pontual, mas regular e potencialmente de alto gasto (como TV para algumas marcas), em que os dados podem ser escassos.
+
+     >[!NOTE]
+     >
+     >Para investimentos únicos (por exemplo, um anúncio de Super Bowl), considere incorporar esses dados como um fator em vez de depender da participação nos gastos.
+     >
+
 
 1. Na seção **[!UICONTROL MTA enabled]**:
 
