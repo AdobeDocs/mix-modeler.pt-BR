@@ -1,33 +1,29 @@
 ---
-title: visão geral do Mix Modeler
+title: Visão geral do Mix Modeler
 description: Obtenha uma visão geral da funcionalidade e dos recursos do Mix Modeler.
 short-description: Obtenha uma visão geral da funcionalidade e dos recursos do Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
 
-# visão geral do Mix Modeler
-
-Assista a este vídeo para obter uma visão geral rápida dos recursos do Mix Modeler.
-
->[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
+# Visão geral do Mix Modeler
 
 O Mix Modeler, desenvolvido pela Adobe Sensei, permite que os profissionais de marketing avaliem campanhas e otimizem o planejamento de forma holística em todos os canais: pagos, conquistados e próprios. Sua metodologia unificada mede de forma incremental tanto em pontos de contato de marketing quanto em níveis agregados, garantindo resultados totalmente consistentes.
 
-o Mix Modeler oferece o impacto incremental de todas as atividades de marketing nos resultados de negócios e campanhas por meio de um aplicativo de medição holístico (completo) para marketing digital e offline.
+O Mix Modeler oferece o impacto incremental de todas as atividades de marketing nos resultados de negócios e campanhas por meio de um aplicativo de medição holístico (completo) para marketing digital e offline.
 
-O Mix Modeler fornece os seguintes tipos de insights otimizados e acionáveis em nível estratégico e tático, para que você possa entender melhor:
+O Mix Modeler fornece os seguintes tipos de insights otimizados e acionáveis em um nível estratégico e tático, para que você possa entender melhor:
 
 * gastos com marketing e o desempenho resultante em vários canais, e
 * níveis de investimento recomendados para atingir os objetivos de negócios futuros.
 
 
-Para conseguir essa funcionalidade, o Mix Modeler combina:
+Para obter essa funcionalidade, a Mix Modeler combina:
 
 * dados de baixo para cima (nível de evento) e dados de cima para baixo (nível agregado),
 * fatores do mercado externo e fatores internos, e
@@ -66,7 +62,7 @@ A modelagem de mix de marketing no Mix Modeler é uma análise de aprendizado de
 
 Essa análise abrangente permite que as empresas aloquem orçamentos de marketing estrategicamente em várias linhas de negócios, regiões, canais e campanhas, além de fornecer insights preditivos sobre o impacto comercial de eventos futuros.
 
-Os recursos de modelagem de mix de marketing do Mix Modeler são fundamentais para resolver os seguintes casos de uso:
+Os recursos de modelagem de mix de marketing da Mix Modeler são fundamentais para resolver os seguintes casos de uso:
 
 * Relatórios executivos: permita que os executivos entendam o verdadeiro impacto incremental do marketing, tanto como um todo quanto por canal, região, SKU etc.
 * Planejamento estratégico: informe estratégias de marketing de longo prazo e defina metas e referências realistas para campanhas futuras
@@ -78,7 +74,7 @@ Os recursos de modelagem de mix de marketing do Mix Modeler são fundamentais pa
 
 A atribuição multitoque no Mix Modeler é uma análise opcional de aprendizado de máquina que você pode aproveitar para atribuir créditos a pontos de contato no nível do evento, resultando em eventos de conversão. Essa atribuição é usada pelos profissionais de marketing para ajudar a quantificar o impacto de marketing de cada ponto de contato de marketing individual nas jornadas do cliente que podem ser rastreadas. Esses pontos de contato da campanha de marketing digital normalmente são cliques de anúncio de exibição, envios por email, aberturas de email e cliques de pesquisa pagos. A atribuição multitoque não pode medir a maioria dos pontos de contato offline, como anúncios impressos, outdoors, comerciais de TV e fatores comerciais. Esses pontos de contato têm apenas dados de nível de resumo que não podem ser compilados nas jornadas do cliente.
 
-A atribuição multitoque do Mix Modeler é compatível com duas categorias de pontuações:
+A atribuição multitoque do Mix Modeler oferece suporte a duas categorias de pontuações:
 
 * Pontuações algorítmicas, que incluem pontuações incrementais e influenciadas:
    * A pontuação influenciada é a fração da conversão pela qual cada ponto de contato de marketing é responsável.
