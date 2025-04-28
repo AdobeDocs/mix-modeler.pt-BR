@@ -1,12 +1,12 @@
 ---
 title: Visão geral dos dados de assimilação
-description: Saiba como assimilar dados no Mix Modeler.
+description: Saiba como assimilar dados na Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 8%
+source-wordcount: '520'
+ht-degree: 7%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 8%
 
 O Mix Modeler funciona com dados no nível do evento, dados de esforço de marketing agregados ou resumidos de vários jardins murados e dados agregados ou resumidos de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
 
-Os clientes podem usar qualquer tipo de dados assimilados no Experience Platform como conjuntos de dados e que se baseiam em esquemas que usam o XDM ExperienceEvent ou as Métricas de resumo XDM como a classe base.
+Os clientes podem usar qualquer tipo de dados assimilados na Experience Platform como conjuntos de dados e que se baseie em esquemas que usam o XDM ExperienceEvent ou as Métricas de resumo XDM como a classe base.
 
 Por exemplo:
 
 * dados coletados usando o conector de origem do Adobe Analytics e transformados em conjuntos de dados em conformidade com a versão padrão ou personalizada do esquema do Adobe Analytics ou, como alternativa,
-* dados coletados usando o Experience Platform Web SDK, Mobile SDK ou Edge Network Server API para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo,
-* dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline,
+* dados coletados usando o Experience Platform Web SDK, Mobile SDK ou a API do Edge Network Server para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo,
+* dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados publicitários offline,
 * dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a construção de modelos.
 
-Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Como os SDKs do Experience Platform, APIs, conectores de origem e assimilação em lote e por transmissão.
+Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Como os SDKs do Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão.
 
 
 ## Diretrizes
 
-Para assimilar dados no Experience Platform para uso com o Mix Modeler, siga estas diretrizes:
+Para assimilar dados na Experience Platform para uso com o Mix Modeler, siga estas diretrizes:
 
 * Não deve haver qualquer sobreposição nos dados incrementais adicionados aos conjuntos de dados.
 * Todos os dados de uma única fonte devem ter a mesma granularidade.
@@ -38,11 +38,11 @@ Para assimilar dados no Experience Platform para uso com o Mix Modeler, siga est
 
 ## Exemplos
 
-Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, além dos dados de evento de experiência mais padrão.
+Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, além dos dados do evento de experiência mais padrão.
 
 +++ Dados agregados do esforço de marketing
 
-| Geo | Data | Tipo de data | Canal | Campaign | Clique em | Ganho | Engajamento | impressão | Abrir | Próprio | Enviada | Gastos |
+| Geo | Data | Tipo de data | Canal | Campaign | Clique em | Ganho | Engajamento | impressão | Abrir | Próprio | Enviado | Gastos |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
 | AMER | 2021-10-31 | dia | EMAIL | | 12752 | | | | | | 1132945 | |
 | AMER | 2021-10-31 | dia | FB | | 148844 | | | | | | | 42111 |
@@ -80,7 +80,17 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, alé
 
 +++
 
-Para trabalhar com dados no Mix Modeler, você precisa de dados coletados em conjuntos de dados e modelados após esquemas no Experience Platform. A interface do Mix Modeler fornece acesso fácil aos esquemas do Experience Platform e à interface dos conjuntos de dados.
+Para trabalhar com dados na Mix Modeler, você precisa dos dados coletados nos conjuntos de dados e modelados de acordo com os esquemas na Experience Platform. A interface do Mix Modeler fornece acesso fácil à interface do usuário de Esquemas e Conjuntos de dados do Experience Platform.
+
+
+## Validar
+
+Para validar se os dados estão disponíveis corretamente no Mix Modeler, você pode fazer o seguinte:
+
+* Use visualizações em [Visão geral](/help/overview.md).
+* Baixe e inspecione dados de [Dados harmonizados](/help/harmonize-data/overview.md) em conjuntos de dados harmonizados.
+
+Para validar se seus dados foram assimilados corretamente no Experience Platform, você pode [gravar e executar consultas SQL usando o Serviço de Consulta do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

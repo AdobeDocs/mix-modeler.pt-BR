@@ -3,9 +3,9 @@ title: Harmonizar visão geral dos conjuntos de dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1013'
 ht-degree: 6%
 
 ---
@@ -128,7 +128,7 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
 
 1. Selecione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** no painel esquerdo.
 
-1. Selecione **[!UICONTROL Harmonized Data]** na barra superior. Um resumo de seus dados harmonizados é mostrado com base nos campos, nas regras do conjunto de dados, nos pontos de contato de marketing e nas conversões definidos.
+1. Selecione **[!UICONTROL Harmonized data]** na barra superior. Um resumo de seus dados harmonizados é mostrado com base nos campos, nas regras do conjunto de dados, nos pontos de contato de marketing e nas conversões definidos.
 
    1. Para redefinir o período no qual se baseia a recapitulação de dados harmonizados, insira um intervalo de datas para **[!UICONTROL Date range]** ou use o ![Calendário](/help/assets/icons/Calendar.svg) para selecionar um intervalo de dados.
 
@@ -145,3 +145,13 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
    1. Selecione **[!UICONTROL Submit]** para enviar suas alterações de configuração de coluna. Selecione **[!UICONTROL Close]** para cancelar as alterações feitas.
 
 1. Se mais páginas estiverem disponíveis, use a ![Seta para a esquerda](/help/assets/icons/ChevronLeft.svg) ou a ![Seta para a direita](/help/assets/icons/ChevronRight.svg) em **[!UICONTROL Page _x _de_x_]** para se mover entre as páginas.
+
+1. Como opção, é possível baixar os dados harmonizados.
+
+   1. Selecione ![Baixar](/help/assets/icons/Download.svg) [!BADGE beta].
+   1. No pop-up, selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Create]**.
+   1. Digite um **[!UICONTROL Report name]**, por exemplo `Test Report`.
+   1. Selecione ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
+
+   Um relatório CSV com um título baseado no nome do relatório fornecido e na data e hora atuais (por exemplo, `Test Report_2025_04_23_9-5-18.csv`) é baixado para a pasta de download padrão.
+

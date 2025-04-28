@@ -1,20 +1,20 @@
 ---
 title: Esquemas
-description: Saiba como gerenciar os esquemas necessários para assimilar dados no Mix Modeler.
+description: Saiba como gerenciar os esquemas necessários para assimilar dados na Mix Modeler.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 3%
 
 ---
 
 # Esquemas
 
-Para gerenciar esquemas, suportando os dados que você deseja assimilar no Experience Platform e usar no Mix Modeler:
+Para gerenciar esquemas, com suporte aos dados que você deseja assimilar no Experience Platform e usar no Mix Modeler:
 
-1. Vá para a interface do Mix Modeler.
+1. Acesse a interface do Mix Modeler.
 
 1. Selecione ![Esquemas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, abaixo de **[!UICONTROL SETUP]**.
 
@@ -22,11 +22,11 @@ Consulte a [Visão geral da interface do usuário de esquemas](https://experienc
 
 ## Dados agregados ou resumidos
 
-É altamente recomendável usar a classe Métricas resumidas do XDM como a base do esquema subjacente a qualquer dado agregado ou resumido que você deseja assimilar no Experience Platform e usar no Mix Modeler.
+É altamente recomendável usar a classe Métricas de resumo XDM como a base do esquema subjacente a qualquer dado agregado ou resumido que você deseja assimilar no Experience Platform e usar no Mix Modeler.
 
 Use a classe Métricas de resumo XDM para:
 
-- dados murados, por exemplo, dados do Facebook ou do YouTube.
+- dados de jardim murado, por exemplo, dados do Facebook ou YouTube.
 
 - dados de fatores externos, como dados de SPX (índices de preços de ações S&amp;P 500), dados meteorológicos,
 
@@ -72,7 +72,7 @@ Dada a natureza assíncrona da assimilação de perfis, ao coletar dados agregad
 
 ## Tipos de dados compatíveis
 
-Atualmente, o Mix Modeler não suporta um subconjunto de tipos de dados Experience Platform. Os seguintes tipos de dados básicos (campos), mencionados em [Noções básicas da composição de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), são suportados:
+Atualmente, o Mix Modeler oferece suporte a um subconjunto de tipos de dados do Experience Platform. Os seguintes tipos de dados básicos (campos), mencionados em [Noções básicas da composição de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), são suportados:
 
 - String
 - Integer
@@ -83,3 +83,8 @@ Atualmente, o Mix Modeler não suporta um subconjunto de tipos de dados Experien
 - Byte
 - Data
 - Data e hora
+
+
+>[!MORELIKETHIS]
+>
+>- [Esquemas](schemas.md)
