@@ -18,7 +18,7 @@ Para gerenciar esquemas, com suporte aos dados que você deseja assimilar no Exp
 
 1. Selecione ![Esquemas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, abaixo de **[!UICONTROL SETUP]**.
 
-Consulte a [Visão geral da interface do usuário de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) para obter mais informações.
+Consulte a [Visão geral da interface do usuário de esquemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=pt-BR) para obter mais informações.
 
 ## Dados agregados ou resumidos
 
@@ -72,7 +72,7 @@ Dada a natureza assíncrona da assimilação de perfis, ao coletar dados agregad
 
 ## Tipos de dados compatíveis
 
-Atualmente, o Mix Modeler oferece suporte a um subconjunto de tipos de dados do Experience Platform. Os seguintes tipos de dados básicos (campos), mencionados em [Noções básicas da composição de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), são suportados:
+Atualmente, o Mix Modeler oferece suporte a um subconjunto de tipos de dados do Experience Platform. Os seguintes tipos de dados básicos (campos), mencionados em [Noções básicas da composição de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=pt-BR#data-type), são suportados:
 
 - String
 - Integer
