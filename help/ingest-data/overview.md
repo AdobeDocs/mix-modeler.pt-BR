@@ -23,7 +23,7 @@ Por exemplo:
 * dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados publicitários offline,
 * dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a construção de modelos.
 
-Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Os mecanismos de assimilação incluem SDKs da Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão. Para saber mais sobre como assimilar seus dados no Experience Platform para uso no Adobe Mix Modeler, consulte [Visão geral da assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
+Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Os mecanismos de assimilação incluem SDKs da Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão. Para saber mais sobre como assimilar seus dados no Experience Platform para uso no Adobe Mix Modeler, consulte [Visão geral da assimilação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/home).
 
 ## Diretrizes
 
@@ -89,7 +89,7 @@ Para validar se os dados estão disponíveis corretamente no Mix Modeler, você 
 * Use visualizações em [Visão geral](/help/overview.md).
 * Baixe e inspecione dados de [Dados harmonizados](/help/harmonize-data/overview.md) em conjuntos de dados harmonizados.
 
-Para validar se seus dados foram assimilados corretamente no Experience Platform, você pode [gravar e executar consultas SQL usando o Serviço de Consulta do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
+Para validar se seus dados foram assimilados corretamente no Experience Platform, você pode [gravar e executar consultas SQL usando o Serviço de Consulta do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]
