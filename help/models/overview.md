@@ -3,9 +3,9 @@ title: Visão geral dos modelos
 description: Saiba como criar e usar modelos no Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 8b0dfbe136986bc97c6793538518679b64d7801c
+source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
    * ![Relógio](/help/assets/icons/Clock.svg) - indica uma execução em andamento atual de uma etapa no ciclo de vida do modelo.
    * ![Fechar](/help/assets/icons/Close.svg) - indica uma falha na execução de uma etapa no ciclo de vida do modelo.
 
-   | Status | Criar | Treinamento | Pontuação | Treinar novamente | Pontuação |
+   | Status | [Compilação](/help/models/build.md) | [Treinamento](/help/models/train-score.md#train) | [Pontuação](/help/models/train-score.md#score) | [Retreinar](/help/models/train-score.md#train) | [Pontuação](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
    | Em andamento | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | | | | |
    | Em andamento | ![Marca de seleção](/help/assets/icons/Checkmark.svg) | ![Relógio](/help/assets/icons/Clock.svg) | | | |
@@ -120,7 +120,7 @@ Para exibir mais detalhes de um modelo:
 
 1. Selecione ![Mais](/help/assets/icons/More.svg) para um modelo e, no menu de contexto, selecione **[!UICONTROL Duplicate]**.
 
-Você é redirecionado para as etapas de criação de um novo modelo, com um nome proposto composto pelo nome do modelo original anexado com **[!UICONTROL (Copy)] (_n_)**.
+Você é redirecionado para as etapas de criação de um novo modelo, com um nome proposto composto pelo nome do modelo original anexado com **[!UICONTROL (Copy)](_n_)**.
 
 ### Editar
 
@@ -150,61 +150,14 @@ Você é redirecionado para as etapas de criação de um novo modelo, com um nom
 
 
 
-### Treinar novamente
+### Treinamento
 
-Treinar novamente um modelo só está disponível em modelos treinados com êxito.
-
-Considere treinar novamente um modelo quando quiser:
-
-* Inclua novos dados de marketing incremental e de fatores. Por exemplo, durante o último trimestre, a dinâmica do mercado mudou ou sua distribuição de dados de marketing mudou significativamente.
-
-Para treinar novamente um modelo:
-
-1. Selecione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
-
-1. Selecione ![Mais](/help/assets/icons/More.svg) para um modelo e, no menu de contexto, selecione **[!UICONTROL Train]**. Como alternativa, selecione ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** na barra de ação azul.
-
-   Na caixa de diálogo **[!UICONTROL Train model]**, selecione a opção para:
-
-   * **[!UICONTROL Train model with last 2 years of marketing data]** ou
-   * **[!UICONTROL Train model using specific date range of data]**.
-Especifique o intervalo de datas. Você pode usar o ![Calendário](/help/assets/icons/Calendar.svg) para selecionar um intervalo de datas. Você deve selecionar um intervalo de dados com no mínimo um ano.
-
-   ![Retreinar um modelo](../assets/retrain-model.png)
-
-1. Selecione **[!UICONTROL Train]** para treinar novamente o modelo.
+Considere treinar novamente um modelo quando quiser incluir novos dados de marketing incremental e de fatores. Consulte [Modelos de treinamento e pontuação](train-score.md#train) para obter mais informações.
 
 
-### Pontuação ou pontuação
+### Pontuação
 
-
-Você pode pontuar incrementalmente um modelo com base em novos dados de marketing ou repontuar um modelo para um intervalo de datas específico.
-
-Considere pontuar um modelo quando quiser:
-
-* Corrija dados de marketing incorretos. Por exemplo, os dados de pesquisa paga recentes incluídos no treinamento e na pontuação do modelo perderam uma semana de dados.
-* Use os novos dados de marketing incrementais que se tornaram disponíveis por meio de atualizações nos conjuntos de dados configurados como parte de seus dados harmonizados.
-
-Para pontuar ou repontuar um modelo:
-
-1. Selecione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
-
-1. Selecione ![Mais](/help/assets/icons/More.svg) para um modelo e, no menu de contexto, selecione **[!UICONTROL Score]**. Como alternativa, selecione ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** na barra de ação azul.
-
-   Na caixa de diálogo **[!UICONTROL Score marketing data]**, selecione a opção para:
-
-   * **[!UICONTROL Score new marketing data from *mm/dd/aaaa *]**, para pontuar seu modelo de forma incremental usando novos dados de marketing, ou
-   * **[!UICONTROL Score specific date range of marketing data]** para pontuar para um intervalo de datas específico.
-Especifique o intervalo de datas. Você pode usar o ![Calendário](/help/assets/icons/Calendar.svg) para selecionar um intervalo de datas.
-
-   ![Pontuar novamente um modelo](../assets/rescore-model.png)
-
-1. Selecione **[!UICONTROL Score]**. Ao pontuar novamente um modelo usando um intervalo de dados específico, você verá uma caixa de diálogo **[!UICONTROL Existing model is replaced]**, solicitando a confirmação para substituir o modelo por novas pontuações para o intervalo de datas selecionado. Selecione **[!UICONTROL Replace model]** para confirmar.
-
->[!IMPORTANT]
->
->A pontuação de um modelo não altera nenhum plano já criado com base no modelo rescored. Para usar o novo modelo ressaltado em um plano, é necessário criar um novo plano.
-
+Você pode pontuar incrementalmente um modelo com base em novos dados de marketing ou repontuar um modelo para um intervalo de datas específico. Consulte [Modelos de treinamento e pontuação](train-score.md#score) para obter mais informações.
 
 
 ### Excluir modelos
@@ -219,5 +172,5 @@ Para excluir vários modelos:
 
 1. Selecione vários modelos.
 1. Na barra de ação azul, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir os modelos.
-1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *modelos]**&#x200B;para excluir os modelos. Selecione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *modelos]**para excluir os modelos. Selecione **[!UICONTROL Cancel]**para cancelar.
 

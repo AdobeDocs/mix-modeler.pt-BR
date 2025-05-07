@@ -2,10 +2,10 @@
 user-guide-title: Manual do Mix Modeler
 breadcrumb-title: Manual do Mix Modeler
 user-guide-description: Saiba como usar o Mix Modeler.
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 47%
+source-wordcount: '88'
+ht-degree: 51%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 47%
    + [O que é o Mix Modeler?](/help/get-started/about.md)
    + [Fluxo de trabalho do aplicativo](/help/get-started/workflow.md)
 
-+ Residencial {#dashboard}
++ Início {#dashboard}
    + [Visão geral](/help/dashboard/overview.md)
    + [Dados harmonizados](/help/dashboard/harmonized-data.md)
    + [Planos](/help/dashboard/plans.md)
@@ -25,6 +25,7 @@ ht-degree: 47%
 + Modelos {#models}
    + [Visão geral](/help/models/overview.md)
    + [Criar modelos](/help/models/build.md)
+   + [Modelos de treinamento e pontuação](/help/models/train-score.md)
    + [Insights do modelo](/help/models/insights.md)
    + [Usar dados de pontuação](/help/models/scoring-data.md)
 
@@ -44,7 +45,7 @@ ht-degree: 47%
 
 + Assimilar dados {#ingest-data}
    + [Visão geral](/help/ingest-data/overview.md)
-   + [Schemas](/help/ingest-data/schemas.md)
+   + [Esquemas](/help/ingest-data/schemas.md)
    + [Conjuntos de dados](/help/ingest-data/datasets.md)
 
 + Governança de dados {#data-governance}
