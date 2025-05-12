@@ -4,10 +4,10 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 4%
+source-wordcount: '365'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,8 @@ Essas notas de versão abordam a versão mais recente do Mix Modeler. As versõe
 
 | Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
 |---|---|---|---|
-| **Detecção de desvio de modelo** | Ao abrir um modelo, você será [solicitado a treinar novamente o modelo quando for detectado um descompasso do modelo](/help/models/insights.md#model-drift). | sexta-feira, 3 de abril de 2025 | t.b.d. |
+| **Detecção de desvio de modelo** | Ao abrir um modelo, você é [solicitado a treinar novamente o modelo quando o desvio do modelo for detectado](/help/models/insights.md#model-drift). | 3 de abril de 2025 | 7 de maio de 2025 |
+| **Retorno de canal marginal em insights de plano** | Uma visualização de [retorno de canal marginal](/help/plans/insights.md#marginal-channel-return) foi adicionada aos insights do plano, que mostra o ponto de equilíbrio marginal e o retorno de plano para todos os canais ou para os canais selecionados. | 3 de abril de 2025 | 24 de abril de 2025 |
 
 
 ## Janeiro - fevereiro de 2025
