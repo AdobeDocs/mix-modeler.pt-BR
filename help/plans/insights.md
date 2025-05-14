@@ -3,9 +3,9 @@ title: Planejar insights
 description: Saiba como ver insights do seu plano e editar um plano no Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Quando terminar de recuperar, você verá uma visão geral do seu plano, que con
 
 Para fechar a interface, selecione **[!UICONTROL Close]**.
 
-Para alterar como visualizar o ROI do seu plano, selecione **[!UICONTROL X]** ou **[!UICONTROL &#x200B; %]** em **[!UICONTROL View ROI]**.
+Para alterar como visualizar o ROI do seu plano, selecione **[!UICONTROL X]** ou **[!UICONTROL  %]** em **[!UICONTROL View ROI]**.
 
 ## Gastos e ROI previstos do canal pago
 
@@ -114,6 +114,39 @@ A tabela [!UICONTROL Date range breakdown] mostra dados detalhados granulares po
       1. Selecione **[!UICONTROL Next]** para retornar à seção **[!UICONTROL Spend]**. Selecione **[!UICONTROL Cancel]** para voltar para a visão geral dos seus planos.
 
          ![Detalhes do plano](/help/assets/plan-details.png)
+
+   1. Se você tiver definido as configurações avançadas para o seu plano, selecione **[!UICONTROL Next]**.
+
+      ![Editar configuração avançada](../assets/edit-plan-advanced-configuration.png)
+
+      - O nome do plano, o modelo, a faixa de datas e o orçamento total são resumidos.
+
+      - Por padrão, o Mix Modeler calcula automaticamente a receita média por conversão usando os dados sazonais históricos mais recentes. Em **[!UICONTROL Average Revenue per conversion]** você pode definir uma receita média específica por conversão.
+
+         1. Para cada faixa de datas no orçamento:
+            1. Selecione um intervalo de datas no menu suspenso **[!UICONTROL Date range]**.
+            1. Insira um valor de **[!UICONTROL Average revenue]**.
+
+         1. Selecione ![AddCircle](/help/assets/icons/AddCircle.svg). Adicione uma receita média personalizada por unidade de conversão para adicionar um intervalo de datas.
+         1. Selecione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para remover um intervalo de datas.
+
+        >[!NOTE]
+        >
+        >Se o seu modelo não incluir dados históricos de receita, você deverá definir uma receita média por conversão para cada faixa de datas especificada para o seu orçamento.
+        >
+
+      - Por padrão, o Mix Modeler calcula automaticamente os custos do canal usando os dados sazonais históricos mais recentes. Em **[!UICONTROL Channel costs]** você pode definir custos de canal personalizados.
+
+         1. Para cada canal no modelo, defina o custo do canal personalizado.
+            1. Selecione um canal no menu suspenso **[!UICONTROL Channel]**.
+            1. Para cada faixa de datas no orçamento:
+               1. Selecione um intervalo de datas no menu suspenso **[!UICONTROL Date range]**.
+               1. Insira um valor de **[!UICONTROL Average revenue]**.
+            1. Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** para adicionar um intervalo de datas.
+            1. Selecione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) para remover um intervalo de datas.
+
+         1. Selecione ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** para adicionar um canal.
+         1. Selecione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para remover um canal personalizado.
 
 
 1. Quando terminar de editar o plano, selecione **[!UICONTROL Edit]**.
