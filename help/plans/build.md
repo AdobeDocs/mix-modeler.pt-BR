@@ -3,9 +3,9 @@ title: Criar planos
 description: Saiba como criar planos no Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
+source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,8 @@ Para criar um plano, na interface ![PLan](/help/assets/icons/FileChart.svg) **[!
 
    ![Plano concluído](/help/assets/plan-done-required-fields.png)
 
-   * Selecione ![NovoPlano](../assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** se quiser gerar um plano recomendado de IA com ROI previsto.
+   * Selecione ![NovoPlano](/help/assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]** se quiser gerar um plano recomendado de IA com ROI previsto.
+
 
      Selecione **[!UICONTROL OK]**. Seu plano foi criado.
 
@@ -63,10 +64,26 @@ Para criar um plano, na interface ![PLan](/help/assets/icons/FileChart.svg) **[!
 
 1. Na seção **[!UICONTROL Spend selection]**, para cada intervalo de datas do orçamento, use a ![Divisa](/help/assets/icons/ChevronRight.svg) para abrir a exibição de distribuição de canal para esse intervalo de dados.
 
+   Você pode usar dados de referência históricos se quiser usar dados e insights passados de gastos com marketing. Você deve considerar os dados históricos de referência para:
+
+   * Melhore a alocação de orçamento destacando canais de alto desempenho e canais de baixo desempenho.
+   * Suporte para análise de tendências.
+   * Identifique estratégias eficazes e evite erros ao configurar planos.
+
+   Se você selecionar um período de referência histórico, será possível alinhar-se às preferências de padrão de gasto anteriores e a funcionalidade de planejamento do Mix Modeler poderá gerar planos que estejam dentro de suas expectativas. Esses planos devem, em última análise, aumentar a confiança das partes interessadas, garantir que os planos de marketing sejam estratégicos e eficientes e que estejam baseados em dados de desempenho comprovados e nas necessidades comerciais.
+
+   ![Gastar seleção](/help/assets/plan-spend-selection.png)
+
+   1. Selecione o **[!UICONTROL Spend pattern]**.
+
+      * Por padrão, é **[!UICONTROL Automatic]**.
+      * Selecione **[!UICONTROL Historical reference]** e insira um **[!UICONTROL Start date]** para fazer referência a dados de gastos com marketing anteriores já disponíveis para o Mix Modeler. O **[!UICONTROL End date]** é determinado automaticamente com base no intervalo de dados para o qual você define o padrão de gastos. A data de início proposta é a primeira disponível de dados anteriores de gastos com marketing. Para indicar que você selecionou um período de referência histórica inválido ou não existente, você vê um ![AlertRed](/help/assets/icons/AlertRed.svg).
+
    1. Para definir orçamentos para cada canal, insira um valor para **[!UICONTROL Min]** e **[!UICONTROL Max]** ou use os controles deslizantes.
 
    1. Para alternar entre entrada de moeda ou porcentagem, selecione **[!UICONTROL $]** ou **[!UICONTROL %]** para **[!UICONTROL View spend by]**.
 
+   1. Quando terminar, selecione **[!UICONTROL Create]**.
       ![Gastar seleção](/help/assets/plan-spend-selection.png)
 
    1. Selecione **[!UICONTROL Next]**.

@@ -3,9 +3,9 @@ title: Planejar insights
 description: Saiba como ver insights do seu plano e editar um plano no Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
+source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Quando terminar de recuperar, você verá uma visão geral do seu plano, que con
 
 Para fechar a interface, selecione **[!UICONTROL Close]**.
 
-Para alterar como visualizar o ROI do seu plano, selecione **[!UICONTROL X]** ou **[!UICONTROL &#x200B; %]** em **[!UICONTROL View ROI]**.
+Para alterar como visualizar o ROI do seu plano, selecione **[!UICONTROL X]** ou **[!UICONTROL  %]** em **[!UICONTROL View ROI]**.
 
 ## Gastos e ROI previstos do canal pago
 
@@ -84,13 +84,27 @@ A tabela [!UICONTROL Date range breakdown] mostra dados detalhados granulares po
 
 1. Para editar seu plano, selecione ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**:
 
-   1. Na seção **[!UICONTROL Spend selection]**, para cada intervalo de datas do orçamento, use a ![Divisa](/help/assets/icons/ChevronRight.svg) para abrir a exibição de distribuição de canal para esse intervalo de dados.
+   Na seção **[!UICONTROL Spend selection]**, para cada intervalo de datas do orçamento, use a ![Divisa](/help/assets/icons/ChevronRight.svg) para abrir a exibição de distribuição de canal para esse intervalo de dados.
+
+   Você pode usar dados de referência históricos se quiser usar dados e insights passados de gastos com marketing. Você deve considerar os dados históricos de referência para:
+
+   - Melhore a alocação de orçamento destacando canais de alto desempenho e canais de baixo desempenho.
+   - Suporte para análise de tendências.
+   - Identifique estratégias eficazes e evite erros ao configurar planos.
+
+   Se você selecionar um período de referência histórico, será possível alinhar-se às preferências de padrão de gasto anteriores e a funcionalidade de planejamento do Mix Modeler poderá gerar planos que estejam dentro de suas expectativas. Esses planos devem, em última análise, aumentar a confiança das partes interessadas, garantir que os planos de marketing sejam estratégicos e eficientes e que estejam baseados em dados de desempenho comprovados e nas necessidades comerciais.
+
+   ![Gastar seleção](/help/assets/plan-spend-selection.png)
+
+   1. Selecione o **[!UICONTROL Spend pattern]**.
+
+      - Por padrão, é **[!UICONTROL Automatic]**.
+      - Selecione **[!UICONTROL Historical reference]** e insira um **[!UICONTROL Start date]** para fazer referência a dados de gastos com marketing anteriores já disponíveis para o Mix Modeler. O **[!UICONTROL End date]** é determinado automaticamente com base no intervalo de dados selecionado. A data de início proposta é a primeira disponível de dados anteriores de gastos com marketing. Para indicar que você selecionou um período de referência histórica não existente, você vê um ![AlertRed](/help/assets/icons/AlertRed.svg).
+
 
    1. Para modificar os orçamentos de cada canal, modifique os valores de **[!UICONTROL Min]** e **[!UICONTROL Max]** ou use os controles deslizantes.
 
    1. Para alternar entre entrada de moeda ou porcentagem, selecione **[!UICONTROL $]** ou **[!UICONTROL %]** para **[!UICONTROL View spend by]**.
-
-      ![Gastar seleção](/help/assets/spend-selection.png)
 
    1. Para editar os detalhes do seu plano, selecione **[!UICONTROL Edit details]**:
 

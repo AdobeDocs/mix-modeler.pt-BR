@@ -4,18 +4,26 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
+source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '433'
 ht-degree: 3%
 
 ---
 
 # Notas de versão atuais do Mix Modeler
 
-**Última atualização**: fevereiro de 2025.
+**Última atualização**: 14 de maio de 2025.
 
 Essas notas de versão abordam a versão mais recente do Mix Modeler. As versões do Mix Modeler operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
+
+
+## Maio - junho de 2025
+
+| Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
+|---|---|---|---|
+| **Configuração do padrão de gastos** | Ao criar um plano, agora você tem a opção de usar dados de [referência histórica](/help/plans/build.md) (como dados e insights de gastos com marketing anteriores) ao definir o padrão de gastos para cada intervalo de datas do orçamento. | 14 de maio de 2025 | 14 de maio de 2025 |
+| **Configurações avançadas de plano** | Você pode definir [configurações avançadas](/help/plans/build.md) para seu plano, como receita média por conversão e custos de canal. | 14 de maio de 2025 | 14 de maio de 2025 |
 
 ## Março - abril de 2025
 
