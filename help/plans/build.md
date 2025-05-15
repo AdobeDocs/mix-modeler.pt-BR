@@ -84,6 +84,7 @@ Para criar um plano, na interface ![PLan](/help/assets/icons/FileChart.svg) **[!
    1. Para alternar entre entrada de moeda ou porcentagem, selecione **[!UICONTROL $]** ou **[!UICONTROL %]** para **[!UICONTROL View spend by]**.
 
    1. Quando terminar, selecione **[!UICONTROL Create]**.
+
       ![Gastar seleção](/help/assets/plan-spend-selection.png)
 
    1. Selecione **[!UICONTROL Next]**.
