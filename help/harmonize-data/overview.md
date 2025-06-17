@@ -3,10 +3,10 @@ title: Harmonizar visão geral dos conjuntos de dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 6%
+source-wordcount: '1192'
+ht-degree: 5%
 
 ---
 
@@ -154,4 +154,28 @@ Para ver seus dados harmonizados, na interface do Mix Modeler:
    1. Selecione ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]**.
 
    Um relatório CSV com um título baseado no nome do relatório fornecido e na data e hora atuais (por exemplo, `Test Report_2025_04_23_9-5-18.csv`) é baixado para a pasta de download padrão.
+
+
+## Práticas recomendadas
+
+Ao criar seu conjunto de dados harmonizado, aplique as seguintes práticas recomendadas.
+
+### Esquema
+
+* Evite incompatibilidades de tipo de dados. As incompatibilidades ocorrem quando o tipo de dados de um campo nos registros dos seus conjuntos de dados assimilados não está em conformidade com o tipo de dados configurado para esse campo no esquema subjacente.
+* Evite tipos de esquema incorretos. Tipos de esquema incorretos ocorrem quando você tenta assimilar um tipo específico de dados usando um conjunto de dados que não corresponde ao esquema para esses dados. Por exemplo, você tenta assimilar dados de resumo usando um conjunto de dados de fator externo.
+
+### Mapeamento de dados
+
+* Verifique se você configurou as identidades corretamente para cada um dos conjuntos de dados do evento.
+
+### Qualidade dos dados
+
+* Use o formato de data e hora de maneira consistente para todos os registros em conjuntos de dados que exigem dados com carimbo de data e hora.
+* Use a mesma granularidade (dia ou semana) para registros em conjuntos de dados agregados ou resumidos.
+
+### Cálculo de dados
+
+* Evite linhas duplicadas em um conjunto de dados.
+* Certifique-se de que cada conjunto de dados carregado seja específico para um canal exclusivo e um tipo de conversão. Pontos de contato ou conversões duplicados em vários conjuntos de dados afetam a saída e a qualidade do modelo.
 
