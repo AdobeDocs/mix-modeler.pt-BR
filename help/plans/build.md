@@ -108,6 +108,7 @@ Para excluir um intervalo de datas e uma métrica de destino associada, selecion
    1. Para alternar entre entrada de moeda ou porcentagem, selecione **[!UICONTROL $]** ou **[!UICONTROL %]** para **[!UICONTROL View spend by]**. Essa alternância será desativada se você tiver selecionado métricas de destino que não são baseadas em moeda.
 
    1. Quando terminar, selecione **[!UICONTROL Create]**.
+
       ![Gastar seleção](/help/assets/plan-spend-selection.png)
 
    1. Selecione **[!UICONTROL Next]**.
