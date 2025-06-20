@@ -3,7 +3,7 @@ title: Painel de dados harmonizado
 description: Saiba como usar o painel de visão geral de dados harmonizados no Mix Modeler.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Dados harmonizados
 
-A guia **[!UICONTROL Harmonized data]** na Mix Modeler ![Página inicial](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** fornece informações sobre os dados harmonizados que você configurou para serem usados como parte dos dados assimilados e da configuração de dados harmonizados.
+A guia **[!UICONTROL Harmonized data]** na ![Página inicial](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** do Mix Modeler fornece informações sobre os dados harmonizados configurados para serem usados como parte da configuração de dados assimilados e dados harmonizados.
 
 A visão geral mostra quatro visualizações de cartão de status de KPI (linha superior) e seis outras visualizações configuráveis.
 
@@ -22,7 +22,7 @@ Para alterar o período de data para que os dados sejam exibidos nas visualizaç
 
 Você pode filtrar os dados exibidos para todas as visualizações usando o painel ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]**.
 
-Selecione um ou mais filtros para cada categoria (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** e **[!UICONTROL Traffic Source]**).
+Selecione um ou mais filtros para cada categoria (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Channels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** e **[!UICONTROL Traffic Source]**).
 
 Os filtros selecionados são exibidos sobre as visualizações em **[!UICONTROL FILTERING BY:]**.
 

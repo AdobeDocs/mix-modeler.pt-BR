@@ -4,10 +4,10 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
+source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 3%
+source-wordcount: '464'
+ht-degree: 5%
 
 ---
 
@@ -22,8 +22,9 @@ Essas notas de versão abordam a versão mais recente do Mix Modeler. As versõe
 
 | Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
 |---|---|---|---|
-| **Configuração do padrão de gastos** | Ao criar um plano, agora você tem a opção de usar dados de [referência histórica](/help/plans/build.md) (como dados e insights de gastos com marketing anteriores) ao definir o padrão de gastos para cada intervalo de datas do orçamento. | 14 de maio de 2025 | 14 de maio de 2025 |
-| **Configurações avançadas de plano** | Você pode definir [configurações avançadas](/help/plans/build.md) para seu plano, como receita média por conversão e custos de canal. | 14 de maio de 2025 | 14 de maio de 2025 |
+| **Planos baseados em metas** | Ao lado dos orçamentos, você pode definir uma meta (destino) ao [criar](/help/plans/build.md) ou [editar](/help/plans/insights.md#edit-plan) um plano. Exemplos de métricas de destino são receita, conversão, CPA ou ROI. | quinta-feira, 18 de junho de 2025 | quarta-feira, 8 de julho de 2025 |
+| **Configuração do padrão de gastos** | Ao criar um plano, agora você tem a opção de usar dados de [referência histórica](/help/plans/build.md) (como dados e insights de gastos com marketing anteriores) ao definir o padrão de gastos para cada intervalo de datas do orçamento. | quinta-feira, 14 de maio de 2025 | quinta-feira, 14 de maio de 2025 |
+| **Configurações avançadas de plano** | Você pode definir [configurações avançadas](/help/plans/build.md) para seu plano, como receita média por conversão e custos de canal. | quinta-feira, 14 de maio de 2025 | quinta-feira, 14 de maio de 2025 |
 
 ## Março - abril de 2025
 

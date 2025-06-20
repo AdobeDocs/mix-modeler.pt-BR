@@ -3,9 +3,9 @@ title: Visão geral dos planos
 description: Saiba como exibir, selecionar e executar ações em planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,12 @@ Para exibir uma tabela de seus planos atuais, na interface do Mix Modeler:
    | Modelo | O modelo usado como base para o plano. |
    | Intervalo de data | O intervalo de datas completo de um plano. |
    | Orçamento | O orçamento total de um plano. |
+   | Meta do plano | A métrica de destino definida para um plano baseado em destino. |
    | Retorno previsto | O [retorno previsto](/help/main-guide/glossary.md) para um plano |
    | ROI previsto | O [ROI previsto](/help/main-guide/glossary.md) para um plano. |
    | Conversão prevista | A [conversão prevista](/help/main-guide/glossary.md) para um plano |
    | CPA previsto | O [CPA previsto](/help/main-guide/glossary.md)para um plano |
-   | Status | O status de um plano: <p><span style="color:red"> ●</span> Falhou, <p><span style="color:blue"> ●</span> Processando, ou <p><span style="color:green"> ●</span> Concluído. |
+   | Status | O status de um plano: <p><span style="color:red">●</span> Falhou, <p><span style="color:blue">●</span> Processando, ou <p><span style="color:green">●</span> Concluído. |
 
    {style="table-layout:auto"}
 
@@ -82,7 +83,7 @@ Para duplicar um plano:
 - Selecione ![Mais](/help/assets/icons/More.svg) para um plano. No menu de contexto, selecione **[!UICONTROL Duplicate]**.
 - Como alternativa, selecione um plano na tabela ![SelectBox](/help/assets/icons/SelectBox.svg) e selecione ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** na barra de ação azul.
 
-Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)] (_n_)**, foi criado. Você é redirecionado automaticamente para [Criação do plano](build.md) para fornecer detalhes atualizados para o plano copiado.
+Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)](_n_)**, foi criado. Você é redirecionado automaticamente para [Criação do plano](build.md) para fornecer detalhes atualizados para o plano copiado.
 
 - Os detalhes (como Descrição, Orçamento e mais) do plano original são copiados.
 - As restrições de orçamento do plano original são copiadas para o plano recém-criado.
@@ -113,6 +114,6 @@ Para excluir vários planos:
 
 1. Selecione vários planos.
 1. Na barra de ações azul, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir os planos.
-1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *planos]**&#x200B;para excluir os planos. Selecione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *planos]**para excluir os planos. Selecione **[!UICONTROL Cancel]**para cancelar.
 
 
