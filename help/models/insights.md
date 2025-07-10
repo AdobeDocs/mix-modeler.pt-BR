@@ -3,9 +3,9 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
+source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,19 @@ Esses insights ajudam a oferecer suporte à priorização e alocação de recurs
 
 Para exibir insights do modelo, na interface ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** do Mix Modeler:
 
-1. Na tabela **[!UICONTROL Models]**, selecione o nome de um modelo que tenha um **[!UICONTROL Last run status]** de <span style="color:green"> ●</span> **[!UICONTROL Success]**.
+1. Na tabela **[!UICONTROL Models]**, selecione o nome de um modelo que tenha um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]**.
 
 1. No menu de contexto, selecione **[!UICONTROL Model Insights]**.
 
-![Barra de guias de insights do modelo](/help/assets/model-insights-tabbar.png)
 
-Você vê quando o modelo especificado foi atualizado pela última vez e as visualizações são exibidas usando quatro guias: [Insights do modelo](#model-insights), [Atribuição](#attribution), [Fatores](#factors), [Diagnósticos](#diagnostics) e [Visão geral histórica](#historical-overview).
+
+As seguintes guias estão disponíveis:
+
+* [Insights do modelo](#model-insights)
+* [Fatores](#factors-beta) [!BADGE beta]
+* [Atribuição](#attribution) (somente para modelos habilitados para MTA)
+* [Diagnósticos](#diagnostics)
+* [Visão geral histórica](#historical-overview).
 
 É possível alterar o período de data no qual as visualizações em cada uma das guias se baseiam. Insira um período de data ou selecione ![Calendário](/help/assets/icons/Calendar.svg) para selecionar um período de data.
 
@@ -36,7 +42,7 @@ Você vê quando o modelo especificado foi atualizado pela última vez e as visu
 
 {{release-limited-testing-section}}
 
-Se for detectado um descompasso no modelo, você verá uma caixa de diálogo **[!UICONTROL Model drift detected]** com opções para serem lembradas mais tarde ou para [**[!UICONTROL Retrain]**](overview.md#retrain) imediatamente o modelo. Se você selecionar **[!UICONTROL Remind me later]**, será lembrado no dia seguinte ou no próximo logon.
+Se for detectado um desvio de modelo no modelo, você verá uma caixa de diálogo **[!UICONTROL Model drift detected]** com opções para ser lembrada mais tarde ou para [**[!UICONTROL Retrain]**](overview.md#retrain) imediatamente o modelo. Se você selecionar **[!UICONTROL Remind me later]**, será lembrado no dia seguinte ou no próximo logon.
 
 ![Desvio de modelo detectado na caixa de diálogo](/help/assets/model-drift-dialog.png)
 
@@ -57,9 +63,9 @@ A guia Informações do modelo mostra visualizações para [Contribuição por d
 
 Essa visualização de gráfico empilhado é ordenada da seguinte maneira:
 
-* Base na parte inferior.
-* Canais não gastos no meio.
-* Passe canais por cima.
+* A base é exibida na parte inferior.
+* Os canais de não gastos são exibidos no meio.
+* Os canais de gasto são exibidos na parte superior.
 
 Essa visualização representa a proporção de contribuição obtida pela base, por canais de gastos e por canais não gastos em um intervalo de datas. Esta visualização é útil para mostrar a incrementalidade. A base representa o que teria acontecido sem qualquer marketing, e o atributo de canais não gastos mais canais gastos (sobre a base) do impacto do seu marketing. Em resumo, não gastar mais gastar equivale ao impacto incremental de seus esforços de marketing e a visualização fornece um insight fácil no valor gerado pelo marketing.
 
@@ -84,7 +90,7 @@ Para alterar o canal:
 
 ### Detalhamento do ponto de contato
 
-A tabela de detalhamento de ponto de contato mostra os detalhamentos de ponto de contato semanais para todos os canais ou para os canais selecionados em uma base semanal, exibindo as métricas principais associadas a cada um. A tabela permite uma fácil comparação, identificação de tendências e rastreamento de desempenho em um nível de canal mais granular. Esta tabela complementa explicitamente a visualização [Contribuição por data e mídia base](#contribution-by-date-and-base-media) e a visualização [Contribuição por canal](#contribution-by-channel).
+A tabela de detalhamento de ponto de contato mostra os detalhamentos semanais do ponto de contato para todos os canais ou para os canais selecionados, semanalmente, exibindo as métricas principais associadas a cada um. A tabela permite uma fácil comparação, identificação de tendências e rastreamento de desempenho em um nível de canal mais granular. Esta tabela complementa explicitamente a visualização [Contribuição por data e mídia base](#contribution-by-date-and-base-media) e a visualização [Contribuição por canal](#contribution-by-channel).
 
 ![Detalhamento do ponto de contato](../assets/touchpoint-breakdown.png)
 
@@ -228,37 +234,51 @@ Para cada caminho de conversão, você verá:
 
 A guia Diagnóstico mostra visualizações para:
 
-* Visualização [!UICONTROL Model Assessment], que pode ser analisada em conversões reais vs. previstas ou residuais.
+* **[!UICONTROL Model Assessment]** visualizações, que consistem em:
 
-  Para detalhar a visualização, selecione **[!UICONTROL Actual vs. Predicted]** ou **[!UICONTROL Residuals]** na lista **[!UICONTROL Breakdown]**.
+  ![Avaliação de modelo](../assets/model-assessment.png)
 
-* Tabela [!UICONTROL Model fitting metrics], mostrando as seguintes colunas para cada métrica de conversão:
+   * Um gráfico que pode ser detalhado em conversões reais versus previstas ou residuais.
+Para detalhar a visualização, selecione uma das seguintes opções na lista **[!UICONTROL Breakdown]**.
 
-   * Conversão Efetiva
+      * **[!UICONTROL Actual vs Predicted]**: esta opção compara valores reais a previsões de modelo. Idealmente, os valores previstos devem se alinhar com os valores reais, embora seja esperado algum desvio. Desvios ou padrões grandes ou sistemáticos podem indicar relações e dados ausentes ou possíveis vieses.
 
-   * Conversão modelada
+      * **[!UICONTROL Residuals]**: esta opção mostra a diferença entre valores reais e previstos. Um modelo bem-sucedido tem resíduos que são distribuídos aleatoriamente, sem padrões claros ou aumento da disseminação. Tendências estruturadas ou alargamento de resíduos podem indicar relações ausentes e problemas de dados ou variância.
 
-   * Conversão Residual (diferença entre a conversão real e a conversão modelada)
+   * Uma tabela que mostra as seguintes colunas para cada métrica de conversão:
 
-   * Valores de pontuação de qualidade do modelo:
-
-      * R2 (R-quadrado), que informa como os dados se encaixam no modelo de regressão (a adequação do ajuste).
-
-      * MAPE (Mean Absolute Percentage Error), que é um dos KPIs mais usados para medir a precisão da previsão e expressa o erro de previsão como uma porcentagem do valor real.
-
-      * RMSE (Root Mean Square Error): que mostra o erro médio, ponderado de acordo com o quadrado do erro.
+      * **[!UICONTROL Actual Conversion]**
+      * **[!UICONTROL Predicted Conversion]**
+      * **[!UICONTROL Residual Conversion]**
+      * **[!UICONTROL R<sup>2</sup>]**, uma pontuação que informa como os dados se ajustam ao modelo de regressão (a adequação do ajuste).
+      * **[!UICONTROL MAPE]** (Erro Percentual Absoluto Médio), que é um dos KPIs mais usados para medir a precisão da previsão e expressa o erro de previsão como uma porcentagem do valor real.
+      * **[!UICONTROL RMSE]** (Erro de Média Quadrada de Raiz): que mostra o erro médio, ponderado de acordo com o quadrado do erro.
 
   Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
 
-* Tabela [!UICONTROL Touchpoint effectiveness], que representa o resultado do modelo algorítmico da IA de atribuição. Os dados desta tabela são gerados apenas para períodos específicos. Selecione **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) para obter mais detalhes.
+* Tabela **[!UICONTROL Model training fit metrics]**, que exibe para cada métrica de conversão:
+
+  ![Tabela de métricas de ajuste de treinamento de modelo](../assets/model-training-fit-metrics.png)
+
+   * **[!UICONTROL Training R<sup>2</sup>]**: indica a proporção de variação nos valores reais explicados pelas previsões do modelo, variando de 0 a 1.
+   * **[!UICONTROL Training sMAPE]** (Erro de Porcentagem Absoluta Média simétrica): mede o erro de porcentagem média nos dados de treinamento. Valores mais baixos indicam melhor precisão.
+   * **[!UICONTROL Training RMSE]** (Erro de Raiz Média Quadrada): Mede o erro de porcentagem média nos dados de treinamento. Penaliza mais erros maiores do que o MAPE. RMSE mais baixo sugere melhor precisão preditiva, mas é sensível a outliers.
+   * **[!UICONTROL Out-of-sample sMAPE]**: Avalia a porcentagem de erro em dados não vistos, equilibrando previsões demais e inferiores. Ajuda a avaliar a generalização. Atualmente, o Mix Modeler avalia o erro percentual usando o último trimestre dos dados de treinamento como um conjunto de controle.
+   * **[!UICONTROL Out-of-sample RMSE]**: Avalia a porcentagem de erro em dados não vistos, equilibrando previsões demais e inferiores. Ajuda a avaliar a generalização. Atualmente, o Mix Modeler avalia o erro percentual usando o último trimestre dos dados de treinamento como um conjunto de controle. O RMSE penaliza mais erros maiores do que o MAPE.
+
+
+* Tabela **[!UICONTROL Touchpoint effectiveness]**, que representa o resultado do modelo algorítmico da IA de atribuição.
+
+  ![Tabela de eficácia do ponto de contato](../assets/touchpoint-effectiveness.png)
+
+  Os dados desta tabela são gerados apenas para períodos específicos. Selecione **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) para obter mais detalhes.
 
   A visualização mostra, em ordem decrescente de [!UICONTROL Efficiency measure] ![Ordem decrescente](/help/assets/icons/SortOrderDown.svg), para cada ponto de contato:
 
-   * [!UICONTROL Paths touched]: visualiza a porcentagem de caminhos que atingem a conversão e a porcentagem de caminhos que não atingem a conversão. Para um ponto de contato, você verá mais conversões atribuídas quando a taxa de conversão de atribuição estiver alta. Essa proporção compara a porcentagem de caminhos que levam à conversão com a porcentagem de caminhos que *não* levam à conversão.
-   * [!UICONTROL Efficiency measure]: gerada pelo modelo de atribuição algorítmica, a medida de eficiência indica a importância relativa de um ponto de contato em direção à conversão, independentemente do volume do ponto de contato. A eficiência é medida em uma escala de 1 a 5. Observe que um maior volume de pontos de contato não garante uma medida de eficiência mais alta.
-   * [!UICONTROL Total volume]: O número agregado de vezes que um usuário toca um ponto de contato. O número inclui os pontos de contato que aparecem em um caminho que alcança a conversão, assim como os caminhos *não* que resultam na conversão.
+   * **[!UICONTROL Paths touched]**: visualiza a porcentagem de caminhos que atingem a conversão e a porcentagem de caminhos que não atingem a conversão. Para um ponto de contato, você verá mais conversões atribuídas quando a taxa de conversão de atribuição estiver alta. Essa proporção compara a porcentagem de caminhos que levam à conversão com a porcentagem de caminhos que *não* levam à conversão.
+   * **[!UICONTROL Efficiency measure]**: gerada pelo modelo de atribuição algorítmica, a medida de eficiência indica a importância relativa de um ponto de contato em direção à conversão, independentemente do volume do ponto de contato. A eficiência é medida em uma escala de 1 a 5. Observe que um maior volume de pontos de contato não garante uma medida de eficiência mais alta.
+   * **[!UICONTROL Total volume]**: O número agregado de vezes que um usuário toca um ponto de contato. O número inclui os pontos de contato que aparecem em um caminho que alcança a conversão, assim como os caminhos *não* que resultam na conversão.
 
-![Diagnósticos](/help/assets/model-insights-diagnostics.png)
 
 ### Detecção de desvio de modelo
 
