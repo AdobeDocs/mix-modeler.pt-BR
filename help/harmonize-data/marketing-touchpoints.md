@@ -3,14 +3,20 @@ title: Pontos de contato de marketing
 description: Saiba como criar pontos de contato de marketing para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# Pontos de contato de marketing
+# Pontos de contato de marketing {#marketing-touchpoints}
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="Ponto de contato de marketing"
+>abstract="Pontos de contato de marketing são eventos de marketing a nível de recipient, individual e/ou cookie usados para avaliar o impacto dos investimentos em marketing em conversões numéricas ou baseadas em receita."
+
 
 Pontos de contato de marketing são eventos de marketing a nível de recipient, individual e/ou cookie usados para avaliar o impacto dos investimentos em marketing em conversões numéricas ou baseadas em receita.
 
@@ -52,7 +58,7 @@ Para adicionar um ponto de contato de marketing, na interface ![DataSearch](/hel
 
       1. Selecione um valor para o operador ![Divisa](/help/assets/icons/ChevronDown.svg), por exemplo **[!UICONTROL is]**.
 
-      1. Selecione um valor em **[!UICONTROL *Selecione o valor *]**&#x200B;ou insira um valor, por exemplo **[!DNL Luma]**.
+      1. Selecione um valor em **[!UICONTROL *Selecione o valor *]**ou insira um valor, por exemplo **[!DNL Luma]**.
 
    1. Selecione um campo harmonizado de **[!UICONTROL Touchpoint volume]**, por exemplo **[!UICONTROL Impressions]**.
 

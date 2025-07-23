@@ -3,9 +3,9 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -230,9 +230,30 @@ Para cada caminho de conversão, você verá:
 * a soma dessas porcentagens de contribuição do modelo de atribuição de canal.
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-A guia Diagnóstico mostra visualizações para:
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="Gráficos de avaliação do modelo"
+>abstract="As visualizações de avaliação de modelo detalham as conversões reais versus previstas ou residuais."
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Demonstração do Mix Modeler"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="Caminhos tocados"
+>abstract="Caminhos tocados é a porcentagem de caminhos que estão atingindo a conversão e a porcentagem de caminhos que não atingem a conversão para cada ponto de contato."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="Data do modelo em"
+>abstract="Os dados desta tabela são gerados apenas para períodos específicos.  A data **[!UICONTROL As of]** indica quando os dados foram gerados e é baseada nos dados de startDate a endDate."
+
+
+A guia **[!UICONTROL Diagnostics]** mostra visualizações para:
 
 * **[!UICONTROL Model Assessment]** visualizações, que consistem em:
 
