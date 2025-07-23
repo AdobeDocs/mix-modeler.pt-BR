@@ -237,7 +237,7 @@ Para cada caminho de conversão, você verá:
 >id="models_diagnostics_modelassessment"
 >title="Gráficos de avaliação do modelo"
 >abstract="As visualizações de avaliação de modelo detalham as conversões reais versus previstas ou residuais."
->additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
+>additional-url="https://experienceleague.adobe.com/pt-br/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
 >additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Demonstração do Mix Modeler"
 
 
