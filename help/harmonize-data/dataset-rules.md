@@ -3,16 +3,16 @@ title: Regras do conjunto de dados
 description: Saiba como definir regras de conjunto de dados para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
+source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
 
 # Regras do conjunto de dados
 
-As regras do conjunto de dados ajudam a mapear os campos harmonizados com campos dos dados assimilados no Mix Modeler.
+As regras do conjunto de dados ajudam a mapear os campos harmonizados com campos a partir dos dados assimilados no Mix Modeler.
 
 * Para dados agregados assimilados no Adobe Experience Platform, mapeie um ou mais campos do conjunto de dados disponíveis para os campos harmonizados apropriados.
 * Para dados do evento, você pode mapear individualmente um ou mais campos harmonizados para campos do conjunto de dados, diretamente ou usando condições.
@@ -35,7 +35,7 @@ As colunas da tabela especificam detalhes sobre as regras do conjunto de dados:
 | Esquema | O esquema com o qual o conjunto de dados está em conformidade. Você pode selecionar rapidamente o nome do esquema para abrir o esquema em uma nova guia no editor de esquema no ![Esquema](/help/assets/icons/Schemas.svg) [Esquemas](../ingest-data/schemas.md). |
 | Granularidade | A granularidade dos dados no conjunto de dados. Os valores possíveis são Diário, Semanal, Mensal ou Anual. |
 | Início da semana | Especifica qual dia da semana é considerado o início de uma nova semana para o conjunto de dados específico. |
-| Status | O status do campo: <p><span style="color:gray"> ●</span> Rascunho ou <p><span style="color:green"> ●</span> Ativo |
+| Status | O status do campo: <p><span style="color:gray">●</span> Rascunho ou <p><span style="color:green">●</span> Ativo |
 | Última modificação | Data e hora da última modificação da regra do conjunto de dados. |
 
 {style="table-layout:auto"}
@@ -52,19 +52,7 @@ Na tela **[!UICONTROL Create]**,
 
 1. Selecione **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]** para **[!UICONTROL Granularity]**.
 
-1. Ao selecionar um conjunto de dados da categoria **[!UICONTROL Summary]**:
-
-   1. Para definir se os dados do conjunto de dados agregam ou substituem os dados existentes, selecione **[!UICONTROL Aggregation]** ou **[!UICONTROL Replacement]** para **[!UICONTROL Data restatement is by]**.
-
-   1. Mapeie cada **[!UICONTROL Available dataset fields]** para o **[!UICONTROL Standard harmonized fields]** correspondente em **[!UICONTROL Map to harmonized fields]**. Se não quiser mapear um campo de conjunto de dados para um campo harmonizado, selecione explicitamente **[!UICONTROL -- None --]**.
-
-   1. Se precisar de um novo campo harmonizado, não disponível na lista, selecione **[!UICONTROL Create New]** para criar um novo campo harmonizado. Você verá a caixa de diálogo conforme descrito em [Adicionar um novo campo harmonizado](fields.md#add-a-harmonized-field).
-
-   1. Quando o mapeamento for concluído para todos os campos da regra, selecione **[!UICONTROL Save as draft]** para salvar uma versão de rascunho da regra ou **[!UICONTROL Save]** para salvar e ativar a regra. Selecione **[!UICONTROL Cancel]** para cancelar a configuração da regra.
-
-      ![Criar regras do conjunto de dados](/help/assets/dataset-create-summary.png)
-
-1. Ao selecionar um conjunto de dados de categoria de evento (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), na caixa abaixo de **[!UICONTROL Map to harmonized fields]**:
+1. Na seção **[!UICONTROL Map to harmonized fields]**:
 
    1. Selecione um campo harmonizado de **[!UICONTROL Standard harmonized field]**.
 
@@ -72,17 +60,17 @@ Na tela **[!UICONTROL Create]**,
 
       1. Selecione **[!UICONTROL Count]** ou **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-      1. Selecione um **[!UICONTROL *campo do conjunto de dados da AEP *]**&#x200B;para o qual você deseja mapear o campo harmonizado por padrão.
+      1. Selecione um **[!UICONTROL *campo do conjunto de dados do AEP *]**para o qual você deseja mapear o campo harmonizado por padrão.
 
    1. Quando o campo selecionado é do tipo dimensão:
 
       1. Selecione **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-      1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados da AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+      1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados da AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados da AEP *]**&#x200B;específico, seja ele **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;um valor inserido em&#x200B;**[!UICONTROL * Inserir valor de entrada *]**.
+         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados do AEP *]**específico, seja ele **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**um valor inserido em**[!UICONTROL * Inserir valor de entrada *]**.
 
          1. Para adicionar outro caso, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Para adicionar outra condição, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -103,9 +91,24 @@ Na tela **[!UICONTROL Create]**,
 
         ![Evento de regra do conjunto de dados](/help/assets/dataset-create-event.png)
 
+      Ao mapear um campo harmonizado padrão a partir de um conjunto de dados de resumo, o Mix Modeler tenta deduzir o campo do conjunto de dados do Experience Platform correspondente. Quando bem-sucedido:
+
+      * Se o campo for do tipo dimensão, **[!UICONTROL Map into]** será selecionado como **[!UICONTROL Mapping type]**.
+      * Se o campo for do tipo métrica, **[!UICONTROL Sum]** será selecionado como **[!UICONTROL Mapping type]**.
+      * **[!UICONTROL Field]** está selecionado como o tipo de mapeamento **[!UICONTROL Default]**.
+      * O campo correspondente do conjunto de dados do Experience Platform é inserido automaticamente para *Campo do conjunto de dados do AEP*.
+
+      Você pode alterar qualquer um dos valores propostos se eles estiverem incorretos ou não forem compatíveis com seu caso de uso específico.
+
 1. Selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** para definir campos adicionais.
 
 Quando terminar, selecione **[!UICONTROL Save as draft]** para salvar uma versão de rascunho da regra ou **[!UICONTROL Save]** para salvar e ativar a regra. Selecione **[!UICONTROL Cancel]** para cancelar a configuração da regra.
+
+>[!NOTE]
+>
+>A experiência **[!UICONTROL Map to harmonized fields]** dedicada às regras de conjuntos de dados de resumo está obsoleta. Todos os conjuntos de dados agora usam a mesma experiência genérica **[!UICONTROL Map to harmonized fields]**. Para conjuntos de dados de resumo para os quais você definiu regras usando a experiência **[!UICONTROL Map to harmonized fields]** obsoleta, talvez você queira verificar essas regras em relação à experiência **[!UICONTROL Map to harmonized field]** genérica.
+>
+
 
 
 ### Editar uma regra de conjunto de dados
@@ -122,6 +125,7 @@ Para excluir uma regra de conjunto de dados, na interface ![DataSearch](/help/as
 
 1. Selecione ![Mais](/help/assets/icons/More.svg) na coluna **[!UICONTROL Dataset]** para a regra de conjunto de dados que você deseja excluir.
 1. No menu de contexto, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir a regra do conjunto de dados. Será solicitada uma confirmação. Selecione **[!UICONTROL Delete]** para excluir permanentemente a regra de conjunto de dados selecionada.
+
 
 
 ## Sincronizar dados
@@ -144,7 +148,7 @@ Para sincronizar dados entre seus dados harmonizados e os conjuntos de dados de 
 
 >[!NOTE]
 >
->[!BADGE beta]{type=Informative}
+>[!BADGE beta]{type=Informative} As preferências de mesclagem de dados são um recurso beta e sua funcionalidade está sujeita a alterações.
 
 Para garantir previsões de modelo precisas, é possível definir preferências de mesclagem de dados. Essa funcionalidade permite que os usuários resolvam quaisquer conflitos após a mesclagem do nível de resumo e dos dados do nível de evento.
 
@@ -170,7 +174,7 @@ Para configurar as preferências de mesclagem de dados:
 
 1. Selecione ![Preferências de mesclagem de dados](/help/assets/icons/Merge.svg) [!BADGE beta].
 
-1. No **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative}
+1. No **[!UICONTROL Data merge preferences]** [!BADGE beta]{type=Informative} diálogo:
 
    ![Preferências de mesclagem de dados](/help/assets/data-merge-preferences.png)
 
