@@ -6,7 +6,7 @@ exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ As seguintes guias estão disponíveis:
 * [Insights do modelo](#model-insights)
 * [Fatores](#factors-beta) [!BADGE beta]
 * [Atribuição](#attribution) (somente para modelos habilitados para MTA)
-* [Diagnósticos](#diagnostics)
+* [Diagnóstico](#diagnostics)
 * [Visão geral histórica](#historical-overview).
 
 É possível alterar o período de data no qual as visualizações em cada uma das guias se baseiam. Insira um período de data ou selecione ![Calendário](/help/assets/icons/Calendar.svg) para selecionar um período de data.
@@ -235,21 +235,21 @@ Para cada caminho de conversão, você verá:
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
->title="Gráficos de avaliação do modelo"
->abstract="As visualizações de avaliação de modelo detalham as conversões reais versus previstas ou residuais."
+>title="Gráficos de avaliação de modelo"
+>abstract="As visualizações de avaliação de modelo detalham as conversões reais em relação às previstas ou residuais."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440799/?learn=on&enablevpops&captions=por_br" text="Demonstração do Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Demonstração do Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="Caminhos tocados"
->abstract="Caminhos tocados é a porcentagem de caminhos que estão atingindo a conversão e a porcentagem de caminhos que não atingem a conversão para cada ponto de contato."
+>abstract="Caminhos tocados é a porcentagem de caminhos que atingem a conversão e a porcentagem de caminhos que não atingem a conversão para cada ponto de contato."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
->title="Data do modelo em"
+>title="Data do modelo a partir de"
 >abstract="Os dados desta tabela são gerados apenas para períodos específicos.  A data **[!UICONTROL As of]** indica quando os dados foram gerados e é baseada nos dados de startDate a endDate."
 
 
