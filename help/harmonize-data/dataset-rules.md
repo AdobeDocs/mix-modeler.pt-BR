@@ -3,9 +3,9 @@ title: Regras do conjunto de dados
 description: Saiba como definir regras de conjunto de dados para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
+source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,14 @@ Na tela **[!UICONTROL Create]**,
 
 1. Selecione **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]** para **[!UICONTROL Granularity]**.
 
+1. Ao selecionar um conjunto de dados da categoria **[!UICONTROL Summary]**, selecione **[!UICONTROL Aggregation]** ou **[!UICONTROL Replacement]** para **[!UICONTROL Data restatement is by]**.
+
+   Os dados de relatórios dos editores são muito importantes para os analistas de marketing, pois trabalhar com editores geralmente implica gastos significativos, e as alterações nos dados de relatórios podem resultar em insights e planos de investimento muito diferentes. Além disso, os analistas de marketing precisam de dados precisos para obter os insights certos e apresentar propostas convincentes para ganhar a confiança das partes interessadas. No entanto, esses editores, como Google e Facebook, geralmente reafirmam ou excluem dados de relatórios à medida que reconciliam seus dados. O período para a maioria das alterações ocorre dentro de 7 dias do desempenho da mídia relatado. São possíveis alterações adicionais nos dados no prazo de 30 dias. Em geral, após 30 dias, os livros são considerados fechados e os dados são concluídos.
+
+   O Mix Modeler oferece suporte à redeclaração de dados. Para garantir que os dados usados para relatórios, modelagem e planejamento sejam precisos. E que os dados são capazes de suportar as expectativas e necessidades da marca e do analista de marketing.
+
+   Você pode enviar linhas reexpressas de dados de resumo como linhas incrementais em um conjunto de dados do Experience Platform, e o serviço de harmonização atualiza o conjunto de dados harmonizado com esses dados reexpressos. Da mesma forma, também é possível remover linhas de dados de resumo que precisam ser refletidas no serviço de harmonização.
+
 1. Na seção **[!UICONTROL Map to harmonized fields]**:
 
    1. Selecione um campo harmonizado de **[!UICONTROL Standard harmonized field]**.
@@ -60,17 +68,17 @@ Na tela **[!UICONTROL Create]**,
 
       1. Selecione **[!UICONTROL Count]** ou **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-      1. Selecione um **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;para o qual você deseja mapear o campo harmonizado por padrão.
+      1. Selecione um **[!UICONTROL *campo do conjunto de dados do AEP *]**para o qual você deseja mapear o campo harmonizado por padrão.
 
    1. Quando o campo selecionado é do tipo dimensão:
 
       1. Selecione **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-      1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+      1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;específico, seja ele **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;um valor inserido em&#x200B;**[!UICONTROL * Inserir valor de entrada *]**.
+         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados do AEP *]**específico, seja ele **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**um valor inserido em**[!UICONTROL * Inserir valor de entrada *]**.
 
          1. Para adicionar outro caso, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Para adicionar outra condição, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
