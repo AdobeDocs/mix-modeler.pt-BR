@@ -4,27 +4,35 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '518'
 ht-degree: 5%
 
 ---
 
 # Notas de versão atuais do Mix Modeler
 
-**Última atualização**: 14 de maio de 2025.
+**Última atualização**: 6 de agosto de 2025.
 
 Essas notas de versão abordam a versão mais recente do Mix Modeler. As versões do Mix Modeler operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
+
+
+
+## Julho - Agosto de 2025
+
+| Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
+|---|---|---|---|
+| **Atualizações de harmonização** | Todas as regras de conjuntos de dados agora usam um [Map genérico semelhante para a experiência de campos harmonizados](/help/harmonize-data/dataset-rules.md), independentemente do tipo de conjunto de dados. Ao mapear um campo harmonizado padrão a partir de um conjunto de dados de resumo, o Mix Modeler tenta deduzir o campo do conjunto de dados do Experience Platform correspondente automaticamente. | quarta-feira, 29 de julho de 2025 | quarta-feira, 29 de julho de 2025 |
 
 
 ## Maio - junho de 2025
 
 | Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
 |---|---|---|---|
-| **Planos baseados em metas** | Ao lado dos orçamentos, você pode definir uma meta (destino) ao [criar](/help/plans/build.md) ou [editar](/help/plans/insights.md#edit-plan) um plano. Exemplos de métricas de destino são receita, conversão, CPA ou ROI. | quinta-feira, 18 de junho de 2025 | quarta-feira, 8 de julho de 2025 |
-| **Configuração do padrão de gastos** | Ao criar um plano, agora você tem a opção de usar dados de [referência histórica](/help/plans/build.md) (como dados e insights de gastos com marketing anteriores) ao definir o padrão de gastos para cada intervalo de datas do orçamento. | quinta-feira, 14 de maio de 2025 | quinta-feira, 14 de maio de 2025 |
-| **Configurações avançadas de plano** | Você pode definir [configurações avançadas](/help/plans/build.md) para seu plano, como receita média por conversão e custos de canal. | quinta-feira, 14 de maio de 2025 | quinta-feira, 14 de maio de 2025 |
+| **Planos baseados em metas** | Ao lado dos orçamentos, você pode definir uma meta (destino) ao [criar](/help/plans/build.md) ou [editar](/help/plans/insights.md#edit-plan) um plano. Exemplos de métricas de destino são receita, conversão, CPA ou ROI. | 18 de junho de 2025 | quarta-feira, 8 de julho de 2025 |
+| **Configuração do padrão de gastos** | Ao criar um plano, agora você tem a opção de usar dados de [referência histórica](/help/plans/build.md) (como dados e insights de gastos com marketing anteriores) ao definir o padrão de gastos para cada intervalo de datas do orçamento. | 14 de maio de 2025 | 14 de maio de 2025 |
+| **Configurações avançadas de plano** | Você pode definir [configurações avançadas](/help/plans/build.md) para seu plano, como receita média por conversão e custos de canal. | 14 de maio de 2025 | 14 de maio de 2025 |
 
 ## Março - abril de 2025
 
