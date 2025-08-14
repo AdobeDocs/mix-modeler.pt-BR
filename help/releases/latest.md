@@ -4,7 +4,7 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
+source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 5%
@@ -56,7 +56,7 @@ Essas notas de versão abordam a versão mais recente do Mix Modeler. As versõe
 
 ## Estratégia de lançamento
 
-O [!UICONTROL Mixx Modeler] usa sinalizadores de recursos (também conhecidos como &quot;alternadores&quot;) para controlar a visibilidade de novos recursos, permitindo testes de escala controlados antes do lançamento completo. Essa estratégia de lançamento inclui as seguintes fases:
+O [!UICONTROL Mix Modeler] usa sinalizadores de recursos (também conhecidos como &quot;alternadores&quot;) para controlar a visibilidade de novos recursos, permitindo testes de escala controlados antes do lançamento completo. Essa estratégia de lançamento inclui as seguintes fases:
 
 * **Teste limitado**: uma versão em fases começa com testes feitos por usuários internos da Adobe. Ele é então disponibilizado para um pequeno grupo de contas de clientes para garantir que o recurso atenda às necessidades e expectativas do cliente.
 
