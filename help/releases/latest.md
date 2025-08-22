@@ -4,16 +4,16 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
+source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '536'
 ht-degree: 5%
 
 ---
 
 # Notas de versão atuais do Mix Modeler
 
-**Última atualização**: 6 de agosto de 2025.
+**Última atualização**: 20 de agosto de 2025.
 
 Essas notas de versão abordam a versão mais recente do Mix Modeler. As versões do Mix Modeler operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
 
@@ -23,6 +23,7 @@ Essas notas de versão abordam a versão mais recente do Mix Modeler. As versõe
 
 | Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
 |---|---|---|---|
+| **[!UICONTROL Compare plans update]** | A interface do usuário [Comparar planos](/help/plans/compare.md) agora mostra detalhes adicionais para marketing pago: ROI ou CPA e receita. | 20 de agosto de 2025 | 20 de agosto de 2025 |
 | **Atualizações de harmonização** | Todas as regras de conjuntos de dados agora usam um [Map genérico semelhante para a experiência de campos harmonizados](/help/harmonize-data/dataset-rules.md), independentemente do tipo de conjunto de dados. Ao mapear um campo harmonizado padrão a partir de um conjunto de dados de resumo, o Mix Modeler tenta deduzir o campo do conjunto de dados do Experience Platform correspondente automaticamente. | quarta-feira, 29 de julho de 2025 | quarta-feira, 29 de julho de 2025 |
 
 
