@@ -3,7 +3,7 @@ title: Criar planos
 description: Saiba como criar planos no Mix Modeler.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
+source-git-commit: 20985d0f9e9d2990b881ab448f6475e4bb8244d1
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Para excluir um intervalo de datas e o orçamento associado, selecione ![Fechar]
             1. Selecione uma métrica de destino no menu suspenso **[!UICONTROL Select target metric]**. Você pode selecionar entre **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** ou **[!UICONTROL ROI]**.
             1. Selecione um modelo no menu suspenso **[!UICONTROL Select model]**.
          1. Especifique um Intervalo de datas, digitando datas ou selecionando um intervalo de datas usando ![Calendário](/help/assets/icons/Calendar.svg).
-         1. Insira um valor para a métrica de destino selecionada. Por exemplo, um número para **[!UICONTROL Conversion]**, uma porcentagem para **[!UICONTROL ROI]** ou valores de moeda para **[!UICONTROL CPA]** e **[!UICONTROL Revenue]**.
+         1. Insira um valor para a métrica de destino selecionada. Por exemplo, um número para **[!UICONTROL Total Conversions]**, uma porcentagem para **[!UICONTROL Paid Marketing ROI]** ou valores de moeda para **[!UICONTROL Paid Marketing CPA]** e **[!UICONTROL Total Revenue]**.
 Para adicionar intervalos de datas adicionais, cada um com sua métrica de destino, selecione ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 Para excluir um intervalo de datas e uma métrica de destino associada, selecione ![Fechar](/help/assets/icons/Close.svg).
          1. Para definir um orçamento máximo opcional no qual você deseja restringir o plano:
@@ -108,7 +108,6 @@ Para excluir um intervalo de datas e uma métrica de destino associada, selecion
    1. Para alternar entre entrada de moeda ou porcentagem, selecione **[!UICONTROL $]** ou **[!UICONTROL %]** para **[!UICONTROL View spend by]**. Essa alternância será desativada se você tiver selecionado métricas de destino que não são baseadas em moeda.
 
    1. Quando terminar, selecione **[!UICONTROL Create]**.
-
       ![Gastar seleção](/help/assets/plan-spend-selection.png)
 
    1. Selecione **[!UICONTROL Next]**.
