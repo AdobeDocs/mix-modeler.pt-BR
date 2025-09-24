@@ -4,9 +4,9 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9ac6acec2faa57a771386fc9df9cce655d711f3a
+source-git-commit: 6fe334458e8d7fabbd7cbaa027e13eadbf703325
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '701'
 ht-degree: 5%
 
 ---
@@ -18,13 +18,14 @@ ht-degree: 5%
 Essas notas de versão abordam a versão mais recente do Mix Modeler. As versões do Mix Modeler operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
 
 
-## 2025 de setembro
+## Setembro de 2025
 
 | Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Dataset mapping validations]** | Validações adicionadas aos mapeamentos de conjunto de dados do Experience Platform para campos harmonizados. | 9 de setembro de 2025 | 9 de setembro de 2025 |
 | **[!UICONTROL Context menu on links to model and plans]** | Ativação do menu de contexto do navegador em links para modelos e planos. Agora você pode usar esse menu de contexto do navegador para abrir um plano ou modelo específico em uma nova guia ou janela. | 9 de setembro de 2025 | 9 de setembro de 2025 |
 | **Correções** | Correções para os seguintes tíquetes: <ul><li>AMM-3101: Corrigida a criação de mapeamento incorreta para regras: `event_date` foi passado como nome de campo em vez de `timestamp`.</li><li>AMM-3092: Correção não é possível alterar o valor de restrição máxima do canal em um plano baseado em orçamento duplicado.</li><li>AM3130: Correção de informações **[!UICONTROL Run frequency]** incorretas em uma janela pop-up de detalhes de um modelo.</li><li>AMM3158: Atualização de rótulos para as opções **[!UICONTROL Select target metric]** como parte do painel **[!UICONTROL Optimize]** na interface [Criação de planos](/help/plans/build.md).</li><li>AMM 3176: Corrigido não foi possível exibir a visualização [Detalhamento por canal](/help/models/insights.md#breakdown) na guia **[!UICONTROL Attribution]** em **[!UICONTROL Model Insights]**.</li></ul> | 9 de setembro de 2025 | 9 de setembro de 2025 |
+| **Correções** | Correções para os seguintes tíquetes: <ul><li>AMM-3174: experiência aprimorada quando nenhum plano existente está disponível.</li><li>AMM-3216: validação aprimorada para intervalos de datas personalizados.</li><li>AMM-3240: Exibição de frequência do modelo de execução fixa.</ul> | 23 de setembro de 2025 | 23 de setembro de 2025 |
 
 
 ## Julho - Agosto de 2025
