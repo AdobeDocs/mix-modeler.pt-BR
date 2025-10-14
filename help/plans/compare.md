@@ -3,9 +3,9 @@ title: Comparar planos
 description: Saiba como comparar planos no Mix Modeler.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
+source-git-commit: d6cf7e75b91ca3c3a50b95c0909e2d250af07317
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,22 @@ Para comparar planos na interface do Mix Modeler Plans:
 
 A interface Comparar planos mostra informações e visualizações sobre:
 
-* **[!UICONTROL Plan]**. Se o plano for um plano baseado no target, você verá um emblema que exibe o status do target.
+* **[!UICONTROL Plan]**. Se o plano for um plano baseado no alvo (por exemplo, ROI ou CPA), você verá um selo que exibe o status do alvo (por exemplo, Público-alvo atingível).
 * **[!UICONTROL Date range]**
 * **[!UICONTROL Model]**
 * **[!UICONTROL Total budget]**
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** ou **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
-* **[!UICONTROL Forecasted ROI]** (retorno do investimento) ou **[!UICONTROL CPA]** (custo por ação)
-   * O ROI previsto é o ROI geral do plano (incluindo a receita incremental dos canais base e não-gasto).
-   * CPA previsto é o CPA geral do plano.
-* **[!UICONTROL Paid marketing ROI]** (retorno do investimento) ou **[!UICONTROL CPA]** (custo por ação)
-   * O ROI do marketing pago é o ROI somente dos canais pagos no plano.
-   * CPA de marketing pago é o CPA somente dos canais pagos no plano.
-* **[!UICONTROL ROI]** (retorno do investimento) ou **[!UICONTROL CPA]** (custo por ação) **[!UICONTROL breakdown]**
-* **[!UICONTROL Forecasted return]**
-* **[!UICONTROL Paid marketing revenue]**
+* **[!UICONTROL Forecasted ROI]** ou **[!UICONTROL CPA]**
+   * O ROI previsto é o ROI previsto geral do plano (incluindo a receita incremental dos canais base e não-gasto).
+   * CPA previsto é o CPA previsto geral do plano (incluindo a receita incremental dos canais base e não gasto).
+* **[!UICONTROL Paid marketing ROI]** ou **[!UICONTROL CPA]**
+   * O ROI de marketing pago é um subconjunto do ROI previsto. O ROI do marketing pago é o ROI somente dos canais pagos no plano.
+   * CPA de marketing pago é um subconjunto de CPA previsto. CPA de marketing pago é o CPA somente para os canais pagos no plano.
+* **[!UICONTROL ROI]** ou **[!UICONTROL CPA]** **[!UICONTROL breakdown]**
+* **[!UICONTROL Forecasted revenue]** ou **[!UICONTROL conversion]**.
+* **[!UICONTROL Paid marketing revenue]** ou **[!UICONTROL conversion]**
 
-Em que:
-
-* O ROI é definido como (Receita incremental - Gasto) / Gasto.
-* CPA é definido como Gasto / Conversão incremental.
 
 
 ![Comparar planos](/help/assets/compare-plans.png)
