@@ -3,27 +3,27 @@ title: Visão geral dos dados de assimilação
 description: Saiba como assimilar dados na Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
+source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 7%
 
 ---
 
 # Visão geral dos dados de assimilação
 
-O Mix Modeler funciona com dados no nível do evento, dados de esforço de marketing agregados ou resumidos de vários jardins murados e dados agregados ou resumidos de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
+O Mix Modeler funciona com dados de nível de evento, dados de esforço de marketing agregados ou resumidos de vários jardins murados. E com dados agregados ou resumidos de qualquer outra fonte, como publicidade offline, fatores internos ou fatores externos.
 
 Os clientes podem usar qualquer tipo de dados assimilados na Experience Platform como conjuntos de dados e que se baseie em esquemas que usam o XDM ExperienceEvent ou as Métricas de resumo XDM como a classe base.
 
 Por exemplo:
 
-* dados coletados usando o conector de origem do Adobe Analytics e transformados em conjuntos de dados em conformidade com a versão padrão ou personalizada do esquema do Adobe Analytics ou, como alternativa,
-* dados coletados usando o Experience Platform Web SDK, Mobile SDK ou a API do Edge Network Server para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo,
-* dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados publicitários offline,
-* dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a construção de modelos.
+* Dados coletados usando o conector de origem do Adobe Analytics. E transformados em conjuntos de dados em conformidade com a versão padrão ou personalizada do esquema do Adobe Analytics.
+* Dados coletados usando o Experience Platform Web SDK, Mobile SDK ou a API do Edge Network Server para coletar interações do cliente na Web, em dispositivos móveis ou em qualquer outro tipo de dispositivo.
+* Dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline.
+* Dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a criação de modelos.
 
-Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Os mecanismos de assimilação incluem SDKs da Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão. Para saber mais sobre como assimilar seus dados no Experience Platform para uso no Adobe Mix Modeler, consulte [Visão geral da assimilação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/home).
+Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Como os SDKs do Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão. Para saber mais sobre como assimilar seus dados no Experience Platform para uso no Adobe Mix Modeler, consulte a [visão geral da Assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Diretrizes
 
@@ -86,10 +86,10 @@ Para trabalhar com dados na Mix Modeler, você precisa dos dados coletados nos c
 
 Para validar se os dados estão disponíveis corretamente no Mix Modeler, você pode fazer o seguinte:
 
-* Use visualizações em [Visão geral](/help/overview.md).
+* Use visualizações na [Visão geral](/help/overview.md).
 * Baixe e inspecione dados de [Dados harmonizados](/help/harmonize-data/overview.md) em conjuntos de dados harmonizados.
 
-Para validar se seus dados foram assimilados corretamente no Experience Platform, você pode [gravar e executar consultas SQL usando o Serviço de Consulta do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/home).
+Para validar se seus dados foram assimilados corretamente no Experience Platform, você pode [gravar e executar consultas SQL usando o Serviço de Consulta do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]
