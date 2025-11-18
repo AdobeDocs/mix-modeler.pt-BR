@@ -3,7 +3,7 @@ title: Logs de auditoria
 description: Saiba como acessar logs de auditoria do Mix Modeler.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 5%
@@ -67,4 +67,4 @@ Para inspecionar o log de auditoria, na interface do Mix Modeler:
 
 Quando o recurso é ativado para sua organização, os logs de auditoria são coletados automaticamente conforme a atividade ocorre. Não é necessário ativar a coleta de log de auditoria manualmente.
 
-Para exibir e exportar logs de auditoria, você deve ter recebido a permissão de controle Acesso aos logs de auditoria. Para saber como gerenciar permissões individuais para recursos do Mix Modeler, consulte a [documentação de controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home).
+Para exibir e exportar logs de auditoria, você deve ter recebido a permissão de controle Acesso aos logs de auditoria. Para saber como gerenciar permissões individuais para recursos do Mix Modeler, consulte a [documentação de controle de acesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).

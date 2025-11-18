@@ -3,16 +3,16 @@ title: Casos de uso do Mix Modeler
 description: Casos de uso do Mix Modeler.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: c0bae17b21322cafb50370dcd787bb86b8e3e471
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Casos de uso do Mix Modeler
 
-O Mix Modeler permite os seguintes casos de uso principais.
+O Mix Modeler habilita os seguintes casos de uso principais.
 
 ## Entender o desempenho incremental omnicanal
 
@@ -132,7 +132,7 @@ Successful implementation of this use can have the following impact:
 
 -->
 
-## Ativar insights táticos entre aplicativos Adobe
+## Ativar insights táticos nos aplicativos da Adobe
 
 Esse caso de uso ajuda você a obter insights estratégicos incrementais sobre segmentos e jornadas do cliente, acessando pontuações de pontos de contato.
 
@@ -154,8 +154,8 @@ A abordagem baseada em etapas para esse caso de uso é:
 | Etapa | Detalhes |
 |---|---|
 | Modelo | Configure e treine um modelo de IA/ML para obter pontuações de ponto de contato de MTA consistentes e resultados agregados do MMM. |
-| Analisar | Exporte pontuações incrementais de pontos de contato para ferramentas Customer Journey Analytics ou BI externas.<br/>Faça análise granular e crie painéis avançados usando pontuações de pontos de contato. |
-| Ação | Crie e ative semelhantes aos principais segmentos de consumidores usando o Real-time Customer Data Platform.<br/>Desenvolva estratégias de marketing orientadas por dados por segmentos de clientes para campanhas futuras. |
+| Analisar | Exporte pontuações incrementais de pontos de contato para o Customer Journey Analytics ou ferramentas externas de BI.<br/>Faça análise granular e crie painéis avançados usando pontuações de pontos de contato. |
+| Ação | Crie e ative semelhantes aos principais segmentos de consumidores usando o Real-Time Customer Data Platform.<br/>Desenvolva estratégias de marketing orientadas por dados por segmentos de clientes para campanhas futuras. |
 
 {style="table-layout:auto"}
 

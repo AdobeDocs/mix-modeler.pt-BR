@@ -4,10 +4,10 @@ description: Obtenha uma visão geral da funcionalidade e dos recursos do Mix Mo
 short-description: Obtenha uma visão geral da funcionalidade e dos recursos do Mix Modeler.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -86,7 +86,7 @@ Você pode usar o recurso de atribuição multitoque do Mix Modeler nos seguinte
 
 * Alocação de orçamento de campanha: informe as decisões de alocação de orçamento no canal de marketing.
 * Otimização de campanha: em cada canal, entenda quais campanhas, criações e palavras-chave estão funcionando melhor para quais SKUs ou Geos. Essa compreensão permite que você veja cada canal para que a equipe de marketing possa otimizar suas táticas.
-* Atribuição de nível de evento de funil completo: entenda o impacto do marketing na jornada do cliente inteiro. Por exemplo, assinatura de conta gratuita para conversão paga e muito além.
+* Atribuição completa no nível do evento do funnel: entenda o impacto do marketing em toda a jornada do cliente. Por exemplo, assinatura de conta gratuita para conversão paga e muito além.
 * Avaliações de parceiros: avalie a eficácia de agências e parceiros com base nos resultados da atribuição.
 
 Consulte [Informações do modelo - Atribuição](../models/insights.md#attribution) sobre como acessar os insights de atribuição de multitoque no Mix Modeler.

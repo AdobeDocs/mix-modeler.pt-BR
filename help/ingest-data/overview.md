@@ -3,7 +3,7 @@ title: Visão geral dos dados de assimilação
 description: Saiba como assimilar dados na Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Por exemplo:
 * Dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline.
 * Dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a criação de modelos.
 
-Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Como os SDKs do Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão. Para saber mais sobre como assimilar seus dados no Experience Platform para uso no Adobe Mix Modeler, consulte a [visão geral da Assimilação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/home).
+Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Como os SDKs do Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão. Para saber mais sobre como assimilar seus dados no Experience Platform para uso no Adobe Mix Modeler, consulte a [visão geral da Assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Diretrizes
 
@@ -89,7 +89,7 @@ Para validar se os dados estão disponíveis corretamente no Mix Modeler, você 
 * Use visualizações na [Visão geral](/help/overview.md).
 * Baixe e inspecione dados de [Dados harmonizados](/help/harmonize-data/overview.md) em conjuntos de dados harmonizados.
 
-Para validar se seus dados foram assimilados corretamente no Experience Platform, você pode [gravar e executar consultas SQL usando o Serviço de Consulta do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/home).
+Para validar se seus dados foram assimilados corretamente no Experience Platform, você pode [gravar e executar consultas SQL usando o Serviço de Consulta do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

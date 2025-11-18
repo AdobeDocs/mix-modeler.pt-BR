@@ -3,9 +3,9 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2332'
 ht-degree: 2%
 
 ---
@@ -238,7 +238,7 @@ Para cada caminho de conversão, você verá:
 >title="Gráficos de avaliação de modelo"
 >abstract="As visualizações de avaliação de modelo detalham as conversões reais em relação às previstas ou residuais."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440799/?learn=on&enablevpops&captions=por_br" text="Demonstração do Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demonstração do Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
