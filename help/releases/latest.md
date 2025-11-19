@@ -4,18 +4,28 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b9f8b6b007f78e9c98e71be56bea48d335fb3c3
+source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '834'
 ht-degree: 6%
 
 ---
 
 # Notas de versão atuais do Mix Modeler
 
-**Última atualização**: 12 de setembro de 2025.
+**Última atualização**: 12 de novembro de 2025.
 
 Essas notas de versão abordam a versão mais recente do Mix Modeler. As versões do Mix Modeler operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
+
+
+
+## Novembro de 2025
+
+| Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Plans tracking]** | Permite que os usuários entendam como a execução de planos de marketing rastreia o que está planejado. Assim, você pode se sentir confiante em como o marketing funciona. Ou identificar oportunidades e riscos mais cedo para corrigir o curso e atingir metas de negócios. As [Visualizações de Desempenho a planejar](/help/dashboard/plans.md#performance-to-plan) foram atualizadas e permitem a configuração de métricas e granularidade. | 12 de novembro de 2025 | 12 de novembro de 2025 |
+| **[!UICONTROL Channel synergy insights]** | Revele como os canais de marketing funcionam juntos para criar maior impacto. Com esses insights, você pode explicar com confiança o desempenho de marketing anterior e ajustar os gastos com marketing de acordo para maximizar o retorno geral do seu portfólio de marketing. Uma matriz de sinergia de canal está disponível em [Informações do modelo](/help/models/insights.md#channel-synergy) e [Informações do plano](/help/plans/insights.md#channel-synergies). | 12 de novembro de 2025 | 12 de novembro de 2025 |
+| **Correções** | Correções para os seguintes tíquetes: <ul><li>AMM-2920: Fluxo de criação e migração de planos.</li><li>AMM-3282: Notação científica para números pequenos variáveis em grandes grades.</li></ul> | 12 de novembro de 2025 | 12 de novembro de 2025 |
 
 
 ## Setembro de 2025
