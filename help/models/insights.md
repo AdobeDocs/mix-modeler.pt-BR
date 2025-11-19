@@ -3,9 +3,9 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2488'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,7 @@ Para exibir insights do modelo, na interface ![Modelos](/help/assets/icons/FileD
 As seguintes guias estão disponíveis:
 
 * [Insights do modelo](#model-insights)
+* [Sinergia de canal](#channel-synergy)
 * [Fatores](#factors-beta) [!BADGE beta]
 * [Atribuição](#attribution) (somente para modelos habilitados para MTA)
 * [Diagnóstico](#diagnostics)
@@ -109,6 +110,25 @@ As seguintes colunas estão disponíveis:
 Para selecionar um canal específico ou todos os canais, selecione no menu suspenso **[!UICONTROL View]**.
 
 Para baixar o conteúdo da tabela de detalhamento Touchpoint, selecione ![Baixar](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+
+## Sinergia de canal
+
+Na guia **[!UICONTROL Channel synergy]**, a visualização **[!UICONTROL Channel synergies]** ajuda a identificar como os canais de marketing interagem para criar efeitos multiplicativos, além de suas contribuições individuais.
+
+A matriz do mapa de calor fornece uma representação visual dos valores de sinergia entre pares de canais de gastos. Essa matriz ajuda os profissionais de marketing a entender como os canais interagem para impulsionar o desempenho. Para cada modelo, os valores de sinergia são normalizados de 0 a 10. Esses valores quantificam a *sinergia do próximo dólar*, que estima a eficiência com que dois canais trabalham juntos quando cada um recebe um dólar adicional de gasto nos níveis atuais.
+
+Este quadro de despesas de nível superior oferece uma medida realista da força de sinergia relativa, uma vez que o quadro tem em conta as condições reais de despesas nos dados de formação e, como tal, permite decisões de otimização mais informadas.
+
+![Planejar sinergias de canal](/help/assets/model-channel-synergies.png)
+
+Para baixar um arquivo CSV que representa a matriz, selecione ![Baixar](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
+
+>[!NOTE]
+>
+>Se a guia **[!UICONTROL Channel synergy]** não estiver visível para um modelo existente, treine novamente o modelo para habilitar a funcionalidade e a visualização.
+
+
 
 ## **[!UICONTROL Factors]** [!BADGE beta]
 
@@ -238,7 +258,7 @@ Para cada caminho de conversão, você verá:
 >title="Gráficos de avaliação de modelo"
 >abstract="As visualizações de avaliação de modelo detalham as conversões reais em relação às previstas ou residuais."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440799/?captions=por_br&learn=on&enablevpops" text="Demonstração do Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demonstração do Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +275,7 @@ Para cada caminho de conversão, você verá:
 
 A guia **[!UICONTROL Diagnostics]** mostra visualizações para:
 
-* **[!UICONTROL Model Assessment]** visualizações, que consistem em:
+* **[!UICONTROL Model Assessment]** visualizações que consistem em:
 
   ![Avaliação de modelo](../assets/model-assessment.png)
 
@@ -277,7 +297,7 @@ Para detalhar a visualização, selecione uma das seguintes opções na lista **
 
   Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
 
-* Tabela **[!UICONTROL Model training fit metrics]**, que exibe para cada métrica de conversão:
+* Tabela **[!UICONTROL Model training fit metrics]** que é exibida para cada métrica de conversão:
 
   ![Tabela de métricas de ajuste de treinamento de modelo](../assets/model-training-fit-metrics.png)
 
@@ -305,7 +325,7 @@ Para detalhar a visualização, selecione uma das seguintes opções na lista **
 
 >[!AVAILABILITY]
 >
->A funcionalidade descrita nesta seção está na fase de Teste limitado da versão e pode ainda não estar disponível em seu ambiente. Essa nota será removida quando a funcionalidade estiver disponível no geral. Para obter informações sobre o processo de lançamento do Mix Modeler, consulte [versões de recursos do Mix Modeler](/help/releases/latest.md).
+>A funcionalidade descrita nesta seção está na fase de Teste limitado da versão e pode ainda não estar disponível em seu ambiente. Essa nota é removida quando a funcionalidade do geralmente está disponível. Para obter informações sobre o processo de lançamento do Mix Modeler, consulte [versões de recursos do Mix Modeler](/help/releases/latest.md).
 >
 
 Se for detectado descompasso de modelo, você verá uma notificação **[!UICONTROL Model drift detected]** na parte superior.
