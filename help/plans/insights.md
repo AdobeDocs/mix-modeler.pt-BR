@@ -3,9 +3,9 @@ title: Planejar insights
 description: Saiba como ver insights do seu plano e editar um plano no Mix Modeler.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 86b58717c3c8be183c70d1ceccf6f7c757303518
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Quando os insights forem criados, você verá uma visão geral do seu plano, que
 
 Para fechar a interface, selecione **[!UICONTROL Close]**.
 
-Para alterar como visualizar o ROI do seu plano, selecione **[!UICONTROL X]** ou **[!UICONTROL &#x200B; %]** em **[!UICONTROL View ROI]**.
+Para alterar como visualizar o ROI do seu plano, selecione **[!UICONTROL X]** ou **[!UICONTROL  %]** em **[!UICONTROL View ROI]**.
 
 ## Gastos e ROI previstos do canal pago
 
@@ -72,6 +72,13 @@ Esta visualização de gráfico de linhas mostra uma curva de retorno marginal p
 
 Para selecionar um canal específico para a visualização, selecione um canal no menu suspenso **[!UICONTROL View]**.
 
+## Sinergias de canal
+
+A Matriz de sinergias de canal ajuda a identificar como os canais de marketing interagem para criar efeitos multiplicativos, além de suas contribuições individuais.
+
+![Planejar sinergias de canal](/help/assets/plan-channel-synergies.png)
+
+Para baixar um arquivo CSV que representa a matriz, selecione ![Baixar](/help/assets/icons/Download.svg) **[!UICONTROL Download]**.
 
 ## Detalhamento do intervalo de datas
 
