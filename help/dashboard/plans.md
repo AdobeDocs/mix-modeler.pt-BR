@@ -3,9 +3,9 @@ title: Desempenho a planejar
 description: Saiba como usar a visão geral Desempenho para planejar no Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 733fc969a780e777eae67042303180707ec4ed8d
+source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->A guia **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} na ![Página Inicial](/help/assets/icons/Home.svg) do Mix Modeler **[!UICONTROL Overview]** é um recurso alfa e sua funcionalidade está sujeita a alterações. O recurso está disponível para um número limitado de clientes.
+>A guia **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} na ![Página inicial](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** do Mix Modeler é um recurso beta e sua funcionalidade está sujeita a alterações. O recurso está disponível para um número limitado de clientes.
 
+A guia **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} na ![Página inicial](/help/assets/icons/Home.svg) do Mix Modeler **[!UICONTROL Overview]** fornece um painel de rastreamento para monitorar o desempenho de seu marketing em relação ao plano. Você pode acompanhar o desempenho real em relação ao desempenho planejado por meio de cartões de status e visualizações.
 
-
-
-A guia **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} na ![Página inicial](/help/assets/icons/Home.svg) do Mix Modeler **[!UICONTROL Overview]** fornece um painel de rastreamento para monitorar o desempenho de seu marketing em relação ao plano.
+O painel ajuda a identificar lacunas, detectar riscos ou oportunidades e fazer ajustes oportunos em seus planos e orçamentos.
 
 Para selecionar quais dados são exibidos para os cartões de status e as visualizações de KPI:
 
@@ -27,24 +26,22 @@ Para selecionar quais dados são exibidos para os cartões de status e as visual
 
 * Especifique um período de data. Para alterar o período de data, insira uma data de início e uma data de término manualmente ou selecione um período de data usando ![Calendário](/help/assets/icons/Calendar.svg).
 
-A guia **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} mostra:
+A guia **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} mostra:
 
-* Cartões de status de KPI
+* [Cartões de status de KPI](#kpi-status-cards):
 
    * [Orçamento](#budget)
    * [Receita](#revenue)
    * [ROI](#roi)
-   * [Pedidos](#orders)
+   * [KPI](#kpi)
 
-* Visualizações:
-   * [ROI: real vs. previsto](#roi-actual-vs-forecasted)
-   * [Gasto: real vs. planejado](#spend-actual-vs-planned)
-   * [ROI por intervalos de datas](#roi-by-date-ranges)
-   * [Receita: real vs. prevista](#revenue-actual-vs-forecasted)
-   * [Intervalos de datas Reais vs. Previstos por](#actual-vs-predicted-spend-by-date-ranges)
-   * [Gastos por intervalos de datas](#spend-by-date-ranges)
-   * [Receita por intervalos de datas](#revenue-by-date-ranges)
-   * [Gastos por intervalos de datas (e canais)](#spend-by-date-ranges-and-channels)
+* [Visualizações](#visualizations):
+   * [*Métrica*](#metric-actual-vs-planned)
+   * [*Métrica*](#metric-actual-vs-planned-by-granularity)
+   * [Canal ](#channel-metric-by-granularity)
+   * [*Métrica*](#metric-vs-metric-by-channel)
+   * [*Métrica*](#metric-by-granularity)
+   * [*Métrica*](#metric-by-channel)
 
 ## Cartões de status de KPI
 
@@ -65,54 +62,69 @@ Uma visualização circular do progresso que mostra como a receita real se compa
 Uma visualização de linha que mostra o ROI do período de data.
 
 
-### Pedidos
+### KPI
 
-Uma visualização de linha que exibe os pedidos do período de data.
+Uma visualização de linha que exibe o KPI para o período de data.
 
 Para selecionar outro KPI:
 
 1. Selecione ![Editar](/help/assets/icons/Edit.svg).
-1. Na caixa de diálogo **[!UICONTROL KPI status card]**, selecione um KPI no menu suspenso **[!UICONTROL KPI]**.
+1. Na caixa de diálogo **[!UICONTROL KPI status card]**, selecione um KPI no menu suspenso **[!UICONTROL KPI]**. As opções disponíveis são: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI] e [!UICONTROL Spend].
 
 
 ## Visualizações
 
+Há seis visualizações disponíveis e você pode editar cada uma delas.
+
+Para redimensionar uma visualização, use a alça ┛ no canto inferior direito. Para mover uma visualização, basta arrastar e soltar a visualização na posição preferencial.
+
+Você pode passar o mouse sobre qualquer linha, barra ou elemento de dispersão em uma visualização para exibir um pop-up com informações adicionais.
+
 ![Visualização](../assets/performance-to-plan-visualizations.png)
 
-### ROI: real vs. previsto
+### *Métrica*: real vs. planejada
 
-Uma visualização de linha que compara o ROI real com o ROI previsto para o período de data.
-
-
-### Gasto: real vs. planejado
-
-Uma visualização de gráfico de barras que compara o gasto real com o orçamento planejado em todos os canais para o período de data.
-
-### ROI por intervalos de datas
-
-Uma visualização de gráfico de barras que mostra o ROI por intervalo de datas do período.
+Uma visualização de barras empilhadas que compara os valores de métrica selecionados para os totais, acumulados planejados e atualizados.
 
 
-### Receita: real vs. prevista
+### *Métrica*: real vs. planejada por *granularidade*
 
-Uma visualização de linha que compara a receita real com a receita prevista para o período de data.
-
-
-### Gasto real vs. previsto por intervalos de datas
-
-Uma visualização de gráfico de barras que mostra o gasto real versus previsto por intervalo de datas para o período de data.
+Uma visualização de linha que mostra os valores reais e planejados para a métrica selecionada e a granularidade selecionada.
 
 
-### Gastos por intervalos de datas
+### *métrica* do canal por *granularidade*
 
-Uma visualização de gráfico de barras que mostra gastos por intervalo de datas para o período de data.
-
-
-### Receita por intervalos de datas
-
-Uma visualização de gráfico de barras que mostra a receita por intervalos de datas para o período de data.
+Uma visualização de barras empilhadas que mostra barras empilhadas que exibem canais para a métrica selecionada e a granularidade selecionada.
 
 
-### Gastos por intervalos de datas e canais
+### *Métrica* vs *Métrica* por canal
 
-Uma visualização de gráfico de barras empilhadas que mostra os gastos por intervalos de datas e canal para o período de data.
+Uma visualização de dispersão que mostra um gráfico de dispersão para canais nas métricas selecionadas.
+
+
+### *Métrica* por *granularidade*
+
+Uma visualização de barra que mostra os valores reais e planejados para a métrica selecionada.
+
+
+### *Métrica* por canal
+
+Uma visualização de várias linhas que mostra a métrica selecionada sobre a granularidade selecionada.
+
+
+### Editar uma visualização
+
+Para editar uma visualização:
+
+1. Selecione ![Editar](/help/assets/icons/Edit.svg) para abrir a caixa de diálogo **[!UICONTROL Edit data]**.
+1. Dependendo da visualização, você pode alterar:
+
+   * Uma ou duas métricas: selecione uma métrica no menu suspenso **[!UICONTROL Select metric]**.
+
+      * Para planos baseados no ROI, as opções são: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] e [!UICONTROL Volume].
+      * Para planos baseados em CPA, as opções são: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] e [!UICONTROL Volume].
+   * **[!UICONTROL Granularity]**: Selecione **[!UICONTROL date ranges]** ou **[!UICONTROL week]** no menu suspenso **[!UICONTROL Granularity]**.
+
+   Você verá em **[!UICONTROL Preview]** como as alterações são diferentes da visualização **[!UICONTROL Current]**.
+
+1. Selecione **[!UICONTROL Apply]** para aplicar as alterações. Selecione **[!UICONTROL Cancel]** para cancelar qualquer alteração na visualização.
