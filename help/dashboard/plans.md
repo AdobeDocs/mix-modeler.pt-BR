@@ -3,7 +3,7 @@ title: Desempenho a planejar
 description: Saiba como usar a visão geral Desempenho para planejar no Mix Modeler.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->A guia **[!UICONTROL Performance to pan]** [!BADGE Beta]{type=Informative} na ![Página inicial](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** do Mix Modeler é um recurso beta e sua funcionalidade está sujeita a alterações. O recurso está disponível para um número limitado de clientes.
+>A guia **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} na ![Página inicial](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** do Mix Modeler é um recurso beta e sua funcionalidade está sujeita a alterações. O recurso está disponível para um número limitado de clientes.
 
 A guia **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} na ![Página inicial](/help/assets/icons/Home.svg) do Mix Modeler **[!UICONTROL Overview]** fornece um painel de rastreamento para monitorar o desempenho de seu marketing em relação ao plano. Você pode acompanhar o desempenho real em relação ao desempenho planejado por meio de cartões de status e visualizações.
 
