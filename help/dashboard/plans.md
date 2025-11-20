@@ -38,7 +38,7 @@ A guia **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} mostra:
 * [Visualizações](#visualizations):
    * [*Métrica*](#metric-actual-vs-planned)
    * [*Métrica*](#metric-actual-vs-planned-by-granularity)
-   * [Canal ](#channel-metric-by-granularity)
+   * [Canal &#x200B;](#channel-metric-by-granularity)
    * [*Métrica*](#metric-vs-metric-by-channel)
    * [*Métrica*](#metric-by-granularity)
    * [*Métrica*](#metric-by-channel)
