@@ -4,9 +4,9 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
+source-git-commit: 5f3b5462bd2174534692051f61c57f0d3f9d4db0
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '874'
 ht-degree: 6%
 
 ---
@@ -43,6 +43,7 @@ Essas notas de versão abordam a versão mais recente do Mix Modeler. As versõe
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | A interface do usuário [Comparar planos](/help/plans/compare.md) agora mostra detalhes adicionais para marketing pago: ROI ou CPA e receita. | 20 de agosto de 2025 | 20 de agosto de 2025 |
 | **Atualizações de harmonização** | Todas as regras de conjuntos de dados agora usam um [Map genérico semelhante para a experiência de campos harmonizados](/help/harmonize-data/dataset-rules.md), independentemente do tipo de conjunto de dados. Ao mapear um campo harmonizado padrão a partir de um conjunto de dados de resumo, o Mix Modeler tenta deduzir o campo do conjunto de dados do Experience Platform correspondente automaticamente. | quarta-feira, 29 de julho de 2025 | quarta-feira, 29 de julho de 2025 |
+| **Otimização de ROI/CPA pan marginal aprimorada** | Permite melhorar como os orçamentos de marketing são distribuídos ao longo do tempo. Em vez de convergir o ROI/CPA marginal em todo o período de planejamento, você pode [otimizar em meses](/help/plans/build.md), preservando os padrões de gastos mensais. | quarta-feira, 8 de julho de 2025 | quarta-feira, 8 de julho de 2025 |
 
 
 ## Maio - junho de 2025
