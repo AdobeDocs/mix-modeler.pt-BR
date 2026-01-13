@@ -3,9 +3,9 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
+source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
 workflow-type: tm+mt
-source-wordcount: '2488'
+source-wordcount: '2498'
 ht-degree: 2%
 
 ---
@@ -80,9 +80,9 @@ Uma visualização de gráfico de barras horizontal que mostra o desempenho do R
 
 ### Curvas de resposta marginal.
 
-O gráfico de linhas visualiza e compara os retornos marginais gerados pelo investimento em seus canais de marketing.  E identifica o ponto de equilíbrio no qual o retorno incremental é menor do que o gasto incremental. Como resultado, essa visualização ajuda você a entender quando seu investimento em marketing começa a ter menos impacto.
+O gráfico de linhas visualiza e compara os retornos marginais gerados pelo investimento em seus canais de marketing.  E identifica o ponto de gasto atual e o ponto de equilíbrio marginal (em que seu retorno incremental é menor do que seu gasto incremental). Como resultado, essa visualização ajuda você a entender quando seu investimento em marketing começa a ter menos impacto.
 
-A curva, o ponto de equilíbrio e os valores correspondentes são calculados com base no intervalo de dados selecionado e no canal selecionado.
+A curva, o ponto de gasto atual, o ponto de equilíbrio marginal e os valores correspondentes são calculados com base no intervalo de dados selecionado e no canal selecionado.
 
 Para alterar o canal:
 
@@ -258,7 +258,7 @@ Para cada caminho de conversão, você verá:
 >title="Gráficos de avaliação de modelo"
 >abstract="As visualizações de avaliação de modelo detalham as conversões reais em relação às previstas ou residuais."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440799/?captions=por_br&learn=on&enablevpops" text="Demonstração do Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demonstração do Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
