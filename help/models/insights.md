@@ -3,9 +3,9 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 16ec71a73b577d124ac1ef420741849cdb1c139f
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2499'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Esses insights ajudam a oferecer suporte à priorização e alocação de recurs
 
 Para exibir insights do modelo, na interface ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** do Mix Modeler:
 
-1. Na tabela **[!UICONTROL Models]**, selecione o nome de um modelo que tenha um **[!UICONTROL Last run status]** de <span style="color:green">●</span> **[!UICONTROL Success]**.
+1. Na tabela **[!UICONTROL Models]**, selecione o nome de um modelo que tenha um **[!UICONTROL Last run status]** de ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
 
 1. No menu de contexto, selecione **[!UICONTROL Model Insights]**.
 
@@ -60,7 +60,7 @@ A guia Informações do modelo mostra visualizações para [Contribuição por d
 * Para baixar dados completos de insights do modelo no formato do Microsoft® Excel, selecione ![Baixar](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-### Contribuição por data e mídia base.
+### Contribuição por data e mídia base
 
 Essa visualização de gráfico empilhado é ordenada da seguinte maneira:
 
@@ -74,11 +74,11 @@ Essa visualização representa a proporção de contribuição obtida pela base,
 
 Uma visualização de rosca que mostra uma distribuição da contribuição por vários canais. Esta visualização mostra a incrementalidade através da lente dos três principais canais de desempenho (excluindo as categorias base e *Todos os outros*). A visualização ajuda a oferecer suporte à priorização e à alocação de orçamento.
 
-### Resumo de desempenho de marketing.
+### Resumo de desempenho de marketing
 
 Uma visualização de gráfico de barras horizontal que mostra o desempenho do ROI ou CPA de cada canal. Esta visualização destaca o ROI/CPA de seus investimentos em marketing. Os canais são classificados em ordem decrescente com base no ROI/CPA. A visualização ajuda a identificar quais canais são mais eficazes e quais podem precisar de otimização.
 
-### Curvas de resposta marginal.
+### Curvas de resposta marginal
 
 O gráfico de linhas visualiza e compara os retornos marginais gerados pelo investimento em seus canais de marketing.  E identifica o ponto de gasto atual e o ponto de equilíbrio marginal (em que seu retorno incremental é menor do que seu gasto incremental). Como resultado, essa visualização ajuda você a entender quando seu investimento em marketing começa a ter menos impacto.
 
@@ -258,7 +258,7 @@ Para cada caminho de conversão, você verá:
 >title="Gráficos de avaliação de modelo"
 >abstract="As visualizações de avaliação de modelo detalham as conversões reais em relação às previstas ou residuais."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440799/?captions=por_br&learn=on&enablevpops" text="Demonstração do Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demonstração do Mix Modeler"
 
 
 >[!CONTEXTUALHELP]

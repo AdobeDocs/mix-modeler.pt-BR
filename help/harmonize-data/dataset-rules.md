@@ -3,9 +3,9 @@ title: Regras do conjunto de dados
 description: Saiba como definir regras de conjunto de dados para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: b631cf8d06fe71d9f5ca547923eb3237c677a915
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ As colunas da tabela especificam detalhes sobre as regras do conjunto de dados:
 
 | Nome da coluna | Detalhes |
 | ---------------------- | ----------|
-| Conjunto de dados | O nome do conjunto de dados.  Use ![Mais](/help/assets/icons/More.svg) para selecionar ações para um conjunto de dados. É possível:<ul><li>![Visualizar](/help/assets/icons/Preview.svg) **[!UICONTROL View]** para exibir a configuração das regras do conjunto de dados. Todos os campos estão desativados.</li><li>![Edite](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** para editar a configuração de regras do conjunto de dados.</li><li>![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir a configuração de regras do conjunto de dados. Você será solicitado a confirmar a exclusão na caixa de diálogo Excluir conjunto de dados. Selecione **[!UICONTROL Delete]** para excluir a configuração da regra do conjunto de dados permanentemente.</li><ul> |
-| Fonte | A origem do conjunto de dados: Adobe Analytics, Eventos de experiência, Resumo (agregado) ou Eventos de experiência do consumidor. |
-| Esquema | O esquema com o qual o conjunto de dados está em conformidade. Você pode selecionar rapidamente o nome do esquema para abrir o esquema em uma nova guia no editor de esquema no ![Esquema](/help/assets/icons/Schemas.svg) [Esquemas](../ingest-data/schemas.md). |
-| Granularidade | A granularidade dos dados no conjunto de dados. Os valores possíveis são Diário, Semanal, Mensal ou Anual. |
-| Início da semana | Especifica qual dia da semana é considerado o início de uma nova semana para o conjunto de dados específico. |
-| Status | O status do campo: <p><span style="color:gray">●</span> Rascunho ou <p><span style="color:green">●</span> Ativo |
-| Última modificação | Data e hora da última modificação da regra do conjunto de dados. |
+| **[!UICONTROL Dataset]** | O nome do conjunto de dados.  Use ![Mais](/help/assets/icons/More.svg) para selecionar ações para um conjunto de dados. É possível:<ul><li>![Visualizar](/help/assets/icons/Preview.svg) **[!UICONTROL View]** para exibir a configuração das regras do conjunto de dados. Todos os campos estão desativados.</li><li>![Edite](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** para editar a configuração de regras do conjunto de dados.</li><li>![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir a configuração de regras do conjunto de dados. Você será solicitado a confirmar a exclusão na caixa de diálogo Excluir conjunto de dados. Selecione **[!UICONTROL Delete]** para excluir a configuração da regra do conjunto de dados permanentemente.</li><ul> |
+| **[!UICONTROL Source]** | A origem do conjunto de dados: Adobe Analytics, Eventos de experiência, Resumo (agregado) ou Eventos de experiência do consumidor. |
+| **[!UICONTROL Schema]** | O esquema com o qual o conjunto de dados está em conformidade. Você pode selecionar rapidamente o nome do esquema para abrir o esquema em uma nova guia no editor de esquema no ![Esquema](/help/assets/icons/Schemas.svg) [Esquemas](../ingest-data/schemas.md). |
+| **[!UICONTROL Granularity]** | A granularidade dos dados no conjunto de dados. Os valores possíveis são Diário, Semanal, Mensal ou Anual. |
+| **[!UICONTROL Start of the week]** | Especifica qual dia da semana é considerado o início de uma nova semana para o conjunto de dados específico. |
+| **[!UICONTROL Status]** | O status do campo: ![StatusGray](/help/assets/icons/StatusGray.svg) Rascunho ou ![StatusGreen](/help/assets/icons/StatusGreen.svg) Ativo |
+| **[!UICONTROL Last modified]** | Data e hora da última modificação da regra do conjunto de dados. |
 
 {style="table-layout:auto"}
 
@@ -70,17 +70,17 @@ Na tela **[!UICONTROL Create]**,
 
       1. Selecione **[!UICONTROL Count]** ou **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-      1. Selecione um **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;para o qual você deseja mapear o campo harmonizado por padrão.
+      1. Selecione um **[!UICONTROL *campo do conjunto de dados do AEP *]**para o qual você deseja mapear o campo harmonizado por padrão.
 
    1. Quando o campo selecionado é do tipo dimensão:
 
       1. Selecione **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-      1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+      1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;específico, seja ele **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;um valor inserido em&#x200B;**[!UICONTROL * Inserir valor de entrada *]**.
+         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados do AEP *]**específico, seja ele **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**um valor inserido em**[!UICONTROL * Inserir valor de entrada *]**.
 
          1. Para adicionar outro caso, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Para adicionar outra condição, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
