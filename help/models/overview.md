@@ -3,9 +3,9 @@ title: Visão geral dos modelos
 description: Saiba como criar e usar modelos no Mix Modeler.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 620f77d5d22713381d708eef47dcb4c7eee79da9
+source-git-commit: 8f4b07782d74341afd23e8c3d15f7f2d30a7ccbd
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Para criar um modelo, use o fluxo de configuração de modelo guiado passo a pas
 
 Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
 
-1. Selecione ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
+1. Selecione ![FileData](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** no painel esquerdo.
 
 1. Você verá uma tabela dos modelos atuais.
 
@@ -54,10 +54,13 @@ Para exibir uma tabela dos modelos atuais, na interface do Mix Modeler:
    | **[!UICONTROL Name]** | Nome do modelo |
    | **[!UICONTROL Description]** | Descrição do modelo |
    | **[!UICONTROL Conversion event]** | A conversão selecionada para o modelo. |
-   | **[!UICONTROL Run frequency]** | A frequência de execução do treinamento do modelo. |
+   | Frequência de **[!UICONTROL Run]** | A frequência de execução do treinamento do modelo. |
    | **[!UICONTROL Last run]** | A data e hora do último treinamento do modelo. |
    | **[!UICONTROL Status]** | O status do modelo. |
 
+   Para classificar a tabela em qualquer coluna na ordem crescente de ![ArrowMoveUp](/help/assets/icons2/ArrowMoveUp.svg) ou decrescente de ![ArrowMoveDown](/help/assets/icons2/ArrowMoveDown.svg)selecione o título da coluna.
+
+   Para classificar ou redimensionar a coluna **[!UICONTROL Name]**, selecione **[!UICONTROL Name]** ![Divisa](/help/assets/icons/ChevronDown.svg). No menu de contexto, selecione **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]** ou **[!UICONTROL Resize column]**. Como alternativa, você pode passar o mouse sobre o separador de colunas para redimensionar a coluna **[!UICONTROL Name]**.
 
    O status relatado do modelo depende de onde um modelo está em seu ciclo de vida. Por exemplo, se um modelo é criado, (re)treinado com sucesso ou não, ou (re)pontuado com sucesso ou não.
 
@@ -119,7 +122,7 @@ Para exibir mais detalhes de um modelo:
 
 1. Selecione ![Mais](/help/assets/icons/More.svg) para um modelo e, no menu de contexto, selecione **[!UICONTROL Duplicate]**.
 
-Você é redirecionado para as etapas de criação de um novo modelo, com um nome proposto composto pelo nome do modelo original anexado com **[!UICONTROL (Copy)] (_n_)**.
+Você é redirecionado para as etapas de criação de um novo modelo, com um nome proposto composto pelo nome do modelo original anexado com **[!UICONTROL (Copy)](_n_)**.
 
 ### Editar
 
@@ -171,5 +174,5 @@ Para excluir vários modelos:
 
 1. Selecione vários modelos.
 1. Na barra de ação azul, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir os modelos.
-1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *modelos]**&#x200B;para excluir os modelos. Selecione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *modelos]**para excluir os modelos. Selecione **[!UICONTROL Cancel]**para cancelar.
 
