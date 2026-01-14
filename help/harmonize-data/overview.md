@@ -3,10 +3,10 @@ title: Harmonizar visão geral dos conjuntos de dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
+source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 5%
+source-wordcount: '1347'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Os dados no Mix Modeler são de natureza diferente, dependendo da fonte de dados
 * dados agregados ou resumidos, por exemplo, coletados de fontes de dados muradas ou dados de publicidade offline coletados (como gastos) da execução de uma campanha em outdoor, um evento ou uma campanha de publicidade física,
 * dados do evento, por exemplo, de fontes de dados primárias. Esses dados de evento podem ser coletados por meio do conector de origem do Adobe Analytics na Adobe Analytics, ou por meio da API do Experience Platform Web, Mobile SDK ou Edge Network, ou por meio de dados assimilados usando conectores de origem.
 
-O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Esta exibição de dados, combinada com [dados de fatores internos e externos](#factors), é a origem dos modelos no Mix Modeler. O serviço usa a maior granularidade entre os diferentes conjuntos de dados. Por exemplo, se um conjunto de dados tiver uma granularidade de dados mensais e os conjuntos de dados restantes tiverem granularidade semanal e diária, o serviço de harmonização criará uma visualização de dados usando granularidade mensal.
+O serviço de harmonização do Mix Modeler assimila os dados agregados e do evento em uma visualização de dados consistente. Essa visualização de dados é a fonte para os modelos no Mix Modeler. O serviço usa a maior granularidade entre os diferentes conjuntos de dados. Por exemplo, se um conjunto de dados tiver uma granularidade de dados mensais e os conjuntos de dados restantes tiverem granularidade semanal e diária, o serviço de harmonização criará uma visualização de dados usando granularidade mensal.
 
 ## Fatores
 
@@ -27,7 +27,22 @@ Os fatores são fundamentais para a criação de modelos e você deseja entender
 
 * Fatores externos são fatores fora do controle de sua organização, mas que ainda podem afetar as conversões realizadas. Exemplos são CPI, S&amp;P 500 e outros.
 
+A funcionalidade Fatores no Mix Modeler usa um fluxo de trabalho de fatores harmonizado. Esse fluxo de trabalho simplifica o modo como os fatores são gerenciados, oferece consistência entre modelos e fornece uma experiência intuitiva.
 
+Como parte do workflow de fatores harmonizados:
+
+1. Defina campos harmonizados para fatores de um conjunto de dados de fator em [regras do conjunto de dados](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+1. [Sincronizar](/help/harmonize-data/dataset-rules.md#sync-data) seus dados harmonizados.
+1. [Use os fatores](/help/models/build.md#configure) na sua configuração de modelo.
+
+### Migração
+
+Você pode ter modelos que ainda não adotaram o fluxo de trabalho de fatores harmonizados e usar o fluxo de trabalho de fatores baseado no conjunto de dados do Experience Platform. Esses modelos continuam a exibir seus fatores baseados no conjunto de dados original até que os modelos sejam atualizados com novos fatores que são baseados no fluxo de trabalho de fatores harmonizados.
+
+Ao duplicar um modelo que usa o fluxo de trabalho de fatores baseados no conjunto de dados:
+
+* Se o modelo não tiver sido harmonizado, a antiga configuração do fator não será transferida para o modelo duplicado. É necessário adicionar fatores usando o novo workflow de fatores harmonizados.
+* Se o modelo tiver sido harmonizado, os fatores transitam e são retidos ou atualizados.
 
 ## Um exemplo de dados harmonizados
 
