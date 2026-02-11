@@ -3,14 +3,21 @@ title: Conversões
 description: Saiba como criar conversões para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 2%
 
 ---
 
-# Conversões
+# Conversões {#conversions}
+
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_conversions_create"
+>title="Conversão"
+>abstract="Eventos de conversão são objetivos de negócios que identificam o impacto das atividades de marketing. Exemplos: pedidos de comércio eletrônico, compras na loja, visitas a sites e muito mais."
+
 
 Eventos de conversão são objetivos de negócios que identificam o impacto das atividades de marketing. Exemplos: pedidos de comércio eletrônico, compras na loja, visitas a sites e assim por diante.
 
@@ -38,7 +45,7 @@ As colunas da tabela especificam detalhes sobre a conversão:
 
 ## Adicionar uma conversão
 
-Para adicionar uma conversão, na interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** em Mix Modeler:
+Para adicionar uma conversão, na interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** no Mix Modeler:
 
 1. Selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
@@ -52,7 +59,7 @@ Para adicionar uma conversão, na interface ![DataSearch](/help/assets/icons/Dat
 
       1. Selecione um valor para o operador ![Divisa](/help/assets/icons/ChevronDown.svg), por exemplo **[!UICONTROL is]**.
 
-      1. Selecione um valor em **[!UICONTROL *Selecione o valor *]**&#x200B;ou insira um valor, por exemplo **[!UICONTROL Store]**.
+      1. Selecione um valor em **[!UICONTROL *Selecione o valor *]**ou insira um valor, por exemplo **[!UICONTROL Store]**.
 
    1. Selecione um campo harmonizado de **[!UICONTROL Conversion metric for analysis]**, por exemplo **[!UICONTROL Orders]**.
 

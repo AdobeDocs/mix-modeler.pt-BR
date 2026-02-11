@@ -3,9 +3,9 @@ title: Pontos de contato de marketing
 description: Saiba como criar pontos de contato de marketing para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 6751cea9155bab54c9c8405a57151323f570c477
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '494'
 ht-degree: 11%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 11%
 # Pontos de contato de marketing {#marketing-touchpoints}
 
 >[!CONTEXTUALHELP]
->id="harmonizeddata_marketingtouchpoint"
->title="Ponto de contato de marketing"
->abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita."
+>id="harmonizeddata_marketingtouchpoints_create"
+>title="Pontos de contato de marketing"
+>abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Não é possível configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
 
 
 Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.
@@ -58,7 +58,7 @@ Para adicionar um ponto de contato de marketing, na interface ![DataSearch](/hel
 
       1. Selecione um valor para o operador ![Divisa](/help/assets/icons/ChevronDown.svg), por exemplo **[!UICONTROL is]**.
 
-      1. Selecione um valor em **[!UICONTROL *Selecione o valor *]**&#x200B;ou insira um valor, por exemplo **[!DNL Luma]**.
+      1. Selecione um valor em **[!UICONTROL *Selecione o valor *]**ou insira um valor, por exemplo **[!DNL Luma]**.
 
    1. Selecione um campo harmonizado de **[!UICONTROL Touchpoint volume]**, por exemplo **[!UICONTROL Impressions]**.
 
