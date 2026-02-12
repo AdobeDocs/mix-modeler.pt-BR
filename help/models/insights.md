@@ -3,12 +3,13 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
+source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
 workflow-type: tm+mt
-source-wordcount: '2844'
-ht-degree: 3%
+source-wordcount: '2839'
+ht-degree: 2%
 
 ---
+
 
 # Insights do modelo
 
@@ -47,7 +48,7 @@ Se for detectado um desvio de modelo no modelo, você verá uma caixa de diálog
 
 ![Desvio de modelo detectado na caixa de diálogo](/help/assets/model-drift-dialog.png)
 
-## Insights do modelo
+## Insights do modelo {#model-insights-section}
 
 A guia Informações do modelo mostra visualizações para [Contribuição por data e mídia base](#contribution-by-date-and-base-media), [Contribuição por canal](#contribution-by-channel), [Resumo do desempenho de marketing](#marketing-performance-summary) e [Curvas de resposta marginal](#marginal-response-curves). A guia também fornece uma tabela [Detalhamento do ponto de contato](#touchppint-breakdown).
 
@@ -76,12 +77,10 @@ Uma visualização de rosca que mostra uma distribuição da contribuição por 
 
 ### Resumo de desempenho de marketing {#marketing-performance-summary}
 
-
 >[!CONTEXTUALHELP]
 >id="models_insights_undefinedchannels"
 >title="Canais indefinidos"
 >abstract="Canais indefinidos são incluídos, mas não têm conversões atribuídas."
-
 
 Uma visualização de gráfico de barras horizontal que mostra o desempenho do ROI ou CPA de cada canal. Esta visualização destaca o ROI/CPA de seus investimentos em marketing. Os canais são classificados em ordem decrescente com base no ROI/CPA. A visualização ajuda a identificar quais canais são mais eficazes e quais podem precisar de otimização.
 
@@ -164,7 +163,6 @@ Se nenhum dado estiver disponível, você verá a mensagem ![TableAndChart](/hel
 
 ## Atribuição {#attribution}
 
-
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
 >title="Detalhamento por canal"
@@ -181,7 +179,6 @@ Se nenhum dado estiver disponível, você verá a mensagem ![TableAndChart](/hel
 >[!NOTE]
 >
 >A guia Atribuição só está disponível para modelos habilitados para MTA.
-
 
 Usando a guia [!UICONTROL Attribution], você pode entender a eficácia dos pontos de contato e campanhas de marketing que têm dados de nível de evento.  Consulte [Modelo de compilação](build.md).
 
@@ -286,8 +283,6 @@ Para cada caminho de conversão, você verá:
 >id="models_diagnostics_modelassessment"
 >title="Gráficos de avaliação de modelo"
 >abstract="As visualizações de avaliação de modelo detalham as conversões reais em relação às previstas ou residuais."
->additional-url="https://experienceleague.adobe.com/pt-br/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440799/?captions=por_br&learn=on&enablevpops" text="Demonstração do Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -382,7 +377,7 @@ Se for detectado descompasso de modelo, você verá uma notificação **[!UICONT
 Selecione **[!UICONTROL Hide]** para ocultar a notificação. A notificação reaparecerá no dia seguinte ou no próximo logon.
 
 
-## [!UICONTROL Historical overview]
+## Visão geral histórica
 
 A guia Visão geral histórica mostra visualizações para:
 
