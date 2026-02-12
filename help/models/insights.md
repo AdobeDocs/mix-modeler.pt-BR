@@ -3,7 +3,7 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 0a6ed07585f4e2d324159f649efedf2ec6d1b40b
+source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
 workflow-type: tm+mt
 source-wordcount: '2827'
 ht-degree: 2%
@@ -78,7 +78,7 @@ Uma visualização de rosca que mostra uma distribuição da contribuição por 
 
 
 >[!CONTEXTUALHELP]
->id="models_insights_marketingperformancesummary"
+>id="models_insights_undefinedchannels"
 >title="Canais indefinidos"
 >abstract="Canais indefinidos são incluídos, mas não têm conversões atribuídas."
 
@@ -287,7 +287,7 @@ Para cada caminho de conversão, você verá:
 >title="Gráficos de avaliação de modelo"
 >abstract="As visualizações de avaliação de modelo detalham as conversões reais em relação às previstas ou residuais."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440799/?captions=por_br&learn=on&enablevpops" text="Demonstração do Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demonstração do Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
