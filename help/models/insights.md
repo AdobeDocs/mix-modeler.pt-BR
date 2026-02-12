@@ -3,10 +3,10 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 95cc236a70db0226293f97389343dbcb75c3d203
+source-git-commit: 7526706a710bf9277ddaa48c8b7b07fb321eda34
 workflow-type: tm+mt
-source-wordcount: '2827'
-ht-degree: 2%
+source-wordcount: '2844'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ Se for detectado um desvio de modelo no modelo, você verá uma caixa de diálog
 
 ![Desvio de modelo detectado na caixa de diálogo](/help/assets/model-drift-dialog.png)
 
-## [!UICONTROL Model insights]
+## Insights do modelo
 
 A guia Informações do modelo mostra visualizações para [Contribuição por data e mídia base](#contribution-by-date-and-base-media), [Contribuição por canal](#contribution-by-channel), [Resumo do desempenho de marketing](#marketing-performance-summary) e [Curvas de resposta marginal](#marginal-response-curves). A guia também fornece uma tabela [Detalhamento do ponto de contato](#touchppint-breakdown).
 
@@ -140,7 +140,7 @@ Para baixar um arquivo CSV que representa a matriz, selecione ![Baixar](/help/as
 
 
 
-## **[!UICONTROL Factors]** [!BADGE beta] {#factors}
+## Fatores {#factors}
 
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
@@ -162,7 +162,7 @@ Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/hel
 
 Se nenhum dado estiver disponível, você verá a mensagem ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**.
 
-## [!UICONTROL Attribution] {#attribution}
+## Atribuição {#attribution}
 
 
 >[!CONTEXTUALHELP]
@@ -207,13 +207,13 @@ As pontuações granulares do evento de atribuição multitoque do Mix Modeler s
 
 A guia Atribuição consiste nas seguintes visualizações:
 
-### [!UICONTROL Overview]
+### Visão geral
 
 A visualização [!UICONTROL Overview] mostra, para os modelos de atribuição selecionados, os totais e as porcentagens de conversões. Selecionar mais modelos adiciona círculos adicionais à visualização, cada um com sua própria cor correspondente à legenda.
 
 Para ver um pop-up com detalhes de um modelo de atribuição, passe o mouse sobre qualquer um dos círculos na visualização.
 
-### [!UICONTROL Trends]
+### Tendências
 
 A visualização [!UICONTROL Daily trends], [!UICONTROL Weekly trends] ou [!UICONTROL Monthly trends] mostra, para os modelos de atribuição selecionados, as tendências de conversão diárias, semanais ou mensais.
 
@@ -221,7 +221,7 @@ Para escolher o período, selecione **[!UICONTROL Daily trends]**, **[!UICONTROL
 
 Para ver os detalhes, passe o mouse sobre a linha de dados de um modelo de atribuição específico para exibir um popover que mostra o número total de conversões desses dados.
 
-### [!UICONTROL Breakdown]
+### Detalhamento
 
 A visualização [!UICONTROL Breakdown] é um detalhamento por canal ou ponto de contato das conversões para cada um dos modelos de atribuição selecionados. Essa visualização pode ser útil para tomar decisões sobre a eficácia de cada canal ou ponto de contato.
 
@@ -229,7 +229,7 @@ Para escolher o tipo de detalhamento, selecione **[!UICONTROL Breakdown by chann
 
 Para ver detalhes, passe o mouse sobre qualquer um dos elementos do gráfico.
 
-### [!UICONTROL Top campaigns]
+### Principais campanhas
 
 A visualização Campanhas principais mostra uma tabela das campanhas principais com colunas para Nome da campanha, Canal, Tipo de mídia e Conversões incrementais. Essa visualização pode ajudar a informar sua equipe sobre a eficácia de uma campanha específica para um determinado canal e fornecer insights sobre em quais campanhas você deve investir ainda mais.
 
@@ -249,7 +249,7 @@ A caixa de diálogo Campanhas principais expandida mostra a mesma tabela com col
 Para fechar a caixa de diálogo Campanhas principais expandida, selecione **[!UICONTROL Close]**.
 
 
-### [!UICONTROL Breakdown by touchpoint position]
+### Detalhamento por posição de ponto de contato
 
 A visualização [!UICONTROL Breakdown by touchpoint position] é um detalhamento das conversões atribuídas por posição do ponto de contato e do ponto de contato em todos os caminhos de conversão. Este gráfico ajuda a comparar se um ponto de contato contribui melhor em uma posição do que as posições restantes e outros pontos de contato em qualquer posição.
 
@@ -267,7 +267,7 @@ As posições [!UICONTROL Starter], [!UICONTROL Player] e [!UICONTROL Closer] s�
 | [!UICONTROL Closer] | Essa posição indica se o ponto de contato é o último contato antes da conversão. |
 
 
-### [!UICONTROL Top conversion paths]
+### Principais caminhos de conversão
 
 A visualização [!UICONTROL Top conversion paths] mostra os 5 principais caminhos de conversão com base nos modelos de atribuição selecionados.
 
@@ -280,14 +280,14 @@ Para cada caminho de conversão, você verá:
 * a soma dessas porcentagens de contribuição do modelo de atribuição de canal.
 
 
-## [!UICONTROL Diagnostics] {#diagnostics}
+## Diagnóstico {#diagnostics}
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="Gráficos de avaliação de modelo"
 >abstract="As visualizações de avaliação de modelo detalham as conversões reais em relação às previstas ou residuais."
 >additional-url="https://experienceleague.adobe.com/pt-br/docs/mix-modeler/using/overview" text="Visão geral do Mix Modeler"
->additional-url="https://video.tv.adobe.com/v/3440799/?captions=por_br&learn=on&enablevpops" text="Demonstração do Mix Modeler"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Demonstração do Mix Modeler"
 
 
 >[!CONTEXTUALHELP]
@@ -417,7 +417,7 @@ Para selecionar um canal alternativo baseado em volume a ser exibido para essa v
 * Selecione um canal de **[!UICONTROL Channels]**.
 
 
-## **[!UICONTROL Edit]**
+## Editar
 
 É possível editar o nome, a descrição e a programação do treinamento e a pontuação do modelo.
 
