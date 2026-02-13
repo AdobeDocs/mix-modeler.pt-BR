@@ -3,10 +3,10 @@ title: Criar modelos
 description: Saiba como criar modelos no Mix Modeler.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
+source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 0%
+source-wordcount: '1024'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ Para criar modelos alimentados por IA personalizada, a interface fornece um flux
 
 Na interface ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** no Mix Modeler, selecione **[!UICONTROL Open model canvas]**.
 
-## Configuração
+## Configurar
 
 Você define o nome e a descrição na etapa **[!UICONTROL Setup]**:
 
@@ -26,7 +26,12 @@ Você define o nome e a descrição na etapa **[!UICONTROL Setup]**:
 
 1. Selecione **[!UICONTROL Next]** para continuar com a próxima etapa. Selecione **[!UICONTROL Cancel]** para cancelar a configuração do modelo.
 
-## Configurar 
+## Configurar {#configure}
+
+>[!CONTEXTUALHELP]
+>id="model_marketingtouchpoints_select"
+>title="Pontos de contato de marketing"
+>abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Não é possível configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
 
 Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envolve a definição de metas de conversão, pontos de contato de marketing, a população de dados elegível, fatores externos e internos e muito mais.
 
@@ -158,7 +163,7 @@ Você pode especificar configurações avançadas na etapa **[!UICONTROL Advance
    1. Quando necessário, use **[!UICONTROL Clear all]** para limpar todos os valores de entrada para as colunas **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]**.
 
 
-## Agendar
+## Cronograma
 
 Você pode agendar o treinamento e a pontuação para seu modelo na etapa **[!UICONTROL Schedule]**.
 
