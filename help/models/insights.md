@@ -3,9 +3,9 @@ title: Insights do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
+source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2772'
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ Se nenhum dado estiver disponível, você verá a mensagem ![TableAndChart](/hel
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Detalhamento por posição de ponto de contato"
->abstract="Essa visualização mostra um detalhamento das conversões atribuídas por posição do ponto de contato e do ponto de contato em todos os caminhos de conversão. A visualização compara se um ponto de contato contribui melhor em uma posição do que as posições restantes e outros pontos de contato em qualquer posição. Observe que a soma da contribuição percentual para um modelo de atribuição em todos os pontos de contato e posições seria igual a 100. As posições iniciante, influenciador e finalizador são definidas da seguinte forma:<ul><li>**Início**: indica se o ponto de contato é o primeiro contato em um caminho de conversão.</li><li>**Player**: indica se o ponto de contato não é o primeiro nem o último contato que leva à conversão.</li><li>**Mais próximo**: indica se o ponto de contato é o último contato antes da conversão.</li></ul>"
+>abstract="Essa visualização mostra um detalhamento das conversões atribuídas por posição do ponto de contato e do ponto de contato em todos os caminhos de conversão. A visualização compara se um ponto de contato contribui melhor em uma posição do que as posições restantes e outros pontos de contato em qualquer posição."
 
 
 
@@ -312,7 +312,7 @@ Para cada caminho de conversão, você verá:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="Data do modelo a partir de"
->abstract="Os dados desta tabela são gerados apenas para períodos específicos.  A data **[!UICONTROL As of]** indica quando os dados foram gerados e é baseada nos dados de startDate a endDate."
+>abstract="Os dados desta tabela são gerados apenas para períodos específicos.  A data **[!UICONTROL As of]** indica quando os dados foram gerados e é baseada em dados desde a data especificada até um ano atrás."
 
 
 A guia **[!UICONTROL Diagnostics]** mostra visualizações para:
