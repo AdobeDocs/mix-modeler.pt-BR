@@ -1,12 +1,13 @@
 ---
-title: Criar modelos
-description: Saiba como criar modelos no Mix Modeler.
+title: Criar modelos no Mix Modeler
+description: Saiba como criar modelos no Mix Modeler, incluindo como definir, configurar e especificar opções avançadas para o modelo.
 feature: Models
+solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
+source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 3%
+source-wordcount: '1276'
+ht-degree: 2%
 
 ---
 
@@ -18,9 +19,9 @@ Na interface ![Modelos](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**
 
 ## Configurar
 
-Você define o nome e a descrição na etapa **[!UICONTROL Setup]**:
+Você define um nome e uma descrição na etapa **[!UICONTROL Setup]**:
 
-1. Insira seu modelo **[!UICONTROL Name]**, por exemplo `Demo model`. Digite um **[!UICONTROL Description]**, por exemplo `Demo model to explore AI featues of Mix Modeler`.
+1. Insira seu modelo **[!UICONTROL Name]**, por exemplo `Demo model`. Digite um **[!UICONTROL Description]**, por exemplo `Demo model to explore AI features of Mix Modeler`.
 
    ![Nome e descrição do modelo](/help/assets/model-name-description.png)
 
@@ -31,7 +32,7 @@ Você define o nome e a descrição na etapa **[!UICONTROL Setup]**:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Pontos de contato de marketing"
->abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Não é possível configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
+>abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Você não pode configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
 
 Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envolve a definição de metas de conversão, pontos de contato de marketing, a população de dados elegível, fatores externos e internos e muito mais.
 
@@ -83,7 +84,7 @@ Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envol
 
    * Para adicionar um contêiner de preenchimento de dados qualificado, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-   * Para remover um contêiner de preenchimento de dados qualificado, no contêiner, selecione ![Mais](/help/assets/icons/More.svg) e selecione **[!UICONTROL Remove marketing touchpoint]** no menu de contexto.
+   * Para remover um contêiner de preenchimento de dados qualificado, no contêiner, selecione ![Mais](/help/assets/icons/More.svg) e selecione **[!UICONTROL Remove container]** no menu de contexto.
 
    * Selecione **And** e **Or** entre contêineres para criar definições mais complexas para a população de dados qualificada.
 
@@ -132,7 +133,7 @@ Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envol
 
 ## Avançado
 
-Você pode especificar configurações avançadas na etapa **[!UICONTROL Advanced]**. Nesta etapa, é possível ativar o modelo para MTA (atribuição multitoque).
+Você pode especificar configurações avançadas na etapa **[!UICONTROL Advanced]**. Nesta etapa, você pode ativar seu modelo para MTA (atribuição multitoque).
 
 1. Na seção **[!UICONTROL Spend share]**:
 
@@ -163,35 +164,62 @@ Você pode especificar configurações avançadas na etapa **[!UICONTROL Advance
    1. Quando necessário, use **[!UICONTROL Clear all]** para limpar todos os valores de entrada para as colunas **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]**.
 
 
-## Cronograma
+## Definir opções
 
-Você pode agendar o treinamento e a pontuação para seu modelo na etapa **[!UICONTROL Schedule]**.
-
-1. Na seção **[!UICONTROL Schedule]**, você pode agendar o treinamento e a pontuação do modelo.
-
-   ![Modelo de agendamento](../assets/model-schedule.png)
-
-   Para programar a pontuação e o treinamento do modelo:
-
-   1. Ligue o **[!UICONTROL Enable scheduled model scoring and training]**.
-   1. Selecione um **[!UICONTROL Scoring frequency]**:
-
-      * **[!UICONTROL Daily]**: Insira uma hora válida (por exemplo `05:22 pm`) ou use ![Clock](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
-      * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
-
-   1. Selecione um **[!UICONTROL Training frequency]** no menu suspenso: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
-
-1. Na seção **[!UICONTROL Define training window]**, selecione entre:
-
-   ![Modelo - Definir janela de treinamento](/help/assets/model-define-training-window.png)
-
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]** e
-
-   * **[!UICONTROL Manually input a training window]**. Quando selecionado, defina o número de anos em **[!UICONTROL Include events the following years prior to a conversion]**.
+Você pode [agendar treinamento e pontuação](#schedule), [definir janela de treinamento](#training-window) e especificar [campos de relatórios de insights granulares](#granular-insights-reporting-fields) para seu modelo na etapa **[!UICONTROL Set options]**.
 
 
-1. Selecione **[!UICONTROL Finish]** para concluir a configuração do modelo.
+### Cronograma
+
+Na seção **[!UICONTROL Schedule]**, você pode agendar o treinamento e a pontuação do modelo.
+
+![Modelo de agendamento](../assets/model-schedule.png)
+
+Para programar a pontuação e o treinamento do modelo:
+
+1. Ligue o **[!UICONTROL Enable scheduled model scoring and training]**.
+1. Selecione um **[!UICONTROL Scoring frequency]**:
+
+   * **[!UICONTROL Daily]**: Insira uma hora válida (por exemplo `05:22 pm`) ou use ![Clock](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+
+1. Selecione um **[!UICONTROL Training frequency]** no menu suspenso: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
+
+
+### Janela de treinamento
+
+Na seção **[!UICONTROL Define training window]**, selecione entre:
+
+![Modelo - Definir janela de treinamento](/help/assets/model-define-training-window.png)
+
+* **[!UICONTROL Have Mix Modeler select a helpful training window]** e
+
+* **[!UICONTROL Manually input a training window]**. Quando selecionado, defina o número de anos em **[!UICONTROL Include events the following years prior to a conversion]**.
+
+
+### Campos de relatório de insights granulares
+
+A seção **[!UICONTROL Granular insights reporting fields]** usa a funcionalidade de relatório de incrementalidade granular. Essa funcionalidade permite selecionar campos harmonizados para analisar pontuações de conversão e incrementalidade de ponto de contato.
+
+![Definir campos de relatórios de insights granulares](/help/assets/granular-insights-reporting-fields.png)
+
+Você define esses campos harmonizados para poder detalhar os relatórios do seu modelo usando colunas de relatórios granulares em vez de precisar criar modelos separados.
+
+Por exemplo, você cria um modelo focado na receita, mas também tem interesse no desempenho de campanhas, tipos de mídia, regiões e fontes de tráfego. Sem a funcionalidade de relatório de incrementalidade granular, seria necessário criar quatro modelos separados. Com a funcionalidade de relatórios de incrementalidade granular, você pode detalhar seu modelo de receita em campanhas, tipos de mídia, regiões e fontes de tráfego.
+
+1. Selecione um ou mais campos harmonizados em **[!UICONTROL _Selecionar campos harmonizados_]** abaixo de **[!UICONTROL Includes]**. Os campos harmonizados selecionados são adicionados ao painel.
+1. Selecione **[!UICONTROL *Campo harmonizado *]**![CrossSize100](/help/assets/icons/CrossSize100.svg) para remover um campo harmonizado do contêiner com os campos harmonizados selecionados.
+1. Selecione **[!UICONTROL Clear all]** para remover todos os campos harmonizados selecionados.
+
+Os campos harmonizados selecionados para relatórios de incrementalidade granular estão disponíveis como parte do [esquema](/help/ingest-data/schemas.md) e do [conjunto de dados](/help/ingest-data/datasets.md) do Experience Platform que resulta da pontuação do modelo. Os campos de relatórios de insights granulares podem ser encontrados dentro dos objetos **[!UICONTROL conversionPassthrough]** e **[!UICONTROL touchpointPassthrough]**.
+
+![Captura de tela dos objetos conversionPassthrough e touchpointPassthrough em um esquema para um modelo habilitado para relatórios de incrementalidade granular](/help/assets/schema-granular-insights-reporting.png)
+
+
+## Concluir
+
+* Selecione **[!UICONTROL Finish]** para concluir a configuração do modelo.
 
    * Na caixa de diálogo **[!UICONTROL Create instance?]**, selecione **[!UICONTROL Ok]** para acionar o primeiro conjunto de treinamentos e execuções de pontuação imediatamente. Seu modelo está listado com o status ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**.
 
@@ -199,6 +227,7 @@ Você pode agendar o treinamento e a pontuação para seu modelo na etapa **[!UI
 
    * Se forem necessárias mais configurações, um contorno vermelho e um texto explicarão qual configuração adicional será necessária.
 
-   Selecione **[!UICONTROL Back]** para voltar à etapa anterior.
+* Selecione **[!UICONTROL Back]** para voltar à etapa anterior.
 
-   Selecione **[!UICONTROL Cancel]** para cancelar a configuração do modelo.
+* Selecione **[!UICONTROL Cancel]** para cancelar a configuração do modelo.
+
