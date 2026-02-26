@@ -4,7 +4,7 @@ description: Notas de versão mais recentes do Mix Modeler
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 95b38fd12554e7ad223434c056d870a561fd9c68
+source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 3%
@@ -41,3 +41,4 @@ O [!UICONTROL Mix Modeler] usa sinalizadores de recursos (também conhecidos com
 * **Teste limitado**: uma versão em fases começa com testes feitos por usuários internos da Adobe. Ele é então disponibilizado para um pequeno grupo de contas de clientes para garantir que o recurso atenda às necessidades e expectativas do cliente.
 
 * **Início da implantação**: a implantação de uma versão em fases começa com a fase de Teste limitado. A versão é redimensionada de 0% a 100% de disponibilidade para os clientes ao longo de alguns meses. A implantação em fases acontece no nível da Organização da Experience Cloud, de modo que todos os usuários autorizados em uma organização recebem a mesma experiência.
+
