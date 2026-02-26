@@ -3,9 +3,9 @@ title: Regras do conjunto de dados
 description: Saiba como definir regras de conjunto de dados para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
+source-git-commit: 9987c845414fa5a3abda201d55f7b1ed6e211780
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ Para criar uma regra de conjunto de dados, na interface ![DataSearch](/help/asse
 
 Na tela **[!UICONTROL Create]**,
 
-1. Em **[!UICONTROL Dataset details]**, selecione um conjunto de dados de **[!UICONTROL Select dataset]** para iniciar a configuração. Na lista, os conjuntos de dados são categorizados em **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** e **[!UICONTROL Summary]**.
+1. Em **[!UICONTROL Dataset details]**, selecione um conjunto de dados de **[!UICONTROL Select dataset]** para iniciar a configuração. Na lista, os conjuntos de dados são categorizados em **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]**, **[!UICONTROL Factors]** e **[!UICONTROL Consumer Experience Events]**.
 
 1. Selecione um dia para **[!UICONTROL Start of the week]**.
 
 1. Selecione **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]** para **[!UICONTROL Granularity]**.
 
-1. Ao selecionar um conjunto de dados da categoria **[!UICONTROL Summary]**, selecione **[!UICONTROL Aggregation]** ou **[!UICONTROL Replacement]** para **[!UICONTROL Data restatement is by]**.
+1. Ao selecionar um conjunto de dados da categoria **[!UICONTROL Summary]** ou **[!UICONTROL Factors]**, selecione **[!UICONTROL Aggregation]** ou **[!UICONTROL Replacement]** para **[!UICONTROL Data restatement is by]**.
 
    Os dados de relatórios dos editores são muito importantes para os analistas de marketing, pois trabalhar com editores geralmente implica gastos significativos, e as alterações nos dados de relatórios podem resultar em insights e planos de investimento muito diferentes. Além disso, os analistas de marketing precisam de dados precisos para obter os insights certos e apresentar propostas convincentes para ganhar a confiança das partes interessadas. No entanto, esses editores, como Google e Facebook, geralmente reafirmam ou excluem dados de relatórios à medida que reconciliam seus dados. O período para a maioria das alterações ocorre dentro de 7 dias do desempenho da mídia relatado. São possíveis alterações adicionais nos dados no prazo de 30 dias. Em geral, após 30 dias, os livros são considerados fechados e os dados são concluídos.
 
@@ -62,25 +62,23 @@ Na tela **[!UICONTROL Create]**,
 
    Você pode enviar linhas reexpressas de dados de resumo como linhas incrementais em um conjunto de dados do Experience Platform, e o serviço de harmonização atualiza o conjunto de dados harmonizado com esses dados reexpressos. Da mesma forma, também é possível remover linhas de dados de resumo que precisam ser refletidas no serviço de harmonização.
 
-1. Na seção **[!UICONTROL Map to harmonized fields]**:
+1. Na seção **[!UICONTROL Map to harmonized fields]**, selecione um campo harmonizado de **[!UICONTROL Standard harmonized field]**. Para [criar um novo campo harmonizado](/help/harmonize-data/fields.md#add-a-harmonized-field) rapidamente, selecione **[!UICONTROL Create new]**.
 
-   1. Selecione um campo harmonizado de **[!UICONTROL Standard harmonized field]**.
-
-   1. Quando o campo harmonizado selecionado for do tipo métrica:
+   * Quando o campo harmonizado selecionado for do tipo métrica:
 
       1. Selecione **[!UICONTROL Count]** ou **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-      1. Selecione um **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;para o qual você deseja mapear o campo harmonizado por padrão.
+      1. Selecione um **[!UICONTROL *campo do conjunto de dados do AEP *]**para o qual você deseja mapear o campo harmonizado por padrão.
 
-   1. Quando o campo selecionado é do tipo dimensão:
+   * Quando o campo selecionado é do tipo dimensão:
 
       1. Selecione **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-      1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+      1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;específico, seja ele **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;um valor inserido em&#x200B;**[!UICONTROL * Inserir valor de entrada *]**.
+         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados do AEP *]**específico, seja ele **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**um valor inserido em**[!UICONTROL * Inserir valor de entrada *]**.
 
          1. Para adicionar outro caso, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Para adicionar outra condição, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
@@ -90,7 +88,7 @@ Na tela **[!UICONTROL Create]**,
 
          1. Para definir o valor de resultado de um caso, insira o valor em **[!UICONTROL Then]**.
 
-      O exemplo abaixo
+     O exemplo abaixo:
 
       * usa um **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** para mapear o campo harmonizado **[!UICONTROL Channel Type At Source]** para o campo **[!UICONTROL channel_type]** do conjunto de dados **[!DNL Luma Transactions]**.
 
@@ -101,15 +99,6 @@ Na tela **[!UICONTROL Create]**,
 
         ![Evento de regra do conjunto de dados](/help/assets/dataset-create-event.png)
 
-      Ao mapear um campo harmonizado padrão a partir de um conjunto de dados de resumo, o Mix Modeler tenta deduzir o campo do conjunto de dados do Experience Platform correspondente. Quando bem-sucedido:
-
-      * Se o campo for do tipo dimensão, **[!UICONTROL Map into]** será selecionado como **[!UICONTROL Mapping type]**.
-      * Se o campo for do tipo métrica, **[!UICONTROL Sum]** será selecionado como **[!UICONTROL Mapping type]**.
-      * **[!UICONTROL Field]** está selecionado como o tipo de mapeamento **[!UICONTROL Default]**.
-      * O campo correspondente do conjunto de dados do Experience Platform é inserido automaticamente para *Campo do conjunto de dados do AEP*.
-
-      Você pode alterar qualquer um dos valores propostos se eles estiverem incorretos ou não forem compatíveis com seu caso de uso específico.
-
 1. Selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** para definir campos adicionais.
 
 Quando terminar, selecione **[!UICONTROL Save as draft]** para salvar uma versão de rascunho da regra ou **[!UICONTROL Save]** para salvar e ativar a regra. Selecione **[!UICONTROL Cancel]** para cancelar a configuração da regra.
@@ -119,7 +108,82 @@ Quando terminar, selecione **[!UICONTROL Save as draft]** para salvar uma versã
 >A experiência **[!UICONTROL Map to harmonized fields]** dedicada às regras de conjuntos de dados de resumo está obsoleta. Todas as regras do conjunto de dados agora usam experiência **[!UICONTROL Map to harmonized fields]** semelhante, independentemente do tipo de conjunto de dados. Para conjuntos de dados de resumo para os quais você definiu regras usando a experiência **[!UICONTROL Map to harmonized fields]** obsoleta, talvez você queira verificar essas regras em relação à experiência **[!UICONTROL Map to harmonized field]** genérica.
 >
 
+#### Conjuntos de dados de resumo
 
+Ao mapear um campo harmonizado padrão a partir de um conjunto de dados de resumo, o Mix Modeler tenta deduzir o campo do conjunto de dados do Experience Platform correspondente. Quando bem-sucedido:
+
+* Se o campo for do tipo dimensão, **[!UICONTROL Map into]** será selecionado como **[!UICONTROL Mapping type]**.
+* Se o campo for do tipo métrica, **[!UICONTROL Sum]** será selecionado como **[!UICONTROL Mapping type]**.
+* **[!UICONTROL Field]** está selecionado como o tipo de mapeamento **[!UICONTROL Default]**.
+* O campo correspondente do conjunto de dados do Experience Platform é inserido automaticamente para *Campo do conjunto de dados do AEP*.
+
+Você pode alterar qualquer um dos valores propostos se eles estiverem incorretos ou não forem compatíveis com seu caso de uso específico.
+
+
+#### Conjuntos de dados de fator
+
+Mapeie campos harmonizados para campos em um conjunto de dados de fator, de modo que você possa [adicionar fatores como parte de sua configuração de modelo](/help/models/build.md).
+
+Quando você mapeia campos harmonizados para campos em um conjunto de dados de fator, o seguinte se aplica:
+
+##### Nome do fator
+
+Quando você mapeia um campo de fator harmonizado padrão de um conjunto de dados de fator e o conjunto de dados de fator contém um único fator, use **[!UICONTROL Map into]** como **[!UICONTROL Mapping type]** e insira um valor padrão para o campo harmonizado **[!UICONTROL Factor Name]**.
+
+![Regra de conjunto de dados - mapear conjunto de dados de fator único](../assets/dataset-create-rule-factor-single.png)
+
+Se o conjunto de dados do fator contiver vários fatores, use **[!UICONTROL Case As]** como **[!UICONTROL Mapping Type]** para definir um mapeamento entre o campo harmonizado Nome do Fator e cada nome de fator distinto.
+
+![Regra de conjunto de dados - mapear conjunto de dados de fator único](../assets/dataset-create-rule-factor-multiple.png)
+
+
+##### Tipo de fator
+
+Este campo é opcional no conjunto de dados e no esquema do fator. Se **[!UICONTROL Factor type]** for definido no conjunto de dados e no esquema do fator e especificar **[!UICONTROL Internal]** ou **[!UICONTROL External]**, o valor fornecido será usado. Se nenhum valor for especificado, o padrão **[!UICONTROL Internal]** será usado.
+
+##### Tipo de valor
+
+Este campo é opcional no conjunto de dados e no esquema do fator. Se **[!UICONTROL Value type]** for definido no conjunto de dados e no esquema do fator e especificar **[!UICONTROL Actual]** ou **[!UICONTROL Forecasted]**, o valor fornecido será usado. Se nenhum valor for especificado, o padrão **[!UICONTROL Actual]** será usado.
+
+
+##### Granularidade
+
+Você pode definir uma regra de conjunto de dados para a granularidade de um conjunto de dados de fator quando todos os fatores no conjunto de dados de fator têm a mesma granularidade de origem.
+
+Assim que os conjuntos de dados de fatores forem harmonizados, todos os conjuntos de dados estarão em conformidade com o mais alto nível de granularidade em todo o conjunto de dados harmonizado.
+
+
+##### Valor do fator
+
+Para o campo harmonizado **[!UICONTROL Factor value]**, use um dos operadores de agregação como **[!UICONTROL Mapping Type]**. Quando vários fatores são definidos em um conjunto de dados de fator, o operador agregado é aplicado a todos os fatores.
+
+
+##### Exemplo
+
+* Você tem um conjunto de dados de fator, com os seguintes dados de amostra:
+
+  | Carimbo de data e hora | Nome do fator | Valor do fator |
+  |---|---|---:|
+  | 13 de março de 2025 | _definedsp500 | 10 |
+  | 13 de março de 2025 | _cpi | 20 |
+  | 14 de março de 2025 | _definedsp500 | 30 |
+  | 14 de março de 2025 | _cpi | 40 |
+  | 15 de março de 2025 | _definedsp500 | 50 |
+  | 15 de março de 2025 | _cpi | 60 |
+
+
+* E você define as seguintes regras de conjunto de dados para **[!UICONTROL Factor Name]**, **[!UICONTROL Factor Value]** e **[!UICONTROL Granularity]**:
+
+  ![Regras do conjunto de dados - exemplo de fatores](../assets/dataset-create-rule-factor-example.png)
+
+* Dessa forma, os seguintes dados harmonizados serão obtidos:
+
+  | Nome do fator | Valor do fator | Tipo de fator | Tipo de valor |
+  |---|---:|---|---|
+  | CPI | 20 | Interno | Efetivo |
+  | S&amp;P 500 | 10 | Interno | Efetivo |
+
+  Como não há regras de conjunto de dados definidas para **[!UICONTROL Factor Type]** e **[!UICONTROL Value Type]**, os padrões são usados.
 
 ### Editar uma regra de conjunto de dados
 
