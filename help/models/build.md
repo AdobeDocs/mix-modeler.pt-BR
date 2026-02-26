@@ -4,9 +4,9 @@ description: Saiba como criar modelos no Mix Modeler, incluindo como definir, co
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1194'
 ht-degree: 2%
 
 ---
@@ -25,24 +25,24 @@ Você define um nome e uma descrição na etapa **[!UICONTROL Setup]**:
 
    ![Nome e descrição do modelo](/help/assets/model-name-description.png)
 
-1. Selecione **[!UICONTROL Next]** para continuar com a próxima etapa. Selecione **[!UICONTROL Cancel]** para cancelar a configuração do modelo.
+1. Selecione **[!UICONTROL Next]** para continuar com a próxima etapa. Selecione **[!UICONTROL Cancel]** para cancelar a configuração de modelo.
 
 ## Configurar {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Pontos de contato de marketing"
->abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Você não pode configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
+>abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Você não pode configurar o modelo com pontos de contato que têm dados sobrepostos e deve haver pelo menos um ponto de contato com gasto."
 
-Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envolve a definição de metas de conversão, pontos de contato de marketing, a população de dados elegível, fatores externos e internos e muito mais.
+Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envolve a definição de metas de conversão, pontos de contato de marketing, população de dados elegível, fatores externos e internos e muito mais.
 
 1. Na seção **[!UICONTROL Conversion goal]**:
 
    ![Modelo - etapa de conversão](/help/assets/model-conversion-step.png)
 
-   1. Selecione uma conversão no menu suspenso **[!UICONTROL Conversion]**. As conversões disponíveis são a conversão definida como parte de [Conversões](../harmonize-data/conversions.md) em [!UICONTROL Harmonized datasets]. Por exemplo, **[!UICONTROL Online Conversion]**.
+   1. Selecione uma conversão no menu suspenso **[!UICONTROL Conversion]**. As conversões disponíveis são a conversão que você definiu como parte de [Conversões](../harmonize-data/conversions.md) em [!UICONTROL Harmonized datasets]. Por exemplo, **[!UICONTROL Online Conversion]**.
 
-   1. Você pode selecionar ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** para criar uma conversão diretamente da configuração do modelo.
+   1. Você pode selecionar ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** para criar uma conversão diretamente da configuração de modelo.
 
 
 
@@ -88,45 +88,23 @@ Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envol
 
    * Selecione **And** e **Or** entre contêineres para criar definições mais complexas para a população de dados qualificada.
 
+1. Você pode gerenciar conjuntos de dados contendo fatores internos ou externos na seção **[!UICONTROL Factor dataset]**.
 
-1. Para adicionar conjuntos de dados contendo fatores externos ao seu modelo, use um ou mais contêineres na seção **[!UICONTROL External factors dataset]**. Um exemplo de fatores externos são os índices S&amp;P.
+   ![Modelo - Etapa do conjunto de dados de fator](../assets/model-factors-dataset-step.png)
 
-   ![Modelo - Conjunto de dados de fatores externos](/help/assets/model-external-factors-dataset-step.png)
+   * Para adicionar um conjunto de dados de fator, selecione **[!UICONTROL Add Factor]**. É possível adicionar no máximo 30 fatores a um modelo.
 
-   * Para cada recipiente:
+      1. Selecione um **[!UICONTROL Factor dataset]** no menu suspenso. Os fatores disponíveis são os fatores para os quais você definiu um campo harmonizado em [regras do conjunto de dados](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+Com base no conjunto de dados selecionado, o **[!UICONTROL Factor type**] é **[!UICONTROL Internal]** ou **[!UICONTROL External]**.
 
-      1. Digite um **[!UICONTROL External factor name]**, por exemplo `External Factors`.
+      1. Selecione o **[!UICONTROL Impact on conversion]** no menu suspenso. As opções disponíveis são: **[!UICONTROL Auto]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**. A opção padrão é **[!UICONTROL Auto]**, que permite que o modelo determine o impacto do conjunto de dados do fator.
 
-      1. Selecione um conjunto de dados no menu suspenso **[!UICONTROL Dataset]**. Você pode selecionar ![Dados](/help/assets/icons/Data.svg) para gerenciar conjuntos de dados. Consulte [Conjuntos de dados](../ingest-data/datasets.md) para obter mais informações.
-
-      1. Selecione uma opção no menu suspenso **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**. A opção padrão é **[!UICONTROL Auto select]**, que permite que o modelo determine o impacto. Você pode substituir o padrão.
-
-   * Para adicionar outro contêiner de conjunto de dados de fatores externos, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
-
-   * Para remover um contêiner de conjunto de dados de fatores externos, selecione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
+   * Para excluir um conjunto de dados de fator, selecione ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
 
 
 
-1. Para adicionar conjuntos de dados contendo fatores internos ao seu modelo, use um ou mais contêineres na seção **[!UICONTROL Internal factors dataset]**. Um exemplo de fatores internos são os dados de marketing por email.
-
-   ![Modelo - Conjunto de dados de fatores internos](/help/assets/model-internal-factors-dataset-step.png)
-
-   * Para cada recipiente:
-
-      1. Digite um **[!UICONTROL Internal factor name]**, por exemplo `Email Marketing Data`.
-
-      1. Selecione um conjunto de dados de **[!UICONTROL _Selecione um conjunto de dados_]**. Você pode selecionar ![Dados](/help/assets/icons/Data.svg) para gerenciar conjuntos de dados. Consulte [Conjuntos de dados](../ingest-data/datasets.md) para obter mais informações.
-
-      1. Selecione uma opção no menu suspenso **[!UICONTROL Impact on conversion]**: **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** ou **[!UICONTROL Negative]**.
-
-   * Para adicionar outro contêiner do conjunto de dados de fatores internos, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
-
-   * Para remover um contêiner do conjunto de dados de fatores internos, selecione ![RemoveCircle](/help/assets/icons/RemoveCircle.svg).
-
-
-
-1. Para definir a janela de pesquisa do modelo, insira um valor entre `1` e `52` em **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**.
+1. Para definir a janela de pesquisa do modelo, insira um valor entre `1` e `52` em **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** na seção **[!UICONTROL Define lookback window]**.
 
 1. Selecione **[!UICONTROL Next]** para continuar com a próxima etapa. Se forem necessárias mais configurações, um contorno vermelho e um texto explicarão qual configuração adicional será necessária. <br/>Selecione **[!UICONTROL Back]** para voltar à etapa anterior. <br/>Selecione **[!UICONTROL Cancel]** para cancelar a configuração do modelo.
 
@@ -166,12 +144,12 @@ Você pode especificar configurações avançadas na etapa **[!UICONTROL Advance
 
 ## Definir opções
 
-Você pode [agendar treinamento e pontuação](#schedule), [definir janela de treinamento](#training-window) e especificar [campos de relatórios de insights granulares](#granular-insights-reporting-fields) para seu modelo na etapa **[!UICONTROL Set options]**.
+Você pode [agendar treinamento e pontuação](#schedule), [definir janela de treinamento](#training-window) e especificar [campos granulares de relatórios de insights](#granular-insights-reporting-fields) para seu modelo na etapa **[!UICONTROL Set options]**.
 
 
 ### Cronograma
 
-Na seção **[!UICONTROL Schedule]**, você pode agendar o treinamento e a pontuação do modelo.
+Na seção **[!UICONTROL Schedule]**, você pode agendar treinamento e pontuação do modelo.
 
 ![Modelo de agendamento](../assets/model-schedule.png)
 
@@ -180,9 +158,9 @@ Para programar a pontuação e o treinamento do modelo:
 1. Ligue o **[!UICONTROL Enable scheduled model scoring and training]**.
 1. Selecione um **[!UICONTROL Scoring frequency]**:
 
-   * **[!UICONTROL Daily]**: Insira uma hora válida (por exemplo `05:22 pm`) ou use ![Clock](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Daily]**: insira uma hora válida (por exemplo, `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira uma hora válida (por exemplo, `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo, `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
 
 1. Selecione um **[!UICONTROL Training frequency]** no menu suspenso: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
 
