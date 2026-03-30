@@ -4,10 +4,10 @@ description: Saiba como criar modelos no Mix Modeler, incluindo como definir, co
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
+source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 2%
+source-wordcount: '1275'
+ht-degree: 0%
 
 ---
 
@@ -25,24 +25,25 @@ Você define um nome e uma descrição na etapa **[!UICONTROL Setup]**:
 
    ![Nome e descrição do modelo](/help/assets/model-name-description.png)
 
-1. Selecione **[!UICONTROL Next]** para continuar com a próxima etapa. Selecione **[!UICONTROL Cancel]** para cancelar a configuração de modelo.
+1. Selecione **[!UICONTROL Next]** para continuar com a próxima etapa. Selecione **[!UICONTROL Cancel]** para cancelar a configuração do modelo.
 
-## Configurar {#configure}
+## Configurar{#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Pontos de contato de marketing"
->abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Você não pode configurar o modelo com pontos de contato que têm dados sobrepostos e deve haver pelo menos um ponto de contato com gasto."
+>abstract="Pontos de contato de marketing são eventos de marketing a nível de recipient, individual e/ou cookie usados para avaliar o impacto dos investimentos em marketing em conversões numéricas ou baseadas em receita.<br/><br/>Não é possível configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
 
-Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envolve a definição de metas de conversão, pontos de contato de marketing, população de dados elegível, fatores externos e internos e muito mais.
+
+Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envolve a definição de metas de conversão, pontos de contato de marketing, a população de dados elegível, fatores externos e internos e muito mais.
 
 1. Na seção **[!UICONTROL Conversion goal]**:
 
    ![Modelo - etapa de conversão](/help/assets/model-conversion-step.png)
 
-   1. Selecione uma conversão no menu suspenso **[!UICONTROL Conversion]**. As conversões disponíveis são a conversão que você definiu como parte de [Conversões](../harmonize-data/conversions.md) em [!UICONTROL Harmonized datasets]. Por exemplo, **[!UICONTROL Online Conversion]**.
+   1. Selecione uma conversão no menu suspenso **[!UICONTROL Conversion]**. As conversões disponíveis são a conversão definida como parte de [Conversões](../harmonize-data/conversions.md) em [!UICONTROL Harmonized datasets]. Por exemplo, **[!UICONTROL Online Conversion]**.
 
-   1. Você pode selecionar ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** para criar uma conversão diretamente da configuração de modelo.
+   1. Você pode selecionar ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** para criar uma conversão diretamente da configuração do modelo.
 
 
 
@@ -111,6 +112,11 @@ Com base no conjunto de dados selecionado, o **[!UICONTROL Factor type**] é **[
 
 ## Avançado
 
+>[!CONTEXTUALHELP]
+>id="model_advanced_channeladstock"
+>title="Adstock de canal"
+>abstract="Incorpore experiência em domínios, resultados de experimentação ou análises de canal anteriores diretamente na configuração do modelo. A configuração do Adstock ajuda a orientar o modelo para se alinhar às expectativas do mundo real e melhora a capacidade de interpretação e a confiança no resultado. O total de semanas de lookback mais semanas de atraso por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite dados suficientes para o modelo conhecer os efeitos do estoque de anúncios."
+
 Você pode especificar configurações avançadas na etapa **[!UICONTROL Advanced]**. Nesta etapa, você pode ativar seu modelo para MTA (atribuição multitoque).
 
 1. Na seção **[!UICONTROL Spend share]**:
@@ -144,12 +150,12 @@ Você pode especificar configurações avançadas na etapa **[!UICONTROL Advance
 
 ## Definir opções
 
-Você pode [agendar treinamento e pontuação](#schedule), [definir janela de treinamento](#training-window) e especificar [campos granulares de relatórios de insights](#granular-insights-reporting-fields) para seu modelo na etapa **[!UICONTROL Set options]**.
+Você pode [agendar treinamento e pontuação](#schedule), [definir janela de treinamento](#training-window) e especificar [campos de relatórios de insights granulares](#granular-insights-reporting-fields) para seu modelo na etapa **[!UICONTROL Set options]**.
 
 
 ### Cronograma
 
-Na seção **[!UICONTROL Schedule]**, você pode agendar treinamento e pontuação do modelo.
+Na seção **[!UICONTROL Schedule]**, você pode agendar o treinamento e a pontuação do modelo.
 
 ![Modelo de agendamento](../assets/model-schedule.png)
 
@@ -158,9 +164,9 @@ Para programar a pontuação e o treinamento do modelo:
 1. Ligue o **[!UICONTROL Enable scheduled model scoring and training]**.
 1. Selecione um **[!UICONTROL Scoring frequency]**:
 
-   * **[!UICONTROL Daily]**: insira uma hora válida (por exemplo, `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira uma hora válida (por exemplo, `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo, `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Daily]**: Insira uma hora válida (por exemplo `05:22 pm`) ou use ![Clock](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
 
 1. Selecione um **[!UICONTROL Training frequency]** no menu suspenso: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
 
