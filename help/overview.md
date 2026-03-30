@@ -4,7 +4,7 @@ description: Saiba como medir campanhas e otimizar o planejamento de forma integ
 short-description: Saiba como medir campanhas e otimizar o planejamento de forma integral em todos os canais com o Mix Modeler.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
+source-git-commit: be8ff78c9f286356e9335b81f11a4efb07e39956
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 14%
@@ -74,8 +74,7 @@ Este guia de documentação técnica fornece ajuda para o Adobe **Mix Modeler**.
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutoriais</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=pt-BR">Visão geral</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=pt-BR">Casos de uso</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=pt-BR">Fluxo de trabalho do usuário</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=pt-BR">Tour da interface do usuário</a>
+      <strong>Tutoriais</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">Visão geral</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">Casos de uso</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">Fluxo de trabalho do usuário</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">Tour da interface do usuário</a>
     </td>
   </tr>
 </table>
-
