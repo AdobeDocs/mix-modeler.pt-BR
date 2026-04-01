@@ -3,9 +3,9 @@ title: Visão geral de modelos
 description: Saiba como criar, treinar, pontuar e gerenciar modelos de aprendizado de máquina no Mix Modeler para medir e prever resultados de marketing.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Para exibir mais detalhes de um modelo:
 
 1. Selecione ![Mais](/help/assets/icons/More.svg) para um modelo e, no menu de contexto, selecione **[!UICONTROL Duplicate]**.
 
-Você é redirecionado para as etapas de criação de um novo modelo, com um nome proposto composto pelo nome do modelo original anexado com **[!UICONTROL (Copy)] (_n_)**.
+Você é redirecionado para as etapas de criação de um novo modelo, com um nome proposto composto pelo nome do modelo original anexado com **[!UICONTROL (Copy)](_n_)**.
 
 ### Editar
 
@@ -151,9 +151,8 @@ Você é redirecionado para as etapas de criação de um novo modelo, com um nom
       1. Selecione **[!UICONTROL Clear all]** para remover todos os campos harmonizados selecionados.
 
      >[!IMPORTANT]
-     >Se você adicionar campos de relatórios de insights granulares a um modelo criado **antes de 18 de fevereiro de 2026**, será necessária uma pontuação do modelo. Essa pontuação garante que o esquema subjacente ao modelo seja atualizado com campos de relatório de insights granulares.
-     >
-     >A abordagem recomendada é duplicar esse modelo. E inclua os campos de relatórios de insights granulares na criação do modelo duplicado.
+     >Qualquer modelo com MTA criado antes de 12 de janeiro de 2026 deve ser duplicado para habilitar insights de modelo granular.<br/>
+     >A pontuação é necessária para que qualquer modelo existente reflita as dimensões granulares atualizadas nos dados de pontuação.
      >
 
 1. Selecione **[!UICONTROL Save]**.
@@ -178,5 +177,5 @@ Para excluir vários modelos:
 
 1. Selecione vários modelos.
 1. Na barra de ação azul, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir os modelos.
-1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *modelos]**&#x200B;para excluir os modelos. Selecione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *modelos]**para excluir os modelos. Selecione **[!UICONTROL Cancel]**para cancelar.
 
