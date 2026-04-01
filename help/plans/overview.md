@@ -3,9 +3,9 @@ title: Visão geral dos planos
 description: Saiba como exibir, selecionar e executar ações em planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Um plano pode incluir, opcionalmente:
 - várias datas de voo com cada uma tendo um orçamento de target,
 - restrições de orçamento mínimo e máximo por canal e data de voo.
 
-Se um modelo usado para seu plano for pontuado em novos dados, será necessário criar um novo plano para considerar os dados repontuados.
+Se um modelo usado para seu plano for pontuado em novos dados, será necessário criar um novo plano para considerar os dados recuperados.
 
 
 ## Criar planos
@@ -85,7 +85,7 @@ Para duplicar um plano:
 - Selecione ![Mais](/help/assets/icons/More.svg) para um plano. No menu de contexto, selecione **[!UICONTROL Duplicate]**.
 - Como alternativa, selecione um plano na tabela ![SelectBox](/help/assets/icons/SelectBox.svg) e selecione ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** na barra de ação azul.
 
-Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)] (_n_)**, foi criado. Você é redirecionado automaticamente para [Criação do plano](build.md) para fornecer detalhes atualizados para o plano copiado.
+Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)](_n_)**, foi criado. Você é redirecionado automaticamente para [Criação do plano](build.md) para fornecer detalhes atualizados para o plano copiado.
 
 - Os detalhes (como Descrição, Orçamento e mais) do plano original são copiados.
 - As restrições de orçamento do plano original são copiadas para o plano recém-criado.
@@ -116,6 +116,6 @@ Para excluir vários planos:
 
 1. Selecione vários planos.
 1. Na barra de ações azul, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir os planos.
-1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *planos]**&#x200B;para excluir os planos. Selecione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *planos]**para excluir os planos. Selecione **[!UICONTROL Cancel]**para cancelar.
 
 

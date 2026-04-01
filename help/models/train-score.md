@@ -2,7 +2,8 @@
 title: Modelos de treinamento e pontuação
 description: Saiba como treinar e pontuar modelos.
 feature: Models
-source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
+exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -61,9 +62,8 @@ Especifique o intervalo de datas. Você pode usar o ![Calendário](/help/assets/
 
    ![Pontuar novamente um modelo](../assets/rescore-model.png)
 
-1. Selecione **[!UICONTROL Score]**. Ao pontuar novamente um modelo usando um intervalo de dados específico, você verá uma caixa de diálogo **[!UICONTROL Existing model is replaced]**, solicitando a confirmação para substituir o modelo por novas pontuações para o intervalo de datas selecionado. Selecione **[!UICONTROL Replace model]** para confirmar.
+1. Selecione **[!UICONTROL Score]**. Ao restaurar um modelo usando um intervalo de dados específico, você verá uma caixa de diálogo **[!UICONTROL Existing model is replaced]**, solicitando a confirmação da substituição do modelo por novas pontuações para o intervalo de datas selecionado. Selecione **[!UICONTROL Replace model]** para confirmar.
 
 >[!IMPORTANT]
 >
 >A pontuação de um modelo não altera nenhum plano já criado com base no modelo rescored. Para usar o novo modelo ressaltado em um plano, é necessário criar um novo plano.
-

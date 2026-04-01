@@ -4,10 +4,10 @@ description: Saiba como criar modelos no Mix Modeler, incluindo como definir, co
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 0%
+source-wordcount: '1570'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Você define um nome e uma descrição na etapa **[!UICONTROL Setup]**:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Pontos de contato de marketing"
->abstract="Pontos de contato de marketing são eventos de marketing a nível de recipient, individual e/ou cookie usados para avaliar o impacto dos investimentos em marketing em conversões numéricas ou baseadas em receita.<br/><br/>Não é possível configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
+>abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Você não pode configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
 
 
 Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envolve a definição de metas de conversão, pontos de contato de marketing, a população de dados elegível, fatores externos e internos e muito mais.
@@ -199,9 +199,9 @@ Para programar a pontuação e o treinamento do modelo:
 1. Ligue o **[!UICONTROL Enable scheduled model scoring and training]**.
 1. Selecione um **[!UICONTROL Scoring frequency]**:
 
-   * **[!UICONTROL Daily]**: Insira uma hora válida (por exemplo `05:22 pm`) ou use ![Clock](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
-   * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
+   * **[!UICONTROL Daily]**: Insira uma hora válida (por exemplo `05:22 pm`) ou use ![Clock](/help/assets/icons/Clock.svg) para definir a hora.
+   * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira uma hora válida (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg) para definir a hora.
+   * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg) para definir o horário.
 
 1. Selecione um **[!UICONTROL Training frequency]** no menu suspenso: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
 

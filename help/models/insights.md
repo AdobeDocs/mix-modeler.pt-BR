@@ -3,9 +3,9 @@ title: Informações do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2896'
 ht-degree: 3%
 
 ---
@@ -189,7 +189,7 @@ Canais com curvas de decaimento mais lentas (caudas mais longas) indicam impacto
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Detalhamento da contribuição do fator"
->abstract="O detalhamento de contribuição do fator mostra a proporção das conversões base que podem ser atribuídas aos vários fatores incluídos no modelo.<br/><br/>A base pura representa as conversões subjacentes que ocorrem independentemente dos pontos de contato de marketing e dos fatores incluídos no modelo. Ele inclui conversões impulsionadas por patrimônio da marca, compras repetidas, demanda orgânica e tendências de mercado e sazonalidade de longo prazo."
+>abstract="A discriminação da contribuição do fator mostra a proporção das conversões de base que podem ser atribuídas aos vários fatores incluídos no modelo.<br/><br/>A base pura representa as conversões subjacentes que ocorrem independentemente dos pontos de contato de marketing e dos fatores incluídos no modelo. Ele inclui conversões impulsionadas por patrimônio da marca, compras repetidas, demanda orgânica e tendências de mercado e sazonalidade de longo prazo."
 
 
 A guia Fatores [!BADGE beta] mostra insights relacionados ao fator externo.
@@ -456,27 +456,3 @@ Para exibir um canal alternativo baseado em volume para essa visualização:
 
 * Selecione um canal de **[!UICONTROL Channels]**.
 
-
-## Editar
-
-É possível editar o nome, a descrição e a programação do treinamento e a pontuação do modelo.
-
-1. Selecionar ![Editar](/help/assets/icons/Edit.svg) Editar
-
-1. No diálogo **[!UICONTROL Edit model]**:
-
-   * Insira um(a) novo(a) **[!UICONTROL Name]** e **[!UICONTROL Description]**.
-
-   * Para habilitar o agendamento, habilite **[!UICONTROL Status]**. Você só pode habilitar a programação para modelos treinados e pontuados.
-
-      1. Selecione um **[!UICONTROL Scoring frequency]**:
-
-         * **[!UICONTROL Daily]**: Insira uma hora válida (por exemplo `05:22 pm`) ou use ![Clock](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Weekly]**: Selecione um dia da semana e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
-         * **[!UICONTROL Monthly]**: Selecione um dia do mês no menu suspenso Executar em cada e insira um horário válido (por exemplo `05:22 pm`) ou use ![Relógio](/help/assets/icons/Clock.svg).
-
-      1. Selecione um **[!UICONTROL Training frequency]** no menu suspenso: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** ou **[!UICONTROL None]**.
-
-     ![Editar um modelo](../assets/model-edit.png)
-
-1. Selecione **[!UICONTROL Save]**.
