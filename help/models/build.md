@@ -4,9 +4,9 @@ description: Saiba como criar modelos no Mix Modeler, incluindo como definir, co
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1578'
 ht-degree: 2%
 
 ---
@@ -181,6 +181,10 @@ Para configurar o adstock de canal:
    * Use ![Adicionar](/help/assets/icons/Add.svg) para aumentar um valor, ![Subtrair](/help/assets/icons/Subtract.svg) para diminuir um valor ou insira um valor manualmente.
 
   O total de semanas de atraso mais o máximo de semanas de retrospectiva por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite dados suficientes para que o modelo aprenda os efeitos de adstock. Por exemplo, para um período de treinamento de dois anos, o máximo de **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** para um canal é de 13 semanas. Esse limite é aplicado ao definir os valores.
+
+* Para redefinir todos os adstock de canal para os padrões:
+
+   * Selecione **[!UICONTROL Reset to defaults]**.
 
 
 ## Definir opções
