@@ -5,7 +5,7 @@ feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
 source-git-commit: 5468e0aaf37bf2dca8912199ea26e5f8d9069cb5
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '424'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ As colunas da tabela especificam detalhes sobre a conversão:
 | Receita | A métrica de dados harmonizada a ser usada para calcular a receita de uma conversão. |
 | Métrica de conversão | A métrica de dados harmonizada a ser usada como a métrica de conversão para análise. |
 | Categoria | A categoria de conversão da conversão. |
-| Criado em | Data e hora de criação da conversão. |
+| Criado | Data e hora de criação da conversão. |
 | Última modificação | Data e hora da última modificação da conversão. |
 
 
