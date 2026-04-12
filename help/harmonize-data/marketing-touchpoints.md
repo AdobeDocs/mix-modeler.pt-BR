@@ -5,8 +5,8 @@ feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 11%
+source-wordcount: '477'
+ht-degree: 12%
 
 ---
 
@@ -38,7 +38,7 @@ As colunas da tabela especificam detalhes sobre o ponto de contato de marketing:
 | Métrica de gasto | A métrica de dados harmonizada a ser usada para calcular o gasto com pontos de contato. |
 | Métrica de volume | A métrica de dados harmonizada a ser usada para calcular o volume de pontos de contato. |
 | Regra | A regra de ponto de contato a ser usada. |
-| Criado em | Data e hora de criação do ponto de contato de marketing. |
+| Criado | Data e hora de criação do ponto de contato de marketing. |
 | Última modificação | Data e hora da última modificação do ponto de contato de marketing. |
 
 
@@ -58,7 +58,7 @@ Para adicionar um ponto de contato de marketing, na interface ![DataSearch](/hel
 
       1. Selecione um valor para o operador ![Divisa](/help/assets/icons/ChevronDown.svg), por exemplo **[!UICONTROL is]**.
 
-      1. Selecione um valor em **[!UICONTROL *Selecione o valor *]**&#x200B;ou insira um valor, por exemplo **[!DNL Luma]**.
+      1. Selecione um valor em **[!UICONTROL *Selecione o valor *]**ou insira um valor, por exemplo **[!DNL Luma]**.
 
    1. Selecione um campo harmonizado de **[!UICONTROL Touchpoint volume]**, por exemplo **[!UICONTROL Impressions]**.
 
