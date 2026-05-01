@@ -1,12 +1,24 @@
 ---
 title: Campos harmonizados
-description: Saiba como definir campos para usar como parte da harmonização dos dados no Mix Modeler.
+description: Saiba como definir campos para usar como parte da harmonização de seus dados no Mix Modeler.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2:
+  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
+  - id: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:13:17.577Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 8%
+source-wordcount: 688
+ht-degree: 11%
 
 ---
 
@@ -25,26 +37,26 @@ Os campos de harmonização global disponíveis por padrão no Mix Modeler são:
 | ---------------------- | ---------------------- | --------- | --------- | --------- |
 | marca | Marca | Dimensão | String |           |
 | campaign | Campaign | Dimensão | String |           |
-| channel | Canal | Dimensão | String |           |
+| canal | Canal | Dimensão | String |           |
 | channel_id | ID do canal | Dimensão | String |           |
 | channel_type_at_source | Tipo De Canal No Source | Dimensão | String |           |
-| channel | Canal | Dimensão | String |           |
+| canal | Canal | Dimensão | String |           |
 | cliques | Cliques | Métrica | Número |           |
 | conversiontype | Tipo de conversão | Dimensão | String |           |
-| custo | Custo | Métrica | Moeda |           |
+| custo | Custo | Métrica | Currency |           |
 | conjunto de dados | Conjunto de dados | Dimensão | String |           |
 | date_type | Tipo de data | Dimensão | String | dia, semana |
 | emails enviados | Emails enviados | Métrica | Número |           |
 | event_date | Data | Dimensão | Data e hora |           |
-| demanda_bruta | Demanda Bruta | Métrica | Moeda |           |
+| demanda_bruta | Demanda Bruta | Métrica | Currency |           |
 | impressões | Impressões | Métrica | Número |           |
 | data_da_última_atualização | Data da última atualização | Dimensão | Data e hora |           |
 | linkvisitors | Vincular visitas | Métrica | Número |           |
 | mediatype | Tipo de mídia | Dimensão | String |           |
-| net_sales | Vendas Líquidas | Métrica | Moeda |           |
+| net_sales | Vendas Líquidas | Métrica | Currency |           |
 | pedidos | Pedidos | Métrica | Número |           |
 | sourcetype | Tipo de Source | Dimensão | String |           |
-| gasto | Gastos | Métrica | Moeda |           |
+| gasto | Gastos | Métrica | Currency |           |
 | fonte de tráfego | Traffic Source | Dimensão | String |           |
 
 {style="table-layout:auto"}
@@ -53,7 +65,7 @@ Os campos de harmonização global disponíveis por padrão no Mix Modeler são:
 
 ## Gerenciar campos harmonizados
 
-Para ver uma tabela dos campos harmonizados disponíveis, na interface Mix Modeler:
+Para ver uma tabela dos campos harmonizados disponíveis, na interface do Mix Modeler:
 
 1. Selecione ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** no painel esquerdo.
 
@@ -79,7 +91,7 @@ Para ver uma tabela dos campos harmonizados disponíveis, na interface Mix Model
 
 ### Adicionar um campo harmonizado
 
-Para adicionar um campo harmonizado, na interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
+Para adicionar um campo harmonizado, na interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** do Mix Modeler:
 
 1. Selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
@@ -105,7 +117,7 @@ Para adicionar um campo harmonizado, na interface ![DataSearch](/help/assets/ico
 
 Você só pode editar campos harmonizados criados anteriormente (o proprietário é o cliente). Não é possível editar um campo harmonizado global.
 
-Para editar um campo harmonizado, na interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
+Para editar um campo harmonizado, na interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** do Mix Modeler:
 
 1. Selecione o campo harmonizado que deseja editar. Por exemplo, **[!UICONTROL Region]**.
 
@@ -119,7 +131,7 @@ Para editar um campo harmonizado, na interface ![DataSearch](/help/assets/icons/
 
 Você só pode excluir campos harmonizados criados anteriormente (o proprietário é o cliente). Não é possível excluir um campo harmonizado global.
 
-Para excluir um campo harmonizado, na interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** no Mix Modeler:
+Para excluir um campo harmonizado, na interface ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** da Mix Modeler:
 
 1. Selecione o campo harmonizado que deseja excluir, por exemplo **[!UICONTROL Region]**.
 

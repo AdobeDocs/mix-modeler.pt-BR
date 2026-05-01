@@ -3,10 +3,23 @@ title: Usar dados de pontuação
 description: Saiba como os dados de pontuação de um modelo no Mix Modeler são mantidos.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
+autotag-review: '2026-05-01T08:58:54.964Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 6%
+source-wordcount: 684
+ht-degree: 11%
 
 ---
 
@@ -67,12 +80,12 @@ O grupo de campos contém os seguintes campos.
 |      `priceTotal` | Duplo | Receita obtida por meio da conversão <br> **Exemplo:** `99.9` |
 |      `product` | String | O identificador XDM do próprio produto. <br> **Exemplo:** `RX 1080 ti` |
 |      `productType` | String | O nome de exibição do produto conforme apresentado ao usuário para esta visualização do produto. <br> **Exemplo:** `Gpus` |
-|      `quantity` | Integer | Quantidade comprada durante a conversão. <br> **Exemplo:** `1` |
+|      `quantity` | Número inteiro | Quantidade comprada durante a conversão. <br> **Exemplo:** `1` |
 |      `receivedTimeStamp` | DateTime | Carimbo de data/hora da conversão recebido. <br> **Exemplo:** `2020-06-09T00:01:51.000Z` |
 |      `skuId` | String | Unidade de manutenção de estoque (SKU), o identificador exclusivo de um produto definido pelo fornecedor. <br> **Exemplo:** `MJ-03-XS-Black` |
 |      `timestamp` | DateTime | Carimbo de data e hora da conversão. <br> **Exemplo:** `2020-06-09T00:01:51.000Z` |
-|      `totalDaysToConversion` | Integer |  |
-|      `totalTouchpointCount` | Integer | |
+|      `totalDaysToConversion` | Número inteiro |  |
+|      `totalTouchpointCount` | Número inteiro | |
 | `customerProfile` | Objeto | Detalhes de identidade do usuário usado para criar o modelo. |
 |      `identity` | Objeto | |
 |           `id` | String | |
@@ -98,10 +111,10 @@ O grupo de campos contém os seguintes campos.
 |           `mediaChannel` | String | |
 |           `receivedTimeStamp` | DateTime | |
 |           `timestamp` | DateTime | |
-|      `isFirstInThePosition` | Integer | |
-|      `lag` | Integer | |
+|      `isFirstInThePosition` | Número inteiro | |
+|      `lag` | Número inteiro | |
 |      `position` | String | |
-|      `touchpointCountToConversion` | Integer | |
+|      `touchpointCountToConversion` | Número inteiro | |
 |      `touchpointName` | String | Nome do ponto de contato configurado durante a configuração. <br> **Exemplo:** `PAID_SEARCH_CLICK` |
 | `conversionName` | String | Nome da conversão configurada durante a instalação. <br> **Exemplo:** `Order`, `Lead`, `Visit` |
 | `scoreCreatedTime` | DateTime | |
