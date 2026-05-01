@@ -7,9 +7,13 @@ hide: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
 TQID: https://experienceleague.adobe.com/BTd4-OINWubpSgFga7QE-ASje73fnySf1nIxTOivlVQ
 autotag-review: '2026-05-01T09:04:46.084Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: fe2edbb1-46f9-4347-a27c-577cab3640cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 327
@@ -23,7 +27,7 @@ Testar uma tabela com caracteres unicode
 
 | Tags | Exibição de dados | Proprietários | Outros filtros |
 |---|---|---|---|
-| Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar marcas* para limitar a lista de marcas. <br/><br/>Quando você seleciona uma ou mais marcas, a lista é automaticamente limitada para mostrar outras marcas possíveis restantes. <br/><br/>O número em **[!UICONTROL Tags]** **2︎⃣** refere-se ao número de marcas disponíveis. <br/><br/>O número na **[!UICONTROL *marca *]**7︎⃣ se refere ao número de filtros marcados com a marca específica. | Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar visualizações de dados* para limitar a lista de visualizações de dados. <br/>Você pode selecionar mais de uma visualização de dados para filtrar a lista de filtros. <br/><br/>O número em **[!UICONTROL Tags]** **2︎⃣** refere-se ao número de marcas disponíveis. <br/><br/>O número na **[!UICONTROL *marca *]**7︎⃣ se refere ao número de filtros marcados com a marca específica. | Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar visualizações de dados* para limitar a lista de visualizações de dados. <br/>Você pode selecionar mais de uma visualização de dados para filtrar a lista de filtros. <br/><br/>O número em **[!UICONTROL Tags]** **2︎⃣** refere-se ao número de marcas disponíveis. <br/><br/>O número na **[!UICONTROL *marca *]**7︎⃣ se refere ao número de filtros marcados com a marca específica. | Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar visualizações de dados* para limitar a lista de visualizações de dados. <br/>Você pode selecionar mais de uma visualização de dados para filtrar a lista de filtros. <br/><br/>O número em **[!UICONTROL Tags]** **2︎⃣** refere-se ao número de marcas disponíveis. <br/><br/>O número na **[!UICONTROL *marca *]**7︎⃣ se refere ao número de filtros marcados com a marca específica. 🅐 🅔 |
+| Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar marcas* para limitar a lista de marcas. <br/><br/>Quando você seleciona uma ou mais marcas, a lista é automaticamente limitada para mostrar outras marcas possíveis restantes. <br/><br/>O número em **[!UICONTROL Tags]** **2︎⃣** refere-se ao número de marcas disponíveis. <br/><br/>O número na **[!UICONTROL *marca *]**&#x200B;7︎⃣ se refere ao número de filtros marcados com a marca específica. | Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar visualizações de dados* para limitar a lista de visualizações de dados. <br/>Você pode selecionar mais de uma visualização de dados para filtrar a lista de filtros. <br/><br/>O número em **[!UICONTROL Tags]** **2︎⃣** refere-se ao número de marcas disponíveis. <br/><br/>O número na **[!UICONTROL *marca *]**&#x200B;7︎⃣ se refere ao número de filtros marcados com a marca específica. | Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar visualizações de dados* para limitar a lista de visualizações de dados. <br/>Você pode selecionar mais de uma visualização de dados para filtrar a lista de filtros. <br/><br/>O número em **[!UICONTROL Tags]** **2︎⃣** refere-se ao número de marcas disponíveis. <br/><br/>O número na **[!UICONTROL *marca *]**&#x200B;7︎⃣ se refere ao número de filtros marcados com a marca específica. | Você pode ![Pesquisar](/help/assets/icons/Search.svg) *Pesquisar visualizações de dados* para limitar a lista de visualizações de dados. <br/>Você pode selecionar mais de uma visualização de dados para filtrar a lista de filtros. <br/><br/>O número em **[!UICONTROL Tags]** **2︎⃣** refere-se ao número de marcas disponíveis. <br/><br/>O número na **[!UICONTROL *marca *]**&#x200B;7︎⃣ se refere ao número de filtros marcados com a marca específica. 🅐 🅔 |
 
 {style="table-layout:fixed"}
 
