@@ -3,10 +3,16 @@ title: Visão geral dos dados de assimilação
 description: Saiba como assimilar dados na Mix Modeler.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+subfeature_v2: id: ad7101f7-ae92-401b-a25a-d3060d42989did: d1167c89-f64a-42ca-ac95-1d91b7790df2id: ee1bf083-e090-4def-936b-c111d29f42d0id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:11:34.506Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 7%
+source-wordcount: 584
+ht-degree: 14%
 
 ---
 
@@ -23,7 +29,7 @@ Por exemplo:
 * Dados agregados ou resumidos de jardins murados (como Facebook, YouTube), fontes de tráfego ou dados de publicidade offline.
 * Dados agregados ou resumidos não relacionados à comercialização que contêm fatores internos ou externos úteis para a criação de modelos.
 
-Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Como os SDKs do Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão. Para saber mais sobre como assimilar seus dados no Experience Platform para uso no Adobe Mix Modeler, consulte a [visão geral da Assimilação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/home).
+Você pode usar qualquer tipo de mecanismo, compatível com o Experience Platform, para assimilar o nível do evento da experiência, agregar dados de esforço de marketing e dados de outras fontes. Como os SDKs do Experience Platform, APIs, conectores de origem, assimilação em lote e por transmissão. Para saber mais sobre como assimilar seus dados no Experience Platform para uso no Adobe Mix Modeler, consulte a [visão geral da Assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Diretrizes
 
@@ -41,13 +47,13 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, alé
 
 +++ Dados agregados do esforço de marketing
 
-| Geo | Data | Tipo de data | Canal | Campaign | Clique em | Ganho | Engajamento | impressão | Abrir | Próprio | Enviado | Gastos |
+| Geografia | Data | Tipo de data | Canal | Campaign | Click | Ganho | Engajamento | impressão | Abertura | Próprio | Enviado | Gastos |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
 | AMER | 2021-10-31 | dia | EMAIL | | 12752 | | | | | | 1132945 | |
 | AMER | 2021-10-31 | dia | FB | | 148844 | | | | | | | 42111 |
 | AMER | 2021-10-31 | dia | YT | | | | 2314452 | | | | | 10540 |
-| JPN | 21-10-2021 | dia | EMAIL | | 21089 | | | | | | 3283626 | |
-| JPN | 21-10-2021 | dia | SOCIAL | | | | 621 | | | | | 74512 |
+| JPN | 2021-10-21 | dia | EMAIL | | 21089 | | | | | | 3283626 | |
+| JPN | 2021-10-21 | dia | SOCIAL | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
 
@@ -55,12 +61,12 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, alé
 
 +++ Dados de conversão agregados
 
-| Geo | Data | Tipo de data | Produto | Unidades Vendidas | Receita |
+| Geografia | Data | Tipo de data | Produto | Unidades Vendidas | Receita |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 09-2021-13 | dia | Economia do criador | 603 | 36537,68 |
-| EMEA | 09-2021-13 | dia | Metaverso | 55 | 21704,37 |
-| JPN | 30/05/2022 | dia | Pro Imaging | 487 | 64469,60 |
-| JPN | 30/05/2022 | dia | Document Cloud | 642 | 100509,07 |
+| EMEA | 2021-09-13 | dia | Economia do criador | 603 | 36537.68 |
+| EMEA | 2021-09-13 | dia | Metaverso | 55 | 21704.37 |
+| JPN | 2022-05-30 | dia | Pro Imaging | 487 | 64469.60 |
+| JPN | 2022-05-30 | dia | Document Cloud | 642 | 100509.07 |
 
 {style="table-layout:auto"}
 
@@ -70,10 +76,10 @@ Encontre abaixo alguns exemplos de dados normalmente usados no Mix Modeler, alé
 
 | Dados | Tipo de data | Fator | Valor |
 |---|:---:|:---:|:---|
-| 2020-08-02 | semana | SPX | 3325,866 |
-| 08-2020-09 | semana | SPX | 3364,158 |
-| 2020-08-16 | semana | SPX | 3385,858 |
-| 23/08/2020 | semana | SPX | 3497,965 |
+| 2020-08-02 | semana | SPX | 3325.866 |
+| 2020-08-09 | semana | SPX | 3364.158 |
+| 2020-08-16 | semana | SPX | 3385.858 |
+| 2020-08-23 | semana | SPX | 3497.965 |
 
 {style="table-layout:auto"}
 
@@ -89,7 +95,7 @@ Para validar se os dados estão disponíveis corretamente no Mix Modeler, você 
 * Use visualizações na [Visão geral](/help/overview.md).
 * Baixe e inspecione dados de [Dados harmonizados](/help/harmonize-data/overview.md) em conjuntos de dados harmonizados.
 
-Para validar se seus dados foram assimilados corretamente no Experience Platform, você pode [gravar e executar consultas SQL usando o Serviço de Consulta do Experience Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/query/home).
+Para validar se seus dados foram assimilados corretamente no Experience Platform, você pode [gravar e executar consultas SQL usando o Serviço de Consulta do Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/query/home).
 
 
 >[!MORELIKETHIS]

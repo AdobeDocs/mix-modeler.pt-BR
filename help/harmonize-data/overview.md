@@ -3,10 +3,17 @@ title: Harmonizar visão geral dos conjuntos de dados
 description: Saiba como harmonizar dados no Mix Modeler.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 23cb7cefe3d1dabfdb8484ad150c38d785841e3b
+TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: d4b8ba18-64c1-4413-be54-74405ec7f558id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+autotag-review: '2026-05-01T09:10:10.340Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 7%
+source-wordcount: 1382
+ht-degree: 17%
 
 ---
 
@@ -56,8 +63,8 @@ Contém o conjunto de dados de esforço de marketing da YouTube, com uma granula
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | dia | YouTube | Y_Fall_02 | BrandX | EUA | 10000 | 100 |
 | 01-01-2022 | dia | YouTube | Y_Fall_02 | BrandX | EUA | 1000 | 10 |
-| 03-01-2022 | dia | YouTube | Y_Fall_01 | MarcaY | CA | 10000 | 100 |
-| 04-01-2022 | dia | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
+| 01-03-2022 | dia | YouTube | Y_Fall_01 | MarcaY | CA | 10000 | 100 |
+| 01-04-2022 | dia | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -69,9 +76,9 @@ Contém o conjunto de dados de esforço de marketing do Facebook, com uma granul
 | Data | Tipo de data | Canal | Campaign | Geografia | Cliques | Gastos |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | semana | Facebook | FB_Fall_01 | EUA | 8000 | 100 |
-| 08-01-2022 | semana | Facebook | FB_Fall_02 | EUA | 1000 | 10 |
-| 08-01-2022 | semana | Facebook | FB_Fall_01 | EUA | 7000 | 100 |
-| 16-01-2022 | semana | Facebook | FB_Summer_01 | CA | 10000 | 80 |
+| 01-08-2022 | semana | Facebook | FB_Fall_02 | EUA | 1000 | 10 |
+| 01-08-2022 | semana | Facebook | FB_Fall_01 | EUA | 7000 | 100 |
+| 01-16-2022 | semana | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -83,9 +90,9 @@ Um conjunto de dados de conversão, com uma granularidade do conjunto de dados a
 | Data | Tipo de data | Geografia | Meta | Receita |
 |--- |:---: |---|---|---:|
 | 01-01-2022 | dia | EUA | Moda | 200 |
-| 08-01-2022 | dia | EUA | Moda | 10 |
-| 08-01-2022 | dia | EUA | Joias | 1100 |
-| 16-01-2022 | dia | CA | Joias | 80 |
+| 01-08-2022 | dia | EUA | Moda | 10 |
+| 01-08-2022 | dia | EUA | Joias | 1100 |
+| 01-16-2022 | dia | CA | Joias | 80 |
 
 {style="table-layout:auto"}
 
@@ -98,8 +105,8 @@ Um exemplo de conjunto de dados de evento de experiência (eventos do Web SDK) d
 |--- |--- |--- |--- |---:|
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
 | 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
-| 08-01-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
-| 08-01-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
 
 {style="table-layout:auto"}
 
@@ -111,18 +118,18 @@ Você deseja criar um conjunto de dados harmonizado, com uma granularidade defin
 | Data | Tipo de data | Canal | Campaign | Marca | Geografia | Meta | Cliques | Gastos | Receita |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 12-27-2021 | semana | YouTube | Y_Fall_02 | BrandX | EUA | Null | 11000 | 110 | Null |
-| 03-01-2022 | semana | YouTube | Y_Fall_01 | MarcaY | CA | Null | 10000 | 100 | Null |
-| 03-01-2022 | semana | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 01-03-2022 | semana | YouTube | Y_Fall_01 | MarcaY | CA | Null | 10000 | 100 | Null |
+| 01-03-2022 | semana | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
 | 01-01-2022 | semana | Facebook | FB_Fall_01 | Null | EUA | Null | 8000 | 100 | Null |
-| 08-01-2022 | semana | Facebook | FB_Fall_02 | Null | EUA | Null | 1000 | 10 | Null |
-| 08-01-2022 | semana | Facebook | FB_Fall_01 | Null | EUA | Null | 7000 | 100 | Null |
-| 16-01-2022 | semana | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
+| 01-08-2022 | semana | Facebook | FB_Fall_02 | Null | EUA | Null | 1000 | 10 | Null |
+| 01-08-2022 | semana | Facebook | FB_Fall_01 | Null | EUA | Null | 7000 | 100 | Null |
+| 01-16-2022 | semana | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
 | 12-27-2021 | semana | Null | Null | Null | EUA | Moda | Null | Null | 200 |
-| 03-01-2022 | semana | Null | Null | Null | EUA | Moda | Null | Null | 10 |
-| 03-01-2022 | semana | Null | Null | Null | EUA | Joias | Null | Null | 1100 |
-| 10-01-2022 | semana | Null | Null | Null | CA | Joias | Null | Null | 80 |
+| 01-03-2022 | semana | Null | Null | Null | EUA | Moda | Null | Null | 10 |
+| 01-03-2022 | semana | Null | Null | Null | EUA | Joias | Null | Null | 1100 |
+| 01-10-2022 | semana | Null | Null | Null | CA | Joias | Null | Null | 80 |
 | 01-01-2022 | semana | CSE | Null | Null | Null | Null | 2 | Null | Null |
-| 08-01-2022 | semana | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 01-08-2022 | semana | CSE | Null | Null | Null | Null | 2 | Null | Null |
 
 {style="table-layout:auto"}
 

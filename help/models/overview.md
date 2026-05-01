@@ -3,9 +3,16 @@ title: Visão geral de modelos
 description: Saiba como criar, treinar, pontuar e gerenciar modelos de aprendizado de máquina no Mix Modeler para medir e prever resultados de marketing.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
+TQID: https://experienceleague.adobe.com/2EmrUfSObFMDb0rNRG1OWqU8c2P9Dp1nf1y8-SpEY3k
+autotag-review: '2026-05-01T08:59:10.903Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: c89e26b6-808d-4500-8b01-450a63466999id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: 1082
 ht-degree: 0%
 
 ---
@@ -119,7 +126,7 @@ Para exibir mais detalhes de um modelo:
 
 1. Selecione ![Mais](/help/assets/icons/More.svg) para um modelo e, no menu de contexto, selecione **[!UICONTROL Duplicate]**.
 
-Você é redirecionado para as etapas de criação de um novo modelo, com um nome proposto composto pelo nome do modelo original anexado com **[!UICONTROL (Copy)] (_n_)**.
+Você é redirecionado para as etapas de criação de um novo modelo, com um nome proposto composto pelo nome do modelo original anexado com **[!UICONTROL (Copy)](_n_)**.
 
 ### Editar
 
@@ -177,5 +184,5 @@ Para excluir vários modelos:
 
 1. Selecione vários modelos.
 1. Na barra de ação azul, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir os modelos.
-1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *modelos]**&#x200B;para excluir os modelos. Selecione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *modelos]**para excluir os modelos. Selecione **[!UICONTROL Cancel]**para cancelar.
 

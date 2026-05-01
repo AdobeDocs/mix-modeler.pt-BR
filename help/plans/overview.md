@@ -3,9 +3,16 @@ title: Visão geral dos planos
 description: Saiba como exibir, selecionar e executar ações em planos no Mix Modeler.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
+autotag-review: '2026-05-01T09:05:53.776Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2: id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: 679
 ht-degree: 0%
 
 ---
@@ -85,7 +92,7 @@ Para duplicar um plano:
 - Selecione ![Mais](/help/assets/icons/More.svg) para um plano. No menu de contexto, selecione **[!UICONTROL Duplicate]**.
 - Como alternativa, selecione um plano na tabela ![SelectBox](/help/assets/icons/SelectBox.svg) e selecione ![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]** na barra de ação azul.
 
-Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)] (_n_)**, foi criado. Você é redirecionado automaticamente para [Criação do plano](build.md) para fornecer detalhes atualizados para o plano copiado.
+Um novo plano, com um nome composto pelo nome do plano original anexado com **[!UICONTROL (Copy)](_n_)**, foi criado. Você é redirecionado automaticamente para [Criação do plano](build.md) para fornecer detalhes atualizados para o plano copiado.
 
 - Os detalhes (como Descrição, Orçamento e mais) do plano original são copiados.
 - As restrições de orçamento do plano original são copiadas para o plano recém-criado.
@@ -116,6 +123,6 @@ Para excluir vários planos:
 
 1. Selecione vários planos.
 1. Na barra de ações azul, selecione ![Excluir](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** para excluir os planos.
-1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *planos]**&#x200B;para excluir os planos. Selecione **[!UICONTROL Cancel]**&#x200B;para cancelar.
+1. Selecione **[!UICONTROL Delete]** na caixa de diálogo de confirmação **[!UICONTROL Delete *x *planos]**para excluir os planos. Selecione **[!UICONTROL Cancel]**para cancelar.
 
 

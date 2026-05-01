@@ -3,13 +3,19 @@ title: Informações do modelo
 description: Saiba como obter detalhes sobre seu modelo, como visão geral histórica, insights do modelo e qualidade do modelo no Mix Modeler.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
+autotag-review: '2026-05-01T08:59:31.397Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '2896'
+source-wordcount: 2896
 ht-degree: 3%
 
 ---
-
 
 # Insights do modelo
 
@@ -371,37 +377,37 @@ Para detalhar a visualização, selecione uma das seguintes opções na lista **
 
       * **[!UICONTROL Actual vs Predicted]**: esta opção compara valores reais a previsões de modelo. Idealmente, os valores previstos devem se alinhar com os valores reais, embora seja esperado algum desvio. Desvios ou padrões grandes ou sistemáticos podem indicar relações e dados ausentes ou possíveis vieses.
 
-      * **[!UICONTROL Residuals]**: esta opção mostra a diferença entre valores reais e previstos. Um modelo bem-sucedido tem resíduos que são distribuídos aleatoriamente, sem padrões claros ou aumento da disseminação. Structured trends or widening residuals may signal missing relationships and data or variance issues.
+      * **[!UICONTROL Residuals]**: esta opção mostra a diferença entre valores reais e previstos. Um modelo bem-sucedido tem resíduos que são distribuídos aleatoriamente, sem padrões claros ou aumento da disseminação. Tendências estruturadas ou alargamento de resíduos podem indicar relações ausentes e problemas de dados ou variância.
 
-   * A table showing the following columns for each conversion metric:
+   * Uma tabela que mostra as seguintes colunas para cada métrica de conversão:
 
       * **[!UICONTROL Actual Conversion]**
       * **[!UICONTROL Predicted Conversion]**
       * **[!UICONTROL Residual Conversion]**
-      * **[!UICONTROL R<sup>2</sup>]**, a score which tells how well the data fits the regression model (the goodness of fit).
-      * **[!UICONTROL MAPE]** (Mean Absolute Percentage Error), which is one of the most commonly used KPIs to measure forecast accuracy and expresses the forecast error as a percentage of the actual value.
-      * **[!UICONTROL RMSE]** (Root Mean Square Error): which shows the average error, weighted according to the square of the error.
+      * **[!UICONTROL R<sup>2</sup>]**, uma pontuação que informa como os dados se ajustam ao modelo de regressão (a adequação do ajuste).
+      * **[!UICONTROL MAPE]** (Erro Percentual Absoluto Médio), que é um dos KPIs mais usados para medir a precisão da previsão e expressa o erro de previsão como uma porcentagem do valor real.
+      * **[!UICONTROL RMSE]** (Erro de Média Quadrada de Raiz): que mostra o erro médio, ponderado de acordo com o quadrado do erro.
 
   Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
 
-* **[!UICONTROL Model training fit metrics]** table that displays for each conversion metric:
+* Tabela **[!UICONTROL Model training fit metrics]** que é exibida para cada métrica de conversão:
 
-  ![Model training fit metrics table](../assets/model-training-fit-metrics.png)
+  ![Tabela de métricas de ajuste de treinamento de modelo](../assets/model-training-fit-metrics.png)
 
-   * **[!UICONTROL Training R<sup>2</sup>]**: Indicates the proportion of variance in the actual values explained by the model&#39;s predictions, ranging from 0 to 1.
-   * **[!UICONTROL Training sMAPE]** (symmetric Mean Absolute Percentage Error): Measures average percentage error on training data. Lower values indicate better accuracy.
-   * **[!UICONTROL Training RMSE]** (Root Mean Squared Error): Measures average percentage error on training data. Penalizes larger errors more than MAPE. Lower RMSE suggests better predictive accuracy but is sensitive to outliers.
-   * **[!UICONTROL Out-of-sample sMAPE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps to assess generalization. Currently, Mix Modeler evaluates percentage error using the last quarter of training data as a holdout set.
-   * **[!UICONTROL Out-of-sample RMSE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps assess generalization. Currently, [!DNL Mix Modeler] evaluates percentage error using the last quarter of training data as a holdout set. RMSE penalizes larger errors more than MAPE.
+   * **[!UICONTROL Training R<sup>2</sup>]**: indica a proporção de variação nos valores reais explicados pelas previsões do modelo, variando de 0 a 1.
+   * **[!UICONTROL Training sMAPE]** (Erro de Porcentagem Absoluta Média simétrica): mede o erro de porcentagem média nos dados de treinamento. Valores mais baixos indicam melhor precisão.
+   * **[!UICONTROL Training RMSE]** (Erro de Raiz Média Quadrada): Mede o erro de porcentagem média nos dados de treinamento. Penaliza mais erros maiores do que o MAPE. RMSE mais baixo sugere melhor precisão preditiva, mas é sensível a outliers.
+   * **[!UICONTROL Out-of-sample sMAPE]**: Avalia a porcentagem de erro em dados não vistos, equilibrando previsões demais e inferiores. Ajuda a avaliar a generalização. Atualmente, o Mix Modeler avalia o erro percentual usando o último trimestre dos dados de treinamento como um conjunto de controle.
+   * **[!UICONTROL Out-of-sample RMSE]**: Avalia a porcentagem de erro em dados não vistos, equilibrando previsões demais e inferiores. Ajuda a avaliar a generalização. Atualmente, [!DNL Mix Modeler] avalia o erro percentual usando o último trimestre dos dados de treinamento como um conjunto de controle. O RMSE penaliza mais erros maiores do que o MAPE.
 
 
-* **[!UICONTROL Touchpoint effectiveness]** table, representing the outcome of the Attribution AI algorithmic model.
+* Tabela **[!UICONTROL Touchpoint effectiveness]**, que representa o resultado do modelo algorítmico da IA de atribuição.
 
-  ![Touchpoint effectiveness table](../assets/touchpoint-effectiveness.png)
+  ![Tabela de eficácia do ponto de contato](../assets/touchpoint-effectiveness.png)
 
-  Os dados desta tabela são gerados apenas para períodos específicos. Select **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) for more details.
+  Os dados desta tabela são gerados apenas para períodos específicos. Selecione **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) para obter mais detalhes.
 
-  The visualization shows, in descending order of [!UICONTROL Efficiency measure] ![Descending Order](/help/assets/icons/SortOrderDown.svg), for each touchpoint:
+  A visualização mostra, em ordem decrescente de [!UICONTROL Efficiency measure] ![Ordem decrescente](/help/assets/icons/SortOrderDown.svg), para cada ponto de contato:
 
    * **[!UICONTROL Paths touched]**: visualiza a porcentagem de caminhos que atingem a conversão e a porcentagem de caminhos que não atingem a conversão. Para um ponto de contato, você verá mais conversões atribuídas quando a taxa de conversão de atribuição estiver alta. Essa proporção compara a porcentagem de caminhos que levam à conversão com a porcentagem de caminhos que *não* levam à conversão.
    * **[!UICONTROL Efficiency measure]**: gerada pelo modelo de atribuição algorítmica, a medida de eficiência indica a importância relativa de um ponto de contato em direção à conversão, independentemente do volume do ponto de contato. A eficiência é medida em uma escala de 1 a 5. Observe que um maior volume de pontos de contato não garante uma medida de eficiência mais alta.
