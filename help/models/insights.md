@@ -5,22 +5,15 @@ feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -202,7 +195,7 @@ Canais com curvas de decaimento mais lentas (caudas mais longas) indicam impacto
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Detalhamento da contribuição do fator"
->abstract="A discriminação da contribuição do fator mostra a proporção das conversões de base que podem ser atribuídas aos vários fatores incluídos no modelo.<br/><br/>A base pura representa as conversões subjacentes que ocorrem independentemente dos pontos de contato de marketing e dos fatores incluídos no modelo. Ele inclui conversões impulsionadas por patrimônio da marca, compras repetidas, demanda orgânica e tendências de mercado e sazonalidade de longo prazo."
+>abstract="A discriminação da contribuição do fator mostra a proporção das conversões de base que podem ser atribuídas aos vários fatores incluídos no modelo.<br/><br/>A base pura representa as conversões subjacentes que ocorrem independentemente dos pontos de contato de marketing e dos fatores incluídos no modelo. Isso inclui conversões impulsionadas por valor da marca, compras repetidas, demanda orgânica e tendências de mercado de longo prazo e sazonalidade."
 
 
 A guia Fatores [!BADGE beta] mostra insights relacionados ao fator externo.
@@ -230,7 +223,7 @@ Se nenhum dado estiver disponível, você verá a mensagem ![TableAndChart](/hel
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Detalhamento por posição de ponto de contato"
->abstract="Essa visualização mostra um detalhamento das conversões atribuídas por posição do ponto de contato e do ponto de contato em todos os caminhos de conversão. A visualização compara se um ponto de contato contribui melhor em uma posição do que nas posições restantes e outros pontos de contato em qualquer posição."
+>abstract="Essa visualização mostra um detalhamento das conversões atribuídas por posição do ponto de contato e em todos os caminhos de conversão. A visualização compara se um ponto de contato contribui melhor em uma posição do que nas posições restantes e outros pontos de contato em qualquer posição."
 
 
 
@@ -358,7 +351,7 @@ Para cada caminho de conversão, você verá:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Medida de eficiência"
->abstract="A medida de eficiência gerada pelo modelo de atribuição algorítmica indica a importância relativa de um ponto de contato em direção a uma conversão independente do volume do ponto de contato. Essa medida está em uma escala de 1 a 5. Observe que um maior volume de pontos de contato não garante uma medida de eficiência mais alta."
+>abstract="A medida de eficiência gerada pelo modelo de atribuição algorítmica indica a importância relativa de um ponto de contato para uma conversão independente do volume do ponto de contato. Essa medida está em uma escala de 1 a 5. Observe que um volume maior de pontos de contato não garante uma eficiência mais alta."
 
 
 >[!CONTEXTUALHELP]
@@ -417,7 +410,7 @@ Para detalhar a visualização, selecione uma das seguintes opções na lista **
   A visualização mostra, em ordem decrescente de [!UICONTROL Efficiency measure] ![Ordem decrescente](/help/assets/icons/SortOrderDown.svg), para cada ponto de contato:
 
    * **[!UICONTROL Paths touched]**: visualiza a porcentagem de caminhos que atingem a conversão e a porcentagem de caminhos que não atingem a conversão. Para um ponto de contato, você verá mais conversões atribuídas quando a taxa de conversão de atribuição estiver alta. Essa proporção compara a porcentagem de caminhos que levam à conversão com a porcentagem de caminhos que *não* levam à conversão.
-   * **[!UICONTROL Efficiency measure]**: gerada pelo modelo de atribuição algorítmica, a medida de eficiência indica a importância relativa de um ponto de contato em direção à conversão, independentemente do volume do ponto de contato. A eficiência é medida em uma escala de 1 a 5. Observe que um maior volume de pontos de contato não garante uma medida de eficiência mais alta.
+   * **[!UICONTROL Efficiency measure]**: gerada pelo modelo de atribuição algorítmica, a medida de eficiência indica a importância relativa de um ponto de contato em direção à conversão, independentemente do volume do ponto de contato. A eficiência é medida em uma escala de 1 a 5. Observe que um volume maior de pontos de contato não garante uma eficiência mais alta.
    * **[!UICONTROL Total volume]**: O número agregado de vezes que um usuário toca um ponto de contato. O número inclui os pontos de contato que aparecem em um caminho que alcança a conversão, assim como os caminhos *não* que resultam na conversão.
 
 
