@@ -22,7 +22,7 @@ autotag-review: '2026-05-01T09:12:48.985Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2106
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -240,7 +240,7 @@ Para sincronizar dados entre seus dados harmonizados e os conjuntos de dados de 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_datasetrules_datamergepreferences"
 >title="Preferência de métrica padrão"
->abstract="A preferência padrão é aplicada quando, durante a harmonização, várias fontes de dados tentam atualizar um campo de métrica para um determinado canal. Essa preferência é aplicada no nível da sandbox, a menos que seja substituída por determinadas preferências de métrica, se definidas abaixo."
+>abstract="A preferência padrão é aplicada quando, durante a harmonização, várias fontes de dados tentam atualizar um campo de métrica para um determinado canal. Essa preferência é aplicada no nível da sandbox, a menos que seja substituída por determinadas preferências de métricas, se definidas abaixo."
 
 
 >[!NOTE]

@@ -17,7 +17,7 @@ autotag-review: '2026-05-01T09:15:50.061Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 424
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_conversions_create"
 >title="Conversão"
->abstract="Eventos de conversão são objetivos de negócios que identificam o impacto das atividades de marketing. Exemplos: pedidos de comércio eletrônico, compras na loja, visitas a sites e muito mais."
+>abstract="Os eventos de conversão são objetivos de negócios que identificam o impacto das atividades de marketing. Exemplos: pedidos de comércio eletrônico, compras em loja e visitas ao site, e muito mais."
 
 
-Eventos de conversão são objetivos de negócios que identificam o impacto das atividades de marketing. Exemplos: pedidos de comércio eletrônico, compras na loja, visitas a sites e assim por diante.
+Os eventos de conversão são objetivos de negócios que identificam o impacto das atividades de marketing. Exemplos: pedidos de comércio eletrônico, compras na loja, visitas a sites e assim por diante.
 
 Você define conversões de marketing para análise de atribuição.
 
