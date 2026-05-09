@@ -1,6 +1,8 @@
 ---
 cloud: Experience Cloud
 solution: Mix Modeler
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
 product: experience cloud
 landing-page-name: mix-modeler
 landing-page-breadcrumb-title: Mix Modeler
@@ -10,16 +12,16 @@ git-repo: https://github.com/AdobeDocs/mix-modeler.pt-BR
 index: true
 feature-set: Mix Modeler
 role: User, Admin
-source-git-commit: e8378b4f24f519b7f1f8ad04330287b9ce5d8a88
+source-git-commit: 3e1c566d434752c491cbba6fc67d189e4683f59a
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 0%
+source-wordcount: 69
+ht-degree: 75%
 
 ---
 
 
 # Metadados para uso interno
 
-O arquivo metadata.md inclui metadados de nível de repositório que passam para os arquivos TOC.md do guia do usuário no repositório. Se quiser alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
+O arquivo metadata.md inclui metadados de nível de repositório que são repassados para os arquivos TOC.md do guia do usuário no repositório. Se quiser alterar o conteúdo do arquivo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
 Consulte [Metadados](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) para obter uma lista de valores válidos para **solução**, **produto** e **tipo**.
