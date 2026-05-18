@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
 source-wordcount: 1578
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ Você define um nome e uma descrição na etapa **[!UICONTROL Setup]**:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Pontos de contato de marketing"
->abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Você não pode configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
+>abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Não é possível configurar o modelo com pontos de contato que tenham dados sobrepostos e é necessário haver pelo menos um ponto de contato com gastos."
 
 
 Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envolve a definição de metas de conversão, pontos de contato de marketing, a população de dados elegível, fatores externos e internos e muito mais.
@@ -141,8 +141,8 @@ Com base no conjunto de dados selecionado, o **[!UICONTROL Factor type]** é **[
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="Adstock de canal"
->abstract="Incorpore experiência em domínios, resultados de experimentação ou análises de canal anteriores diretamente na configuração do modelo. A configuração do Adstock ajuda a orientar o modelo para se alinhar às expectativas do mundo real e melhora a capacidade de interpretação e a confiança no resultado. O total de semanas de lookback mais semanas de atraso por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite dados suficientes para que o modelo aprenda os efeitos de adstock."
+>title="Adstock do canal"
+>abstract="Incorpore experiência em domínios, resultados de experimentação ou análises de canal anteriores diretamente na configuração do modelo. A configuração do Adstock ajuda a orientar o modelo para se alinhar às expectativas do mundo real e melhora a capacidade de interpretação e a confiança no resultado. O total de semanas de retrospectiva mais semanas de atraso por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite obter dados suficientes para que o modelo aprenda os efeitos adstock."
 
 Você pode especificar configurações avançadas na etapa **[!UICONTROL Advanced]**. Nesta etapa, você pode definir [gastar compartilhamento](#spend-share), habilitar seu modelo para [atribuição multitoque (MTA)](#mta), definir [conhecimento anterior](#prior-knowledge) e definir [estoque de canais](#channel-adstock).
 
@@ -181,7 +181,7 @@ Na seção **[!UICONTROL Prior knowledge]**:
 1. Quando necessário, use **[!UICONTROL Clear all]** para limpar todos os valores de entrada para as colunas **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]**.
 
 
-### Adstock de canal
+### Adstock do canal
 
 Na seção **[!UICONTROL Channel adstock]**, é possível definir retrospectivas individuais do adstock (efeitos de transferência ou de decaimento) e atraso (tempo de resposta atrasado) para cada canal (canal de marketing) definido em seu modelo.
 
@@ -197,7 +197,7 @@ Para configurar o adstock de canal:
 
    * Use ![Adicionar](/help/assets/icons/Add.svg) para aumentar um valor, ![Subtrair](/help/assets/icons/Subtract.svg) para diminuir um valor ou insira um valor manualmente.
 
-  O total de semanas de atraso mais o máximo de semanas de retrospectiva por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite dados suficientes para que o modelo aprenda os efeitos de adstock. Por exemplo, para um período de treinamento de dois anos, o máximo de **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** para um canal é de 13 semanas. Esse limite é aplicado ao definir os valores.
+  O total de semanas de atraso mais o máximo de semanas de retrospectiva por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite obter dados suficientes para que o modelo aprenda os efeitos adstock. Por exemplo, para um período de treinamento de dois anos, o máximo de **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** para um canal é de 13 semanas. Esse limite é aplicado ao definir os valores.
 
 * Para redefinir todos os adstock de canal para os padrões:
 

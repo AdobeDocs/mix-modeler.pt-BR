@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2896
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -174,7 +174,7 @@ Este quadro de despesas de nível superior oferece uma medida realista da força
 >Se a guia **[!UICONTROL Channel synergy]** não estiver visível para um modelo existente, treine novamente o modelo para habilitar a funcionalidade e a visualização.
 
 
-### Adstock de canal
+### Adstock do canal
 
 As visualizações de adstock de canal mostram uma visualização para cada adstock de canal configurado. As visualizações ajudam você a entender como o impacto dos gastos com marketing para cada canal persiste e se deteriora com o tempo e além da exposição inicial. A visualização fornece uma visualização realista do transporte de canais através da incorporação de dinâmicas temporais que são aprendidas a partir do modelo.
 
@@ -202,7 +202,7 @@ Canais com curvas de decaimento mais lentas (caudas mais longas) indicam impacto
 >[!CONTEXTUALHELP]
 >id="models_factors_factorcontributionbreakdown"
 >title="Detalhamento da contribuição do fator"
->abstract="A discriminação da contribuição do fator mostra a proporção das conversões de base que podem ser atribuídas aos vários fatores incluídos no modelo.<br/><br/>A base pura representa as conversões subjacentes que ocorrem independentemente dos pontos de contato de marketing e dos fatores incluídos no modelo. Isso inclui conversões impulsionadas por valor da marca, compras repetidas, demanda orgânica e tendências de mercado de longo prazo e sazonalidade."
+>abstract="O detalhamento da contribuição dos fatores mostra a proporção das conversões base que podem ser atribuídas aos vários fatores incluídos no modelo.<br/><br/>A base pura representa as conversões subjacentes que ocorrem independentemente dos pontos de contato de marketing e dos fatores incluídos no modelo. Isso inclui conversões impulsionadas por valor da marca, compras repetidas, demanda orgânica e tendências de mercado de longo prazo e sazonalidade."
 
 
 A guia Fatores [!BADGE beta] mostra insights relacionados ao fator externo.
@@ -230,7 +230,7 @@ Se nenhum dado estiver disponível, você verá a mensagem ![TableAndChart](/hel
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="Detalhamento por posição de ponto de contato"
->abstract="Essa visualização mostra um detalhamento das conversões atribuídas por posição do ponto de contato e em todos os caminhos de conversão. A visualização compara se um ponto de contato contribui melhor em uma posição do que nas posições restantes e outros pontos de contato em qualquer posição."
+>abstract="Essa visualização mostra um detalhamento das conversões atribuídas por posição do ponto de contato e em todos os caminhos de conversão. A visualização compara se um ponto de contato contribui melhor em uma posição do que nas demais opções e do que outros pontos em qualquer posição."
 
 
 
@@ -358,13 +358,13 @@ Para cada caminho de conversão, você verá:
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="Medida de eficiência"
->abstract="A medida de eficiência gerada pelo modelo de atribuição algorítmica indica a importância relativa de um ponto de contato para uma conversão independente do volume do ponto de contato. Essa medida está em uma escala de 1 a 5. Observe que um volume maior de pontos de contato não garante uma eficiência mais alta."
+>abstract="A medida de eficiência gerada pelo modelo de atribuição algorítmica indica a importância relativa de um ponto de contato para uma conversão independente do volume do ponto de contato. Isso é medido em uma escala de 1 a 5. Observe que um volume maior de pontos de contato não garante uma eficiência mais alta."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="Volume total"
->abstract="O volume total é o número agregado de vezes que um usuário toca um ponto de contato. E inclui os pontos de contato que aparecem em um caminho que o atinge, bem como caminhos que não resultam em conversão."
+>abstract="O volume total é o número agregado de vezes que um usuário chega a um ponto de contato. E inclui os pontos de contato que aparecem em um caminho que o alcança, bem como caminhos que não resultam em conversão."
 
 
 >[!CONTEXTUALHELP]
