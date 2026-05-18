@@ -5,26 +5,15 @@ feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: e0abf868-dae2-4c1c-83e9-b21799232845
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
-  - id: c89e26b6-808d-4500-8b01-450a63466999
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: c89e26b6-808d-4500-8b01-450a63466999
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
 source-wordcount: 1578
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +38,7 @@ Você define um nome e uma descrição na etapa **[!UICONTROL Setup]**:
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
 >title="Pontos de contato de marketing"
->abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Você não pode configurar o modelo com pontos de contato que tenham dados sobrepostos e deve haver pelo menos um ponto de contato com gastos."
+>abstract="Pontos de contato de marketing são eventos de marketing a nível de destinatário, pessoa e/ou cookie usados para avaliar o impacto dos investimentos em marketing nas conversões numéricas ou baseadas em receita.<br/><br/>Não é possível configurar o modelo com pontos de contato que tenham dados sobrepostos e é necessário haver pelo menos um ponto de contato com gastos."
 
 
 Configure seu modelo na etapa **[!UICONTROL Configure]**. A configuração envolve a definição de metas de conversão, pontos de contato de marketing, a população de dados elegível, fatores externos e internos e muito mais.
@@ -141,8 +130,8 @@ Com base no conjunto de dados selecionado, o **[!UICONTROL Factor type]** é **[
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="Adstock de canal"
->abstract="Incorpore experiência em domínios, resultados de experimentação ou análises de canal anteriores diretamente na configuração do modelo. A configuração do Adstock ajuda a orientar o modelo para se alinhar às expectativas do mundo real e melhora a capacidade de interpretação e a confiança no resultado. O total de semanas de lookback mais semanas de atraso por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite dados suficientes para que o modelo aprenda os efeitos de adstock."
+>title="Adstock do canal"
+>abstract="Incorpore experiência em domínios, resultados de experimentação ou análises de canal anteriores diretamente na configuração do modelo. A configuração do Adstock ajuda a orientar o modelo para se alinhar às expectativas do mundo real e melhora a capacidade de interpretação e a confiança no resultado. O total de semanas de retrospectiva mais semanas de atraso por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite obter dados suficientes para que o modelo aprenda os efeitos adstock."
 
 Você pode especificar configurações avançadas na etapa **[!UICONTROL Advanced]**. Nesta etapa, você pode definir [gastar compartilhamento](#spend-share), habilitar seu modelo para [atribuição multitoque (MTA)](#mta), definir [conhecimento anterior](#prior-knowledge) e definir [estoque de canais](#channel-adstock).
 
@@ -181,7 +170,7 @@ Na seção **[!UICONTROL Prior knowledge]**:
 1. Quando necessário, use **[!UICONTROL Clear all]** para limpar todos os valores de entrada para as colunas **[!UICONTROL Contribution proportion]** e **[!UICONTROL Level of confidence]**.
 
 
-### Adstock de canal
+### Adstock do canal
 
 Na seção **[!UICONTROL Channel adstock]**, é possível definir retrospectivas individuais do adstock (efeitos de transferência ou de decaimento) e atraso (tempo de resposta atrasado) para cada canal (canal de marketing) definido em seu modelo.
 
@@ -197,7 +186,7 @@ Para configurar o adstock de canal:
 
    * Use ![Adicionar](/help/assets/icons/Add.svg) para aumentar um valor, ![Subtrair](/help/assets/icons/Subtract.svg) para diminuir um valor ou insira um valor manualmente.
 
-  O total de semanas de atraso mais o máximo de semanas de retrospectiva por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite dados suficientes para que o modelo aprenda os efeitos de adstock. Por exemplo, para um período de treinamento de dois anos, o máximo de **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** para um canal é de 13 semanas. Esse limite é aplicado ao definir os valores.
+  O total de semanas de atraso mais o máximo de semanas de retrospectiva por canal é limitado a um oitavo da janela de treinamento configurada. Esse limite permite obter dados suficientes para que o modelo aprenda os efeitos adstock. Por exemplo, para um período de treinamento de dois anos, o máximo de **[!UICONTROL Lag (weeks)]** e **[!UICONTROL Lookback (weeks)]** para um canal é de 13 semanas. Esse limite é aplicado ao definir os valores.
 
 * Para redefinir todos os adstock de canal para os padrões:
 
