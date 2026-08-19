@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2896
+source-wordcount: 2957
 ht-degree: 11%
 
 ---
@@ -86,7 +86,13 @@ Essa visualização representa a proporção de contribuição obtida pela base,
 
 ### Contribuição por canal
 
-Uma visualização de rosca que mostra uma distribuição da contribuição por vários canais. Esta visualização mostra a incrementalidade através da lente dos três principais canais de desempenho (excluindo as categorias base e *Todos os outros*). A visualização ajuda a oferecer suporte à priorização e à alocação de orçamento.
+Uma visualização de rosca que mostra uma distribuição da contribuição por vários canais. Essa visualização mostra incrementalidade através da lente dos canais com melhor desempenho. A visualização ajuda a oferecer suporte à priorização e à alocação de orçamento.
+
+Você pode selecionar quais canais de mídia serão exibidos na visualização:
+
+* Para se concentrar apenas na contribuição de canais de mídia paga, selecione **[!UICONTROL Paid media]**.
+* Para ver a contribuição de todos os canais, selecione **[!UICONTROL All media]**.
+
 
 ### Resumo de desempenho de marketing {#marketing-performance-summary}
 
@@ -96,6 +102,11 @@ Uma visualização de rosca que mostra uma distribuição da contribuição por 
 >abstract="Canais indefinidos são incluídos, mas não têm conversões atribuídas."
 
 Uma visualização de gráfico de barras horizontal que mostra o desempenho do ROI ou CPA de cada canal. Esta visualização destaca o ROI/CPA de seus investimentos em marketing. Os canais são classificados em ordem decrescente com base no ROI/CPA. A visualização ajuda a identificar quais canais são mais eficazes e quais podem precisar de otimização.
+
+Somente para modelos baseados em receita:
+
+* Para configurar o **[!UICONTROL Metric]** desejado para a visualização, selecione entre **[!UICONTROL ROI]** (receita - gasto) / gasto) ou **[!UICONTROL ROAS]** (receita / gasto).
+* Para configurar como a métrica selecionada é exibida, selecione entre **[!UICONTROL %]** ou **[!UICONTROL $]** para **[!UICONTROL Show as]**.
 
 Canais indefinidos são incluídos na visualização, mas não têm conversões atribuídas.
 
@@ -243,14 +254,14 @@ Usando a guia [!UICONTROL Attribution], você pode entender a eficácia dos pont
 Os seguintes modelos de atribuição são compatíveis:
 
 * Com base no modelo selecionado em [!DNL Mix Modeler]:
-   * Algorítmico - Influenciado
-   * Algorítmico - Incremental
+  * Algorítmico - Influenciado
+  * Algorítmico - Incremental
 * Baseado em regra:
-   * Unidades de decaimento
-   * Primeiro contato
-   * Último contato
-   * Linear
-   * Ushape
+  * Unidades de decaimento
+  * Primeiro contato
+  * Último contato
+  * Linear
+  * Ushape
 
 Consulte [Atribuição multitoque](../get-started/about.md#multi-touch-attribution) para obter uma introdução sobre o recurso de atribuição multitoque em [!DNL Mix Modeler].
 
@@ -379,21 +390,21 @@ A guia **[!UICONTROL Diagnostics]** mostra visualizações para:
 
   ![Avaliação de modelo](../assets/model-assessment.png)
 
-   * Um gráfico que pode ser detalhado em conversões reais versus previstas ou residuais.
-Para detalhar a visualização, selecione uma das seguintes opções na lista **[!UICONTROL Breakdown]**.
+  * Um gráfico que pode ser detalhado em conversões reais versus previstas ou residuais.
+    Para detalhar a visualização, selecione uma das seguintes opções na lista **[!UICONTROL Breakdown]**.
 
-      * **[!UICONTROL Actual vs Predicted]**: esta opção compara valores reais a previsões de modelo. Idealmente, os valores previstos devem se alinhar com os valores reais, embora seja esperado algum desvio. Desvios ou padrões grandes ou sistemáticos podem indicar relações e dados ausentes ou possíveis vieses.
+    * **[!UICONTROL Actual vs Predicted]**: esta opção compara valores reais a previsões de modelo. Idealmente, os valores previstos devem se alinhar com os valores reais, embora seja esperado algum desvio. Desvios ou padrões grandes ou sistemáticos podem indicar relações e dados ausentes ou possíveis vieses.
 
-      * **[!UICONTROL Residuals]**: esta opção mostra a diferença entre valores reais e previstos. Um modelo bem-sucedido tem resíduos que são distribuídos aleatoriamente, sem padrões claros ou aumento da disseminação. Tendências estruturadas ou alargamento de resíduos podem indicar relações ausentes e problemas de dados ou variância.
+    * **[!UICONTROL Residuals]**: esta opção mostra a diferença entre valores reais e previstos. Um modelo bem-sucedido tem resíduos que são distribuídos aleatoriamente, sem padrões claros ou aumento da disseminação. Tendências estruturadas ou alargamento de resíduos podem indicar relações ausentes e problemas de dados ou variância.
 
-   * Uma tabela que mostra as seguintes colunas para cada métrica de conversão:
+  * Uma tabela que mostra as seguintes colunas para cada métrica de conversão:
 
-      * **[!UICONTROL Actual Conversion]**
-      * **[!UICONTROL Predicted Conversion]**
-      * **[!UICONTROL Residual Conversion]**
-      * **[!UICONTROL R<sup>2</sup>]**, uma pontuação que informa como os dados se ajustam ao modelo de regressão (a adequação do ajuste).
-      * **[!UICONTROL MAPE]** (Erro Percentual Absoluto Médio), que é um dos KPIs mais usados para medir a precisão da previsão e expressa o erro de previsão como uma porcentagem do valor real.
-      * **[!UICONTROL RMSE]** (Erro de Média Quadrada de Raiz): que mostra o erro médio, ponderado de acordo com o quadrado do erro.
+    * **[!UICONTROL Actual Conversion]**
+    * **[!UICONTROL Predicted Conversion]**
+    * **[!UICONTROL Residual Conversion]**
+    * **[!UICONTROL R<sup>2</sup>]**, uma pontuação que informa como os dados se ajustam ao modelo de regressão (a adequação do ajuste).
+    * **[!UICONTROL MAPE]** (Erro Percentual Absoluto Médio), que é um dos KPIs mais usados para medir a precisão da previsão e expressa o erro de previsão como uma porcentagem do valor real.
+    * **[!UICONTROL RMSE]** (Erro de Média Quadrada de Raiz): que mostra o erro médio, ponderado de acordo com o quadrado do erro.
 
   Para baixar um arquivo CSV contendo os dados da tabela, selecione ![Baixar](/help/assets/icons/Download.svg).
 
@@ -401,11 +412,11 @@ Para detalhar a visualização, selecione uma das seguintes opções na lista **
 
   ![Tabela de métricas de ajuste de treinamento de modelo](../assets/model-training-fit-metrics.png)
 
-   * **[!UICONTROL Training R<sup>2</sup>]**: indica a proporção de variação nos valores reais explicados pelas previsões do modelo, variando de 0 a 1.
-   * **[!UICONTROL Training sMAPE]** (Erro de Porcentagem Absoluta Média simétrica): mede o erro de porcentagem média nos dados de treinamento. Valores mais baixos indicam melhor precisão.
-   * **[!UICONTROL Training RMSE]** (Erro de Raiz Média Quadrada): Mede o erro de porcentagem média nos dados de treinamento. Penaliza mais erros maiores do que o MAPE. RMSE mais baixo sugere melhor precisão preditiva, mas é sensível a outliers.
-   * **[!UICONTROL Out-of-sample sMAPE]**: Avalia a porcentagem de erro em dados não vistos, equilibrando previsões demais e inferiores. Ajuda a avaliar a generalização. Atualmente, o Mix Modeler avalia o erro percentual usando o último trimestre dos dados de treinamento como um conjunto de controle.
-   * **[!UICONTROL Out-of-sample RMSE]**: Avalia a porcentagem de erro em dados não vistos, equilibrando previsões demais e inferiores. Ajuda a avaliar a generalização. Atualmente, [!DNL Mix Modeler] avalia o erro percentual usando o último trimestre dos dados de treinamento como um conjunto de controle. O RMSE penaliza mais erros maiores do que o MAPE.
+  * **[!UICONTROL Training R<sup>2</sup>]**: indica a proporção de variação nos valores reais explicados pelas previsões do modelo, variando de 0 a 1.
+  * **[!UICONTROL Training sMAPE]** (Erro de Porcentagem Absoluta Média simétrica): mede o erro de porcentagem média nos dados de treinamento. Valores mais baixos indicam melhor precisão.
+  * **[!UICONTROL Training RMSE]** (Erro de Raiz Média Quadrada): Mede o erro de porcentagem média nos dados de treinamento. Penaliza mais erros maiores do que o MAPE. RMSE mais baixo sugere melhor precisão preditiva, mas é sensível a outliers.
+  * **[!UICONTROL Out-of-sample sMAPE]**: Avalia a porcentagem de erro em dados não vistos, equilibrando previsões demais e inferiores. Ajuda a avaliar a generalização. Atualmente, o Mix Modeler avalia o erro percentual usando o último trimestre dos dados de treinamento como um conjunto de controle.
+  * **[!UICONTROL Out-of-sample RMSE]**: Avalia a porcentagem de erro em dados não vistos, equilibrando previsões demais e inferiores. Ajuda a avaliar a generalização. Atualmente, [!DNL Mix Modeler] avalia o erro percentual usando o último trimestre dos dados de treinamento como um conjunto de controle. O RMSE penaliza mais erros maiores do que o MAPE.
 
 
 * Tabela **[!UICONTROL Touchpoint effectiveness]**, que representa o resultado do modelo algorítmico da IA de atribuição.
@@ -416,9 +427,9 @@ Para detalhar a visualização, selecione uma das seguintes opções na lista **
 
   A visualização mostra, em ordem decrescente de [!UICONTROL Efficiency measure] ![Ordem decrescente](/help/assets/icons/SortOrderDown.svg), para cada ponto de contato:
 
-   * **[!UICONTROL Paths touched]**: visualiza a porcentagem de caminhos que atingem a conversão e a porcentagem de caminhos que não atingem a conversão. Para um ponto de contato, você verá mais conversões atribuídas quando a taxa de conversão de atribuição estiver alta. Essa proporção compara a porcentagem de caminhos que levam à conversão com a porcentagem de caminhos que *não* levam à conversão.
-   * **[!UICONTROL Efficiency measure]**: gerada pelo modelo de atribuição algorítmica, a medida de eficiência indica a importância relativa de um ponto de contato em direção à conversão, independentemente do volume do ponto de contato. A eficiência é medida em uma escala de 1 a 5. Observe que um volume maior de pontos de contato não garante uma eficiência mais alta.
-   * **[!UICONTROL Total volume]**: O número agregado de vezes que um usuário toca um ponto de contato. O número inclui os pontos de contato que aparecem em um caminho que alcança a conversão, assim como os caminhos *não* que resultam na conversão.
+  * **[!UICONTROL Paths touched]**: visualiza a porcentagem de caminhos que atingem a conversão e a porcentagem de caminhos que não atingem a conversão. Para um ponto de contato, você verá mais conversões atribuídas quando a taxa de conversão de atribuição estiver alta. Essa proporção compara a porcentagem de caminhos que levam à conversão com a porcentagem de caminhos que *não* levam à conversão.
+  * **[!UICONTROL Efficiency measure]**: gerada pelo modelo de atribuição algorítmica, a medida de eficiência indica a importância relativa de um ponto de contato em direção à conversão, independentemente do volume do ponto de contato. A eficiência é medida em uma escala de 1 a 5. Observe que um volume maior de pontos de contato não garante uma eficiência mais alta.
+  * **[!UICONTROL Total volume]**: O número agregado de vezes que um usuário toca um ponto de contato. O número inclui os pontos de contato que aparecem em um caminho que alcança a conversão, assim como os caminhos *não* que resultam na conversão.
 
 
 ### Detecção de desvio de modelo

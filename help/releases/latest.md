@@ -17,18 +17,27 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 5%
+source-wordcount: 524
+ht-degree: 6%
 
 ---
 
 # Notas de versão atuais do Mix Modeler
 
-**Última atualização**: 26 de fevereiro de 2026.
+**Última atualização**: 19 de agosto de 2026.
 
 Essas notas de versão abordam a versão mais recente do Mix Modeler. As versões do Mix Modeler operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
+
+## Agosto de 2026
+
+| Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
+|---|---|---|---|
+| **Filtrar nas regras do conjunto de dados** | Na configuração harmonizada de conjuntos de dados, você pode [filtrar regras de conjunto de dados na origem, granularidade e início da semana](/help/harmonize-data/dataset-rules.md#manage-dataset-rules). | 19 de agosto de 2026 | 19 de agosto de 2026 |
+| **Foco do canal de mídia paga** | Você pode optar por [se concentrar na contribuição do canal de mídia paga](/help/models/insights.md#contribution-by-channel) nos Insights do modelo. | 19 de agosto de 2026 | 19 de agosto de 2026 |
+| **Configuração de resumo de desempenho de marketing** | Você pode [selecionar métricas e saber como a métrica é mostrada](/help/models/insights.md#marketing-performance-summary) para o resumo do desempenho de marketing de modelos com base na receita em insights de modelos. | 19 de agosto de 2026 | 19 de agosto de 2026 |
+
 
 ## Março de 2026
 
