@@ -4,24 +4,15 @@ description: Saiba como definir regras de conjunto de dados para usar como parte
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
 TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2:
-  - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
-  - id: d4b8ba18-64c1-4413-be54-74405ec7f558
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: d4b8ba18-64c1-4413-be54-74405ec7f558
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2106
+source-wordcount: 2161
 ht-degree: 3%
 
 ---
@@ -33,6 +24,7 @@ As regras do conjunto de dados ajudam a mapear os campos harmonizados com campos
 * Para dados agregados assimilados no Adobe Experience Platform, mapeie um ou mais campos do conjunto de dados disponíveis para os campos harmonizados apropriados.
 * Para dados do evento, você pode mapear individualmente um ou mais campos harmonizados para campos do conjunto de dados, diretamente ou usando condições.
 
+![Lista de regras do conjunto de dados](/help/assets/harmonize-dataset-rules-list.png)
 
 ## Gerenciar regras do conjunto de dados
 
@@ -42,7 +34,15 @@ Para ver uma tabela das regras do conjunto de dados disponíveis, na interface d
 
 1. Selecione **[!UICONTROL Dataset rules]** na barra superior. Você verá uma tabela das regras do conjunto de dados.
 
-Você pode pesquisar um conjunto de dados rapidamente usando a ![Pesquisa](/help/assets/icons/Search.svg) **[!UICONTROL _Inserir um nome para o conjunto de dados_]**.
+Pesquise e filtre por conjuntos de dados:
+
+* Pesquise um conjunto de dados rapidamente usando ![Pesquisar](/help/assets/icons/Search.svg) **[!UICONTROL _Insira um nome de conjunto de dados_]**.
+* Filtrar conjuntos de dados usando:
+  * **[!UICONTROL Source]**: selecione entre **[!UICONTROL all]**, **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Adobe Audience Manager]**, **[!UICONTROL Experience Events]**, **[!UICONTROL Consumer Experience Events]** ou **[!UICONTROL Factors]**.
+  * **[!UICONTROL Granularity]**: selecione entre **[!UICONTROL all]**, **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Yearly]**.
+  * **[!UICONTROL Start of the week]**: selecionar todos ou um possível dia da semana (**[!UICONTROL Monday]** a **[!UICONTROL Sunday]**.)
+
+Use ![CrossSize200](/help/assets/icons/CrossSize200.svg) **[!UICONTROL Clear]** para limpar todos os filtros e o campo de pesquisa.
 
 As colunas da tabela especificam detalhes sobre as regras do conjunto de dados:
 
@@ -82,38 +82,38 @@ Na tela **[!UICONTROL Create]**,
 
    * Quando o campo harmonizado selecionado for do tipo métrica:
 
-      1. Selecione **[!UICONTROL Count]** ou **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
+     1. Selecione **[!UICONTROL Count]** ou **[!UICONTROL Sum]** de **[!UICONTROL Mapping type]**.
 
-      1. Selecione um **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;para o qual você deseja mapear o campo harmonizado por padrão.
+     1. Selecione um **[!UICONTROL *campo do conjunto de dados do AEP *]**para o qual você deseja mapear o campo harmonizado por padrão.
 
    * Quando o campo selecionado é do tipo dimensão:
 
-      1. Selecione **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
+     1. Selecione **[!UICONTROL Map Into]** ou **[!UICONTROL Case]** de **[!UICONTROL Mapping type]**.
 
-      1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+     1. Ao selecionar **[!UICONTROL Map Into]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-      1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;ou **[!UICONTROL Value]**&#x200B;e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
+     1. Ao selecionar **[!UICONTROL Case]**, selecione **[!UICONTROL Field]** e **[!UICONTROL *campo do conjunto de dados do AEP *]**ou **[!UICONTROL Value]**e um valor padrão para mapear o campo harmonizado por padrão para o campo do conjunto de dados ou valor inserido.
 
-         1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados do AEP *]**&#x200B;específico, seja ele **[!UICONTROL Exists]**&#x200B;ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**&#x200B;ou **[!UICONTROL Ends With]**&#x200B;um valor inserido em&#x200B;**[!UICONTROL * Inserir valor de entrada *]**.
+        1. Para definir valores explicitamente, você define um ou mais casos, que consistem em uma ou mais condições. Cada condição pode verificar um **[!UICONTROL *campo do conjunto de dados do AEP *]**específico, seja ele **[!UICONTROL Exists]**ou **[!UICONTROL Not Exists]**, seja ele **[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**ou **[!UICONTROL Ends With]**um valor inserido em**[!UICONTROL * Inserir valor de entrada *]**.
 
-         1. Para adicionar outro caso, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Para adicionar outra condição, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+        1. Para adicionar outro caso, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**. Para adicionar outra condição, selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. Para excluir uma ocorrência ou condição, selecione ![Fechar](/help/assets/icons/Close.svg) no contêiner correspondente.
+        1. Para excluir uma ocorrência ou condição, selecione ![Fechar](/help/assets/icons/Close.svg) no contêiner correspondente.
 
-         1. Para selecionar se alguma ou todas as condições devem se aplicar a uma ocorrência, selecione **[!UICONTROL Any of]** ou **[!UICONTROL All of]**.
+        1. Para selecionar se alguma ou todas as condições devem se aplicar a uma ocorrência, selecione **[!UICONTROL Any of]** ou **[!UICONTROL All of]**.
 
-         1. Para definir o valor de resultado de um caso, insira o valor em **[!UICONTROL Then]**.
+        1. Para definir o valor de resultado de um caso, insira o valor em **[!UICONTROL Then]**.
 
      O exemplo abaixo:
 
-      * usa um **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** para mapear o campo harmonizado **[!UICONTROL Channel Type At Source]** para o campo **[!UICONTROL channel_type]** do conjunto de dados **[!DNL Luma Transactions]**.
+     * usa um **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** para mapear o campo harmonizado **[!UICONTROL Channel Type At Source]** para o campo **[!UICONTROL channel_type]** do conjunto de dados **[!DNL Luma Transactions]**.
 
-      * usa um **[!UICONTROL Case]** **[!UICONTROL Mapping type]** para mapear condicionalmente o valor do campo **[!UICONTROL marketing.campaignName]** no conjunto de dados **[!DNL Luma Transactions]** para o campo harmonizado **[!UICONTROL Campaign]**. O campo Campaign harmonizado está definido como:
+     * usa um **[!UICONTROL Case]** **[!UICONTROL Mapping type]** para mapear condicionalmente o valor do campo **[!UICONTROL marketing.campaignName]** no conjunto de dados **[!DNL Luma Transactions]** para o campo harmonizado **[!UICONTROL Campaign]**. O campo Campaign harmonizado está definido como:
 
-         * `Black Friday` quando **[!UICONTROL marketing.campaignName]** é `_black_friday` ou `BlackFriday`.
-         * ao valor de **[!UICONTROL marketing.campaignName]** em todos os outros casos.
+       * `Black Friday` quando **[!UICONTROL marketing.campaignName]** é `_black_friday` ou `BlackFriday`.
+       * ao valor de **[!UICONTROL marketing.campaignName]** em todos os outros casos.
 
-        ![Evento de regra do conjunto de dados](/help/assets/dataset-create-event.png)
+       ![Evento de regra do conjunto de dados](/help/assets/dataset-create-event.png)
 
 1. Selecione ![Adicionar](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]** para definir campos adicionais.
 
@@ -279,19 +279,19 @@ Para configurar as preferências de mesclagem de dados:
 
    * Para adicionar preferências específicas baseadas em métricas:
 
-      1. Selecione ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
-         1. Selecione uma métrica na lista **[!UICONTROL *Seleção de métrica *]**.
-         1. Selecione **[!UICONTROL CHANNELS]** ou **[!UICONTROL CONVERSION TYPES]**. Na lista, selecione **[!UICONTROL All]**, um canal específico ou um tipo de conversão.
-         1. Selecione **[!UICONTROL Summary]** ou **[!UICONTROL Event]** para especificar se os dados de resumo ou os dados de evento são preferidos para a métrica (e para todos ou para o canal selecionado) ao mesclar os dados.
+     1. Selecione ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+        1. Selecione uma métrica na lista **[!UICONTROL *Seleção de métrica *]**.
+        1. Selecione **[!UICONTROL CHANNELS]** ou **[!UICONTROL CONVERSION TYPES]**. Na lista, selecione **[!UICONTROL All]**, um canal específico ou um tipo de conversão.
+        1. Selecione **[!UICONTROL Summary]** ou **[!UICONTROL Event]** para especificar se os dados de resumo ou os dados de evento são preferidos para a métrica (e para todos ou para o canal selecionado) ao mesclar os dados.
 
-         Para adicionar um ou mais canais ou tipos de conversão adicionais:
+        Para adicionar um ou mais canais ou tipos de conversão adicionais:
 
-         1. Selecione ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** ou ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
-         1. Selecione **[!UICONTROL Summary]** ou **[!UICONTROL Event]**.
+        1. Selecione ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** ou ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+        1. Selecione **[!UICONTROL Summary]** ou **[!UICONTROL Event]**.
 
-         Para excluir um canal ou tipo de conversão, selecione ![Cruz](/help/assets/icons/Close.svg).
+        Para excluir um canal ou tipo de conversão, selecione ![Cruz](/help/assets/icons/Close.svg).
 
-      1. Para adicionar preferências mais específicas baseadas em métricas, repita a etapa anterior.
+     1. Para adicionar preferências mais específicas baseadas em métricas, repita a etapa anterior.
 
    * Para excluir uma preferência baseada em métrica específica existente, selecione ![Excluir](/help/assets/icons/Delete.svg).
 

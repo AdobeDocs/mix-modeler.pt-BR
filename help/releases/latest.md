@@ -5,30 +5,32 @@ feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 TQID: https://experienceleague.adobe.com/8o2hpkneIUMbBNEZfw9TsQLaGuPOxqF-XA2TV9cJnqc
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 5%
+source-wordcount: 524
+ht-degree: 6%
 
 ---
 
 # Notas de versão atuais do Mix Modeler
 
-**Última atualização**: 26 de fevereiro de 2026.
+**Última atualização**: 19 de agosto de 2026.
 
 Essas notas de versão abordam a versão mais recente do Mix Modeler. As versões do Mix Modeler operam em um modelo de entrega contínua, que permite uma cadência de lançamento mensal aproximada. Devido a isso, essas notas de versão são atualizadas, portanto, verifique-as regularmente.
+
+## Agosto de 2026
+
+| Recurso | Descrição | [Início da implantação](#release-strategy) | [Disponibilidade geral](#release-strategy) |
+|---|---|---|---|
+| **Filtrar nas regras do conjunto de dados** | Na configuração harmonizada de conjuntos de dados, você pode [filtrar regras de conjunto de dados na origem, granularidade e início da semana](/help/harmonize-data/dataset-rules.md#manage-dataset-rules). | 19 de agosto de 2026 | 19 de agosto de 2026 |
+| **Foco do canal de mídia paga** | Você pode optar por [se concentrar na contribuição do canal de mídia paga](/help/models/insights.md#contribution-by-channel) nos Insights do modelo. | 19 de agosto de 2026 | 19 de agosto de 2026 |
+| **Configuração de resumo de desempenho de marketing** | Você pode [selecionar métricas e saber como a métrica é mostrada](/help/models/insights.md#marketing-performance-summary) para o resumo do desempenho de marketing de modelos com base na receita em insights de modelos. | 19 de agosto de 2026 | 19 de agosto de 2026 |
+
 
 ## Março de 2026
 
