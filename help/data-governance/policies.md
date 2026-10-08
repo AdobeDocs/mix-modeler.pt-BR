@@ -3,29 +3,38 @@ title: Políticas
 description: Saiba como acessar políticas do Mix Modeler.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
-TQID: https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4
+autotag-review: '2026-05-01T09:17:02.907Z'
+TQID: 'https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+    internal-label: Data governance
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+    internal-label: Policies
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-05-01T09:17:02.907Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Privacy
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: '507'
 ht-degree: 2%
-
 ---
-
 # Políticas
 
 Depois de percorrer o fluxo de trabalho para criar um modelo e enviar a configuração do modelo, a [imposição de política](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) verifica se há violações. Se ocorrer uma violação de política, será exibido um popover indicando que uma ou mais políticas foram violadas. Essa verificação é para garantir que suas operações de dados e ações de marketing no Experience Platform estejam em conformidade com as políticas de uso de dados.

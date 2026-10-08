@@ -3,20 +3,32 @@ title: Mix Modeler Deep Dive
 description: Explore a metodologia técnica por trás do Adobe Mix Modeler, incluindo atribuição multitoque, modelagem de mix de marketing, aprendizado de transferência e otimização de orçamento.
 feature: Administration
 hide: true
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
+    internal-label: Marketing mix modeling
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 4f4fe68694c81ddb258656eb05d62ef057f200cb
+    internal-label: Artificial intelligence
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 2747
+source-wordcount: '2835'
 ht-degree: 0%
-
 ---
-
 
 # Mergulho profundo
 
@@ -57,20 +69,20 @@ Os principais conceitos por trás da atribuição multitoque são:
 
   Nesta abordagem, uma série de sinais de interesse impulsionam a probabilidade de conversão, cada um influenciado por
 
-   * exposições anteriores aos meios,
-   * impacto do adstock mediático (um modelo de como as respostas à criação de publicidade e às deteriorações nos mercados de consumo), e
-   * outros fatores de base.
+  * exposições anteriores aos meios,
+  * impacto do adstock mediático (um modelo de como as respostas à criação de publicidade e às deteriorações nos mercados de consumo), e
+  * outros fatores de base.
 
 
 
   Esses sinais são representados como *ϴ<sub>BL</sub>* + *ϴ<sub>E,tc-t1</sub>* + *ϴ<sub>E,tc-t2</sub>* e *ϴ<sub>S, tc-t3</sub>*, onde:
 
-   * *ϴ*: ilustra os parâmetros do modelo (o que é aprendido com o modelo).
-   * *tc*: a hora da conversão.
-   * *tc-tx: tempo decorrido entre a exposição e a conversão, que é relevante para o modelo.
-   * *BL*: linha de base.
-   * *E*: email.
-   * *S*: pesquisar.
+  * *ϴ*: ilustra os parâmetros do modelo (o que é aprendido com o modelo).
+  * *tc*: a hora da conversão.
+  * *tc-tx: tempo decorrido entre a exposição e a conversão, que é relevante para o modelo.
+  * *BL*: linha de base.
+  * *E*: email.
+  * *S*: pesquisar.
 
   Na estrutura de modelagem, o objetivo é contabilizar explicitamente o tempo entre cada exposição de mídia e o momento da conversão (*tc-tx*), reconhecendo que as interações mais recentes pesam mais do que as mais antigas.
 
@@ -89,7 +101,7 @@ Os principais conceitos por trás da atribuição multitoque são:
   ![Modelo de sobrevivência de tempo discreto](/help/assets/discrete-time-survival-model.jpg)
 
   Uma função de tempo contínuo modela o impacto do adstock de email no nível de interesse, em qualquer momento desde o momento da exposição: *ϴ<sub>E</sub>(Δt;⋋)*
-Uma função de tempo discreto modela o impacto do adstock de email no nível de interesse como janelas de tempo discretas usando parâmetros escalares: *ϴ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*
+  Uma função de tempo discreto modela o impacto do adstock de email no nível de interesse como janelas de tempo discretas usando parâmetros escalares: *ϴ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*
 
 
 ### Benefícios
@@ -138,11 +150,11 @@ usar um modelo multiplicativo:
 
   Por exemplo:
 
-   * Conversões reais da semana: 1730.
-   * Conversões previstas para a semana: 1787,5 = 1100 x 1,25 x 1,3, onde:
-      * 1100: demanda de linha de base prevista para a semana 4, uma função para os dados dos fatores 1 e 2 da semana 4.
-      * 1,25: multiplicador de pesquisa previsto para a semana 4, uma função dos dados de pesquisa da semana 1 até a semana 4.
-      * 1.3: multiplicador de exibição previsto para a semana 4, uma função para exibir dados da semana 1 até a semana 4.
+  * Conversões reais da semana: 1730.
+  * Conversões previstas para a semana: 1787,5 = 1100 x 1,25 x 1,3, onde:
+    * 1100: demanda de linha de base prevista para a semana 4, uma função para os dados dos fatores 1 e 2 da semana 4.
+    * 1,25: multiplicador de pesquisa previsto para a semana 4, uma função dos dados de pesquisa da semana 1 até a semana 4.
+    * 1.3: multiplicador de exibição previsto para a semana 4, uma função para exibir dados da semana 1 até a semana 4.
 
   A diferença antecipada entre o que o modelo prevê (1787.5) e as conversões reais (1730) é o residual, que geralmente é pequeno em tamanho e não é algo para se preocupar.
 
